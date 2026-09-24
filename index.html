@@ -1,38 +1,619 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>英文複習小站</title>
-  <meta name="description" content="136 個英文單字的中文輸入、選字填空與複習單字庫。" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- <title>餅餅英文複習小站</title> -->
+
   <style>
-    :root{--ink:#182132;--muted:#6e7785;--paper:#f6f8fc;--card:#fff;--blue:#3858e9;--blue-soft:#e9edff;--red:#d64d61;--line:#dfe4ef;--shadow:0 12px 34px rgba(27,48,90,.10)}
-    *{box-sizing:border-box} body{margin:0;background:linear-gradient(135deg,#eef2ff 0,#f8fbff 42%,#f8f4ff 100%);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;min-height:100vh}
-    main{max-width:820px;margin:auto;padding:38px 20px 64px}.top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}.eyebrow{margin:0;color:var(--blue);font-weight:800;letter-spacing:.08em;font-size:.78rem}.top h1{margin:.32rem 0 .3rem;font-size:clamp(1.8rem,5vw,2.6rem)}.sub{margin:0;color:var(--muted)}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 16px;text-align:center;min-width:112px;box-shadow:var(--shadow)}.stat b{font-size:1.35rem;display:block}.stat span{font-size:.76rem;color:var(--muted)}
-    nav{display:grid;grid-template-columns:repeat(3,1fr);background:#e8ecf5;border-radius:14px;padding:4px;margin:30px 0 18px}button{font:inherit;cursor:pointer}.tab{border:0;border-radius:10px;padding:11px 7px;color:#566071;background:transparent;font-weight:700}.tab.active{background:#fff;color:var(--blue);box-shadow:0 2px 8px #cdd4e5}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,5vw,42px);box-shadow:var(--shadow)}.progress{height:8px;background:#e9edf4;border-radius:8px;overflow:hidden;margin-bottom:28px}.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,#5e78ff,#aa6bea);transition:.25s}.mode-label{color:var(--muted);font-size:.87rem;margin:0 0 8px}.word{font-size:clamp(2rem,7vw,3.5rem);margin:0 0 7px;letter-spacing:.02em}.hint{color:var(--muted);margin:0 0 28px}.answer{width:100%;font-size:1.12rem;border:2px solid var(--line);border-radius:13px;padding:14px 15px;outline:none}.answer:focus{border-color:var(--blue)}.primary{border:0;background:var(--blue);color:#fff;font-weight:800;padding:13px 20px;border-radius:12px;margin-top:13px;width:100%;font-size:1rem}.feedback{display:none;background:var(--blue-soft);border-radius:14px;padding:16px;margin-top:18px}.feedback.show{display:block}.feedback strong{font-size:1.18rem}.self-check{display:flex;gap:10px;margin-top:13px}.good,.again{flex:1;border-radius:10px;padding:11px;border:1px solid}.good{background:#e7f7ef;color:#177447;border-color:#bde7cd}.again{background:#fff0f2;color:#b6364d;border-color:#f1bdc8}
-    .choices{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.choice{border:1px solid var(--line);background:#fff;border-radius:12px;min-height:58px;padding:10px;font-weight:750;color:var(--ink)}.choice:hover{border-color:var(--blue);background:var(--blue-soft)}.choice.correct{background:#e7f7ef;border-color:#51b985}.choice.wrong{background:#fff0f2;border-color:#e37a8d}.cloze{font-size:1.25rem;line-height:1.8;background:#f7f9fd;border-radius:14px;padding:18px;margin:0 0 22px}.blank{font-weight:900;color:var(--blue);letter-spacing:.08em}
-    .library-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.library-list{display:grid;gap:10px;margin-top:19px}.library-row{display:flex;justify-content:space-between;align-items:center;padding:13px 15px;border:1px solid var(--line);border-radius:12px}.library-row b{font-size:1.05rem}.badge{font-size:.8rem;color:#b6364d;background:#fff0f2;border-radius:99px;padding:4px 9px}.empty{text-align:center;color:var(--muted);padding:42px 10px}.small{font-size:.86rem;color:var(--muted)}.hidden{display:none!important}@media(max-width:520px){main{padding-top:25px}.top{align-items:center}.stat{min-width:84px;padding:9px}.choices{grid-template-columns:1fr}.self-check{flex-direction:column}}
+    :root {
+      --ink: #182132;
+      --muted: #6e7785;
+      --blue: #3858e9;
+      --soft: #e9edff;
+      --line: #dfe4ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background: linear-gradient(135deg, #eef2ff, #f8fbff 42%, #f8f4ff);
+      font-family: system-ui, -apple-system, "Noto Sans TC", sans-serif;
+    }
+
+    main {
+      max-width: 820px;
+      margin: auto;
+      padding: 38px 20px 64px;
+    }
+
+    .top,
+    .library-head,
+    .library-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .eyebrow {
+      margin: 0;
+      color: var(--blue);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0.3rem 0;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+    }
+
+    .sub,
+    .small {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .stat {
+      padding: 11px 15px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .stat b {
+      display: block;
+      font-size: 1.35rem;
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.76rem;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 4px;
+      margin: 30px 0 18px;
+      background: #e8ecf5;
+      border-radius: 14px;
+    }
+
+    button {
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .tab {
+      padding: 11px 7px;
+      color: #566071;
+      font-weight: 700;
+      background: transparent;
+      border: 0;
+      border-radius: 10px;
+    }
+
+    .tab.active {
+      color: var(--blue);
+      background: #fff;
+    }
+
+    .card {
+      padding: clamp(22px, 5vw, 42px);
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      box-shadow: 0 12px 34px rgba(27, 48, 90, 0.1);
+    }
+
+    .progress {
+      height: 8px;
+      margin-bottom: 28px;
+      overflow: hidden;
+      background: #e9edf4;
+      border-radius: 8px;
+    }
+
+    .progress i {
+      display: block;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(90deg, #5e78ff, #aa6bea);
+      transition: 0.25s;
+    }
+
+    .mode-label {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font-size: 0.87rem;
+    }
+
+    .word {
+      margin: 0 0 7px;
+      font-size: clamp(2rem, 7vw, 3.5rem);
+    }
+
+    .bobbing {
+      animation: bob 0.62s ease-in-out;
+    }
+
+    @keyframes bob {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      45% {
+        transform: translateY(-13px) scale(1.05);
+      }
+    }
+
+    .hint {
+      margin: 0 0 28px;
+      color: var(--muted);
+    }
+
+    .answer {
+      width: 100%;
+      padding: 14px 15px;
+      font-size: 1.12rem;
+      border: 2px solid var(--line);
+      border-radius: 13px;
+      outline: none;
+    }
+
+    .answer:focus {
+      border-color: var(--blue);
+    }
+
+    .primary {
+      width: 100%;
+      padding: 13px 20px;
+      margin-top: 13px;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 800;
+      background: var(--blue);
+      border: 0;
+      border-radius: 12px;
+    }
+
+    .feedback {
+      display: none;
+      padding: 16px;
+      margin-top: 18px;
+      background: var(--soft);
+      border-radius: 14px;
+    }
+
+    .feedback.show,
+    .example.show {
+      display: block;
+    }
+
+    .self-check {
+      display: flex;
+      gap: 10px;
+      margin-top: 13px;
+    }
+
+    .good,
+    .again {
+      flex: 1;
+      padding: 11px;
+      border-radius: 10px;
+    }
+
+    .good {
+      color: #177447;
+      background: #e7f7ef;
+      border: 1px solid #bde7cd;
+    }
+
+    .again {
+      color: #b6364d;
+      background: #fff0f2;
+      border: 1px solid #f1bdc8;
+    }
+
+    .example {
+      display: none;
+      padding: 14px;
+      margin-top: 15px;
+      line-height: 1.65;
+      background: #fff;
+      border-left: 4px solid var(--blue);
+      border-radius: 11px;
+    }
+
+    .choices {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .choice {
+      min-height: 58px;
+      padding: 10px;
+      font-weight: 750;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .choice.correct {
+      background: #e7f7ef;
+      border-color: #51b985;
+    }
+
+    .choice.wrong {
+      background: #fff0f2;
+      border-color: #e37a8d;
+    }
+
+    .cloze {
+      padding: 18px;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      background: #f7f9fd;
+      border-radius: 14px;
+    }
+
+    .blank {
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .library-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 19px;
+    }
+
+    .library-row {
+      align-items: center;
+      padding: 13px 15px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    .badge {
+      padding: 4px 9px;
+      color: #b6364d;
+      font-size: 0.8rem;
+      background: #fff0f2;
+      border-radius: 99px;
+    }
+
+    .empty {
+      padding: 42px 10px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding-top: 25px;
+      }
+
+      .choices {
+        grid-template-columns: 1fr;
+      }
+
+      .self-check {
+        flex-direction: column;
+      }
+    }
   </style>
 </head>
-<body><main>
-  <header class="top"><div><p class="eyebrow">加油麻吉人</p><h1>英文複習小站</h1><p class="sub">餅餅老師的複習教室。</p></div><div class="stat"><b id="weakCount">0</b><span>待複習單字</span></div></header>
-  <nav><button class="tab active" data-view="translate">中文輸入</button><button class="tab" data-view="cloze">選字填空</button><button class="tab" data-view="library">複習單字庫</button></nav>
-  <section id="translate" class="card view"><div class="progress"><i id="bar"></i></div><p class="mode-label">看英文，輸入中文意思</p><h2 class="word" id="word"></h2><p class="hint">可以寫你想到的中文，不會因同義詞或寫法不同被系統判錯。</p><input id="meaning" class="answer" autocomplete="off" placeholder="輸入中文意思" /><button id="check" class="primary">查看答案</button><div id="feedback" class="feedback"><div>標準答案：<strong id="standard"></strong></div><p class="small">你覺得剛剛的答案算對嗎？</p><div class="self-check"><button id="know" class="good">我答對了</button><button id="review" class="again">還不熟，放入複習庫</button></div></div></section>
-  <section id="cloze" class="card view hidden"><p class="mode-label">選字填空</p><h2 class="word" id="clozeTitle"></h2><p id="clozeSentence" class="cloze"></p><div id="choices" class="choices"></div><p id="clozeNote" class="small"></p><button id="nextCloze" class="primary hidden">下一題</button></section>
-  <section id="library" class="card view hidden"><div class="library-head"><div><p class="mode-label">答過「還不熟」的字</p><h2 style="margin:0">複習單字庫</h2></div><button id="clearWeak" class="tab">清空紀錄</button></div><div id="libraryList" class="library-list"></div></section>
-</main>
-<script>
-const words=[{"en":"company","zh":"公司"},{"en":"make","zh":"製作"},{"en":"use","zh":"使用"},{"en":"employee","zh":"員工"},{"en":"customer","zh":"顧客"},{"en":"store","zh":"商店"},{"en":"product","zh":"商品"},{"en":"evening","zh":"晚上"},{"en":"street","zh":"街道"},{"en":"road","zh":"道路"},{"en":"restaurant","zh":"餐廳"},{"en":"building","zh":"建築物"},{"en":"plane","zh":"飛機"},{"en":"important","zh":"重要"},{"en":"right","zh":"右邊／正確的"},{"en":"wrong","zh":"錯誤的"},{"en":"possible","zh":"可能的"},{"en":"breakfast","zh":"早餐"},{"en":"address","zh":"地址"},{"en":"ask","zh":"問"},{"en":"remember","zh":"記住"},{"en":"forget","zh":"忘記"},{"en":"information","zh":"資訊"},{"en":"schedule","zh":"行程"},{"en":"date","zh":"日期"},{"en":"reason","zh":"原因"},{"en":"way","zh":"方法／道路"},{"en":"at","zh":"在"},{"en":"to","zh":"到／向"},{"en":"form","zh":"表格"},{"en":"without","zh":"沒有"},{"en":"client","zh":"客戶"},{"en":"staff","zh":"員工"},{"en":"department","zh":"部門"},{"en":"document","zh":"文件"},{"en":"file","zh":"檔案"},{"en":"equipment","zh":"設備"},{"en":"desk","zh":"辦公桌"},{"en":"floor","zh":"樓層／地板"},{"en":"entrance","zh":"入口"},{"en":"send","zh":"寄送"},{"en":"receive","zh":"收到"},{"en":"want","zh":"想要"},{"en":"confirm","zh":"確認"},{"en":"contact","zh":"聯絡"},{"en":"visit","zh":"拜訪／參觀"},{"en":"attend","zh":"參加"},{"en":"arrive","zh":"抵達"},{"en":"provide","zh":"提供"},{"en":"include","zh":"包含"},{"en":"require","zh":"需要"},{"en":"offer","zh":"提供／提議"},{"en":"prepare","zh":"準備"},{"en":"soon","zh":"很快／不久"},{"en":"during","zh":"在……之間"},{"en":"until","zh":"直到"},{"en":"appointment","zh":"預約"},{"en":"available","zh":"有空的"},{"en":"discount","zh":"折扣"},{"en":"payment","zh":"付款"},{"en":"bill","zh":"帳單"},{"en":"fee","zh":"費用"},{"en":"reservation","zh":"預約／訂位"},{"en":"purchase","zh":"購買"},{"en":"receipt","zh":"收據"},{"en":"refund","zh":"退款"},{"en":"account","zh":"帳戶"},{"en":"local","zh":"當地的"},{"en":"expensive","zh":"昂貴的"},{"en":"cheap","zh":"便宜的"},{"en":"amount","zh":"金額"},{"en":"flight","zh":"航班"},{"en":"travel","zh":"旅行"},{"en":"trip","zh":"旅行"},{"en":"passenger","zh":"乘客"},{"en":"location","zh":"地點"},{"en":"area","zh":"區域"},{"en":"near","zh":"靠近"},{"en":"depart","zh":"出發"},{"en":"destination","zh":"目的地"},{"en":"luggage","zh":"行李"},{"en":"necessary","zh":"必要的"},{"en":"current","zh":"當前的"},{"en":"latest","zh":"最新的"},{"en":"additional","zh":"額外的"},{"en":"successful","zh":"成功的"},{"en":"interested","zh":"有興趣的"},{"en":"responsible","zh":"負責的"},{"en":"large","zh":"大的"},{"en":"several","zh":"幾個"},{"en":"each","zh":"每一個"},{"en":"through","zh":"經由／穿過"},{"en":"according","zh":"根據"},{"en":"regarding","zh":"關於"},{"en":"request","zh":"請求"},{"en":"notice","zh":"通知／注意"},{"en":"result","zh":"結果"},{"en":"opportunity","zh":"機會"},{"en":"efficient","zh":"有效率的"},{"en":"central","zh":"中心的"},{"en":"printer","zh":"印表機"},{"en":"distant","zh":"遙遠的"},{"en":"excellent","zh":"極好的"},{"en":"praised","zh":"稱讚"},{"en":"measure","zh":"測量"},{"en":"announce","zh":"宣布"},{"en":"repair","zh":"修理"},{"en":"borrow","zh":"借入"},{"en":"policy","zh":"政策"},{"en":"counted","zh":"計入"},{"en":"quantities","zh":"數量"},{"en":"silent","zh":"安靜的"},{"en":"narrow","zh":"狹窄的"},{"en":"empty","zh":"空的"},{"en":"rapid","zh":"快速的"},{"en":"wild","zh":"野生的／失控的"},{"en":"daily","zh":"每日的"},{"en":"machine","zh":"機器"},{"en":"instructions","zh":"指示"},{"en":"distance","zh":"距離"},{"en":"purpose","zh":"目的"},{"en":"within","zh":"之內"},{"en":"separate","zh":"分開"},{"en":"compared","zh":"比較的"},{"en":"suitcase","zh":"行李箱"},{"en":"since","zh":"自從"},{"en":"jeans","zh":"牛仔褲"},{"en":"serves","zh":"提供／服務"},{"en":"knelt","zh":"跪下"},{"en":"shoelaces","zh":"鞋帶"},{"en":"knight","zh":"騎士"},{"en":"bridge","zh":"橋"},{"en":"plants","zh":"植物"},{"en":"suddenly","zh":"突然"},{"en":"above","zh":"在……上面"},{"en":"heat","zh":"熱度"}];
-const $=s=>document.querySelector(s), shuffle=a=>[...a].sort(()=>Math.random()-.5); let current,cloze,answered=false; let weak=JSON.parse(localStorage.getItem('weakWords')||'{}');
-function pick(){const pool=words.flatMap(w=>Array(weak[w.en]?4:1).fill(w));return pool[Math.floor(Math.random()*pool.length)]} function save(){localStorage.setItem('weakWords',JSON.stringify(weak));renderWeakCount()}
-function renderWeakCount(){$('#weakCount').textContent=Object.keys(weak).length}
-function newTranslate(){current=pick();answered=false;$('#word').textContent=current.en;$('#meaning').value='';$('#meaning').focus();$('#feedback').classList.remove('show');$('#bar').style.width=(Math.random()*70+20)+'%'}
-function showAnswer(){if(!$('#meaning').value.trim())return;answered=true;$('#standard').textContent=current.zh;$('#feedback').classList.add('show')}
-function grade(isKnown){if(isKnown)delete weak[current.en];else weak[current.en]=(weak[current.en]||0)+1;save();newTranslate()}
-function newCloze(){cloze=pick();const opts=shuffle([cloze,...shuffle(words.filter(w=>w.en!==cloze.en)).slice(0,3)]);$('#clozeTitle').textContent='「'+cloze.zh+'」';$('#clozeSentence').innerHTML='請選出正確英文單字：<span class="blank">______</span>';$('#choices').innerHTML='';$('#clozeNote').textContent='';$('#nextCloze').classList.add('hidden');opts.forEach(w=>{const b=document.createElement('button');b.className='choice';b.textContent=w.en;b.onclick=()=>answerCloze(b,w);$('#choices').append(b)})}
-function answerCloze(btn,w){if($('#nextCloze').classList.contains('hidden')===false)return;document.querySelectorAll('.choice').forEach(b=>b.disabled=true);const ok=w.en===cloze.en;btn.classList.add(ok?'correct':'wrong');if(!ok){weak[cloze.en]=(weak[cloze.en]||0)+1;[...document.querySelectorAll('.choice')].find(b=>b.textContent===cloze.en).classList.add('correct');$('#clozeNote').textContent='正確答案是 '+cloze.en+'：'+cloze.zh}else{$('#clozeNote').textContent='答對了！'+cloze.en+'：'+cloze.zh}save();$('#nextCloze').classList.remove('hidden')}
-function renderLibrary(){const list=$('#libraryList'),items=words.filter(w=>weak[w.en]);list.innerHTML='';if(!items.length){list.innerHTML='<div class="empty">目前沒有待複習單字。答錯時按「還不熟」，它就會出現在這裡。</div>';return}items.sort((a,b)=>weak[b.en]-weak[a.en]).forEach(w=>{const r=document.createElement('div');r.className='library-row';r.innerHTML='<div><b>'+w.en+'</b><div class="small">'+w.zh+'</div></div><span class="badge">還不熟 '+weak[w.en]+' 次</span>';list.append(r)})}
-document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{if(!t.dataset.view)return;document.querySelectorAll('.tab[data-view]').forEach(x=>x.classList.toggle('active',x===t));document.querySelectorAll('.view').forEach(v=>v.classList.toggle('hidden',v.id!==t.dataset.view));if(t.dataset.view==='library')renderLibrary();if(t.dataset.view==='cloze')newCloze()});
-$('#check').onclick=showAnswer;$('#meaning').onkeydown=e=>{if(e.key==='Enter')showAnswer()};$('#know').onclick=()=>grade(true);$('#review').onclick=()=>grade(false);$('#nextCloze').onclick=newCloze;$('#clearWeak').onclick=()=>{if(confirm('確定清空待複習紀錄？')){weak={};save();renderLibrary()}};renderWeakCount();newTranslate();
-</script></body></html>
+
+<body>
+  <main>
+    <header class="top">
+      <div>
+        <p class="eyebrow">麻吉人GOGOGO</p>
+        <h1>餅餅英文複習小站</h1>
+        <p class="sub">先回想，再自己判斷熟不熟。</p>
+      </div>
+
+      <div class="stat">
+        <b id="weakCount">0</b>
+        <span>待複習單字</span>
+      </div>
+    </header>
+
+    <nav>
+      <button class="tab active" data-view="translate">中文輸入</button>
+      <button class="tab" data-view="cloze">選字填空</button>
+      <button class="tab" data-view="library">複習單字庫</button>
+    </nav>
+
+    <section id="translate" class="card view">
+      <div class="progress"><i id="bar"></i></div>
+
+      <p class="mode-label">看英文，輸入中文意思</p>
+      <h2 class="word" id="word"></h2>
+      <p class="hint">可以寫你想到的中文，不會因同義詞或寫法不同被系統判錯。</p>
+
+      <input id="meaning" class="answer" autocomplete="off" placeholder="輸入中文意思">
+      <button id="check" class="primary">查看答案</button>
+
+      <div id="feedback" class="feedback">
+        標準答案：<strong id="standard"></strong>
+
+        <p class="small" style="margin-top: 12px">你覺得剛剛的答案算對嗎？</p>
+
+        <div class="self-check">
+          <button id="know" class="good">我答對了</button>
+          <button id="review" class="again">還不熟</button>
+        </div>
+
+        <div id="example" class="example"></div>
+        <button id="nextAfterReview" class="primary hidden">下一題</button>
+      </div>
+    </section>
+
+    <section id="cloze" class="card view hidden">
+      <p class="mode-label">選字填空</p>
+      <h2 class="word" id="clozeTitle"></h2>
+
+      <p class="cloze">
+        請選出正確英文單字：
+        <span class="blank">______</span>
+      </p>
+
+      <div id="choices" class="choices"></div>
+      <p id="clozeNote" class="small" style="margin-top: 14px"></p>
+      <button id="nextCloze" class="primary hidden">下一題</button>
+    </section>
+
+    <section id="library" class="card view hidden">
+      <div class="library-head">
+        <div>
+          <p class="mode-label">答過「還不熟」的字</p>
+          <h2 style="margin: 0">複習單字庫</h2>
+        </div>
+
+        <button id="clearWeak" class="tab">清空紀錄</button>
+      </div>
+
+      <div id="libraryList" class="library-list"></div>
+    </section>
+  </main>
+
+  <script>
+    const $ = (selector) => document.querySelector(selector);
+
+    let words = [];
+    let current;
+    let cloze;
+
+    let weak = JSON.parse(localStorage.getItem("weakWords") || "{}");
+
+    const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
+
+    async function start() {
+      try {
+        words = await fetch("./vocabulary.json").then((response) => response.json());
+
+        renderWeakCount();
+        newTranslate();
+      } catch {
+        document.querySelector("#translate").innerHTML = `
+          <p>找不到 vocabulary.json，請確認它和 index.html 放在同一個資料夾。</p>
+        `;
+      }
+    }
+
+    function pick() {
+      const pool = words.flatMap((word) =>
+        Array(weak[word.en] ? 4 : 1).fill(word)
+      );
+
+      return pool[Math.floor(Math.random() * pool.length)];
+    }
+
+    function save() {
+      localStorage.setItem("weakWords", JSON.stringify(weak));
+      renderWeakCount();
+    }
+
+    function renderWeakCount() {
+      $("#weakCount").textContent = Object.keys(weak).length;
+    }
+
+    function newTranslate() {
+      current = pick();
+
+      $("#word").textContent = current.en;
+      $("#meaning").value = "";
+
+      $("#feedback").classList.remove("show");
+      $("#example").classList.remove("show");
+      $("#nextAfterReview").classList.add("hidden");
+
+      $("#know").classList.remove("hidden");
+      $("#review").classList.remove("hidden");
+
+      $("#meaning").focus();
+      $("#bar").style.width = `${Math.random() * 70 + 20}%`;
+    }
+
+    function showAnswer() {
+      if (!$("#meaning").value.trim()) return;
+
+      $("#standard").textContent = current.zh;
+      $("#feedback").classList.add("show");
+    }
+
+    function grade(isCorrect) {
+      if (isCorrect) {
+        delete weak[current.en];
+        save();
+
+        $("#word").classList.add("bobbing");
+
+        setTimeout(() => {
+          $("#word").classList.remove("bobbing");
+          newTranslate();
+        }, 650);
+
+        return;
+      }
+
+      weak[current.en] = (weak[current.en] || 0) + 1;
+      save();
+
+      $("#example").innerHTML = `
+        <b>簡單例句</b><br>
+        ${current.example}
+      `;
+
+      $("#example").classList.add("show");
+      $("#know").classList.add("hidden");
+      $("#review").classList.add("hidden");
+      $("#nextAfterReview").classList.remove("hidden");
+    }
+
+    function newCloze() {
+      cloze = pick();
+
+      const options = shuffle([
+        cloze,
+        ...shuffle(words.filter((word) => word.en !== cloze.en)).slice(0, 3)
+      ]);
+
+      $("#clozeTitle").textContent = `「${cloze.zh}」`;
+      $("#choices").innerHTML = "";
+      $("#clozeNote").textContent = "";
+      $("#nextCloze").classList.add("hidden");
+
+      options.forEach((word) => {
+        const button = document.createElement("button");
+
+        button.className = "choice";
+        button.textContent = word.en;
+        button.onclick = () => answerCloze(button, word);
+
+        $("#choices").append(button);
+      });
+    }
+
+    function answerCloze(button, selectedWord) {
+      if (!$("#nextCloze").classList.contains("hidden")) return;
+
+      document.querySelectorAll(".choice").forEach((item) => {
+        item.disabled = true;
+      });
+
+      const isCorrect = selectedWord.en === cloze.en;
+
+      button.classList.add(isCorrect ? "correct" : "wrong");
+
+      if (!isCorrect) {
+        weak[cloze.en] = (weak[cloze.en] || 0) + 1;
+
+        [...document.querySelectorAll(".choice")]
+          .find((item) => item.textContent === cloze.en)
+          .classList.add("correct");
+
+        $("#clozeNote").innerHTML = `
+          正確答案是 <b>${cloze.en}</b>。例句：${cloze.example}
+        `;
+      } else {
+        $("#clozeNote").textContent = `答對了！${cloze.example}`;
+      }
+
+      save();
+      $("#nextCloze").classList.remove("hidden");
+    }
+
+    function renderLibrary() {
+      const list = $("#libraryList");
+      const items = words.filter((word) => weak[word.en]);
+
+      list.innerHTML = "";
+
+      if (!items.length) {
+        list.innerHTML = `
+          <div class="empty">目前沒有待複習單字。</div>
+        `;
+
+        return;
+      }
+
+      items
+        .sort((a, b) => weak[b.en] - weak[a.en])
+        .forEach((word) => {
+          const row = document.createElement("div");
+
+          row.className = "library-row";
+          row.innerHTML = `
+            <div>
+              <b>${word.en}</b>
+              <div class="small">${word.zh}</div>
+            </div>
+            <span class="badge">還不熟 ${weak[word.en]} 次</span>
+          `;
+
+          list.append(row);
+        });
+    }
+
+    document.querySelectorAll(".tab[data-view]").forEach((tab) => {
+      tab.onclick = () => {
+        document.querySelectorAll(".tab[data-view]").forEach((item) => {
+          item.classList.toggle("active", item === tab);
+        });
+
+        document.querySelectorAll(".view").forEach((view) => {
+          view.classList.toggle("hidden", view.id !== tab.dataset.view);
+        });
+
+        if (tab.dataset.view === "library") {
+          renderLibrary();
+        }
+
+        if (tab.dataset.view === "cloze") {
+          newCloze();
+        }
+      };
+    });
+
+    $("#check").onclick = showAnswer;
+
+    $("#meaning").onkeydown = (event) => {
+      if (event.key === "Enter") {
+        showAnswer();
+      }
+    };
+
+    $("#know").onclick = () => grade(true);
+    $("#review").onclick = () => grade(false);
+    $("#nextAfterReview").onclick = newTranslate;
+    $("#nextCloze").onclick = newCloze;
+
+    $("#clearWeak").onclick = () => {
+      if (confirm("確定清空待複習紀錄？")) {
+        weak = {};
+        save();
+        renderLibrary();
+      }
+    };
+
+    start();
+  </script>
+</body>
+</html>
