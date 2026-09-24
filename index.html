@@ -16,7 +16,7 @@
   </style>
 </head>
 <body><main>
-  <header class="top"><div><p class="eyebrow">每天 10 分鐘就好</p><h1>英文複習小站</h1><p class="sub">先回想，再自己判斷熟不熟。</p></div><div class="stat"><b id="weakCount">0</b><span>待複習單字</span></div></header>
+  <header class="top"><div><p class="eyebrow">加油麻吉人</p><h1>英文複習小站</h1><p class="sub">餅餅老師的複習教室。</p></div><div class="stat"><b id="weakCount">0</b><span>待複習單字</span></div></header>
   <nav><button class="tab active" data-view="translate">中文輸入</button><button class="tab" data-view="cloze">選字填空</button><button class="tab" data-view="library">複習單字庫</button></nav>
   <section id="translate" class="card view"><div class="progress"><i id="bar"></i></div><p class="mode-label">看英文，輸入中文意思</p><h2 class="word" id="word"></h2><p class="hint">可以寫你想到的中文，不會因同義詞或寫法不同被系統判錯。</p><input id="meaning" class="answer" autocomplete="off" placeholder="輸入中文意思" /><button id="check" class="primary">查看答案</button><div id="feedback" class="feedback"><div>標準答案：<strong id="standard"></strong></div><p class="small">你覺得剛剛的答案算對嗎？</p><div class="self-check"><button id="know" class="good">我答對了</button><button id="review" class="again">還不熟，放入複習庫</button></div></div></section>
   <section id="cloze" class="card view hidden"><p class="mode-label">選字填空</p><h2 class="word" id="clozeTitle"></h2><p id="clozeSentence" class="cloze"></p><div id="choices" class="choices"></div><p id="clozeNote" class="small"></p><button id="nextCloze" class="primary hidden">下一題</button></section>
