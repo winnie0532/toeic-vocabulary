@@ -254,18 +254,24 @@ function answerCloze(button, selectedWord) {
 
   if (isCorrect) {
     markCorrect(cloze.en);
-    $("#clozeNote").innerHTML = `答對了！<b>${cloze.en}</b>＝${cloze.zh}`;
+    $("#clozeNote").innerHTML = `
+        答對了！<b>${cloze.en}</b>＝${cloze.zh}<br><br>
+        <b>完整句子：</b>${cloze.example}<br>
+        <b>中文：</b>${cloze.exampleZh}
+    `;
   } else {
     markWrong(cloze.en);
 
     [...document.querySelectorAll(".choice")]
-      .find((item) => item.textContent === cloze.en)
-      .classList.add("correct");
+        .find((item) => item.textContent === cloze.en)
+        .classList.add("correct");
 
     $("#clozeNote").innerHTML = `
-      正確答案是 <b>${cloze.en}</b>（${cloze.zh}）。
+        正確答案是 <b>${cloze.en}</b>（${cloze.zh}）。<br><br>
+        <b>完整句子：</b>${cloze.example}<br>
+        <b>中文：</b>${cloze.exampleZh}
     `;
-  }
+ }
 
   $("#nextCloze").classList.remove("hidden");
 }
