@@ -3,6 +3,7 @@ const $ = (selector) => document.querySelector(selector);
 let words = [];
 let p5Words = [];
 let grammarLessons = [];
+let addedWords = [];
 let current;
 let cloze;
 let grammarLesson;
@@ -20,6 +21,38 @@ let progress = savedProgress
     );
 
 const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
+const addedWordsStorageKey = "vocabularyAddWords";
+
+function normalizeAddedWord(word) {
+  return {
+    en: String(word.en || "").trim(),
+    zh: String(word.zh || "").trim(),
+    example: String(word.example || "").trim(),
+    inLibrary: Boolean(word.inLibrary),
+    isCustom: true
+  };
+}
+
+function uniqueAddedWords(items) {
+  const seen = new Set();
+
+  return items
+    .map(normalizeAddedWord)
+    .filter((word) => {
+      const key = word.en.toLowerCase();
+
+      if (!word.en || !word.zh || !word.example || seen.has(key)) {
+        return false;
+      }
+
+      seen.add(key);
+      return true;
+    });
+}
+
+function saveAddedWords() {
+  localStorage.setItem(addedWordsStorageKey, JSON.stringify(addedWords));
+}
 
 function getProgress(en) {
   if (!progress[en]) {
@@ -69,15 +102,19 @@ function saveProgress() {
 
 function markCorrect(en) {
   const record = getProgress(en);
+
   record.streak += 1;
   record.wrong = Math.max(0, record.wrong - 1);
+
   saveProgress();
 }
 
 function markWrong(en) {
   const record = getProgress(en);
+
   record.wrong += 1;
   record.streak = 0;
+
   saveProgress();
 }
 
@@ -91,13 +128,34 @@ function renderWeakCount() {
 
 async function start() {
   try {
-    const [allWords, businessWords, grammarData] = await Promise.all([
-      fetch("./vocabulary.json").then((response) => response.json()),
-      fetch("./vocabulary_p5.json").then((response) => response.json()),
-      fetch("./grammar_lessons.json").then((response) => response.json())
+    const [allWords, businessWords, grammarData, savedAddedWords] =
+      await Promise.all([
+        fetch("./vocabulary.json").then((response) => response.json()),
+        fetch("./vocabulary_p5.json").then((response) => response.json()),
+        fetch("./grammar_lessons.json").then((response) => response.json()),
+        fetch("./vocabulary_add.json").then((response) => response.json())
+      ]);
+
+    const localAddedWords = JSON.parse(
+      localStorage.getItem(addedWordsStorageKey) || "[]"
+    );
+
+    addedWords = uniqueAddedWords([
+      ...savedAddedWords,
+      ...localAddedWords
     ]);
 
-    words = allWords;
+    const existingWords = new Set(
+      allWords.map((word) => word.en.toLowerCase())
+    );
+
+    words = [
+      ...allWords,
+      ...addedWords.filter(
+        (word) => !existingWords.has(word.en.toLowerCase())
+      )
+    ];
+
     p5Words = businessWords;
     grammarLessons = grammarData;
 
@@ -105,8 +163,8 @@ async function start() {
     newTranslate();
   } catch {
     $("#translate").innerHTML = `
-      <p>找不到 vocabulary.json、vocabulary_p5.json 或 grammar_lessons.json。</p>
-      <p>請確認三個 JSON 檔都和 index.html 放在同一個資料夾。</p>
+      <p>找不到 vocabulary.json、vocabulary_p5.json、grammar_lessons.json 或 vocabulary_add.json。</p>
+      <p>請確認四個 JSON 檔都和 index.html 放在同一個資料夾。</p>
     `;
   }
 }
@@ -207,7 +265,6 @@ function getClozeOptions(answer) {
   );
 
   const fallback = p5Words.filter((word) => word.en !== answer.en);
-
   const distractors = shuffle(sameType).slice(0, 3);
 
   if (distractors.length < 3) {
@@ -328,7 +385,9 @@ function answerGrammar(button, selectedOption) {
 function renderLibrary() {
   const list = $("#libraryList");
 
-  const items = words.filter((word) => progress[word.en]?.wrong > 0);
+  const items = words.filter(
+    (word) => progress[word.en]?.wrong > 0 || (word.isCustom && word.inLibrary)
+  );
 
   list.innerHTML = "";
 
@@ -338,9 +397,13 @@ function renderLibrary() {
   }
 
   items
-    .sort((a, b) => progress[b.en].wrong - progress[a.en].wrong)
+    .sort(
+      (a, b) =>
+        (progress[b.en]?.wrong || 0) - (progress[a.en]?.wrong || 0)
+    )
     .forEach((word) => {
       const row = document.createElement("div");
+      const wrong = progress[word.en]?.wrong || 0;
 
       row.className = "library-row";
       row.innerHTML = `
@@ -348,26 +411,76 @@ function renderLibrary() {
           <b>${word.en}</b>
           <div class="small">${word.zh}</div>
         </div>
-        <span class="badge">答錯 ${progress[word.en].wrong} 次</span>
+        <div class="library-tags">
+          ${word.isCustom ? '<span class="badge custom-badge">自行加入</span>' : ""}
+          ${wrong > 0 ? `<span class="badge">答錯 ${wrong} 次</span>` : ""}
+        </div>
       `;
 
       list.append(row);
     });
 }
 
+function showView(viewName) {
+  document.querySelectorAll(".tab[data-view]").forEach((tab) => {
+    tab.classList.toggle("active", tab.dataset.view === viewName);
+  });
+
+  document.querySelectorAll(".view").forEach((view) => {
+    view.classList.toggle("hidden", view.id !== viewName);
+  });
+
+  if (viewName === "library") renderLibrary();
+  if (viewName === "cloze") newCloze();
+  if (viewName === "grammar") newGrammar();
+}
+
+function addWord(event) {
+  event.preventDefault();
+
+  const newWord = normalizeAddedWord({
+    en: $("#addEnglish").value,
+    zh: $("#addChinese").value,
+    example: $("#addExample").value,
+    inLibrary: $("#addToLibrary").checked
+  });
+
+  if (!newWord.en || !newWord.zh || !newWord.example) {
+    $("#addWordNote").textContent = "請把英文、中文和例句都填完整。";
+    return;
+  }
+
+  if (words.some((word) => word.en.toLowerCase() === newWord.en.toLowerCase())) {
+    $("#addWordNote").textContent = "這個英文單字已經存在，請確認拼字。";
+    return;
+  }
+
+  addedWords.push(newWord);
+  words.push(newWord);
+  saveAddedWords();
+
+  $("#addWordForm").reset();
+  $("#addToLibrary").checked = true;
+  $("#addWordNote").textContent = "已加入。";
+}
+
+function downloadAddedWords() {
+  const file = new Blob([JSON.stringify(addedWords, null, 2)], {
+    type: "application/json"
+  });
+
+  const link = document.createElement("a");
+
+  link.href = URL.createObjectURL(file);
+  link.download = "vocabulary_add.json";
+  link.click();
+
+  URL.revokeObjectURL(link.href);
+}
+
 document.querySelectorAll(".tab[data-view]").forEach((tab) => {
   tab.onclick = () => {
-    document.querySelectorAll(".tab[data-view]").forEach((item) => {
-      item.classList.toggle("active", item === tab);
-    });
-
-    document.querySelectorAll(".view").forEach((view) => {
-      view.classList.toggle("hidden", view.id !== tab.dataset.view);
-    });
-
-    if (tab.dataset.view === "library") renderLibrary();
-    if (tab.dataset.view === "cloze") newCloze();
-    if (tab.dataset.view === "grammar") newGrammar();
+    showView(tab.dataset.view);
   };
 });
 
@@ -383,9 +496,23 @@ $("#nextAfterReview").onclick = newTranslate;
 $("#nextCloze").onclick = newCloze;
 $("#nextGrammar").onclick = newGrammar;
 
+$("#addWord").onclick = () => {
+  $("#addWordForm").reset();
+  $("#addToLibrary").checked = true;
+  $("#addWordNote").textContent = "";
+
+  showView("addWordPage");
+  $("#addEnglish").focus();
+};
+
+$("#cancelAddWord").onclick = () => showView("library");
+$("#addWordForm").onsubmit = addWord;
+$("#downloadAddedWords").onclick = downloadAddedWords;
+
 $("#clearWeak").onclick = () => {
   if (confirm("確定清空待複習紀錄？")) {
     progress = {};
+
     localStorage.removeItem("weakWords");
     saveProgress();
     renderLibrary();

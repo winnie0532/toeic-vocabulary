@@ -187,6 +187,17 @@
             font-size: 1rem
         }
 
+        .secondary {
+            border: 1px solid var(--line);
+            background: #fff;
+            color: var(--ink);
+            font-weight: 800;
+            padding: 12px 20px;
+            border-radius: 12px;
+            width: 100%;
+            font-size: 1rem
+        }
+
         .feedback {
             display: none;
             background: var(--soft);
@@ -287,6 +298,13 @@
             align-items: center
         }
 
+        .library-tags {
+            display: flex;
+            gap: 7px;
+            flex-wrap: wrap;
+            justify-content: flex-end
+        }
+
         .badge {
             font-size: .8rem;
             color: #b6364d;
@@ -295,10 +313,54 @@
             padding: 4px 9px
         }
 
+        .custom-badge {
+            color: #3651bf;
+            background: #e9edff
+        }
+
         .empty {
             text-align: center;
             color: var(--muted);
             padding: 42px 10px
+        }
+
+        .add-form {
+            display: grid;
+            gap: 16px
+        }
+
+        .field {
+            display: grid;
+            gap: 7px;
+            font-weight: 750
+        }
+
+        .field input,
+        .field textarea {
+            width: 100%;
+            font: inherit;
+            border: 2px solid var(--line);
+            border-radius: 13px;
+            padding: 12px 14px;
+            outline: none;
+            resize: vertical
+        }
+
+        .field input:focus,
+        .field textarea:focus {
+            border-color: var(--blue)
+        }
+
+        .check-row {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            font-weight: 750
+        }
+
+        .form-actions {
+            display: grid;
+            gap: 10px
         }
 
         .hidden {
@@ -330,9 +392,9 @@
     <main>
         <header class="top">
             <div>
-                <p class="eyebrow">持之以恆</p>
-                <h1>餅餅的英文教室</h1>
-                <p class="sub">GOGO</p>
+                <p class="eyebrow">每天 10 分鐘就好</p>
+                <h1>英文複習小站</h1>
+                <p class="sub">先回想，再自己判斷熟不熟。</p>
             </div>
             <div class="stat"><b id="weakCount">0</b><span>待複習單字</span></div>
         </header>
@@ -372,11 +434,27 @@
         <section id="library" class="card view hidden">
             <div class="library-head">
                 <div>
-                    <p class="mode-label">答過「還不熟」的字</p>
-                    <h2 style="margin:0">複習單字庫</h2>
-                </div><button id="clearWeak" class="tab">清空紀錄</button>
+                    <p class="mode-label">答過「還不熟」的字，或自行加入複習的字</p>
+                    <h2 style="margin:0">單字庫</h2>
+                </div>
+                <div><button id="addWord" class="tab">＋ 加入單字</button><button id="clearWeak" class="tab">清空紀錄</button>
+                </div>
             </div>
             <div id="libraryList" class="library-list"></div>
+        </section>
+        <section id="addWordPage" class="card view hidden">
+            <p class="mode-label">自訂單字</p>
+            <h2 class="word">加入一個單字</h2>
+            <form id="addWordForm" class="add-form"><label class="field">英文<input id="addEnglish" autocomplete="off"
+                        required></label><label class="field">中文<input id="addChinese" autocomplete="off"
+                        required></label><label class="field">例句<textarea id="addExample" rows="3"
+                        required></textarea></label><label class="check-row"><input id="addToLibrary" type="checkbox"
+                        checked>放入單字庫</label>
+                <p id="addWordNote" class="small" aria-live="polite"></p>
+                <div class="form-actions"><button type="submit" class="primary">加入單字</button><button id="cancelAddWord"
+                        type="button" class="secondary">回到單字庫</button><button id="downloadAddedWords" type="button"
+                        class="secondary">下載 vocabulary_add.json</button></div>
+            </form>
         </section>
     </main>
     <script type="application/disabled">
