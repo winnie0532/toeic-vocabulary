@@ -40,14 +40,18 @@ function getWeight(word) {
 }
 
 function pickWord() {
-  const totalWeight = words.reduce(
+  return pickWeightedWord(words);
+}
+
+function pickWeightedWord(pool) {
+  const totalWeight = pool.reduce(
     (total, word) => total + getWeight(word),
     0
   );
 
   let point = Math.random() * totalWeight;
 
-  for (const word of words) {
+  for (const word of pool) {
     point -= getWeight(word);
 
     if (point <= 0) {
@@ -55,7 +59,7 @@ function pickWord() {
     }
   }
 
-  return words[words.length - 1];
+  return pool[pool.length - 1];
 }
 
 function saveProgress() {
@@ -154,15 +158,65 @@ function gradeTranslate(isCorrect) {
   $("#nextAfterReview").classList.remove("hidden");
 }
 
+function escapeRegExp(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getWordType(word) {
+  const en = word.en.toLowerCase();
+
+  if (en.endsWith("ly")) return "adverb";
+  if (/(tion|sion|ment|ness|ity|ence|ance|ship|ism|age|ure|hood)$/.test(en)) return "noun";
+  if (/(able|ible|ive|ous|ful|less|ent|ant|ic|ary|al)$/.test(en)) return "adjective";
+  if (/(ize|ise|ify|ate|en)$/.test(en)) return "verb";
+
+  return "other";
+}
+
+function makeClozeSentence(word) {
+  const expression = new RegExp(`\\b${escapeRegExp(word.en)}\\b`, "i");
+
+  if (!expression.test(word.example)) return null;
+
+  return word.example.replace(expression, "______");
+}
+
+function pickClozeWord() {
+  const usableWords = words.filter((word) => makeClozeSentence(word));
+
+  return pickWeightedWord(usableWords);
+}
+
+function getClozeOptions(answer) {
+  const answerType = getWordType(answer);
+
+  const sameType = words.filter(
+    (word) => word.en !== answer.en && getWordType(word) === answerType
+  );
+
+  const fallback = words.filter((word) => word.en !== answer.en);
+
+  const distractors = shuffle(sameType).slice(0, 3);
+
+  if (distractors.length < 3) {
+    distractors.push(
+      ...shuffle(fallback.filter((word) => !distractors.includes(word))).slice(
+        0,
+        3 - distractors.length
+      )
+    );
+  }
+
+  return shuffle([answer, ...distractors]);
+}
+
 function newCloze() {
-  cloze = pickWord();
+  cloze = pickClozeWord();
 
-  const options = shuffle([
-    cloze,
-    ...shuffle(words.filter((word) => word.en !== cloze.en)).slice(0, 3)
-  ]);
+  const options = getClozeOptions(cloze);
 
-  $("#clozeTitle").textContent = `「${cloze.zh}」`;
+  $("#clozeTitle").textContent = "選出最適合句意的單字";
+  $("#clozeSentence").innerHTML = makeClozeSentence(cloze);
   $("#choices").innerHTML = "";
   $("#clozeNote").textContent = "";
   $("#nextCloze").classList.add("hidden");
@@ -191,7 +245,7 @@ function answerCloze(button, selectedWord) {
 
   if (isCorrect) {
     markCorrect(cloze.en);
-    $("#clozeNote").textContent = `答對了！${cloze.example}`;
+    $("#clozeNote").innerHTML = `答對了！<b>${cloze.en}</b>＝${cloze.zh}`;
   } else {
     markWrong(cloze.en);
 
@@ -200,7 +254,7 @@ function answerCloze(button, selectedWord) {
       .classList.add("correct");
 
     $("#clozeNote").innerHTML = `
-      正確答案是 <b>${cloze.en}</b>。例句：${cloze.example}
+      正確答案是 <b>${cloze.en}</b>（${cloze.zh}）。
     `;
   }
 

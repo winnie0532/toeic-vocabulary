@@ -72,7 +72,7 @@
   {
     "en": "number",
     "zh": "號碼、數字",
-    "example": "The number is important."
+    "example": "Please write your phone number here."
   },
   {
     "en": "be",
@@ -122,7 +122,7 @@
   {
     "en": "want",
     "zh": "想要",
-    "example": "We want it every day."
+    "example": "I want a cup of tea."
   },
   {
     "en": "need",
@@ -172,77 +172,77 @@
   {
     "en": "work",
     "zh": "工作",
-    "example": "We work it every day."
+    "example": "I work at a small shop."
   },
   {
     "en": "business",
     "zh": "商業、生意",
-    "example": "The business is important."
+    "example": "The business is important for this project."
   },
   {
     "en": "employee",
     "zh": "員工",
-    "example": "The employee is important."
+    "example": "Please contact the employee directly."
   },
   {
     "en": "boss",
     "zh": "老闆",
-    "example": "The boss are here."
+    "example": "The boss works near here."
   },
   {
     "en": "manager",
     "zh": "經理、主管",
-    "example": "The manager is important."
+    "example": "The manager is ready to help."
   },
   {
     "en": "money",
     "zh": "金錢",
-    "example": "The money is important."
+    "example": "He saved money for the trip."
   },
   {
     "en": "price",
     "zh": "價格",
-    "example": "The price is important."
+    "example": "We need a simple answer about the price."
   },
   {
     "en": "sale",
     "zh": "特價、銷售",
-    "example": "The sale is important."
+    "example": "The sale ends on Friday."
   },
   {
     "en": "product",
     "zh": "產品",
-    "example": "The product is important."
+    "example": "This product is easy to use."
   },
   {
     "en": "service",
     "zh": "服務",
-    "example": "The service is important."
+    "example": "The hotel offers good service."
   },
   {
     "en": "order",
     "zh": "訂單、訂購",
-    "example": "We order it every day."
+    "example": "Your order will arrive tomorrow."
   },
   {
     "en": "problem",
     "zh": "問題",
-    "example": "The problem is important."
+    "example": "The team is working on the problem."
   },
   {
     "en": "question",
     "zh": "問題",
-    "example": "The question is important."
+    "example": "Please let me know the question."
   },
   {
     "en": "answer",
     "zh": "回答",
-    "example": "The answer is important."
+    "example": "The answer is correct now."
   },
   {
     "en": "day",
     "zh": "天",
-    "example": "The day is important."
+    "example": "It was a long day."
   },
   {
     "en": "week",
@@ -287,332 +287,332 @@
   {
     "en": "evening",
     "zh": "晚上",
-    "example": "The evening is important."
+    "example": "I will see you this evening."
   },
   {
     "en": "night",
     "zh": "夜晚",
-    "example": "It is late at night."
+    "example": "The shop is closed at night."
   },
   {
     "en": "monday",
     "zh": "星期一",
-    "example": "The monday is important."
+    "example": "The office opens on Monday."
   },
   {
     "en": "tuesday",
     "zh": "星期二",
-    "example": "The tuesday is important."
+    "example": "Our training is on Tuesday."
   },
   {
     "en": "wednesday",
     "zh": "星期三",
-    "example": "The wednesday is important."
+    "example": "She will return on Wednesday."
   },
   {
     "en": "thursday",
     "zh": "星期四",
-    "example": "The thursday is important."
+    "example": "The report is due on Thursday."
   },
   {
     "en": "friday",
     "zh": "星期五",
-    "example": "The friday is important."
+    "example": "We close early on Friday."
   },
   {
     "en": "saturday",
     "zh": "星期六",
-    "example": "The saturday is important."
+    "example": "The shop is busy on Saturday."
   },
   {
     "en": "sunday",
     "zh": "星期日",
-    "example": "The sunday is important."
+    "example": "The museum is closed on Sunday."
   },
   {
     "en": "weekend",
     "zh": "週末",
-    "example": "The weekend is important."
+    "example": "They will travel this weekend."
   },
   {
     "en": "city",
     "zh": "城市",
-    "example": "The city is important."
+    "example": "The city is crowded today."
   },
   {
     "en": "country",
     "zh": "國家",
-    "example": "The country is important."
+    "example": "She lives in another country."
   },
   {
     "en": "street",
     "zh": "街道",
-    "example": "The street is important."
+    "example": "The street is on this street."
   },
   {
     "en": "road",
     "zh": "道路",
-    "example": "The road is important."
+    "example": "This road leads to the airport."
   },
   {
     "en": "station",
     "zh": "車站",
-    "example": "The station is important."
+    "example": "The station is busy in the morning."
   },
   {
     "en": "airport",
     "zh": "機場",
-    "example": "The airport is important."
+    "example": "I can see the airport from here."
   },
   {
     "en": "hotel",
     "zh": "飯店",
-    "example": "The hotel is important."
+    "example": "The hotel is two blocks away."
   },
   {
     "en": "bank",
     "zh": "銀行",
-    "example": "The bank is important."
+    "example": "They arrived at the bank early."
   },
   {
     "en": "hospital",
     "zh": "醫院",
-    "example": "The hospital is important."
+    "example": "The hospital has a large entrance."
   },
   {
     "en": "store",
     "zh": "商店",
-    "example": "The store is important."
+    "example": "Ask for help at the store."
   },
   {
     "en": "building",
     "zh": "建築物",
-    "example": "The building is important."
+    "example": "The building has ten floors."
   },
   {
     "en": "bus",
     "zh": "公車",
-    "example": "The bus are here."
+    "example": "Please wait for the bus."
   },
   {
     "en": "train",
     "zh": "火車",
-    "example": "The train is important."
+    "example": "The train was full this morning."
   },
   {
     "en": "car",
     "zh": "汽車",
-    "example": "The car is important."
+    "example": "Her car is parked outside."
   },
   {
     "en": "taxi",
     "zh": "計程車",
-    "example": "The taxi is important."
+    "example": "We took the taxi downtown."
   },
   {
     "en": "plane",
     "zh": "飛機",
-    "example": "The plane is important."
+    "example": "The plane leaves at eight."
   },
   {
     "en": "ticket",
     "zh": "票",
-    "example": "The ticket is important."
+    "example": "We need a new ticket."
   },
   {
     "en": "good",
     "zh": "好的",
-    "example": "It is good."
+    "example": "The food was good."
   },
   {
     "en": "bad",
     "zh": "壞的",
-    "example": "It is bad."
+    "example": "The weather was bad."
   },
   {
     "en": "big",
     "zh": "大的",
-    "example": "It is big."
+    "example": "They need a big table."
   },
   {
     "en": "small",
     "zh": "小的",
-    "example": "It is small."
+    "example": "This bag is small."
   },
   {
     "en": "new",
     "zh": "新的",
-    "example": "It is new."
+    "example": "She bought a new phone."
   },
   {
     "en": "old",
     "zh": "老的／舊的",
-    "example": "It is old."
+    "example": "My old car still runs."
   },
   {
     "en": "young",
     "zh": "年輕的",
-    "example": "The young is important."
+    "example": "The young child is with her mother."
   },
   {
     "en": "easy",
     "zh": "容易的",
-    "example": "It is easy."
+    "example": "This question is easy."
   },
   {
     "en": "difficult",
     "zh": "困難的",
-    "example": "It is difficult."
+    "example": "The test was difficult."
   },
   {
     "en": "important",
     "zh": "重要的",
-    "example": "It is important."
+    "example": "Please read this important notice."
   },
   {
     "en": "different",
     "zh": "不同的",
-    "example": "The different is important."
+    "example": "These two prices are different."
   },
   {
     "en": "same",
     "zh": "相同的",
-    "example": "The same is important."
+    "example": "We chose the same hotel again."
   },
   {
     "en": "right",
     "zh": "正確的／右邊的",
-    "example": "The right is important."
+    "example": "Turn right at the corner."
   },
   {
     "en": "wrong",
     "zh": "錯誤的",
-    "example": "It is wrong."
+    "example": "That phone number is wrong."
   },
   {
     "en": "happy",
     "zh": "開心的",
-    "example": "The happy is important."
+    "example": "I am happy with the result."
   },
   {
     "en": "sorry",
     "zh": "抱歉的",
-    "example": "The sorry is important."
+    "example": "I am sorry for the delay."
   },
   {
     "en": "busy",
     "zh": "忙碌的",
-    "example": "It is busy."
+    "example": "The restaurant is busy at noon."
   },
   {
     "en": "free",
     "zh": "免費的",
-    "example": "It is free."
+    "example": "Parking is free on Sunday."
   },
   {
     "en": "ready",
     "zh": "準備好的",
-    "example": "It is ready."
+    "example": "The room is ready now."
   },
   {
     "en": "possible",
     "zh": "可能的",
-    "example": "It is possible."
+    "example": "It is possible to finish today."
   },
   {
     "en": "food",
     "zh": "食物",
-    "example": "The food is important."
+    "example": "The food smells good."
   },
   {
     "en": "water",
     "zh": "水",
-    "example": "The water is important."
+    "example": "Please drink more water."
   },
   {
     "en": "coffee",
     "zh": "咖啡",
-    "example": "The coffee is important."
+    "example": "I drink coffee every morning."
   },
   {
     "en": "tea",
     "zh": "茶",
-    "example": "The tea is important."
+    "example": "Would you like some tea?"
   },
   {
     "en": "breakfast",
     "zh": "早餐",
-    "example": "The breakfast is important."
+    "example": "We ate breakfast at seven."
   },
   {
     "en": "lunch",
     "zh": "午餐",
-    "example": "The lunch is important."
+    "example": "Let us have lunch together."
   },
   {
     "en": "dinner",
     "zh": "晚餐",
-    "example": "The dinner is important."
+    "example": "Dinner will be ready soon."
   },
   {
     "en": "restaurant",
     "zh": "餐廳",
-    "example": "The restaurant is important."
+    "example": "The restaurant is busy in the morning."
   },
   {
     "en": "menu",
     "zh": "菜單",
-    "example": "The menu is important."
+    "example": "The menu has many choices."
   },
   {
     "en": "table",
     "zh": "桌子",
-    "example": "The table is important."
+    "example": "The table is near the window."
   },
   {
     "en": "chair",
     "zh": "椅子",
-    "example": "The chair is important."
+    "example": "Please sit in this chair."
   },
   {
     "en": "room",
     "zh": "房間",
-    "example": "The room is important."
+    "example": "Our room is on the third floor."
   },
   {
     "en": "house",
     "zh": "房子",
-    "example": "The house is important."
+    "example": "Their house has a red door."
   },
   {
     "en": "door",
     "zh": "門",
-    "example": "The door is important."
+    "example": "Please close the door."
   },
   {
     "en": "window",
     "zh": "窗戶",
-    "example": "The window is important."
+    "example": "Open the window, please."
   },
   {
     "en": "computer",
     "zh": "電腦",
-    "example": "The computer is important."
+    "example": "The computer is not working."
   },
   {
     "en": "message",
     "zh": "訊息",
-    "example": "The message is important."
+    "example": "I received your message."
   },
   {
     "en": "address",
     "zh": "地址",
-    "example": "The address is important."
+    "example": "Please write your address here."
   },
   {
     "en": "ask",
     "zh": "詢問",
-    "example": "We ask it every day."
+    "example": "Please ask the teacher."
   },
   {
     "en": "tell",
@@ -627,22 +627,22 @@
   {
     "en": "speak",
     "zh": "說話",
-    "example": "The speak is important."
+    "example": "Please speak slowly."
   },
   {
     "en": "listen",
     "zh": "聽",
-    "example": "The listen is important."
+    "example": "Listen carefully to the announcement."
   },
   {
     "en": "read",
     "zh": "閱讀",
-    "example": "The read is important."
+    "example": "Read the instructions first."
   },
   {
     "en": "write",
     "zh": "寫",
-    "example": "The write is important."
+    "example": "Write your phone number here."
   },
   {
     "en": "learn",
@@ -652,22 +652,22 @@
   {
     "en": "study",
     "zh": "讀書",
-    "example": "The study is important."
+    "example": "She studies English every night."
   },
   {
     "en": "understand",
     "zh": "了解",
-    "example": "The understand is important."
+    "example": "I understand your question."
   },
   {
     "en": "remember",
     "zh": "記得",
-    "example": "We remember it every day."
+    "example": "Remember to bring your ticket."
   },
   {
     "en": "forget",
     "zh": "忘記",
-    "example": "We forget it every day."
+    "example": "Do not forget your passport."
   },
   {
     "en": "start",
@@ -677,7 +677,7 @@
   {
     "en": "finish",
     "zh": "完成",
-    "example": "The finish is important."
+    "example": "Please finish the report today."
   },
   {
     "en": "open",
@@ -712,87 +712,87 @@
   {
     "en": "plan",
     "zh": "計畫",
-    "example": "We plan it every day."
+    "example": "Please save the plan for later."
   },
   {
     "en": "company",
     "zh": "公司",
-    "example": "The company is important."
+    "example": "She works for a large company."
   },
   {
     "en": "office",
     "zh": "辦公室",
-    "example": "The office is important."
+    "example": "The office is easy to find."
   },
   {
     "en": "customer",
     "zh": "顧客",
-    "example": "The customer is important."
+    "example": "The customer called this morning."
   },
   {
     "en": "email",
     "zh": "電子郵件",
-    "example": "The email is important."
+    "example": "I sent an email this morning."
   },
   {
     "en": "phone",
     "zh": "電話",
-    "example": "The phone is important."
+    "example": "My phone is in my pocket."
   },
   {
     "en": "report",
     "zh": "報告",
-    "example": "The report is important."
+    "example": "We made progress on the report."
   },
   {
     "en": "meeting",
     "zh": "會議",
-    "example": "The meeting is important."
+    "example": "She has experience with the meeting."
   },
   {
     "en": "schedule",
     "zh": "行程、時間表",
-    "example": "The schedule is important."
+    "example": "We discussed the schedule at the meeting."
   },
   {
     "en": "date",
     "zh": "日期",
-    "example": "The date is important."
+    "example": "What is today's date?"
   },
   {
     "en": "place",
     "zh": "地方",
-    "example": "The place is important."
+    "example": "The place is near the entrance."
   },
   {
     "en": "time",
     "zh": "時間",
-    "example": "The time is important."
+    "example": "What time is it?"
   },
   {
     "en": "reason",
     "zh": "原因",
-    "example": "The reason is important."
+    "example": "The reason is part of the plan."
   },
   {
     "en": "way",
     "zh": "方法／道路",
-    "example": "The way is important."
+    "example": "I wrote down the way."
   },
   {
     "en": "information",
     "zh": "資訊",
-    "example": "The information is important."
+    "example": "The manager asked about the information."
   },
   {
     "en": "example",
     "zh": "例子",
-    "example": "The example is important."
+    "example": "We have a question about the example."
   },
   {
     "en": "idea",
     "zh": "想法",
-    "example": "The idea is important."
+    "example": "Please send the idea by email."
   },
   {
     "en": "change",
@@ -802,12 +802,12 @@
   {
     "en": "in",
     "zh": "在……裡",
-    "example": "The in is important."
+    "example": "The keys are in my bag."
   },
   {
     "en": "on",
     "zh": "在……上",
-    "example": "The on is important."
+    "example": "Your name is on the list."
   },
   {
     "en": "at",
@@ -842,12 +842,12 @@
   {
     "en": "before",
     "zh": "在……之前",
-    "example": "The before is important."
+    "example": "Please arrive before nine."
   },
   {
     "en": "after",
     "zh": "在……之後",
-    "example": "The after is important."
+    "example": "Call me after the meeting."
   },
   {
     "en": "and",
@@ -887,7 +887,7 @@
   {
     "en": "only",
     "zh": "只有",
-    "example": "The only is important."
+    "example": "Only two seats are left."
   },
   {
     "en": "more",
@@ -902,52 +902,52 @@
   {
     "en": "form",
     "zh": "表格",
-    "example": "The form is important."
+    "example": "Please complete the form before lunch."
   },
   {
     "en": "client",
     "zh": "客戶",
-    "example": "The client is important."
+    "example": "Our client arrived early."
   },
   {
     "en": "staff",
     "zh": "員工、職員",
-    "example": "The staff are here."
+    "example": "Please ask the staff for help."
   },
   {
     "en": "department",
     "zh": "部門",
-    "example": "The department is important."
+    "example": "She works in that department."
   },
   {
     "en": "document",
     "zh": "文件",
-    "example": "The document is important."
+    "example": "She found the document quickly."
   },
   {
     "en": "file",
     "zh": "檔案",
-    "example": "The file is important."
+    "example": "The file is next to the door."
   },
   {
     "en": "equipment",
     "zh": "設備",
-    "example": "The equipment is important."
+    "example": "He picked up the equipment."
   },
   {
     "en": "desk",
     "zh": "辦公桌",
-    "example": "The desk is important."
+    "example": "The keys are on the desk."
   },
   {
     "en": "floor",
     "zh": "樓層、地板",
-    "example": "The floor is important."
+    "example": "Our office is on the third floor."
   },
   {
     "en": "entrance",
     "zh": "入口",
-    "example": "The entrance is important."
+    "example": "The entrance is on this street."
   },
   {
     "en": "send",
@@ -1027,107 +1027,107 @@
   {
     "en": "appointment",
     "zh": "預約",
-    "example": "The appointment is important."
+    "example": "My appointment is at two."
   },
   {
     "en": "available",
     "zh": "有空的、可取得的",
-    "example": "It is available."
+    "example": "The manager is available this afternoon."
   },
   {
     "en": "discount",
     "zh": "折扣",
-    "example": "The discount is important."
+    "example": "We have a question about the discount."
   },
   {
     "en": "payment",
     "zh": "付款",
-    "example": "The payment is important."
+    "example": "Please send the payment by email."
   },
   {
     "en": "bill",
     "zh": "帳單",
-    "example": "The bill is important."
+    "example": "The bill is on the table."
   },
   {
     "en": "fee",
     "zh": "費用",
-    "example": "The fee is important."
+    "example": "The fee is included in the price."
   },
   {
     "en": "reservation",
     "zh": "預約、訂位",
-    "example": "The reservation is important."
+    "example": "Your reservation is confirmed."
   },
   {
     "en": "purchase",
     "zh": "購買",
-    "example": "We purchase it every day."
+    "example": "The purchase was approved."
   },
   {
     "en": "receipt",
     "zh": "收據",
-    "example": "The receipt is important."
+    "example": "Keep the receipt in your wallet."
   },
   {
     "en": "refund",
     "zh": "退款",
-    "example": "We refund it every day."
+    "example": "The store gave me a refund."
   },
   {
     "en": "account",
     "zh": "帳戶",
-    "example": "The account is important."
+    "example": "Please check your account balance."
   },
   {
     "en": "local",
     "zh": "當地的",
-    "example": "It is local."
+    "example": "We bought local fruit."
   },
   {
     "en": "expensive",
     "zh": "昂貴的",
-    "example": "It is expensive."
+    "example": "This hotel is expensive."
   },
   {
     "en": "cheap",
     "zh": "便宜的",
-    "example": "It is cheap."
+    "example": "The ticket is cheap online."
   },
   {
     "en": "amount",
     "zh": "金額、數量",
-    "example": "The amount is important."
+    "example": "The amount is shown on the bill."
   },
   {
     "en": "flight",
     "zh": "航班",
-    "example": "The flight is important."
+    "example": "The flight arrived on time."
   },
   {
     "en": "travel",
     "zh": "旅行",
-    "example": "We travel it every day."
+    "example": "They enjoy travel."
   },
   {
     "en": "trip",
     "zh": "旅行",
-    "example": "The trip is important."
+    "example": "The trip takes two hours."
   },
   {
     "en": "passenger",
     "zh": "乘客",
-    "example": "The passenger is important."
+    "example": "The passenger is waiting outside."
   },
   {
     "en": "location",
     "zh": "地點",
-    "example": "The location is important."
+    "example": "The location is easy to find."
   },
   {
     "en": "area",
     "zh": "區域",
-    "example": "The area is important."
+    "example": "The area is across from the bank."
   },
   {
     "en": "near",
@@ -1142,52 +1142,52 @@
   {
     "en": "destination",
     "zh": "目的地",
-    "example": "The destination is important."
+    "example": "Our destination is near the beach."
   },
   {
     "en": "luggage",
     "zh": "行李",
-    "example": "The luggage is important."
+    "example": "Her luggage is very heavy."
   },
   {
     "en": "necessary",
     "zh": "必要的",
-    "example": "It is necessary."
+    "example": "A passport is necessary for this trip."
   },
   {
     "en": "current",
     "zh": "目前的",
-    "example": "It is current."
+    "example": "Please use your current address."
   },
   {
     "en": "latest",
     "zh": "最新的",
-    "example": "It is latest."
+    "example": "Read the latest news online."
   },
   {
     "en": "additional",
     "zh": "額外的",
-    "example": "It is additional."
+    "example": "We need additional chairs."
   },
   {
     "en": "successful",
     "zh": "成功的",
-    "example": "It is successful."
+    "example": "The event was successful."
   },
   {
     "en": "interested",
     "zh": "有興趣的",
-    "example": "It is interested."
+    "example": "She is interested in art."
   },
   {
     "en": "responsible",
     "zh": "負責的",
-    "example": "It is responsible."
+    "example": "He is responsible for the team."
   },
   {
     "en": "large",
     "zh": "大的",
-    "example": "It is large."
+    "example": "They need a large room."
   },
   {
     "en": "several",
@@ -1217,52 +1217,52 @@
   {
     "en": "request",
     "zh": "請求",
-    "example": "The request is important."
+    "example": "We received your request."
   },
   {
     "en": "notice",
     "zh": "通知、注意到",
-    "example": "The notice is important."
+    "example": "Please read the notice."
   },
   {
     "en": "result",
     "zh": "結果",
-    "example": "The result is important."
+    "example": "The result was better than expected."
   },
   {
     "en": "opportunity",
     "zh": "機會",
-    "example": "The opportunity is important."
+    "example": "This job is a good opportunity."
   },
   {
     "en": "efficient",
     "zh": "有效率的",
-    "example": "It is efficient."
+    "example": "This new system is efficient."
   },
   {
     "en": "central",
     "zh": "中心的",
-    "example": "It is central."
+    "example": "The hotel has a central location."
   },
   {
     "en": "printer",
     "zh": "印表機",
-    "example": "The printer is important."
+    "example": "I left the printer at home."
   },
   {
     "en": "distant",
     "zh": "疏遠的",
-    "example": "It is distant."
+    "example": "The airport is distant from town."
   },
   {
     "en": "excellent",
     "zh": "優秀的",
-    "example": "It is excellent."
+    "example": "The service was excellent."
   },
   {
     "en": "praised",
     "zh": "稱讚",
-    "example": "The praised is important."
+    "example": "Her manager praised her work."
   },
   {
     "en": "measure",
@@ -1287,67 +1287,67 @@
   {
     "en": "policy",
     "zh": "政策、規定",
-    "example": "The policy is important."
+    "example": "Please follow the company policy."
   },
   {
     "en": "counted",
     "zh": "計算範圍內",
-    "example": "The counted is important."
+    "example": "The cashier counted the coins."
   },
   {
     "en": "quantities",
     "zh": "採購",
-    "example": "The quantities are here."
+    "example": "Please order large quantities."
   },
   {
     "en": "silent",
     "zh": "安靜",
-    "example": "It is silent."
+    "example": "Please keep the room silent."
   },
   {
     "en": "narrow",
     "zh": "狹窄的",
-    "example": "It is narrow."
+    "example": "This street is narrow."
   },
   {
     "en": "empty",
     "zh": "空的",
-    "example": "It is empty."
+    "example": "The bottle is empty."
   },
   {
     "en": "rapid",
     "zh": "快速的",
-    "example": "It is rapid."
+    "example": "The train made rapid progress."
   },
   {
     "en": "wild",
     "zh": "失控的",
-    "example": "It is wild."
+    "example": "The dog became wild."
   },
   {
     "en": "daily",
     "zh": "每日的",
-    "example": "It is daily."
+    "example": "She reads the daily report."
   },
   {
     "en": "machine",
     "zh": "機器",
-    "example": "The machine is important."
+    "example": "He picked up the machine."
   },
   {
     "en": "instructions",
     "zh": "指示",
-    "example": "The instructions are here."
+    "example": "Read the instructions carefully."
   },
   {
     "en": "distance",
     "zh": "距離",
-    "example": "The distance is important."
+    "example": "The distance is five miles."
   },
   {
     "en": "purpose",
     "zh": "目的",
-    "example": "The purpose is important."
+    "example": "The purpose is clear."
   },
   {
     "en": "within",
@@ -1357,17 +1357,17 @@
   {
     "en": "separate",
     "zh": "分開",
-    "example": "The separate is important."
+    "example": "Use separate bags for each item."
   },
   {
     "en": "compared",
     "zh": "比較的",
-    "example": "The compared is important."
+    "example": "We compared the two prices."
   },
   {
     "en": "suitcase",
     "zh": "行李箱",
-    "example": "The suitcase is important."
+    "example": "We checked the suitcase before leaving."
   },
   {
     "en": "since",
@@ -1377,12 +1377,12 @@
   {
     "en": "jeans",
     "zh": "牛仔褲",
-    "example": "The jeans are here."
+    "example": "He wears blue jeans."
   },
   {
     "en": "serves",
     "zh": "提供",
-    "example": "The serves are here."
+    "example": "The cafe serves breakfast."
   },
   {
     "en": "knelt",
@@ -1392,22 +1392,22 @@
   {
     "en": "shoelaces",
     "zh": "鞋帶",
-    "example": "The shoelaces are here."
+    "example": "Her shoelaces came untied."
   },
   {
     "en": "knight",
     "zh": "騎士",
-    "example": "The knight is important."
+    "example": "The knight rode a white horse."
   },
   {
     "en": "bridge",
     "zh": "橋",
-    "example": "The bridge is important."
+    "example": "The bridge is near the station."
   },
   {
     "en": "plants",
     "zh": "植物",
-    "example": "The plants are here."
+    "example": "The plants need water."
   },
   {
     "en": "suddenly",
@@ -1422,362 +1422,362 @@
   {
     "en": "heat",
     "zh": "熱度",
-    "example": "The heat is important."
+    "example": "Turn down the heat."
   },
   {
     "en": "position",
     "zh": "職位",
-    "example": "The position is important."
+    "example": "She applied for the position."
   },
   {
     "en": "career",
     "zh": "職業、生涯",
-    "example": "The career is important."
+    "example": "He wants a career in sales."
   },
   {
     "en": "interview",
     "zh": "面試",
-    "example": "The interview is important."
+    "example": "Her interview is tomorrow."
   },
   {
     "en": "hire",
     "zh": "雇用",
-    "example": "The hire is important."
+    "example": "The company plans to hire two workers."
   },
   {
     "en": "apply",
     "zh": "申請",
-    "example": "The apply is important."
+    "example": "You can apply online."
   },
   {
     "en": "applicant",
     "zh": "申請者",
-    "example": "The applicant is important."
+    "example": "She introduced the applicant to us."
   },
   {
     "en": "application",
     "zh": "申請、申請表",
-    "example": "The application is important."
+    "example": "The application is still under review."
   },
   {
     "en": "experience",
     "zh": "經驗",
-    "example": "The experience is important."
+    "example": "She has experience in customer service."
   },
   {
     "en": "skill",
     "zh": "技能",
-    "example": "The skill is important."
+    "example": "Speaking is a useful skill."
   },
   {
     "en": "training",
     "zh": "訓練",
-    "example": "The training is important."
+    "example": "The training starts at nine."
   },
   {
     "en": "supervisor",
     "zh": "主管",
-    "example": "The supervisor is important."
+    "example": "The supervisor arrived on time."
   },
   {
     "en": "director",
     "zh": "主管、董事",
-    "example": "The director is important."
+    "example": "Please contact the director directly."
   },
   {
     "en": "colleague",
     "zh": "同事",
-    "example": "The colleague is important."
+    "example": "The colleague works near here."
   },
   {
     "en": "salary",
     "zh": "薪水",
-    "example": "The salary is important."
+    "example": "His salary increased this year."
   },
   {
     "en": "duty",
     "zh": "職責",
-    "example": "The duty is important."
+    "example": "It is my duty to help."
   },
   {
     "en": "task",
     "zh": "任務",
-    "example": "The task is important."
+    "example": "Please finish this task today."
   },
   {
     "en": "break",
     "zh": "休息",
-    "example": "The break is important."
+    "example": "We will meet during the break."
   },
   {
     "en": "shift",
     "zh": "輪班、班別",
-    "example": "The shift is important."
+    "example": "Her shift begins at eight."
   },
   {
     "en": "factory",
     "zh": "工廠",
-    "example": "The factory is important."
+    "example": "She works at the factory."
   },
   {
     "en": "branch",
     "zh": "分公司、分店",
-    "example": "The branch is important."
+    "example": "The branch is easy to find."
   },
   {
     "en": "headquarters",
     "zh": "總公司、總部",
-    "example": "The headquarters are here."
+    "example": "The company headquarters is downtown."
   },
   {
     "en": "organization",
     "zh": "組織",
-    "example": "The organization is important."
+    "example": "She works for a nonprofit organization."
   },
   {
     "en": "conference",
     "zh": "會議、大會",
-    "example": "The conference is important."
+    "example": "The conference begins tomorrow."
   },
   {
     "en": "presentation",
     "zh": "簡報",
-    "example": "The presentation is important."
+    "example": "Her presentation was clear."
   },
   {
     "en": "discussion",
     "zh": "討論",
-    "example": "The discussion is important."
+    "example": "The discussion lasted an hour."
   },
   {
     "en": "decision",
     "zh": "決定",
-    "example": "The decision is important."
+    "example": "We made a quick decision."
   },
   {
     "en": "goal",
     "zh": "目標",
-    "example": "The goal is important."
+    "example": "Our goal is to save time."
   },
   {
     "en": "rule",
     "zh": "規則",
-    "example": "The rule is important."
+    "example": "This rule is easy to follow."
   },
   {
     "en": "instruction",
     "zh": "指示、說明",
-    "example": "The instruction is important."
+    "example": "Follow each instruction carefully."
   },
   {
     "en": "detail",
     "zh": "細節",
-    "example": "The detail is important."
+    "example": "Please check every detail."
   },
   {
     "en": "process",
     "zh": "流程、過程",
-    "example": "The process is important."
+    "example": "The process takes three days."
   },
   {
     "en": "system",
     "zh": "系統",
-    "example": "The system is important."
+    "example": "The system is working now."
   },
   {
     "en": "material",
     "zh": "材料",
-    "example": "The material is important."
+    "example": "I need the material for work."
   },
   {
     "en": "supply",
     "zh": "供應、用品",
-    "example": "The supply is important."
+    "example": "We need more office supplies."
   },
   {
     "en": "quality",
     "zh": "品質",
-    "example": "The quality is important."
+    "example": "The product has good quality."
   },
   {
     "en": "safety",
     "zh": "安全",
-    "example": "The safety is important."
+    "example": "Safety comes first."
   },
   {
     "en": "uniform",
     "zh": "制服",
-    "example": "The uniform is important."
+    "example": "All staff wear a uniform."
   },
   {
     "en": "increase",
     "zh": "增加",
-    "example": "The increase is important."
+    "example": "Sales increased last month."
   },
   {
     "en": "decrease",
     "zh": "減少",
-    "example": "The decrease is important."
+    "example": "The price decreased this week."
   },
   {
     "en": "improve",
     "zh": "改善",
-    "example": "The improve is important."
+    "example": "We want to improve our service."
   },
   {
     "en": "develop",
     "zh": "發展、開發",
-    "example": "The develop is important."
+    "example": "The team developed a new app."
   },
   {
     "en": "produce",
     "zh": "生產",
-    "example": "The produce is important."
+    "example": "This factory produces chairs."
   },
   {
     "en": "deliver",
     "zh": "運送、交付",
-    "example": "The deliver is important."
+    "example": "They will deliver the package tomorrow."
   },
   {
     "en": "ship",
     "zh": "運送、出貨",
-    "example": "The ship is important."
+    "example": "The store ships orders every day."
   },
   {
     "en": "replace",
     "zh": "更換",
-    "example": "The replace is important."
+    "example": "We need to replace the old printer."
   },
   {
     "en": "install",
     "zh": "安裝",
-    "example": "The install is important."
+    "example": "A technician will install the software."
   },
   {
     "en": "operate",
     "zh": "操作、營運",
-    "example": "The operate is important."
+    "example": "He knows how to operate the machine."
   },
   {
     "en": "manage",
     "zh": "管理",
-    "example": "The manage is important."
+    "example": "She manages a small team."
   },
   {
     "en": "organize",
     "zh": "組織、安排",
-    "example": "The organize is important."
+    "example": "I will organize the files."
   },
   {
     "en": "arrange",
     "zh": "安排",
-    "example": "The arrange is important."
+    "example": "We arranged a meeting for Friday."
   },
   {
     "en": "cancel",
     "zh": "取消",
-    "example": "The cancel is important."
+    "example": "They canceled the flight."
   },
   {
     "en": "postpone",
     "zh": "延後",
-    "example": "The postpone is important."
+    "example": "We had to postpone the event."
   },
   {
     "en": "reserve",
     "zh": "預訂",
-    "example": "We reserve it every day."
+    "example": "I reserved a table for two."
   },
   {
     "en": "book",
     "zh": "預訂",
-    "example": "We book it every day."
+    "example": "We booked a room online."
   },
   {
     "en": "join",
     "zh": "加入、參加",
-    "example": "The join is important."
+    "example": "Please join us for lunch."
   },
   {
     "en": "invite",
     "zh": "邀請",
-    "example": "The invite is important."
+    "example": "They invited our clients."
   },
   {
     "en": "explain",
     "zh": "解釋",
-    "example": "The explain is important."
+    "example": "Could you explain this part?"
   },
   {
     "en": "discuss",
     "zh": "討論",
-    "example": "The discuss are here."
+    "example": "Let us discuss the plan."
   },
   {
     "en": "decide",
     "zh": "決定",
-    "example": "The decide is important."
+    "example": "We decided to take the train."
   },
   {
     "en": "agree",
     "zh": "同意",
-    "example": "The agree is important."
+    "example": "I agree with your idea."
   },
   {
     "en": "accept",
     "zh": "接受",
-    "example": "The accept is important."
+    "example": "The company accepted the offer."
   },
   {
     "en": "refuse",
     "zh": "拒絕",
-    "example": "The refuse is important."
+    "example": "He refused to sign the paper."
   },
   {
     "en": "sign",
     "zh": "簽名",
-    "example": "The sign is important."
+    "example": "Please sign at the bottom."
   },
   {
     "en": "fill",
     "zh": "填寫、裝滿",
-    "example": "The fill is important."
+    "example": "Fill the cup with water."
   },
   {
     "en": "submit",
     "zh": "提交",
-    "example": "The submit is important."
+    "example": "Submit your application online."
   },
   {
     "en": "review",
     "zh": "審查、檢視",
-    "example": "The review is important."
+    "example": "The manager will review the report."
   },
   {
     "en": "update",
     "zh": "更新",
-    "example": "The update is important."
+    "example": "Please update your address."
   },
   {
     "en": "expect",
     "zh": "預期",
-    "example": "The expect is important."
+    "example": "We expect the bus at ten."
   },
   {
     "en": "recommend",
     "zh": "推薦",
-    "example": "The recommend is important."
+    "example": "I recommend this restaurant."
   },
   {
     "en": "suggest",
     "zh": "建議",
-    "example": "The suggest is important."
+    "example": "She suggested a shorter meeting."
   },
   {
     "en": "allow",
     "zh": "允許",
-    "example": "The allow is important."
+    "example": "This card allows free entry."
   },
   {
     "en": "follow",
@@ -1792,537 +1792,537 @@
   {
     "en": "spend",
     "zh": "花費",
-    "example": "The spend is important."
+    "example": "We spent an hour there."
   },
   {
     "en": "save",
     "zh": "節省、儲存",
-    "example": "The save is important."
+    "example": "This new route saves time."
   },
   {
     "en": "reach",
     "zh": "到達、達成",
-    "example": "The reach is important."
+    "example": "We reached the airport early."
   },
   {
     "en": "announcement",
     "zh": "公告",
-    "example": "The announcement is important."
+    "example": "The announcement was easy to understand."
   },
   {
     "en": "advertisement",
     "zh": "廣告",
-    "example": "The advertisement is important."
+    "example": "He shared the advertisement with the team."
   },
   {
     "en": "article",
     "zh": "文章",
-    "example": "The article is important."
+    "example": "We need more details about the article."
   },
   {
     "en": "letter",
     "zh": "信件",
-    "example": "The letter is important."
+    "example": "The letter is on today's agenda."
   },
   {
     "en": "reply",
     "zh": "回覆",
-    "example": "The reply is important."
+    "example": "She checked the reply before lunch."
   },
   {
     "en": "response",
     "zh": "回覆、反應",
-    "example": "The response is important."
+    "example": "The response helped us make a decision."
   },
   {
     "en": "survey",
     "zh": "問卷、調查",
-    "example": "The survey is important."
+    "example": "Please keep a record of the survey."
   },
   {
     "en": "list",
     "zh": "清單",
-    "example": "The list is important."
+    "example": "We will talk about the list tomorrow."
   },
   {
     "en": "website",
     "zh": "網站",
-    "example": "The website is important."
+    "example": "The website was included in the report."
   },
   {
     "en": "page",
     "zh": "頁面",
-    "example": "The page is important."
+    "example": "He asked for the page in writing."
   },
   {
     "en": "password",
     "zh": "密碼",
-    "example": "The password is important."
+    "example": "The password is useful for new staff."
   },
   {
     "en": "register",
     "zh": "登記、註冊",
-    "example": "The register is important."
+    "example": "You can register at the front desk."
   },
   {
     "en": "registration",
     "zh": "登記、註冊",
-    "example": "The registration is important."
+    "example": "The registration was clear to everyone."
   },
   {
     "en": "member",
     "zh": "會員、成員",
-    "example": "The member is important."
+    "example": "Everyone knows the member."
   },
   {
     "en": "membership",
     "zh": "會員資格",
-    "example": "The membership is important."
+    "example": "They reviewed the membership together."
   },
   {
     "en": "event",
     "zh": "活動",
-    "example": "The event is important."
+    "example": "The event took longer than expected."
   },
   {
     "en": "program",
     "zh": "計畫、節目",
-    "example": "The program is important."
+    "example": "I need to know the program."
   },
   {
     "en": "course",
     "zh": "課程",
-    "example": "The course is important."
+    "example": "The course affects the final result."
   },
   {
     "en": "class",
     "zh": "課程、班級",
-    "example": "The class are here."
+    "example": "She made notes about the class."
   },
   {
     "en": "note",
     "zh": "筆記、注意",
-    "example": "The note is important."
+    "example": "We received the note this morning."
   },
   {
     "en": "description",
     "zh": "說明、描述",
-    "example": "The description is important."
+    "example": "The description is ready for review."
   },
   {
     "en": "topic",
     "zh": "主題",
-    "example": "The topic is important."
+    "example": "Please add the topic to the file."
   },
   {
     "en": "fact",
     "zh": "事實",
-    "example": "The fact is important."
+    "example": "The fact was discussed last Friday."
   },
   {
     "en": "option",
     "zh": "選項",
-    "example": "The option is important."
+    "example": "He gave us an update on the option."
   },
   {
     "en": "choice",
     "zh": "選擇",
-    "example": "The choice is important."
+    "example": "The choice is important for this project."
   },
   {
     "en": "opinion",
     "zh": "意見",
-    "example": "The opinion is important."
+    "example": "We compared the opinion with last month."
   },
   {
     "en": "feedback",
     "zh": "回饋",
-    "example": "The feedback is important."
+    "example": "Please report any problem with the feedback."
   },
   {
     "en": "invitation",
     "zh": "邀請",
-    "example": "The invitation is important."
+    "example": "The invitation was approved by the director."
   },
   {
     "en": "requirement",
     "zh": "要求、條件",
-    "example": "The requirement is important."
+    "example": "She will handle the requirement today."
   },
   {
     "en": "agreement",
     "zh": "協議、同意",
-    "example": "The agreement is important."
+    "example": "We need a simple answer about the agreement."
   },
   {
     "en": "contract",
     "zh": "合約",
-    "example": "The contract is important."
+    "example": "The contract is still under review."
   },
   {
     "en": "signature",
     "zh": "簽名",
-    "example": "The signature is important."
+    "example": "Please save the signature for later."
   },
   {
     "en": "record",
     "zh": "紀錄",
-    "example": "The record is important."
+    "example": "The record will be checked tomorrow."
   },
   {
     "en": "data",
     "zh": "資料",
-    "example": "The data is important."
+    "example": "He gave a short summary of the data."
   },
   {
     "en": "section",
     "zh": "部分、區段",
-    "example": "The section is important."
+    "example": "The team is working on the section."
   },
   {
     "en": "item",
     "zh": "項目、商品",
-    "example": "The item is important."
+    "example": "Please let me know the item."
   },
   {
     "en": "issue",
     "zh": "問題、議題",
-    "example": "The issue is important."
+    "example": "The issue is correct now."
   },
   {
     "en": "cash",
     "zh": "現金",
-    "example": "The cash is important."
+    "example": "We made progress on the cash."
   },
   {
     "en": "card",
     "zh": "卡片",
-    "example": "The card is important."
+    "example": "The card is in good condition."
   },
   {
     "en": "charge",
     "zh": "收費",
-    "example": "The charge is important."
+    "example": "We discussed the charge at the meeting."
   },
   {
     "en": "tax",
     "zh": "稅",
-    "example": "The tax is important."
+    "example": "The tax needs attention."
   },
   {
     "en": "budget",
     "zh": "預算",
-    "example": "The budget is important."
+    "example": "Please check the budget carefully."
   },
   {
     "en": "value",
     "zh": "價值",
-    "example": "The value is important."
+    "example": "She explained the value clearly."
   },
   {
     "en": "income",
     "zh": "收入",
-    "example": "The income is important."
+    "example": "The income is part of the plan."
   },
   {
     "en": "expense",
     "zh": "費用、支出",
-    "example": "The expense is important."
+    "example": "I wrote down the expense."
   },
   {
     "en": "earn",
     "zh": "賺取",
-    "example": "The earn is important."
+    "example": "She earns more in her new job."
   },
   {
     "en": "lend",
     "zh": "借出",
-    "example": "The lend is important."
+    "example": "Can you lend me a pen?"
   },
   {
     "en": "rent",
     "zh": "租用、租金",
-    "example": "The rent is important."
+    "example": "They rent an office downtown."
   },
   {
     "en": "owner",
     "zh": "所有者、老闆",
-    "example": "The owner is important."
+    "example": "The owner knows the procedure."
   },
   {
     "en": "buyer",
     "zh": "買家",
-    "example": "The buyer is important."
+    "example": "She introduced the buyer to us."
   },
   {
     "en": "seller",
     "zh": "賣家",
-    "example": "The seller is important."
+    "example": "The seller will join the meeting."
   },
   {
     "en": "brand",
     "zh": "品牌",
-    "example": "The brand is important."
+    "example": "I forgot the brand at home."
   },
   {
     "en": "model",
     "zh": "型號",
-    "example": "The model is important."
+    "example": "Please bring the model tomorrow."
   },
   {
     "en": "size",
     "zh": "尺寸",
-    "example": "The size is important."
+    "example": "The size is ready now."
   },
   {
     "en": "package",
     "zh": "包裹、套裝",
-    "example": "The package is important."
+    "example": "He carried the package upstairs."
   },
   {
     "en": "delivery",
     "zh": "運送、配送",
-    "example": "The delivery is important."
+    "example": "The delivery helped us make a decision."
   },
   {
     "en": "shipping",
     "zh": "運送",
-    "example": "The shipping is important."
+    "example": "Please keep a record of the shipping."
   },
   {
     "en": "stock",
     "zh": "庫存、股票",
-    "example": "The stock is important."
+    "example": "We will talk about the stock tomorrow."
   },
   {
     "en": "quantity",
     "zh": "數量",
-    "example": "The quantity is important."
+    "example": "The quantity was included in the report."
   },
   {
     "en": "damage",
     "zh": "損壞",
-    "example": "The damage is important."
+    "example": "He asked for the damage in writing."
   },
   {
     "en": "guarantee",
     "zh": "保證",
-    "example": "The guarantee is important."
+    "example": "The guarantee is useful for new staff."
   },
   {
     "en": "exchange",
     "zh": "交換、兌換",
-    "example": "The exchange is important."
+    "example": "We noticed a change in the exchange."
   },
   {
     "en": "coupon",
     "zh": "優惠券",
-    "example": "The coupon is important."
+    "example": "The coupon was clear to everyone."
   },
   {
     "en": "benefit",
     "zh": "好處、福利",
-    "example": "The benefit is important."
+    "example": "Please confirm the benefit with your manager."
   },
   {
     "en": "promotion",
     "zh": "促銷、升遷",
-    "example": "The promotion is important."
+    "example": "They reviewed the promotion together."
   },
   {
     "en": "guest",
     "zh": "房客、賓客",
-    "example": "The guest is important."
+    "example": "I met the guest yesterday."
   },
   {
     "en": "tour",
     "zh": "旅遊、導覽",
-    "example": "The tour is important."
+    "example": "I will see you this tour."
   },
   {
     "en": "guide",
     "zh": "導遊、指南",
-    "example": "The guide is important."
+    "example": "We spoke to the guide after lunch."
   },
   {
     "en": "traveler",
     "zh": "旅客",
-    "example": "The traveler is important."
+    "example": "The traveler knows the procedure."
   },
   {
     "en": "journey",
     "zh": "旅程",
-    "example": "The journey is important."
+    "example": "The journey went by quickly."
   },
   {
     "en": "route",
     "zh": "路線",
-    "example": "The route is important."
+    "example": "The route is ready for review."
   },
   {
     "en": "gate",
     "zh": "登機門、大門",
-    "example": "The gate is important."
+    "example": "I can see the gate from here."
   },
   {
     "en": "platform",
     "zh": "月台",
-    "example": "The platform is important."
+    "example": "The platform is two blocks away."
   },
   {
     "en": "seat",
     "zh": "座位",
-    "example": "The seat is important."
+    "example": "The seat was not available today."
   },
   {
     "en": "terminal",
     "zh": "航廈、終點站",
-    "example": "The terminal is important."
+    "example": "The terminal has a large entrance."
   },
   {
     "en": "airline",
     "zh": "航空公司",
-    "example": "The airline is important."
+    "example": "We took the airline downtown."
   },
   {
     "en": "board",
     "zh": "登上飛機或火車",
-    "example": "The board is important."
+    "example": "Passengers may board now."
   },
   {
     "en": "cancellation",
     "zh": "取消",
-    "example": "The cancellation is important."
+    "example": "The cancellation was approved by the director."
   },
   {
     "en": "baggage",
     "zh": "行李",
-    "example": "The baggage is important."
+    "example": "The baggage is in good condition."
   },
   {
     "en": "passport",
     "zh": "護照",
-    "example": "The passport is important."
+    "example": "Please bring the passport with you."
   },
   {
     "en": "map",
     "zh": "地圖",
-    "example": "The map is important."
+    "example": "The map is on the table."
   },
   {
     "en": "direction",
     "zh": "方向",
-    "example": "The direction is important."
+    "example": "Please save the direction for later."
   },
   {
     "en": "north",
     "zh": "北方",
-    "example": "The north is important."
+    "example": "The station is north of the park."
   },
   {
     "en": "south",
     "zh": "南方",
-    "example": "The south is important."
+    "example": "Drive south for two blocks."
   },
   {
     "en": "east",
     "zh": "東方",
-    "example": "The east is important."
+    "example": "The sun rises in the east."
   },
   {
     "en": "west",
     "zh": "西方",
-    "example": "The west is important."
+    "example": "The hotel is west of the airport."
   },
   {
     "en": "abroad",
     "zh": "在國外",
-    "example": "The abroad is important."
+    "example": "My sister works abroad."
   },
   {
     "en": "foreign",
     "zh": "外國的",
-    "example": "The foreign is important."
+    "example": "He speaks a foreign language."
   },
   {
     "en": "transportation",
     "zh": "交通運輸",
-    "example": "The transportation is important."
+    "example": "The transportation was full this morning."
   },
   {
     "en": "vehicle",
     "zh": "車輛",
-    "example": "The vehicle is important."
+    "example": "The vehicle arrived on time."
   },
   {
     "en": "convenient",
     "zh": "方便的",
-    "example": "The convenient is important."
+    "example": "The station is convenient for commuters."
   },
   {
     "en": "comfortable",
     "zh": "舒適的",
-    "example": "The comfortable is important."
+    "example": "This chair is comfortable."
   },
   {
     "en": "useful",
     "zh": "有用的",
-    "example": "It is useful."
+    "example": "This map is useful."
   },
   {
     "en": "helpful",
     "zh": "有幫助的",
-    "example": "The helpful is important."
+    "example": "Your advice was helpful."
   },
   {
     "en": "careful",
     "zh": "小心的",
-    "example": "It is careful."
+    "example": "Be careful on the stairs."
   },
   {
     "en": "safe",
     "zh": "安全的",
-    "example": "It is safe."
+    "example": "This area is safe at night."
   },
   {
     "en": "clean",
     "zh": "乾淨的",
-    "example": "It is clean."
+    "example": "The kitchen is clean."
   },
   {
     "en": "full",
     "zh": "滿的",
-    "example": "The full is important."
+    "example": "The parking lot is full."
   },
   {
     "en": "closed",
     "zh": "關閉的",
-    "example": "The closed is important."
+    "example": "The store is closed today."
   },
   {
     "en": "crowded",
     "zh": "擁擠的",
-    "example": "The crowded is important."
+    "example": "The train was crowded this morning."
   },
   {
     "en": "recent",
     "zh": "最近的",
-    "example": "The recent is important."
+    "example": "This is a recent photo of the team."
   },
   {
     "en": "final",
     "zh": "最後的",
-    "example": "It is final."
+    "example": "This is the final answer."
   },
   {
     "en": "directly",
     "zh": "直接地",
-    "example": "The directly is important."
+    "example": "Please send the file directly to me."
   },
   {
     "en": "immediately",
     "zh": "立即地",
-    "example": "The immediately is important."
+    "example": "Please call me immediately."
   },
   {
     "en": "usually",
@@ -2337,227 +2337,227 @@
   {
     "en": "recently",
     "zh": "最近",
-    "example": "The recently is important."
+    "example": "I recently started a new job."
   },
   {
     "en": "especially",
     "zh": "尤其",
-    "example": "The especially is important."
+    "example": "This offer is especially useful for students."
   },
   {
     "en": "probably",
     "zh": "可能、大概",
-    "example": "The probably is important."
+    "example": "The bus will probably arrive soon."
   },
   {
     "en": "exactly",
     "zh": "正確地、恰好",
-    "example": "The exactly is important."
+    "example": "That is exactly what I meant."
   },
   {
     "en": "together",
     "zh": "一起",
-    "example": "The together is important."
+    "example": "Let us check the list together."
   },
   {
     "en": "enough",
     "zh": "足夠的",
-    "example": "The enough is important."
+    "example": "We have enough chairs for everyone."
   },
   {
     "en": "pea",
     "zh": "碗豆",
-    "example": "The pea is important."
+    "example": "He put peas on his plate."
   },
   {
     "en": "pear",
     "zh": "梨子",
-    "example": "The pear is important."
+    "example": "She bought a pear at the market."
   },
   {
     "en": "round",
     "zh": "圓 輪",
-    "example": "The round is important."
+    "example": "The table is round."
   },
   {
     "en": "sand",
     "zh": "沙",
-    "example": "The sand is important."
+    "example": "The children played in the sand."
   },
   {
-    "en": "duratin",
+    "en": "duration",
     "zh": "持續持久",
-    "example": "The duratin is important."
+    "example": "The meeting has a short duration."
   },
   {
     "en": "mars",
     "zh": "戰神",
-    "example": "The mars are here."
+    "example": "The mars was part of the plan."
   },
   {
     "en": "laughter",
     "zh": "笑",
-    "example": "The laughter is important."
+    "example": "He left the laughter at reception."
   },
   {
     "en": "male",
     "zh": "男性的",
-    "example": "The male is important."
+    "example": "The male staff member greeted us."
   },
   {
     "en": "law",
     "zh": "法律",
-    "example": "The law is important."
+    "example": "The law is included in the price."
   },
   {
     "en": "huge",
     "zh": "龐大的",
-    "example": "The huge is important."
+    "example": "The new store is huge."
   },
   {
     "en": "attract",
     "zh": "引誘",
-    "example": "The attract is important."
+    "example": "The bright sign attracts customers."
   },
   {
     "en": "even",
     "zh": "偶數 甚至 平坦",
-    "example": "The even is important."
+    "example": "The total is an even number."
   },
   {
     "en": "enent",
     "zh": "事件",
-    "example": "The enent is important."
+    "example": "The event begins at six."
   },
   {
     "en": "diary",
     "zh": "日記",
-    "example": "The diary is important."
+    "example": "He picked up the diary."
   },
   {
     "en": "exist",
     "zh": "出口",
-    "example": "The exist is important."
+    "example": "This problem does not exist anymore."
   },
   {
     "en": "fold",
     "zh": "交疊",
-    "example": "The fold is important."
+    "example": "Fold the paper in half."
   },
   {
     "en": "front",
     "zh": "前面",
-    "example": "The front is important."
+    "example": "Please wait at the front desk."
   },
   {
     "en": "gap",
     "zh": "缺口 峽谷",
-    "example": "The gap is important."
+    "example": "There is a small gap under the door."
   },
   {
     "en": "spot",
     "zh": "店點 汙點",
-    "example": "The spot is important."
+    "example": "I found a quiet spot to sit."
   },
   {
     "en": "cross",
     "zh": "交叉 越過",
-    "example": "The cross are here."
+    "example": "Cross the street carefully."
   },
   {
     "en": "breath",
     "zh": "呼吸",
-    "example": "The breath is important."
+    "example": "Take a deep breath."
   },
   {
     "en": "jelly",
     "zh": "果凍果醬",
-    "example": "The jelly is important."
+    "example": "The child ate toast with jelly."
   },
   {
     "en": "hall",
     "zh": "大廳走廊",
-    "example": "The hall is important."
+    "example": "The hall has a large entrance."
   },
   {
     "en": "boot",
     "zh": "長筒靴",
-    "example": "The boot is important."
+    "example": "One boot is under the chair."
   },
   {
     "en": "pause",
     "zh": "暫停",
-    "example": "The pause is important."
+    "example": "Let us pause for a minute."
   },
   {
     "en": "pain",
     "zh": "疼痛",
-    "example": "The pain is important."
+    "example": "She felt pain in her back."
   },
   {
     "en": "pool",
     "zh": "游泳池",
-    "example": "The pool is important."
+    "example": "The pool is close to our hotel."
   },
   {
     "en": "pop",
     "zh": "開槍 熱門",
-    "example": "The pop is important."
+    "example": "The balloon made a loud pop."
   },
   {
     "en": "bake",
     "zh": "烘烤",
-    "example": "The bake is important."
+    "example": "They bake bread each morning."
   },
   {
     "en": "floour",
     "zh": "麵粉",
-    "example": "The floour is important."
+    "example": "Add flour to the bowl."
   },
   {
     "en": "hop",
     "zh": "單足跳",
-    "example": "The hop is important."
+    "example": "The child can hop on one foot."
   },
   {
     "en": "pure",
     "zh": "純淨的",
-    "example": "The pure is important."
+    "example": "The water is pure and clean."
   },
   {
     "en": "glow",
     "zh": "光輝 灼熱",
-    "example": "The glow is important."
+    "example": "The lamp gave off a soft glow."
   },
   {
     "en": "shine",
     "zh": "光亮",
-    "example": "The shine is important."
+    "example": "The sun shines through the window."
   },
   {
     "en": "race",
     "zh": "比賽",
-    "example": "The race is important."
+    "example": "The children watched the race."
   },
   {
     "en": "self",
     "zh": "本身",
-    "example": "The self is important."
+    "example": "She did the work by herself."
   },
   {
     "en": "spoon",
     "zh": "湯匙",
-    "example": "The spoon is important."
+    "example": "I left the spoon at home."
   },
   {
     "en": "speed",
     "zh": "快速的",
-    "example": "The speed is important."
+    "example": "Keep the speed in a safe place."
   },
   {
     "en": "terrible",
     "zh": "麻煩",
-    "example": "The terrible is important."
+    "example": "The traffic was terrible today."
   },
   {
     "en": "then",
@@ -2567,77 +2567,77 @@
   {
     "en": "jet",
     "zh": "噴射機",
-    "example": "The jet is important."
+    "example": "Please wait for the jet."
   },
   {
     "en": "afraid",
     "zh": "害怕的",
-    "example": "The afraid is important."
+    "example": "He is afraid of dogs."
   },
   {
     "en": "shape",
     "zh": "形狀",
-    "example": "The shape is important."
+    "example": "She checked the shape before leaving."
   },
   {
     "en": "fool",
     "zh": "蠢 戲弄",
-    "example": "The fool is important."
+    "example": "Please contact the fool directly."
   },
   {
     "en": "fan",
     "zh": "粉絲",
-    "example": "The fan is important."
+    "example": "The fan works near here."
   },
   {
     "en": "fry",
     "zh": "油炸",
-    "example": "The fry is important."
+    "example": "Fry the eggs for two minutes."
   },
   {
     "en": "coat",
     "zh": "外套",
-    "example": "The coat is important."
+    "example": "The coat is in good condition."
   },
   {
     "en": "rat",
     "zh": "老鼠",
-    "example": "The rat is important."
+    "example": "The rat will help us plan."
   },
   {
     "en": "shut",
     "zh": "關上",
-    "example": "The shut is important."
+    "example": "Please shut the window."
   },
   {
     "en": "truth",
     "zh": "事實",
-    "example": "The truth is important."
+    "example": "They need a new truth."
   },
   {
     "en": "vase",
     "zh": "花瓶",
-    "example": "The vase is important."
+    "example": "The vase is on the table near the window."
   },
   {
     "en": "noise",
     "zh": "噪音",
-    "example": "The noise is important."
+    "example": "We looked at the noise together."
   },
   {
     "en": "none",
     "zh": "一點都不",
-    "example": "The none is important."
+    "example": "None of the rooms is available."
   },
   {
     "en": "owl",
     "zh": "貓頭鷹",
-    "example": "The owl is important."
+    "example": "The owl changed this month."
   },
   {
     "en": "knock",
     "zh": "敲打",
-    "example": "The knock is important."
+    "example": "Knock before you enter."
   },
   {
     "en": "age",
@@ -2647,572 +2647,572 @@
   {
     "en": "ant",
     "zh": "螞蟻",
-    "example": "The ant is important."
+    "example": "He left the ant at reception."
   },
   {
     "en": "bat",
     "zh": "蝙蝠 球棒",
-    "example": "The bat is important."
+    "example": "I have a question about the bat."
   },
   {
     "en": "shy",
     "zh": "害羞的",
-    "example": "The shy is important."
+    "example": "The shy boy did not speak much."
   },
   {
     "en": "far",
     "zh": "遙遠的",
-    "example": "The far is important."
+    "example": "The hotel is not far from here."
   },
   {
     "en": "hat",
     "zh": "帽子",
-    "example": "The hat is important."
+    "example": "We checked the hat before leaving."
   },
   {
     "en": "kid",
     "zh": "小孩",
-    "example": "The kid is important."
+    "example": "Everyone knows the kid."
   },
   {
     "en": "kind",
     "zh": "親切的",
-    "example": "The kind is important."
+    "example": "Our guide was very kind."
   },
   {
     "en": "let",
     "zh": "允許 讓",
-    "example": "The let is important."
+    "example": "Please let me know soon."
   },
   {
     "en": "low",
     "zh": "低廉的",
-    "example": "It is low."
+    "example": "The price is low today."
   },
   {
     "en": "oil",
     "zh": "石油",
-    "example": "The oil is important."
+    "example": "She chose the oil carefully."
   },
   {
     "en": "sick",
     "zh": "生病",
-    "example": "The sick is important."
+    "example": "He stayed home because he was sick."
   },
   {
     "en": "side",
     "zh": "側 一邊",
-    "example": "The side is important."
+    "example": "They are waiting for the side."
   },
   {
     "en": "tie",
     "zh": "領帶 平手",
-    "example": "The tie is important."
+    "example": "The tie is on the table."
   },
   {
     "en": "candidate",
     "zh": "應徵者",
-    "example": "The candidate is important."
+    "example": "Please ask the candidate for help."
   },
   {
     "en": "resume",
     "zh": "履歷",
-    "example": "The resume is important."
+    "example": "We chose the resume carefully."
   },
   {
     "en": "qualification",
     "zh": "資格",
-    "example": "The qualification is important."
+    "example": "The qualification belongs to our team."
   },
   {
     "en": "recruit",
     "zh": "招募",
-    "example": "The recruit is important."
+    "example": "She copied the recruit into her notebook."
   },
   {
     "en": "employer",
     "zh": "雇主",
-    "example": "The employer is important."
+    "example": "I met the employer yesterday."
   },
   {
     "en": "assistant",
     "zh": "助理",
-    "example": "The assistant is important."
+    "example": "The assistant answered my question."
   },
   {
     "en": "secretary",
     "zh": "祕書",
-    "example": "The secretary is important."
+    "example": "We spoke to the secretary after lunch."
   },
   {
     "en": "representative",
     "zh": "代表",
-    "example": "The representative is important."
+    "example": "The representative knows the procedure."
   },
   {
     "en": "consultant",
     "zh": "顧問",
-    "example": "The consultant is important."
+    "example": "She introduced the consultant to us."
   },
   {
     "en": "intern",
     "zh": "實習生",
-    "example": "The intern is important."
+    "example": "The intern will join the meeting."
   },
   {
     "en": "retire",
     "zh": "退休",
-    "example": "The retire is important."
+    "example": "My father will retire next year."
   },
   {
     "en": "resign",
     "zh": "辭職",
-    "example": "The resign is important."
+    "example": "She resigned from her position."
   },
   {
     "en": "transfer",
     "zh": "調職、轉移",
-    "example": "The transfer is important."
+    "example": "They transferred him to another branch."
   },
   {
     "en": "assign",
     "zh": "指派",
-    "example": "The assign is important."
+    "example": "The supervisor assigned a new task."
   },
   {
     "en": "participate",
     "zh": "參與",
-    "example": "The participate is important."
+    "example": "Many employees participated in the survey."
   },
   {
     "en": "cooperate",
     "zh": "合作",
-    "example": "The cooperate is important."
+    "example": "The two teams cooperated well."
   },
   {
     "en": "assist",
     "zh": "協助",
-    "example": "The assist is important."
+    "example": "I can assist you at the desk."
   },
   {
     "en": "support",
     "zh": "支援、支持",
-    "example": "The support is important."
+    "example": "The staff support each other."
   },
   {
     "en": "achieve",
     "zh": "達成",
-    "example": "The achieve is important."
+    "example": "We achieved our goal."
   },
   {
     "en": "bonus",
     "zh": "獎金",
-    "example": "The bonus are here."
+    "example": "The bonus was easy to understand."
   },
   {
     "en": "approve",
     "zh": "核准",
-    "example": "The approve is important."
+    "example": "The director approved the budget."
   },
   {
     "en": "inform",
     "zh": "通知",
-    "example": "The inform is important."
+    "example": "Please inform the customer."
   },
   {
     "en": "remind",
     "zh": "提醒",
-    "example": "The remind is important."
+    "example": "Please remind me tomorrow."
   },
   {
     "en": "mention",
     "zh": "提及",
-    "example": "The mention is important."
+    "example": "She mentioned your name."
   },
   {
     "en": "describe",
     "zh": "描述",
-    "example": "The describe is important."
+    "example": "Can you describe the problem?"
   },
   {
     "en": "introduce",
     "zh": "介紹",
-    "example": "The introduce is important."
+    "example": "Let me introduce our new manager."
   },
   {
     "en": "identify",
     "zh": "辨識",
-    "example": "The identify is important."
+    "example": "Please identify the correct file."
   },
   {
     "en": "verify",
     "zh": "核實",
-    "example": "The verify is important."
+    "example": "We must verify the address."
   },
   {
     "en": "inspect",
     "zh": "檢查",
-    "example": "The inspect is important."
+    "example": "The worker inspected the equipment."
   },
   {
     "en": "maintain",
     "zh": "維護",
-    "example": "The maintain is important."
+    "example": "They maintain the building well."
   },
   {
     "en": "adjust",
     "zh": "調整",
-    "example": "The adjust is important."
+    "example": "Adjust the screen brightness."
   },
   {
     "en": "reduce",
     "zh": "減少",
-    "example": "The reduce is important."
+    "example": "The company reduced costs."
   },
   {
     "en": "expand",
     "zh": "擴大",
-    "example": "The expand is important."
+    "example": "The store will expand next year."
   },
   {
     "en": "create",
     "zh": "建立、創造",
-    "example": "The create is important."
+    "example": "They created a new schedule."
   },
   {
     "en": "design",
     "zh": "設計",
-    "example": "The design is important."
+    "example": "She designed the poster."
   },
   {
     "en": "remove",
     "zh": "移除",
-    "example": "The remove is important."
+    "example": "Please remove the old notice."
   },
   {
     "en": "attach",
     "zh": "附上",
-    "example": "The attach is important."
+    "example": "Attach the receipt to the email."
   },
   {
     "en": "print",
     "zh": "列印",
-    "example": "The print is important."
+    "example": "Print two copies, please."
   },
   {
     "en": "continue",
     "zh": "繼續",
-    "example": "The continue is important."
+    "example": "Please continue with the lesson."
   },
   {
     "en": "keyboard",
     "zh": "鍵盤",
-    "example": "The keyboard is important."
+    "example": "The keyboard is on the table."
   },
   {
     "en": "screen",
     "zh": "螢幕",
-    "example": "The screen is important."
+    "example": "I put the screen in my bag."
   },
   {
     "en": "software",
     "zh": "軟體",
-    "example": "The software is important."
+    "example": "Please take the software with you."
   },
   {
     "en": "device",
     "zh": "裝置",
-    "example": "The device is important."
+    "example": "She found the device quickly."
   },
   {
     "en": "tool",
     "zh": "工具",
-    "example": "The tool is important."
+    "example": "The tool is next to the door."
   },
   {
     "en": "battery",
     "zh": "電池",
-    "example": "The battery is important."
+    "example": "He picked up the battery."
   },
   {
     "en": "cable",
     "zh": "線材",
-    "example": "The cable is important."
+    "example": "Please keep the cable clean."
   },
   {
     "en": "network",
     "zh": "網路",
-    "example": "The network is important."
+    "example": "I found the network in the drawer."
   },
   {
     "en": "connection",
     "zh": "連線",
-    "example": "The connection is important."
+    "example": "The connection was useful during the trip."
   },
   {
     "en": "facility",
     "zh": "設施",
-    "example": "The facility is important."
+    "example": "Her office is inside the facility."
   },
   {
     "en": "warehouse",
     "zh": "倉庫",
-    "example": "The warehouse is important."
+    "example": "The warehouse is busy in the morning."
   },
   {
     "en": "storage",
     "zh": "儲存",
-    "example": "The storage is important."
+    "example": "Please return the storage after use."
   },
   {
     "en": "shelf",
     "zh": "架子",
-    "example": "The shelf is important."
+    "example": "We checked the shelf before leaving."
   },
   {
     "en": "cabinet",
     "zh": "櫃子",
-    "example": "The cabinet is important."
+    "example": "The cabinet belongs to the office."
   },
   {
     "en": "drawer",
     "zh": "抽屜",
-    "example": "The drawer is important."
+    "example": "He carried the drawer upstairs."
   },
   {
     "en": "elevator",
     "zh": "電梯",
-    "example": "The elevator is important."
+    "example": "The elevator is cheaper online."
   },
   {
     "en": "stairs",
     "zh": "樓梯",
-    "example": "The stairs are here."
+    "example": "He asked for the stairs at the counter."
   },
   {
     "en": "lobby",
     "zh": "大廳",
-    "example": "The lobby is important."
+    "example": "We walked past the lobby."
   },
   {
     "en": "furniture",
     "zh": "家具",
-    "example": "The furniture is important."
+    "example": "The furniture is in good condition."
   },
   {
     "en": "profit",
     "zh": "利潤",
-    "example": "The profit is important."
+    "example": "We discussed the profit at the meeting."
   },
   {
     "en": "loan",
     "zh": "貸款",
-    "example": "The loan is important."
+    "example": "The loan needs attention."
   },
   {
     "en": "deposit",
     "zh": "訂金、存款",
-    "example": "The deposit is important."
+    "example": "Please check the deposit carefully."
   },
   {
     "en": "balance",
     "zh": "餘額",
-    "example": "The balance is important."
+    "example": "She explained the balance clearly."
   },
   {
     "en": "invoice",
     "zh": "發票、請款單",
-    "example": "The invoice is important."
+    "example": "She found the invoice quickly."
   },
   {
     "en": "consumer",
     "zh": "消費者",
-    "example": "The consumer is important."
+    "example": "The consumer called this morning."
   },
   {
     "en": "supplier",
     "zh": "供應商",
-    "example": "The supplier is important."
+    "example": "I met the supplier yesterday."
   },
   {
     "en": "sample",
     "zh": "樣品",
-    "example": "The sample is important."
+    "example": "Please keep the sample clean."
   },
   {
     "en": "warranty",
     "zh": "保固",
-    "example": "The warranty is important."
+    "example": "Please send the warranty by email."
   },
   {
     "en": "replacement",
     "zh": "替換品",
-    "example": "The replacement is important."
+    "example": "The replacement changed this week."
   },
   {
     "en": "visa",
     "zh": "簽證",
-    "example": "The visa is important."
+    "example": "She bought the visa yesterday."
   },
   {
     "en": "customs",
     "zh": "海關",
-    "example": "The customs are here."
+    "example": "The customs looks correct."
   },
   {
     "en": "shuttle",
     "zh": "接駁車",
-    "example": "The shuttle is important."
+    "example": "The shuttle leaves at eight."
   },
   {
     "en": "commute",
     "zh": "通勤",
-    "example": "The commute is important."
+    "example": "He commutes by train."
   },
   {
     "en": "traffic",
     "zh": "交通",
-    "example": "The traffic is important."
+    "example": "The traffic is on today's agenda."
   },
   {
     "en": "intersection",
     "zh": "十字路口",
-    "example": "The intersection is important."
+    "example": "The intersection has a large entrance."
   },
   {
     "en": "sidewalk",
     "zh": "人行道",
-    "example": "The sidewalk is important."
+    "example": "Ask for help at the sidewalk."
   },
   {
     "en": "arrival",
     "zh": "抵達",
-    "example": "The arrival is important."
+    "example": "I will see you this arrival."
   },
   {
     "en": "aisle",
     "zh": "走道",
-    "example": "The aisle is important."
+    "example": "We walked past the aisle."
   },
   {
     "en": "beverage",
     "zh": "飲料",
-    "example": "The beverage is important."
+    "example": "The beverage is in good condition."
   },
   {
     "en": "annual",
     "zh": "每年的",
-    "example": "The annual is important."
+    "example": "The company holds an annual meeting."
   },
   {
     "en": "monthly",
     "zh": "每月的",
-    "example": "The monthly is important."
+    "example": "We pay the bill monthly."
   },
   {
     "en": "temporary",
     "zh": "暫時的",
-    "example": "It is temporary."
+    "example": "This job is temporary."
   },
   {
     "en": "permanent",
     "zh": "永久的",
-    "example": "It is permanent."
+    "example": "She has a permanent position."
   },
   {
     "en": "regular",
     "zh": "定期的、一般的",
-    "example": "It is regular."
+    "example": "We have a regular meeting."
   },
   {
     "en": "common",
     "zh": "常見的",
-    "example": "It is common."
+    "example": "This is a common mistake."
   },
   {
     "en": "general",
     "zh": "一般的",
-    "example": "It is general."
+    "example": "I need general information."
   },
   {
     "en": "specific",
     "zh": "特定的",
-    "example": "It is specific."
+    "example": "Please give a specific example."
   },
   {
     "en": "individual",
     "zh": "個別的",
-    "example": "It is individual."
+    "example": "Each individual has a number."
   },
   {
     "en": "entire",
     "zh": "全部的",
-    "example": "It is entire."
+    "example": "He read the entire report."
   },
   {
     "en": "various",
     "zh": "各式各樣的",
-    "example": "It is various."
+    "example": "The store sells various tools."
   },
   {
     "en": "similar",
     "zh": "相似的",
-    "example": "It is similar."
+    "example": "The two bags look similar."
   },
   {
     "en": "suitable",
     "zh": "合適的",
-    "example": "It is suitable."
+    "example": "This time is suitable for me."
   },
   {
     "en": "effective",
     "zh": "有效的",
-    "example": "It is effective."
+    "example": "The new rule is effective."
   },
   {
     "en": "accurate",
     "zh": "準確的",
-    "example": "It is accurate."
+    "example": "The address is accurate."
   },
   {
     "en": "limited",
     "zh": "有限的",
-    "example": "It is limited."
+    "example": "The offer is for a limited time."
   },
   {
     "en": "private",
     "zh": "私人的",
-    "example": "It is private."
+    "example": "This is a private office."
   },
   {
     "en": "public",
     "zh": "公開的",
-    "example": "It is public."
+    "example": "The library is a public place."
   },
   {
     "en": "currently",
     "zh": "目前",
-    "example": "The currently is important."
+    "example": "I found the currently in the drawer."
   },
   {
     "en": "team",
     "zh": "團隊",
-    "example": "The team is important."
+    "example": "The team was useful during the trip."
   },
   {
     "en": "project",
     "zh": "專案",
-    "example": "The project is important."
+    "example": "They are waiting for the project."
   },
   {
     "en": "call",
     "zh": "打電話、電話",
-    "example": "We call it every day."
+    "example": "Please call me after lunch."
   },
   {
     "en": "copy",
     "zh": "副本、影印",
-    "example": "The copy is important."
+    "example": "Please return the copy after use."
   },
   {
     "en": "check",
@@ -3227,7 +3227,7 @@
   {
     "en": "cost",
     "zh": "花費、價格為",
-    "example": "The cost is important."
+    "example": "The team is working on the cost."
   },
   {
     "en": "move",
@@ -3237,12 +3237,12 @@
   {
     "en": "complete",
     "zh": "完成",
-    "example": "The complete is important."
+    "example": "Please complete this form."
   },
   {
     "en": "return",
     "zh": "返回、歸還",
-    "example": "We return it every day."
+    "example": "Return the book next week."
   },
   {
     "en": "choose",
@@ -3252,12 +3252,12 @@
   {
     "en": "hour",
     "zh": "小時",
-    "example": "The hour is important."
+    "example": "The hour went by quickly."
   },
   {
     "en": "minute",
     "zh": "分鐘",
-    "example": "The minute is important."
+    "example": "We will meet during the minute."
   },
   {
     "en": "early",
@@ -3272,62 +3272,62 @@
   {
     "en": "deadline",
     "zh": "截止期限",
-    "example": "The deadline is important."
+    "example": "The deadline is part of the plan."
   },
   {
     "en": "delay",
     "zh": "延誤",
-    "example": "The delay is important."
+    "example": "The delay went by quickly."
   },
   {
     "en": "shop",
     "zh": "商店、購物",
-    "example": "The shop is important."
+    "example": "Ask for help at the shop."
   },
   {
     "en": "market",
     "zh": "市場",
-    "example": "The market is important."
+    "example": "The market is open on weekends."
   },
   {
     "en": "total",
     "zh": "總計",
-    "example": "It is total."
+    "example": "Please send the total by email."
   },
   {
     "en": "credit",
     "zh": "信用",
-    "example": "The credit is important."
+    "example": "The credit changed this week."
   },
   {
     "en": "special",
     "zh": "特別的",
-    "example": "It is special."
+    "example": "Today is a special day."
   },
   {
     "en": "popular",
     "zh": "受歡迎的",
-    "example": "It is popular."
+    "example": "This cafe is popular."
   },
   {
     "en": "online",
     "zh": "線上的",
-    "example": "The online is important."
+    "example": "I forgot the online at home."
   },
   {
     "en": "driver",
     "zh": "司機",
-    "example": "The driver is important."
+    "example": "The driver is waiting outside."
   },
   {
     "en": "parking",
     "zh": "停車",
-    "example": "The parking is important."
+    "example": "The parking is easy to find."
   },
   {
     "en": "center",
     "zh": "中心",
-    "example": "The center is important."
+    "example": "The center is across from the bank."
   },
   {
     "en": "next",
@@ -3337,12 +3337,12 @@
   {
     "en": "walk",
     "zh": "步行",
-    "example": "The walk is important."
+    "example": "The walk is on the second floor."
   },
   {
     "en": "departure",
     "zh": "出發",
-    "example": "The departure is important."
+    "example": "The departure starts at nine."
   },
   {
     "en": "another",
@@ -3367,17 +3367,17 @@
   {
     "en": "while",
     "zh": "當……期間",
-    "example": "The while is important."
+    "example": "Please wait here while I check."
   },
   {
     "en": "about",
     "zh": "關於、大約",
-    "example": "The about is important."
+    "example": "We spoke about the new plan."
   },
   {
     "en": "between",
     "zh": "在……之間",
-    "example": "The between is important."
+    "example": "The cafe is between the bank and the store."
   },
   {
     "en": "ability",
@@ -3942,7 +3942,7 @@
   {
     "en": "enterprise",
     "zh": "企業",
-    "example": "It is a successful business enterprise."
+    "example": "I found the enterprise in the drawer."
   },
   {
     "en": "environment",
@@ -4057,7 +4057,7 @@
   {
     "en": "global",
     "zh": "全球的",
-    "example": "It is a global company."
+    "example": "The company has global offices."
   },
   {
     "en": "grant",
