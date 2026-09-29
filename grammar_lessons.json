@@ -1,0 +1,90 @@
+[
+  {
+    "title": "助動詞後面選原形",
+    "rule": "看到 must、can、will，後面直接選原形動詞。",
+    "question": "All visitors must ___ at the front desk.",
+    "options": ["sign", "signs", "signed", "signing"],
+    "answer": "sign",
+    "note": "must 後面要接原形動詞。"
+  },
+  {
+    "title": "be 動詞後面的形式",
+    "rule": "is／are／was／were 後面常接 -ing、過去分詞或形容詞。",
+    "question": "The meeting is ___ for Friday afternoon.",
+    "options": ["schedule", "scheduled", "scheduling", "schedules"],
+    "answer": "scheduled",
+    "note": "is scheduled 表示「已被安排」，所以用過去分詞。"
+  },
+  {
+    "title": "介系詞後面接名詞或 -ing",
+    "rule": "before、after、without 後面常接名詞或動詞 -ing。",
+    "question": "Please check the document before ___ it.",
+    "options": ["send", "sends", "sending", "sent"],
+    "answer": "sending",
+    "note": "before 後面可接動詞 -ing。"
+  },
+  {
+    "title": "冠詞後面找名詞",
+    "rule": "a、an、the 後面通常需要名詞。",
+    "question": "Please submit the completed ___ by Friday.",
+    "options": ["apply", "application", "applying", "applicable"],
+    "answer": "application",
+    "note": "the 後面需要名詞；application 是「申請表」。"
+  },
+  {
+    "title": "very 後面選形容詞或副詞",
+    "rule": "very 後面通常接形容詞或副詞。",
+    "question": "The new software is very ___ to use.",
+    "options": ["ease", "easily", "easy", "easier"],
+    "answer": "easy",
+    "note": "very 後面接形容詞；easy 是形容詞。"
+  },
+  {
+    "title": "When 問時間",
+    "rule": "When 問時間，要選時間答案。",
+    "question": "When will the package arrive?",
+    "options": ["At around noon.", "At the front desk.", "With Mr. Lee."],
+    "answer": "At around noon.",
+    "note": "When 是問時間，所以選「中午左右」。"
+  },
+  {
+    "title": "Where 問地點",
+    "rule": "Where 問地點，要選地點答案。",
+    "question": "Where is the sales meeting?",
+    "options": ["On Friday morning.", "In Conference Room B.", "With the new manager."],
+    "answer": "In Conference Room B.",
+    "note": "Where 是問地點，所以選會議室。"
+  },
+  {
+    "title": "Who 問人",
+    "rule": "Who 問人，要選人或職稱答案。",
+    "question": "Who will lead the presentation?",
+    "options": ["Ms. Chen from Marketing.", "At 2 P.M.", "In the main hall."],
+    "answer": "Ms. Chen from Marketing.",
+    "note": "Who 是問人，所以選陳女士。"
+  },
+  {
+    "title": "Why 問原因",
+    "rule": "Why 問原因，要選 because、原因或理由。",
+    "question": "Why was the flight delayed?",
+    "options": ["Because of the storm.", "At Gate 14.", "For three passengers."],
+    "answer": "Because of the storm.",
+    "note": "Why 是問原因，所以選因為暴風雨。"
+  },
+  {
+    "title": "How much 問金額或不可數量",
+    "rule": "How much 問價錢、金額，或不可數名詞的量。",
+    "question": "How much is the annual membership fee?",
+    "options": ["It is $50.", "There are 50 members.", "It is in May."],
+    "answer": "It is $50.",
+    "note": "How much 問金額，所以選 50 美元。"
+  },
+  {
+    "title": "How many 問可數數量",
+    "rule": "How many 問可以數的數量。",
+    "question": "How many applicants were interviewed?",
+    "options": ["About twenty.", "For two hours.", "At the main office."],
+    "answer": "About twenty.",
+    "note": "How many 問人數，所以選大約二十位。"
+  }
+]
