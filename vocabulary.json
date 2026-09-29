@@ -2182,7 +2182,7 @@
   {
     "en": "airline",
     "zh": "航空公司",
-    "example": "We took the airline downtown."
+    "example": "What airline did you fly with?"
   },
   {
     "en": "board",
@@ -2390,14 +2390,14 @@
     "example": "The meeting has a short duration."
   },
   {
-    "en": "mars",
-    "zh": "戰神",
-    "example": "The mars was part of the plan."
+    "en": "Mars",
+    "zh": "火星",
+    "example": "The Mars was part of the plan."
   },
   {
     "en": "laughter",
     "zh": "笑",
-    "example": "He left the laughter at reception."
+    "example": "She roared with laughter (= laughed very loudly)."
   },
   {
     "en": "male",
@@ -2425,7 +2425,7 @@
     "example": "The total is an even number."
   },
   {
-    "en": "enent",
+    "en": "event",
     "zh": "事件",
     "example": "The event begins at six."
   },
@@ -2441,7 +2441,7 @@
   },
   {
     "en": "fold",
-    "zh": "交疊",
+    "zh": "折疊",
     "example": "Fold the paper in half."
   },
   {
@@ -2456,7 +2456,7 @@
   },
   {
     "en": "spot",
-    "zh": "店點 汙點",
+    "zh": "地點 斑點",
     "example": "I found a quiet spot to sit."
   },
   {
@@ -2510,7 +2510,7 @@
     "example": "They bake bread each morning."
   },
   {
-    "en": "floour",
+    "en": "flour",
     "zh": "麵粉",
     "example": "Add flour to the bowl."
   },
@@ -2551,12 +2551,12 @@
   },
   {
     "en": "speed",
-    "zh": "快速的",
+    "zh": "速度",
     "example": "Keep the speed in a safe place."
   },
   {
     "en": "terrible",
-    "zh": "麻煩",
+    "zh": "非常糟糕的",
     "example": "The traffic was terrible today."
   },
   {
@@ -2602,7 +2602,7 @@
   {
     "en": "rat",
     "zh": "老鼠",
-    "example": "The rat will help us plan."
+    "example": "Rats carry disease."
   },
   {
     "en": "shut",
@@ -2722,7 +2722,7 @@
   {
     "en": "qualification",
     "zh": "資格",
-    "example": "The qualification belongs to our team."
+    "example": "Do you have any teaching qualifications?"
   },
   {
     "en": "recruit",
@@ -2982,7 +2982,7 @@
   {
     "en": "elevator",
     "zh": "電梯",
-    "example": "The elevator is cheaper online."
+    "example": "The elevators were frequently not working."
   },
   {
     "en": "stairs",
@@ -3055,9 +3055,9 @@
     "example": "She bought the visa yesterday."
   },
   {
-    "en": "customs",
-    "zh": "海關",
-    "example": "The customs looks correct."
+    "en": "custom",
+    "zh": "習俗 慣例",
+    "example": "In my country, it's the custom to get married in white."
   },
   {
     "en": "shuttle",
@@ -3087,7 +3087,7 @@
   {
     "en": "arrival",
     "zh": "抵達",
-    "example": "I will see you this arrival."
+    "example": "I will see you at the arrival."
   },
   {
     "en": "aisle",
@@ -3191,13 +3191,13 @@
   },
   {
     "en": "currently",
-    "zh": "目前",
-    "example": "I found the currently in the drawer."
+    "zh": "目前 現在",
+    "example": "The device is currently available in Japan."
   },
   {
     "en": "team",
     "zh": "團隊",
-    "example": "The team was useful during the trip."
+    "example": "Our team came third in the competition."
   },
   {
     "en": "project",
