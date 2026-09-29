@@ -276,6 +276,16 @@ function answerCloze(button, selectedWord) {
   $("#nextCloze").classList.remove("hidden");
 }
 
+function speakEnglish(text) {
+  speechSynthesis.cancel();
+
+  const speech = new SpeechSynthesisUtterance(text);
+  speech.lang = "en-US";
+  speech.rate = 0.8;
+
+  speechSynthesis.speak(speech);
+}
+
 function renderLibrary() {
   const list = $("#libraryList");
 
@@ -303,6 +313,10 @@ function renderLibrary() {
         </div>
         <span class="badge">答錯 ${progress[word.en].wrong} 次</span>
       `;
+
+      row.onclick = () => speakEnglish(word.en);
+      row.title = "點一下播放發音";
+      row.style.cursor = "pointer";
 
       list.append(row);
     });
