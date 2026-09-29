@@ -1,6 +1,7 @@
 const $ = (selector) => document.querySelector(selector);
 
 let words = [];
+let p5Words = [];
 let current;
 let cloze;
 
@@ -10,7 +11,10 @@ const oldWeakWords = JSON.parse(localStorage.getItem("weakWords") || "{}");
 let progress = savedProgress
   ? JSON.parse(savedProgress)
   : Object.fromEntries(
-      Object.entries(oldWeakWords).map(([en, wrong]) => [en, { wrong, streak: 0 }])
+      Object.entries(oldWeakWords).map(([en, wrong]) => [
+        en,
+        { wrong, streak: 0 }
+      ])
     );
 
 const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
@@ -95,15 +99,19 @@ function renderWeakCount() {
 
 async function start() {
   try {
-    words = await fetch("./vocabulary.json").then((response) =>
-      response.json()
-    );
+    const [allWords, businessWords] = await Promise.all([
+      fetch("./vocabulary.json").then((response) => response.json()),
+      fetch("./vocabulary_p5.json").then((response) => response.json())
+    ]);
+
+    words = allWords;
+    p5Words = businessWords;
 
     renderWeakCount();
     newTranslate();
   } catch {
     $("#translate").innerHTML =
-      "<p>找不到 vocabulary.json，請確認它和 index.html 放在同一個資料夾。</p>";
+      "<p>找不到 vocabulary.json 或 vocabulary_p5.json，請確認兩個檔案都和 index.html 放在同一個資料夾。</p>";
   }
 }
 
@@ -182,7 +190,7 @@ function makeClozeSentence(word) {
 }
 
 function pickClozeWord() {
-  const usableWords = words.filter((word) => makeClozeSentence(word));
+  const usableWords = p5Words.filter((word) => makeClozeSentence(word));
 
   return pickWeightedWord(usableWords);
 }
@@ -190,20 +198,21 @@ function pickClozeWord() {
 function getClozeOptions(answer) {
   const answerType = getWordType(answer);
 
-  const sameType = words.filter(
+  const sameType = p5Words.filter(
     (word) => word.en !== answer.en && getWordType(word) === answerType
   );
 
-  const fallback = words.filter((word) => word.en !== answer.en);
+  const fallback = p5Words.filter(
+    (word) => word.en !== answer.en
+  );
 
   const distractors = shuffle(sameType).slice(0, 3);
 
   if (distractors.length < 3) {
     distractors.push(
-      ...shuffle(fallback.filter((word) => !distractors.includes(word))).slice(
-        0,
-        3 - distractors.length
-      )
+      ...shuffle(
+        fallback.filter((word) => !distractors.includes(word))
+      ).slice(0, 3 - distractors.length)
     );
   }
 

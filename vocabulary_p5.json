@@ -1,0 +1,802 @@
+[
+  {
+    "en": "appointment",
+    "zh": "預約",
+    "example": "Ms. Chen has an appointment with the regional manager at 2 P.M."
+  },
+  {
+    "en": "applicant",
+    "zh": "申請者",
+    "example": "Each applicant must submit a résumé before the interview."
+  },
+  {
+    "en": "application",
+    "zh": "申請、申請表",
+    "example": "Please complete the application and return it to Human Resources."
+  },
+  {
+    "en": "approve",
+    "zh": "核准",
+    "example": "The director approved the travel budget yesterday."
+  },
+  {
+    "en": "arrange",
+    "zh": "安排",
+    "example": "We arranged a meeting with the supplier for next Tuesday."
+  },
+  {
+    "en": "attend",
+    "zh": "參加",
+    "example": "All new employees must attend the safety training."
+  },
+  {
+    "en": "available",
+    "zh": "可取得的、有空的",
+    "example": "The sales manager will be available after 3 P.M."
+  },
+  {
+    "en": "benefit",
+    "zh": "好處、福利",
+    "example": "Health insurance is one of the benefits offered to full-time staff."
+  },
+  {
+    "en": "budget",
+    "zh": "預算",
+    "example": "The marketing team stayed within its budget this quarter."
+  },
+  {
+    "en": "candidate",
+    "zh": "應徵者",
+    "example": "The best candidate will receive an offer by Friday."
+  },
+  {
+    "en": "cancel",
+    "zh": "取消",
+    "example": "The airline canceled several flights because of the storm."
+  },
+  {
+    "en": "cancellation",
+    "zh": "取消",
+    "example": "Customers will receive a refund after a cancellation is confirmed."
+  },
+  {
+    "en": "client",
+    "zh": "客戶",
+    "example": "Our client requested a copy of the signed contract."
+  },
+  {
+    "en": "colleague",
+    "zh": "同事",
+    "example": "Ms. Rivera discussed the proposal with her colleagues."
+  },
+  {
+    "en": "company",
+    "zh": "公司",
+    "example": "The company will open a new office in Singapore next year."
+  },
+  {
+    "en": "confirm",
+    "zh": "確認",
+    "example": "Please confirm your reservation by replying to this email."
+  },
+  {
+    "en": "conference",
+    "zh": "會議、大會",
+    "example": "The annual conference will be held at the Grand Hotel."
+  },
+  {
+    "en": "contract",
+    "zh": "合約",
+    "example": "Both companies signed the contract last week."
+  },
+  {
+    "en": "convenient",
+    "zh": "方便的",
+    "example": "The new shuttle service is convenient for employees who commute by train."
+  },
+  {
+    "en": "customer",
+    "zh": "顧客",
+    "example": "Customers may exchange unused products within 30 days."
+  },
+  {
+    "en": "deadline",
+    "zh": "截止期限",
+    "example": "The deadline for submitting expense reports is Monday."
+  },
+  {
+    "en": "decision",
+    "zh": "決定",
+    "example": "The committee will announce its decision tomorrow morning."
+  },
+  {
+    "en": "delay",
+    "zh": "延誤",
+    "example": "The shipment was delayed because the warehouse was closed."
+  },
+  {
+    "en": "deliver",
+    "zh": "運送、交付",
+    "example": "The courier will deliver the package before noon."
+  },
+  {
+    "en": "delivery",
+    "zh": "配送",
+    "example": "Free delivery is available for orders over $50."
+  },
+  {
+    "en": "department",
+    "zh": "部門",
+    "example": "Please send the invoice to the accounting department."
+  },
+  {
+    "en": "description",
+    "zh": "說明、描述",
+    "example": "The job description lists the required skills and duties."
+  },
+  {
+    "en": "destination",
+    "zh": "目的地",
+    "example": "Passengers should check the destination before boarding the bus."
+  },
+  {
+    "en": "discount",
+    "zh": "折扣",
+    "example": "Members receive a 10 percent discount on all hotel rooms."
+  },
+  {
+    "en": "document",
+    "zh": "文件",
+    "example": "Please attach the document to your online application."
+  },
+  {
+    "en": "employee",
+    "zh": "員工",
+    "example": "Employees are asked to wear identification cards at work."
+  },
+  {
+    "en": "employer",
+    "zh": "雇主",
+    "example": "The employer provides training for new workers."
+  },
+  {
+    "en": "equipment",
+    "zh": "設備",
+    "example": "The technician inspected the office equipment this morning."
+  },
+  {
+    "en": "event",
+    "zh": "活動",
+    "example": "The company is planning a special event for its customers."
+  },
+  {
+    "en": "expense",
+    "zh": "費用、支出",
+    "example": "Meals during business trips are reimbursable expenses."
+  },
+  {
+    "en": "experience",
+    "zh": "經驗",
+    "example": "Previous customer-service experience is preferred for this position."
+  },
+  {
+    "en": "facility",
+    "zh": "設施",
+    "example": "The fitness facility is open to employees until 10 P.M."
+  },
+  {
+    "en": "feedback",
+    "zh": "回饋",
+    "example": "We value feedback from customers about our new website."
+  },
+  {
+    "en": "fee",
+    "zh": "費用",
+    "example": "A service fee will be added to the final bill."
+  },
+  {
+    "en": "flight",
+    "zh": "航班",
+    "example": "Flight 218 to Manila will depart from Gate 14."
+  },
+  {
+    "en": "guarantee",
+    "zh": "保證",
+    "example": "This printer comes with a two-year guarantee."
+  },
+  {
+    "en": "headquarters",
+    "zh": "總部",
+    "example": "The company headquarters is located near the central station."
+  },
+  {
+    "en": "hire",
+    "zh": "雇用",
+    "example": "The restaurant plans to hire three additional cooks."
+  },
+  {
+    "en": "income",
+    "zh": "收入",
+    "example": "The store increased its income by offering online sales."
+  },
+  {
+    "en": "inform",
+    "zh": "通知",
+    "example": "Please inform all staff members about the new policy."
+  },
+  {
+    "en": "inspect",
+    "zh": "檢查",
+    "example": "A technician will inspect the air-conditioning system tomorrow."
+  },
+  {
+    "en": "instruction",
+    "zh": "指示、說明",
+    "example": "Follow the instructions on the package before using the product."
+  },
+  {
+    "en": "interview",
+    "zh": "面試",
+    "example": "The applicant has an interview with the supervisor on Thursday."
+  },
+  {
+    "en": "invoice",
+    "zh": "發票、請款單",
+    "example": "The supplier sent an invoice for last month’s order."
+  },
+  {
+    "en": "issue",
+    "zh": "問題、議題",
+    "example": "The manager will discuss the issue at the next meeting."
+  },
+  {
+    "en": "maintain",
+    "zh": "維護",
+    "example": "The hotel maintains its elevators regularly."
+  },
+  {
+    "en": "manager",
+    "zh": "經理、主管",
+    "example": "The manager asked the team to finish the report by Friday."
+  },
+  {
+    "en": "meeting",
+    "zh": "會議",
+    "example": "The weekly meeting has been moved to Room 304."
+  },
+  {
+    "en": "membership",
+    "zh": "會員資格",
+    "example": "Your membership includes access to all fitness classes."
+  },
+  {
+    "en": "notice",
+    "zh": "公告、通知",
+    "example": "A notice about the holiday schedule was posted in the lobby."
+  },
+  {
+    "en": "offer",
+    "zh": "提供、提議",
+    "example": "The travel agency is offering a discount on summer tours."
+  },
+  {
+    "en": "operate",
+    "zh": "操作、營運",
+    "example": "Only trained staff may operate this machine."
+  },
+  {
+    "en": "opportunity",
+    "zh": "機會",
+    "example": "The internship is a good opportunity to gain work experience."
+  },
+  {
+    "en": "order",
+    "zh": "訂單、訂購",
+    "example": "Your online order will be ready for pickup this afternoon."
+  },
+  {
+    "en": "organization",
+    "zh": "組織",
+    "example": "The organization supports local business owners."
+  },
+  {
+    "en": "member",
+    "zh": "會員、成員",
+    "example": "Each member will receive a name tag at registration."
+  },
+  {
+    "en": "payment",
+    "zh": "付款",
+    "example": "Payment is due within 14 days of receiving the invoice."
+  },
+  {
+    "en": "policy",
+    "zh": "政策、規定",
+    "example": "According to company policy, visitors must sign in at reception."
+  },
+  {
+    "en": "position",
+    "zh": "職位",
+    "example": "The company advertised an open position in the sales department."
+  },
+  {
+    "en": "presentation",
+    "zh": "簡報",
+    "example": "Mr. Lee will give a presentation on the new product line."
+  },
+  {
+    "en": "process",
+    "zh": "流程、過程",
+    "example": "The hiring process usually takes about two weeks."
+  },
+  {
+    "en": "product",
+    "zh": "產品",
+    "example": "The product will be available in stores next month."
+  },
+  {
+    "en": "profit",
+    "zh": "利潤",
+    "example": "The restaurant earned a higher profit during the holiday season."
+  },
+  {
+    "en": "project",
+    "zh": "專案",
+    "example": "Our team completed the project ahead of schedule."
+  },
+  {
+    "en": "promotion",
+    "zh": "促銷、升遷",
+    "example": "The store is running a promotion through the end of the month."
+  },
+  {
+    "en": "provide",
+    "zh": "提供",
+    "example": "The hotel provides free Wi-Fi in every guest room."
+  },
+  {
+    "en": "purchase",
+    "zh": "購買",
+    "example": "All purchases over $1,000 require a manager’s approval."
+  },
+  {
+    "en": "quality",
+    "zh": "品質",
+    "example": "The factory checks the quality of every item before shipping."
+  },
+  {
+    "en": "recommend",
+    "zh": "推薦",
+    "example": "We recommend making a reservation before visiting the restaurant."
+  },
+  {
+    "en": "refund",
+    "zh": "退款",
+    "example": "A full refund will be issued if the event is canceled."
+  },
+  {
+    "en": "register",
+    "zh": "登記、註冊",
+    "example": "Please register online before attending the workshop."
+  },
+  {
+    "en": "registration",
+    "zh": "登記、註冊",
+    "example": "Early registration ends on April 15."
+  },
+  {
+    "en": "replace",
+    "zh": "更換",
+    "example": "The technician replaced the broken screen this afternoon."
+  },
+  {
+    "en": "report",
+    "zh": "報告",
+    "example": "The sales report shows a steady increase in orders."
+  },
+  {
+    "en": "request",
+    "zh": "請求",
+    "example": "Your request for additional information has been received."
+  },
+  {
+    "en": "require",
+    "zh": "需要、要求",
+    "example": "This position requires strong communication skills."
+  },
+  {
+    "en": "reservation",
+    "zh": "預約、訂位",
+    "example": "Please show your reservation confirmation at the front desk."
+  },
+  {
+    "en": "response",
+    "zh": "回覆、反應",
+    "example": "We have not received a response to our email yet."
+  },
+  {
+    "en": "review",
+    "zh": "審查、檢視",
+    "example": "The supervisor will review your application this week."
+  },
+  {
+    "en": "salary",
+    "zh": "薪水",
+    "example": "The job advertisement does not list the starting salary."
+  },
+  {
+    "en": "schedule",
+    "zh": "行程、時間表",
+    "example": "The updated schedule is attached to this message."
+  },
+  {
+    "en": "section",
+    "zh": "部分、區段",
+    "example": "Please read Section 3 of the employee handbook."
+  },
+  {
+    "en": "service",
+    "zh": "服務",
+    "example": "The restaurant is known for its excellent service."
+  },
+  {
+    "en": "ship",
+    "zh": "運送、出貨",
+    "example": "The warehouse ships most orders within two business days."
+  },
+  {
+    "en": "shipping",
+    "zh": "運送",
+    "example": "Shipping costs are calculated at checkout."
+  },
+  {
+    "en": "signature",
+    "zh": "簽名",
+    "example": "Your signature is required at the bottom of the form."
+  },
+  {
+    "en": "skill",
+    "zh": "技能",
+    "example": "Computer skills are required for this office position."
+  },
+  {
+    "en": "staff",
+    "zh": "員工、職員",
+    "example": "The hotel staff can help you arrange transportation."
+  },
+  {
+    "en": "stock",
+    "zh": "庫存",
+    "example": "The store is out of stock on several popular items."
+  },
+  {
+    "en": "submit",
+    "zh": "提交",
+    "example": "Please submit your travel expense report by the deadline."
+  },
+  {
+    "en": "supplier",
+    "zh": "供應商",
+    "example": "The supplier will send samples of the new material."
+  },
+  {
+    "en": "survey",
+    "zh": "問卷、調查",
+    "example": "Customers are invited to complete a short survey online."
+  },
+  {
+    "en": "system",
+    "zh": "系統",
+    "example": "The new system will make online payments faster."
+  },
+  {
+    "en": "task",
+    "zh": "任務",
+    "example": "Please complete this task before the afternoon meeting."
+  },
+  {
+    "en": "tax",
+    "zh": "稅",
+    "example": "The listed price does not include tax."
+  },
+  {
+    "en": "training",
+    "zh": "訓練",
+    "example": "New employees will receive training during their first week."
+  },
+  {
+    "en": "transfer",
+    "zh": "調職、轉移",
+    "example": "Ms. Kim requested a transfer to the Tokyo office."
+  },
+  {
+    "en": "transportation",
+    "zh": "交通運輸",
+    "example": "The hotel offers transportation to and from the airport."
+  },
+  {
+    "en": "update",
+    "zh": "更新",
+    "example": "Please update your contact information on the website."
+  },
+  {
+    "en": "warranty",
+    "zh": "保固",
+    "example": "The warranty covers repairs for one year after purchase."
+  },
+  {
+    "en": "warehouse",
+    "zh": "倉庫",
+    "example": "The warehouse will close early for inventory on Friday."
+  },
+  {
+    "en": "website",
+    "zh": "網站",
+    "example": "Visit our website for the latest store locations."
+  },
+  {
+    "en": "program",
+    "zh": "計畫、課程",
+    "example": "The program will teach employees how to use the new software."
+  },
+  {
+    "en": "account",
+    "zh": "帳戶",
+    "example": "Please log in to your account to view the order status."
+  },
+  {
+    "en": "advertisement",
+    "zh": "廣告",
+    "example": "The advertisement appeared in several business magazines."
+  },
+  {
+    "en": "agreement",
+    "zh": "協議、同意",
+    "example": "The two companies reached an agreement on pricing."
+  },
+  {
+    "en": "annual",
+    "zh": "每年的",
+    "example": "The annual report will be published in March."
+  },
+  {
+    "en": "arrival",
+    "zh": "抵達",
+    "example": "Please notify the hotel of your expected arrival time."
+  },
+  {
+    "en": "article",
+    "zh": "文章",
+    "example": "The company newsletter includes an article about workplace safety."
+  },
+  {
+    "en": "assign",
+    "zh": "指派",
+    "example": "The supervisor assigned each employee a different task."
+  },
+  {
+    "en": "assist",
+    "zh": "協助",
+    "example": "A sales representative will assist you with your purchase."
+  },
+  {
+    "en": "branch",
+    "zh": "分公司、分店",
+    "example": "The bank opened a new branch near the airport."
+  },
+  {
+    "en": "charge",
+    "zh": "收費",
+    "example": "The hotel will charge a fee for late checkout."
+  },
+  {
+    "en": "claim",
+    "zh": "申請、聲稱",
+    "example": "Please file a claim for any damaged items within seven days."
+  },
+  {
+    "en": "course",
+    "zh": "課程",
+    "example": "The company offers a course in business writing."
+  },
+  {
+    "en": "current",
+    "zh": "目前的",
+    "example": "Please use your current address on the application."
+  },
+  {
+    "en": "data",
+    "zh": "資料",
+    "example": "The report is based on data collected from customer surveys."
+  },
+  {
+    "en": "develop",
+    "zh": "發展、開發",
+    "example": "The company developed a new mobile app for customers."
+  },
+  {
+    "en": "effective",
+    "zh": "有效的",
+    "example": "The new policy will be effective on July 1."
+  },
+  {
+    "en": "efficient",
+    "zh": "有效率的",
+    "example": "The updated process is more efficient than the old one."
+  },
+  {
+    "en": "entrance",
+    "zh": "入口",
+    "example": "All visitors must use the main entrance."
+  },
+  {
+    "en": "exchange",
+    "zh": "交換、兌換",
+    "example": "Customers may exchange items with a receipt."
+  },
+  {
+    "en": "expand",
+    "zh": "擴大",
+    "example": "The retailer plans to expand into three new markets."
+  },
+  {
+    "en": "final",
+    "zh": "最後的",
+    "example": "The final payment must be made before delivery."
+  },
+  {
+    "en": "increase",
+    "zh": "增加",
+    "example": "The company plans to increase production next year."
+  },
+  {
+    "en": "install",
+    "zh": "安裝",
+    "example": "A technician will install the new software tonight."
+  },
+  {
+    "en": "item",
+    "zh": "項目、商品",
+    "example": "Please list each item separately on the invoice."
+  },
+  {
+    "en": "location",
+    "zh": "地點",
+    "example": "The event location is shown on the invitation."
+  },
+  {
+    "en": "material",
+    "zh": "材料",
+    "example": "The factory uses recycled material for its packaging."
+  },
+  {
+    "en": "monthly",
+    "zh": "每月的",
+    "example": "The monthly sales meeting is held on the first Monday."
+  },
+  {
+    "en": "online",
+    "zh": "線上的",
+    "example": "Online registration is available until Friday."
+  },
+  {
+    "en": "package",
+    "zh": "包裹、套裝",
+    "example": "The package was delivered to the wrong address."
+  },
+  {
+    "en": "passenger",
+    "zh": "乘客",
+    "example": "Passengers should arrive at the gate 30 minutes before departure."
+  },
+  {
+    "en": "permit",
+    "zh": "許可、允許",
+    "example": "Employees need a permit to park in this area."
+  },
+  {
+    "en": "printer",
+    "zh": "印表機",
+    "example": "The printer on the second floor is out of paper."
+  },
+  {
+    "en": "procedure",
+    "zh": "程序、步驟",
+    "example": "Please follow the procedure for reporting an accident."
+  },
+  {
+    "en": "recruit",
+    "zh": "招募",
+    "example": "The company is recruiting engineers for its new division."
+  },
+  {
+    "en": "reduce",
+    "zh": "減少",
+    "example": "The new system will reduce processing time."
+  },
+  {
+    "en": "regular",
+    "zh": "定期的、一般的",
+    "example": "Regular maintenance helps prevent equipment failures."
+  },
+  {
+    "en": "renew",
+    "zh": "續約、更新",
+    "example": "Please renew your membership before it expires."
+  },
+  {
+    "en": "responsible",
+    "zh": "負責的",
+    "example": "Mr. Park is responsible for customer accounts."
+  },
+  {
+    "en": "retail",
+    "zh": "零售",
+    "example": "The company sells its products through retail stores."
+  },
+  {
+    "en": "route",
+    "zh": "路線",
+    "example": "The shuttle route stops at the convention center."
+  },
+  {
+    "en": "safety",
+    "zh": "安全",
+    "example": "Safety rules must be followed at all times."
+  },
+  {
+    "en": "sample",
+    "zh": "樣品",
+    "example": "The supplier sent a sample for our review."
+  },
+  {
+    "en": "seat",
+    "zh": "座位",
+    "example": "Please reserve your seat before the train fills up."
+  },
+  {
+    "en": "special",
+    "zh": "特別的",
+    "example": "The hotel is offering special rates for conference guests."
+  },
+  {
+    "en": "storage",
+    "zh": "儲存",
+    "example": "Extra storage space is available in the basement."
+  },
+  {
+    "en": "temporary",
+    "zh": "暫時的",
+    "example": "The office will use a temporary entrance during repairs."
+  },
+  {
+    "en": "total",
+    "zh": "總計",
+    "example": "The total cost includes delivery and tax."
+  },
+  {
+    "en": "travel",
+    "zh": "旅行",
+    "example": "Business travel must be approved in advance."
+  },
+  {
+    "en": "trip",
+    "zh": "旅行",
+    "example": "Please submit receipts from your business trip."
+  },
+  {
+    "en": "value",
+    "zh": "價值",
+    "example": "This service provides good value for the price."
+  },
+  {
+    "en": "verify",
+    "zh": "核實",
+    "example": "Please verify your email address before submitting the form."
+  },
+  {
+    "en": "guest",
+    "zh": "賓客、房客",
+    "example": "All guests must wear a badge in the building."
+  }
+]
