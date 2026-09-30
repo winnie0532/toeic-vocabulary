@@ -23,6 +23,21 @@ let progress = savedProgress
 const shuffle = (array) => [...array].sort(() => Math.random() - 0.5);
 const addedWordsStorageKey = "vocabularyAddWords";
 
+function speakEnglish(text) {
+  if (!("speechSynthesis" in window)) {
+    alert("這個瀏覽器不支援英文發音功能。");
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "en-US";
+  utterance.rate = 0.85;
+
+  window.speechSynthesis.speak(utterance);
+}
+
 function normalizeAddedWord(word) {
   return {
     en: String(word.en || "").trim(),
@@ -67,9 +82,8 @@ function getWeight(word) {
 
   if (!record) return 3;
   if (record.wrong > 0) return 8 + Math.min(record.wrong, 3) * 2;
-  if (record.streak >= 3) return 0.25;
-  if (record.streak === 2) return 0.75;
-  if (record.streak === 1) return 1.5;
+  if (record.streak >= 5) return 1;
+  if (record.streak >= 3) return 2;
 
   return 3;
 }
@@ -100,11 +114,23 @@ function saveProgress() {
   renderWeakCount();
 }
 
+function renderWeakCount() {
+  const count = Object.values(progress).filter(
+    (record) => record.wrong > 0
+  ).length;
+
+  $("#weakCount").textContent = count;
+}
+
 function markCorrect(en) {
   const record = getProgress(en);
 
   record.streak += 1;
   record.wrong = Math.max(0, record.wrong - 1);
+
+  if (record.wrong === 0 && record.streak >= 3) {
+    delete progress[en];
+  }
 
   saveProgress();
 }
@@ -116,14 +142,6 @@ function markWrong(en) {
   record.streak = 0;
 
   saveProgress();
-}
-
-function renderWeakCount() {
-  const count = Object.values(progress).filter(
-    (record) => record.wrong > 0
-  ).length;
-
-  $("#weakCount").textContent = count;
 }
 
 async function start() {
@@ -161,11 +179,10 @@ async function start() {
 
     renderWeakCount();
     newTranslate();
-  } catch {
-    $("#translate").innerHTML = `
-      <p>找不到 vocabulary.json、vocabulary_p5.json、grammar_lessons.json 或 vocabulary_add.json。</p>
-      <p>請確認四個 JSON 檔都和 index.html 放在同一個資料夾。</p>
-    `;
+  } catch (error) {
+    console.error(error);
+    $("#translate").innerHTML =
+      "<p>找不到資料檔，請確認所有 JSON 檔案和 index.html 放在同一個資料夾。</p>";
   }
 }
 
@@ -178,7 +195,6 @@ function newTranslate() {
   $("#feedback").classList.remove("show");
   $("#example").classList.remove("show");
   $("#nextAfterReview").classList.add("hidden");
-
   $("#know").classList.remove("hidden");
   $("#review").classList.remove("hidden");
 
@@ -209,12 +225,9 @@ function gradeTranslate(isCorrect) {
 
   markWrong(current.en);
 
-  $("#example").innerHTML = `
-    <b>簡單例句</b><br>
-    ${current.example}
-  `;
-
+  $("#example").innerHTML = `<b>簡單例句</b><br>${current.example}`;
   $("#example").classList.add("show");
+
   $("#know").classList.add("hidden");
   $("#review").classList.add("hidden");
   $("#nextAfterReview").classList.remove("hidden");
@@ -229,15 +242,33 @@ function getWordType(word) {
 
   if (en.endsWith("ly")) return "adverb";
 
-  if (/(tion|sion|ment|ness|ity|ence|ance|ship|ism|age|ure|hood)$/.test(en)) {
+  if (
+    en.endsWith("tion") ||
+    en.endsWith("ment") ||
+    en.endsWith("ness") ||
+    en.endsWith("ity") ||
+    en.endsWith("er") ||
+    en.endsWith("or")
+  ) {
     return "noun";
   }
 
-  if (/(able|ible|ive|ous|ful|less|ent|ant|ic|ary|al)$/.test(en)) {
+  if (
+    en.endsWith("ive") ||
+    en.endsWith("ful") ||
+    en.endsWith("less") ||
+    en.endsWith("ous") ||
+    en.endsWith("al")
+  ) {
     return "adjective";
   }
 
-  if (/(ize|ise|ify|ate|en)$/.test(en)) {
+  if (
+    en.endsWith("ate") ||
+    en.endsWith("ize") ||
+    en.endsWith("fy") ||
+    en.endsWith("en")
+  ) {
     return "verb";
   }
 
@@ -254,6 +285,7 @@ function makeClozeSentence(word) {
 
 function pickClozeWord() {
   const usableWords = p5Words.filter((word) => makeClozeSentence(word));
+
   return pickWeightedWord(usableWords);
 }
 
@@ -283,8 +315,8 @@ function newCloze() {
 
   const options = getClozeOptions(cloze);
 
-  $("#clozeTitle").textContent = "選出最適合句意的單字";
-  $("#clozeSentence").innerHTML = makeClozeSentence(cloze);
+  $("#clozeTitle").textContent = `「${cloze.zh}」`;
+  $("#clozeSentence").textContent = makeClozeSentence(cloze);
   $("#choices").innerHTML = "";
   $("#clozeNote").textContent = "";
   $("#nextCloze").classList.add("hidden");
@@ -311,34 +343,24 @@ function answerCloze(button, selectedWord) {
 
   button.classList.add(isCorrect ? "correct" : "wrong");
 
-  if (isCorrect) {
-    markCorrect(cloze.en);
-
-    $("#clozeNote").innerHTML = `
-      答對了！<b>${cloze.en}</b>＝${cloze.zh}<br><br>
-      <b>完整句子：</b>${cloze.example}<br>
-      <b>中文：</b>${cloze.exampleZh || ""}
-    `;
-  } else {
+  if (!isCorrect) {
     markWrong(cloze.en);
 
     [...document.querySelectorAll("#choices .choice")]
       .find((item) => item.textContent === cloze.en)
       .classList.add("correct");
 
-    $("#clozeNote").innerHTML = `
-      正確答案是 <b>${cloze.en}</b>（${cloze.zh}）。<br><br>
-      <b>完整句子：</b>${cloze.example}<br>
-      <b>中文：</b>${cloze.exampleZh || ""}
-    `;
+    $("#clozeNote").innerHTML =
+      `正確答案是 <b>${cloze.en}</b>。例句：${cloze.example}`;
+  } else {
+    markCorrect(cloze.en);
+    $("#clozeNote").textContent = `答對了！${cloze.example}`;
   }
 
   $("#nextCloze").classList.remove("hidden");
 }
 
 function newGrammar() {
-  if (!grammarLessons.length) return;
-
   grammarLesson =
     grammarLessons[Math.floor(Math.random() * grammarLessons.length)];
 
@@ -363,21 +385,24 @@ function newGrammar() {
 function answerGrammar(button, selectedOption) {
   if (!$("#nextGrammar").classList.contains("hidden")) return;
 
-  const isCorrect = selectedOption === grammarLesson.answer;
-
-  $("#grammarChoices").querySelectorAll(".choice").forEach((item) => {
+  document.querySelectorAll("#grammarChoices .choice").forEach((item) => {
     item.disabled = true;
-
-    if (item.textContent === grammarLesson.answer) {
-      item.classList.add("correct");
-    }
   });
 
-  if (!isCorrect) button.classList.add("wrong");
+  const isCorrect = selectedOption === grammarLesson.answer;
 
-  $("#grammarNote").innerHTML = isCorrect
-    ? `答對了！${grammarLesson.note}`
-    : `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.note}`;
+  button.classList.add(isCorrect ? "correct" : "wrong");
+
+  if (!isCorrect) {
+    [...document.querySelectorAll("#grammarChoices .choice")]
+      .find((item) => item.textContent === grammarLesson.answer)
+      .classList.add("correct");
+
+    $("#grammarNote").innerHTML =
+      `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.explanation}`;
+  } else {
+    $("#grammarNote").textContent = `答對了！${grammarLesson.explanation}`;
+  }
 
   $("#nextGrammar").classList.remove("hidden");
 }
@@ -406,9 +431,13 @@ function renderLibrary() {
       const wrong = progress[word.en]?.wrong || 0;
 
       row.className = "library-row";
+      row.tabIndex = 0;
+      row.setAttribute("role", "button");
+      row.setAttribute("aria-label", `播放 ${word.en} 的英文發音`);
+
       row.innerHTML = `
         <div>
-          <b>${word.en}</b>
+          <b>${word.en}</b> <span aria-hidden="true">🔊</span>
           <div class="small">${word.zh}</div>
         </div>
         <div class="library-tags">
@@ -416,6 +445,15 @@ function renderLibrary() {
           ${wrong > 0 ? `<span class="badge">答錯 ${wrong} 次</span>` : ""}
         </div>
       `;
+
+      row.onclick = () => speakEnglish(word.en);
+
+      row.onkeydown = (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          speakEnglish(word.en);
+        }
+      };
 
       list.append(row);
     });
