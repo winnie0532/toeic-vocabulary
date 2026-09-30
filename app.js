@@ -7,6 +7,9 @@ let addedWords = [];
 let current;
 let cloze;
 let grammarLesson;
+let libraryReviewWords = [];
+let libraryReviewIndex = 0;
+let libraryReviewCurrent;
 
 const savedProgress = localStorage.getItem("vocabProgress");
 const oldWeakWords = JSON.parse(localStorage.getItem("weakWords") || "{}");
@@ -407,12 +410,15 @@ function answerGrammar(button, selectedOption) {
   $("#nextGrammar").classList.remove("hidden");
 }
 
-function renderLibrary() {
-  const list = $("#libraryList");
-
-  const items = words.filter(
+function getLibraryWords() {
+  return words.filter(
     (word) => progress[word.en]?.wrong > 0 || (word.isCustom && word.inLibrary)
   );
+}
+
+function renderLibrary() {
+  const list = $("#libraryList");
+  const items = getLibraryWords();
 
   list.innerHTML = "";
 
@@ -437,7 +443,7 @@ function renderLibrary() {
 
       row.innerHTML = `
         <div>
-          <b>${word.en}</b> <span aria-hidden="true">🔊</span>
+          <b>${word.en}</b> <span aria-hidden="true">🔉</span>
           <div class="small">${word.zh}</div>
         </div>
         <div class="library-tags">
@@ -457,6 +463,70 @@ function renderLibrary() {
 
       list.append(row);
     });
+}
+
+function startLibraryReview() {
+  const items = getLibraryWords();
+
+  if (!items.length) {
+    alert("目前沒有待複習的錯題。先完成幾題練習後再來吧！");
+    return;
+  }
+
+  libraryReviewWords = shuffle(items);
+  libraryReviewIndex = 0;
+
+  showView("libraryReview");
+  newLibraryReviewWord();
+}
+
+function newLibraryReviewWord() {
+  if (libraryReviewIndex >= libraryReviewWords.length) {
+    alert("這一輪錯題複習完成！");
+    showView("library");
+    return;
+  }
+
+  libraryReviewCurrent = libraryReviewWords[libraryReviewIndex];
+
+  $("#libraryReviewWord").textContent = libraryReviewCurrent.en;
+  $("#libraryReviewAnswer").classList.remove("show");
+  $("#nextLibraryReview").classList.add("hidden");
+  $("#showLibraryReviewAnswer").classList.remove("hidden");
+  $("#libraryReviewKnow").classList.remove("hidden");
+  $("#libraryReviewAgain").classList.remove("hidden");
+}
+
+function showLibraryReviewAnswer() {
+  $("#libraryReviewMeaning").textContent = libraryReviewCurrent.zh;
+
+  $("#libraryReviewExample").innerHTML = `
+    <b>簡單例句</b><br>
+    ${libraryReviewCurrent.example}
+    ${libraryReviewCurrent.exampleZh
+      ? `<br><span class="small">${libraryReviewCurrent.exampleZh}</span>`
+      : ""}
+  `;
+
+  $("#libraryReviewAnswer").classList.add("show");
+  $("#showLibraryReviewAnswer").classList.add("hidden");
+}
+
+function gradeLibraryReview(isCorrect) {
+  if (isCorrect) {
+    markCorrect(libraryReviewCurrent.en);
+  } else {
+    markWrong(libraryReviewCurrent.en);
+  }
+
+  $("#libraryReviewKnow").classList.add("hidden");
+  $("#libraryReviewAgain").classList.add("hidden");
+  $("#nextLibraryReview").classList.remove("hidden");
+}
+
+function nextLibraryReview() {
+  libraryReviewIndex += 1;
+  newLibraryReviewWord();
 }
 
 function showView(viewName) {
@@ -533,6 +603,13 @@ $("#review").onclick = () => gradeTranslate(false);
 $("#nextAfterReview").onclick = newTranslate;
 $("#nextCloze").onclick = newCloze;
 $("#nextGrammar").onclick = newGrammar;
+$("#startLibraryReview").onclick = startLibraryReview;
+$("#showLibraryReviewAnswer").onclick = showLibraryReviewAnswer;
+$("#libraryReviewSpeak").onclick = () => speakEnglish(libraryReviewCurrent.en);
+$("#libraryReviewKnow").onclick = () => gradeLibraryReview(true);
+$("#libraryReviewAgain").onclick = () => gradeLibraryReview(false);
+$("#nextLibraryReview").onclick = nextLibraryReview;
+$("#backToLibrary").onclick = () => showView("library");
 
 $("#addWord").onclick = () => {
   $("#addWordForm").reset();
