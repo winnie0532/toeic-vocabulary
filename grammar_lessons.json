@@ -5,7 +5,11 @@
     "lesson": {
       "rule": "看到 must、can、will，後面直接選原形動詞。",
       "howToJudge": "先找 must、can、will，下一格選沒有加 s、ed、ing 的動詞。",
-      "examples": ["must sign", "can help", "will arrive"]
+      "examples": [
+        "You <span class=\"example-answer\">must sign</span> here.",
+        "We <span class=\"example-answer\">can wait</span>.",
+        "She <span class=\"example-answer\">will call</span>."
+      ]
     },
     "questions": [
       {
@@ -38,9 +42,9 @@
       "rule": "固定會做、每天會發生的事情，常用現在式。",
       "howToJudge": "看到 every day、usually、always，優先找現在式。",
       "examples": [
-        "I work every day.",
-        "We open at nine.",
-        "They usually arrive early."
+        "I <span class=\"example-answer\">eat</span> breakfast every day.",
+        "He <span class=\"example-answer\">works</span> at home.",
+        "They <span class=\"example-answer\">play</span> tennis."
       ]
     },
     "questions": [
@@ -74,9 +78,9 @@
       "rule": "事情已經發生了，要用過去式。",
       "howToJudge": "看到 yesterday、last week、ago，優先找過去式，很多動詞會加 -ed。",
       "examples": [
-        "I worked yesterday.",
-        "She called me last night.",
-        "We finished the report."
+        "I <span class=\"example-answer\">walked</span> home yesterday.",
+        "She <span class=\"example-answer\">called</span> me last night.",
+        "We <span class=\"example-answer\">watched</span> a movie."
       ]
     },
     "questions": [
@@ -109,7 +113,11 @@
     "lesson": {
       "rule": "before、after、without、for 等字後面常接名詞或動詞 -ing。",
       "howToJudge": "介系詞後如果要接動作，動詞要改成 -ing。",
-      "examples": ["before sending", "after lunch", "without waiting"]
+      "examples": [
+        "I read <span class=\"example-answer\">before bed</span>.",
+        "She is good <span class=\"example-answer\">at cooking</span>.",
+        "He left <span class=\"example-answer\">without his bag</span>."
+      ]
     },
     "questions": [
       {
@@ -141,7 +149,11 @@
     "lesson": {
       "rule": "is、are、was、were 後面常接 -ing、過去分詞或形容詞。",
       "howToJudge": "先看句子意思：正在做用 -ing；被安排、被完成常用過去分詞。",
-      "examples": ["is working", "is scheduled", "are ready"]
+      "examples": [
+        "The baby <span class=\"example-answer\">is sleeping</span>.",
+        "The door <span class=\"example-answer\">is closed</span>.",
+        "We <span class=\"example-answer\">were tired</span>."
+      ]
     },
     "questions": [
       {
@@ -173,7 +185,11 @@
     "lesson": {
       "rule": "a、an、the 後面通常需要名詞。",
       "howToJudge": "名詞常是人、事、物的名稱；常見字尾有 -tion、-ment、-ness。",
-      "examples": ["an application", "the report", "a meeting"]
+      "examples": [
+        "I have <span class=\"example-answer\">a dog</span>.",
+        "She bought <span class=\"example-answer\">a book</span>.",
+        "<span class=\"example-answer\">The cat</span> is small."
+      ]
     },
     "questions": [
       {
@@ -205,7 +221,11 @@
     "lesson": {
       "rule": "very 後面通常接形容詞或副詞。",
       "howToJudge": "形容詞常描述人或物；副詞常修飾動作，很多副詞以 -ly 結尾。",
-      "examples": ["very easy", "very useful", "very quickly"]
+      "examples": [
+        "This test is <span class=\"example-answer\">very easy</span>.",
+        "The food is <span class=\"example-answer\">very good</span>.",
+        "Please speak <span class=\"example-answer\">very slowly</span>."
+      ]
     },
     "questions": [
       {
@@ -237,7 +257,11 @@
     "lesson": {
       "rule": "When 是問什麼時候，答案要是時間。",
       "howToJudge": "找日期、星期、時間或時間段。",
-      "examples": ["At noon.", "On Friday.", "Next week."]
+      "examples": [
+        "<span class=\"example-answer\">When</span> is lunch?",
+        "It is <span class=\"example-answer\">at twelve</span>.",
+        "See you <span class=\"example-answer\">tomorrow</span>."
+      ]
     },
     "questions": [
       {
@@ -269,7 +293,11 @@
     "lesson": {
       "rule": "Where 是問在哪裡，答案要是地點。",
       "howToJudge": "找 in、at、on 加上地點，或直接是地點名稱。",
-      "examples": ["In Room 201.", "At the office.", "Near the station."]
+      "examples": [
+        "<span class=\"example-answer\">Where</span> is my bag?",
+        "It is <span class=\"example-answer\">on the chair</span>.",
+        "I am <span class=\"example-answer\">at home</span>."
+      ]
     },
     "questions": [
       {
@@ -301,7 +329,11 @@
     "lesson": {
       "rule": "Who 是問誰，答案要是人、姓名或職稱。",
       "howToJudge": "找人名、部門人員、職稱或代名詞。",
-      "examples": ["Ms. Chen.", "Our manager.", "The sales team."]
+      "examples": [
+        "<span class=\"example-answer\">Who</span> is he?",
+        "<span class=\"example-answer\">He</span> is my teacher.",
+        "<span class=\"example-answer\">She</span> is my friend."
+      ]
     },
     "questions": [
       {
@@ -333,7 +365,11 @@
     "lesson": {
       "rule": "Why 是問為什麼，答案要是原因。",
       "howToJudge": "找 because、because of、to 加動詞，或明確的理由。",
-      "examples": ["Because of the rain.", "To save time.", "The system failed."]
+      "examples": [
+        "<span class=\"example-answer\">Why</span> are you sad?",
+        "<span class=\"example-answer\">Because</span> I am tired.",
+        "I study <span class=\"example-answer\">to learn</span>."
+      ]
     },
     "questions": [
       {
@@ -365,7 +401,11 @@
     "lesson": {
       "rule": "How much 問價錢、金額，或不可數名詞的量。",
       "howToJudge": "找金額；不可數名詞如 water、time、money 也用 how much。",
-      "examples": ["It is $50.", "Much time.", "A little water."]
+      "examples": [
+        "<span class=\"example-answer\">How much</span> is this?",
+        "It is <span class=\"example-answer\">ten dollars</span>.",
+        "I need <span class=\"example-answer\">some water</span>."
+      ]
     },
     "questions": [
       {
@@ -397,7 +437,11 @@
     "lesson": {
       "rule": "How many 問可以一個一個數的東西。",
       "howToJudge": "後面常接複數名詞，例如 people、books、applicants。",
-      "examples": ["Twenty people.", "Three books.", "Five applicants."]
+      "examples": [
+        "<span class=\"example-answer\">How many</span> cats?",
+        "I have <span class=\"example-answer\">two cats</span>.",
+        "There are <span class=\"example-answer\">five chairs</span>."
+      ]    
     },
     "questions": [
       {
