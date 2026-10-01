@@ -318,7 +318,7 @@ function newCloze() {
 
   const options = getClozeOptions(cloze);
 
-  $("#clozeTitle").textContent = `「${cloze.zh}」`;
+  $("#clozeTitle").textContent = "選出最適合句意的單字";
   $("#clozeSentence").textContent = makeClozeSentence(cloze);
   $("#choices").innerHTML = "";
   $("#clozeNote").textContent = "";
@@ -346,18 +346,24 @@ function answerCloze(button, selectedWord) {
 
   button.classList.add(isCorrect ? "correct" : "wrong");
 
-  if (!isCorrect) {
+  if (isCorrect) {
+    markCorrect(cloze.en);
+
+    $("#clozeNote").innerHTML = `
+      答對了！<b>${cloze.en}</b>＝${cloze.zh}<br><br>
+      <b>中文：</b>${cloze.exampleZh || "（尚未提供中文句子）"}
+    `;
+  } else {
     markWrong(cloze.en);
 
     [...document.querySelectorAll("#choices .choice")]
       .find((item) => item.textContent === cloze.en)
       .classList.add("correct");
 
-    $("#clozeNote").innerHTML =
-      `正確答案是 <b>${cloze.en}</b>。例句：${cloze.example}`;
-  } else {
-    markCorrect(cloze.en);
-    $("#clozeNote").textContent = `答對了！${cloze.example}`;
+    $("#clozeNote").innerHTML = `
+      正確答案是 <b>${cloze.en}</b>（${cloze.zh}）。<br><br>
+      <b>中文：</b>${cloze.exampleZh || "（尚未提供中文句子）"}
+    `;
   }
 
   $("#nextCloze").classList.remove("hidden");
