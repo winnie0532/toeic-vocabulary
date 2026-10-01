@@ -408,9 +408,9 @@ function answerGrammar(button, selectedOption) {
       .classList.add("correct");
 
     $("#grammarNote").innerHTML =
-      `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.explanation}`;
+      `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.note}`;
   } else {
-    $("#grammarNote").textContent = `答對了！${grammarLesson.explanation}`;
+    $("#grammarNote").textContent = `答對了！${grammarLesson.note}`;
   }
 
   $("#nextGrammar").classList.remove("hidden");
