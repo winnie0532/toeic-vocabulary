@@ -405,8 +405,8 @@ function newGrammar() {
   grammarLesson =
     expandedPool[Math.floor(Math.random() * expandedPool.length)];
 
-  $("#grammarTitle").textContent = grammarLesson.title;
-  $("#grammarRule").textContent = grammarLesson.lesson.rule;
+  $("#grammarTitle").textContent = "文法測驗";
+  $("#grammarRule").textContent = "";
   $("#grammarQuestion").textContent = grammarLesson.question;
   $("#grammarChoices").innerHTML = "";
   $("#grammarNote").textContent = "";

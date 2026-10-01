@@ -32,34 +32,74 @@
     ]
   },
   {
-    "id": "be-verb-form",
-    "title": "be 動詞後面的形式",
+    "id": "present-tense",
+    "title": "現在式",
     "lesson": {
-      "rule": "is、are、was、were 後面常接 -ing、過去分詞或形容詞。",
-      "howToJudge": "先看句子意思：正在做用 -ing；被安排、被完成常用過去分詞。",
-      "examples": ["is working", "is scheduled", "are ready"]
+      "rule": "固定會做、每天會發生的事情，常用現在式。",
+      "howToJudge": "看到 every day、usually、always，優先找現在式。",
+      "examples": [
+        "I work every day.",
+        "We open at nine.",
+        "They usually arrive early."
+      ]
     },
     "questions": [
       {
-        "id": "be-01",
-        "question": "The meeting is ___ for Friday afternoon.",
-        "options": ["schedule", "scheduled", "scheduling", "schedules"],
-        "answer": "scheduled",
-        "note": "is scheduled 表示「已被安排」，用過去分詞。"
+        "id": "present-01",
+        "question": "I ___ to work by bus every day.",
+        "options": ["go", "went", "going", "gone"],
+        "answer": "go",
+        "note": "every day 表示每天都會做，所以用現在式 go。"
       },
       {
-        "id": "be-02",
-        "question": "The employees are ___ on the new project.",
-        "options": ["work", "worked", "working", "works"],
-        "answer": "working",
-        "note": "are working 表示正在工作，用 -ing。"
+        "id": "present-02",
+        "question": "We usually ___ lunch at noon.",
+        "options": ["have", "had", "having", "has"],
+        "answer": "have",
+        "note": "usually 表示平常的習慣，所以用現在式 have。"
       },
       {
-        "id": "be-03",
-        "question": "The documents were ___ yesterday.",
-        "options": ["send", "sending", "sent", "sends"],
-        "answer": "sent",
-        "note": "were sent 表示文件被寄出，用過去分詞。"
+        "id": "present-03",
+        "question": "The store ___ at 9 A.M. every day.",
+        "options": ["open", "opened", "opening", "opens"],
+        "answer": "opens",
+        "note": "every day 表示固定習慣；the store 是一間店，所以用 opens。"
+      }
+    ]
+  },
+  {
+    "id": "past-tense",
+    "title": "過去式",
+    "lesson": {
+      "rule": "事情已經發生了，要用過去式。",
+      "howToJudge": "看到 yesterday、last week、ago，優先找過去式，很多動詞會加 -ed。",
+      "examples": [
+        "I worked yesterday.",
+        "She called me last night.",
+        "We finished the report."
+      ]
+    },
+    "questions": [
+      {
+        "id": "past-01",
+        "question": "We ___ the report yesterday.",
+        "options": ["finish", "finished", "finishing", "finishes"],
+        "answer": "finished",
+        "note": "yesterday 表示昨天，事情已經發生，所以用 finished。"
+      },
+      {
+        "id": "past-02",
+        "question": "Ms. Wang ___ our office last week.",
+        "options": ["visit", "visited", "visiting", "visits"],
+        "answer": "visited",
+        "note": "last week 表示上週，事情已經發生，所以用 visited。"
+      },
+      {
+        "id": "past-03",
+        "question": "I ___ my manager two hours ago.",
+        "options": ["call", "called", "calling", "calls"],
+        "answer": "called",
+        "note": "ago 表示多久以前，所以用過去式 called。"
       }
     ]
   },
@@ -92,6 +132,38 @@
         "options": ["say", "says", "saying", "said"],
         "answer": "saying",
         "note": "without 後面接動詞時，要用 saying。"
+      }
+    ]
+  },
+    {
+    "id": "be-verb-form",
+    "title": "be 動詞後面的形式",
+    "lesson": {
+      "rule": "is、are、was、were 後面常接 -ing、過去分詞或形容詞。",
+      "howToJudge": "先看句子意思：正在做用 -ing；被安排、被完成常用過去分詞。",
+      "examples": ["is working", "is scheduled", "are ready"]
+    },
+    "questions": [
+      {
+        "id": "be-01",
+        "question": "The meeting is ___ for Friday afternoon.",
+        "options": ["schedule", "scheduled", "scheduling", "schedules"],
+        "answer": "scheduled",
+        "note": "is scheduled 表示「已被安排」，用過去分詞。"
+      },
+      {
+        "id": "be-02",
+        "question": "The employees are ___ on the new project.",
+        "options": ["work", "worked", "working", "works"],
+        "answer": "working",
+        "note": "are working 表示正在工作，用 -ing。"
+      },
+      {
+        "id": "be-03",
+        "question": "The documents were ___ yesterday.",
+        "options": ["send", "sending", "sent", "sends"],
+        "answer": "sent",
+        "note": "were sent 表示文件被寄出，用過去分詞。"
       }
     ]
   },
