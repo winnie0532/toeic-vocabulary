@@ -3,12 +3,12 @@
     "id": "modal-base-verb",
     "title": "助動詞後面選原形",
     "lesson": {
-      "rule": "看到 must、can、will，後面直接選原形動詞。",
+      "rule": "看到 must、can、will，後面直接選<span class=\"base-verb\">原形動詞</span>。",
       "howToJudge": "先找 must、can、will，下一格選沒有加 s、ed、ing 的動詞。",
       "examples": [
-        "You <span class=\"example-answer\">must sign</span> here.",
-        "We <span class=\"example-answer\">can wait</span>.",
-        "She <span class=\"example-answer\">will call</span>."
+        "You <span class=\"keyword\">must</span><span class=\"base-verb\"> sign</span> here.",
+        "We <span class=\"keyword\">can</span><span class=\"base-verb\"> wait</span>.",
+        "She <span class=\"keyword\">will</span><span class=\"base-verb\"> call</span>."
       ]
     },
     "questions": [
@@ -39,12 +39,12 @@
     "id": "present-tense",
     "title": "現在式",
     "lesson": {
-      "rule": "固定會做、每天會發生的事情，常用現在式。",
+      "rule": "固定會做、每天會發生的事情，常用<span class=\"present-participle\">現在式</span>。",
       "howToJudge": "看到 every day、usually、always，優先找現在式。",
       "examples": [
-        "I <span class=\"example-answer\">eat</span> breakfast every day.",
-        "He <span class=\"example-answer\">works</span> at home.",
-        "They <span class=\"example-answer\">play</span> tennis."
+        "I <span class=\"present-participle\">eat</span> breakfast <span class=\"keyword\">every day.</span>",
+        "He <span class=\"present-participle\">works</span> at home.",
+        "They <span class=\"present-participle\">play</span> tennis."
       ]
     },
     "questions": [
@@ -75,12 +75,12 @@
     "id": "past-tense",
     "title": "過去式",
     "lesson": {
-      "rule": "事情已經發生了，要用過去式。",
+      "rule": "事情已經發生了，要用<span class=\"past-verb\">過去式</span>。",
       "howToJudge": "看到 yesterday、last week、ago，優先找過去式，很多動詞會加 -ed。",
       "examples": [
-        "I <span class=\"example-answer\">walked</span> home yesterday.",
-        "She <span class=\"example-answer\">called</span> me last night.",
-        "We <span class=\"example-answer\">watched</span> a movie."
+        "I <span class=\"past-verb\">walked</span> home <span class=\"keyword\">yesterday</span>.",
+        "She <span class=\"past-verb\">called</span> me <span class=\"keyword\">last night</span>.",
+        "We <span class=\"past-verb\">watched</span> a movie."
       ]
     },
     "questions": [
@@ -111,12 +111,12 @@
     "id": "preposition-ing",
     "title": "介系詞後面接名詞或 -ing",
     "lesson": {
-      "rule": "before、after、without、for 等字後面常接名詞或動詞 -ing。",
+      "rule": "before、after、at、without、for 等字後面常接<span class=\"noun\">名詞</span>或<span class=\"present-participle\">動詞 -ing</span>。",
       "howToJudge": "介系詞後如果要接動作，動詞要改成 -ing。",
       "examples": [
-        "I read <span class=\"example-answer\">before bed</span>.",
-        "She is good <span class=\"example-answer\">at cooking</span>.",
-        "He left <span class=\"example-answer\">without his bag</span>."
+        "I read <span class=\"keyword\">before</span> <span class=\"noun\">bed</span>.",
+        "She is good <span class=\"keyword\">at</span> <span class=\"present-participle\">cooking</span>.",
+        "He left <span class=\"keyword\">without</span> <span class=\"noun\">his bag</span>."
       ]
     },
     "questions": [
@@ -147,12 +147,12 @@
     "id": "be-verb-form",
     "title": "be 動詞後面的形式",
     "lesson": {
-      "rule": "is、are、was、were 後面常接 -ing、過去分詞或形容詞。",
+      "rule": "is、are、was、were 後面常接 <span class=\"present-participle\">-ing</span>、<span class=\"past-verb\">過去分詞</span>或<span class=\"adjective\">形容詞</span>。",
       "howToJudge": "先看句子意思：正在做用 -ing；被安排、被完成常用過去分詞。",
       "examples": [
-        "The baby <span class=\"example-answer\">is sleeping</span>.",
-        "The door <span class=\"example-answer\">is closed</span>.",
-        "We <span class=\"example-answer\">were tired</span>."
+        "The baby <span class=\"keyword\">is</span> <span class=\"present-participle\">sleeping</span>.",
+        "The door <span class=\"keyword\">is</span> <span class=\"past-verb\">closed</span>.",
+        "The bear <span class=\"keyword\">is</span> so <span class=\"adjective\">cute</span>!"
       ]
     },
     "questions": [
@@ -183,12 +183,12 @@
     "id": "article-noun",
     "title": "冠詞後面找名詞",
     "lesson": {
-      "rule": "a、an、the 後面通常需要名詞。",
+      "rule": "a、an、the 後面通常需要<span class=\"noun\">名詞</span>。",
       "howToJudge": "名詞常是人、事、物的名稱；常見字尾有 -tion、-ment、-ness。",
       "examples": [
-        "I have <span class=\"example-answer\">a dog</span>.",
-        "She bought <span class=\"example-answer\">a book</span>.",
-        "<span class=\"example-answer\">The cat</span> is small."
+        "<span class=\"keyword\">The</span> <span class=\"noun\">information</span> is useful.",
+        "<span class=\"keyword\">The</span> <span class=\"noun\">payment</span> is late.",
+        "Her <span class=\"noun\">kindness</span> helps me."
       ]
     },
     "questions": [
@@ -219,12 +219,12 @@
     "id": "very-adjective-adverb",
     "title": "very 後面選形容詞或副詞",
     "lesson": {
-      "rule": "very 後面通常接形容詞或副詞。",
+      "rule": "very 後面通常接<span class=\"adjective\">形容詞</span>或<span class=\"adverb\">副詞</span>。",
       "howToJudge": "形容詞常描述人或物；副詞常修飾動作，很多副詞以 -ly 結尾。",
       "examples": [
-        "This test is <span class=\"example-answer\">very easy</span>.",
-        "The food is <span class=\"example-answer\">very good</span>.",
-        "Please speak <span class=\"example-answer\">very slowly</span>."
+        "This test is <span class=\"keyword\">very</span> <span class=\"adjective\">easy</span>.",
+        "The food is <span class=\"keyword\">very</span> <span class=\"adjective\">good</span>.",
+        "Please speak <span class=\"keyword\">very</span> <span class=\"adverb\">slowly</span>."
       ]
     },
     "questions": [
@@ -258,9 +258,9 @@
       "rule": "When 是問什麼時候，答案要是時間。",
       "howToJudge": "找日期、星期、時間或時間段。",
       "examples": [
-        "<span class=\"example-answer\">When</span> is lunch?",
-        "It is <span class=\"example-answer\">at twelve</span>.",
-        "See you <span class=\"example-answer\">tomorrow</span>."
+        "<span class=\"keyword\">When</span> is lunch?",
+        "It is <span class=\"keyword\">at twelve</span>.",
+        "See you <span class=\"keyword\">tomorrow</span>."
       ]
     },
     "questions": [
@@ -294,9 +294,9 @@
       "rule": "Where 是問在哪裡，答案要是地點。",
       "howToJudge": "找 in、at、on 加上地點，或直接是地點名稱。",
       "examples": [
-        "<span class=\"example-answer\">Where</span> is my bag?",
-        "It is <span class=\"example-answer\">on the chair</span>.",
-        "I am <span class=\"example-answer\">at home</span>."
+        "<span class=\"keyword\">Where</span> is my bag?",
+        "It is <span class=\"keyword\">on the chair</span>.",
+        "I am <span class=\"keyword\">at home</span>."
       ]
     },
     "questions": [
@@ -330,9 +330,9 @@
       "rule": "Who 是問誰，答案要是人、姓名或職稱。",
       "howToJudge": "找人名、部門人員、職稱或代名詞。",
       "examples": [
-        "<span class=\"example-answer\">Who</span> is he?",
-        "<span class=\"example-answer\">He</span> is my teacher.",
-        "<span class=\"example-answer\">She</span> is my friend."
+        "<span class=\"keyword\">Who</span> is he?",
+        "<span class=\"keyword\">He</span> is my teacher.",
+        "<span class=\"keyword\">She</span> is my friend."
       ]
     },
     "questions": [
@@ -366,9 +366,9 @@
       "rule": "Why 是問為什麼，答案要是原因。",
       "howToJudge": "找 because、because of、to 加動詞，或明確的理由。",
       "examples": [
-        "<span class=\"example-answer\">Why</span> are you sad?",
-        "<span class=\"example-answer\">Because</span> I am tired.",
-        "I study <span class=\"example-answer\">to learn</span>."
+        "<span class=\"keyword\">Why</span> are you sad?",
+        "<span class=\"keyword\">Because</span> I am tired.",
+        "I study <span class=\"keyword\">to</span> <span class=\"base-verb\">learn</span>."
       ]
     },
     "questions": [
@@ -402,9 +402,9 @@
       "rule": "How much 問價錢、金額，或不可數名詞的量。",
       "howToJudge": "找金額；不可數名詞如 water、time、money 也用 how much。",
       "examples": [
-        "<span class=\"example-answer\">How much</span> is this?",
-        "It is <span class=\"example-answer\">ten dollars</span>.",
-        "I need <span class=\"example-answer\">some water</span>."
+        "<span class=\"keyword\">How much</span> is this?",
+        "It is <span class=\"keyword\">ten dollars</span>.",
+        "I need <span class=\"keyword\">some water</span>."
       ]
     },
     "questions": [
@@ -438,10 +438,10 @@
       "rule": "How many 問可以一個一個數的東西。",
       "howToJudge": "後面常接複數名詞，例如 people、books、applicants。",
       "examples": [
-        "<span class=\"example-answer\">How many</span> cats?",
-        "I have <span class=\"example-answer\">two cats</span>.",
-        "There are <span class=\"example-answer\">five chairs</span>."
-      ]    
+        "<span class=\"keyword\">How many</span> cats?",
+        "I have <span class=\"keyword\">two cats</span>.",
+        "There are <span class=\"keyword\">five chairs</span>."
+      ]
     },
     "questions": [
       {
