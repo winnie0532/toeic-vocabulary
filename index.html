@@ -361,6 +361,47 @@
       display: grid;
       gap: 10px
     }
+    .grammar-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 18px 0 22px;
+    }
+
+    .grammar-tab {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--muted);
+      border-radius: 10px;
+      padding: 10px 7px;
+      font-weight: 750;
+    }
+
+    .grammar-tab.active {
+      background: var(--soft);
+      color: var(--blue);
+      border-color: #bfcaff;
+    }
+
+    .grammar-study-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .grammar-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      line-height: 1.65;
+    }
+
+    .grammar-card h3 {
+      margin: 0 0 8px;
+    }
+
+    .grammar-card p {
+      margin: 7px 0;
+    }
 
     .hidden {
       display: none !important
@@ -434,12 +475,33 @@
 
     <section id="grammar" class="card view hidden">
       <p class="mode-label">多益解題技巧</p>
-      <h2 class="word" id="grammarTitle"></h2>
-      <p class="hint" id="grammarRule"></p>
-      <p class="cloze" id="grammarQuestion"></p>
-      <div id="grammarChoices" class="choices"></div>
-      <p id="grammarNote" class="small" style="margin-top:14px"></p>
-      <button id="nextGrammar" class="primary hidden">下一題</button>
+      <h2 style="margin:0">文法複習與測驗</h2>
+
+      <div class="grammar-tabs">
+        <button class="grammar-tab active" data-grammar-panel="study">複習</button>
+        <button class="grammar-tab" data-grammar-panel="test">測驗</button>
+        <button class="grammar-tab" data-grammar-panel="wrong">錯誤題庫</button>
+      </div>
+
+      <div id="grammarStudyPanel" class="grammar-panel">
+        <div id="grammarStudyList" class="grammar-study-list"></div>
+      </div>
+
+      <div id="grammarTestPanel" class="grammar-panel hidden">
+        <p class="mode-label">隨機測驗</p>
+        <h2 class="word" id="grammarTitle"></h2>
+        <p class="hint" id="grammarRule"></p>
+        <p class="cloze" id="grammarQuestion"></p>
+        <div id="grammarChoices" class="choices"></div>
+        <p id="grammarNote" class="small" style="margin-top:14px"></p>
+        <button id="nextGrammar" class="primary hidden">下一題</button>
+      </div>
+
+      <div id="grammarWrongPanel" class="grammar-panel hidden">
+        <p class="hint">答錯的題目會保存在這裡，並在文法測驗中更常出現。</p>
+        <div id="grammarWrongList" class="grammar-study-list"></div>
+        <button id="startGrammarWrongReview" class="primary">開始複習錯題</button>
+      </div>
     </section>
 
     <section id="library" class="card view hidden">

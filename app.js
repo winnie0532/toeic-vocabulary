@@ -3,6 +3,11 @@ const $ = (selector) => document.querySelector(selector);
 let words = [];
 let p5Words = [];
 let grammarLessons = [];
+let grammarQuestions = [];
+let grammarReviewMode = false;
+let grammarProgress = JSON.parse(
+  localStorage.getItem("grammarProgress") || "{}"
+);
 let addedWords = [];
 let current;
 let cloze;
@@ -179,6 +184,13 @@ async function start() {
 
     p5Words = businessWords;
     grammarLessons = grammarData;
+
+    grammarQuestions = grammarData.flatMap((lesson) =>
+      lesson.questions.map((question) => ({
+        ...lesson,
+        ...question
+      }))
+    );
 
     renderWeakCount();
     newTranslate();
@@ -370,11 +382,31 @@ function answerCloze(button, selectedWord) {
 }
 
 function newGrammar() {
+  if (!grammarQuestions.length) return;
+
+  const pool = grammarReviewMode
+    ? grammarQuestions.filter(
+        (question) => grammarProgress[question.id]?.wrong > 0
+      )
+    : grammarQuestions;
+
+  if (!pool.length) {
+    alert("目前沒有文法錯題，先進行文法測驗吧！");
+    showGrammarPanel("test");
+    return;
+  }
+
+  const expandedPool = pool.flatMap((question) => {
+    const wrong = grammarProgress[question.id]?.wrong || 0;
+
+    return Array(wrong > 0 ? 1 + Math.min(wrong, 3) * 2 : 1).fill(question);
+  });
+
   grammarLesson =
-    grammarLessons[Math.floor(Math.random() * grammarLessons.length)];
+    expandedPool[Math.floor(Math.random() * expandedPool.length)];
 
   $("#grammarTitle").textContent = grammarLesson.title;
-  $("#grammarRule").textContent = grammarLesson.rule;
+  $("#grammarRule").textContent = grammarLesson.lesson.rule;
   $("#grammarQuestion").textContent = grammarLesson.question;
   $("#grammarChoices").innerHTML = "";
   $("#grammarNote").textContent = "";
@@ -394,26 +426,40 @@ function newGrammar() {
 function answerGrammar(button, selectedOption) {
   if (!$("#nextGrammar").classList.contains("hidden")) return;
 
-  document.querySelectorAll("#grammarChoices .choice").forEach((item) => {
-    item.disabled = true;
-  });
-
   const isCorrect = selectedOption === grammarLesson.answer;
 
-  button.classList.add(isCorrect ? "correct" : "wrong");
+  $("#grammarChoices").querySelectorAll(".choice").forEach((item) => {
+    item.disabled = true;
 
-  if (!isCorrect) {
-    [...document.querySelectorAll("#grammarChoices .choice")]
-      .find((item) => item.textContent === grammarLesson.answer)
-      .classList.add("correct");
+    if (item.textContent === grammarLesson.answer) {
+      item.classList.add("correct");
+    }
+  });
 
-    $("#grammarNote").innerHTML =
-      `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.note}`;
+  if (!isCorrect) button.classList.add("wrong");
+
+  const record = grammarProgress[grammarLesson.id] || {
+    wrong: 0,
+    correctStreak: 0
+  };
+
+  if (isCorrect) {
+    record.correctStreak += 1;
+    record.wrong = Math.max(0, record.wrong - 1);
   } else {
-    $("#grammarNote").textContent = `答對了！${grammarLesson.note}`;
+    record.wrong += 1;
+    record.correctStreak = 0;
   }
 
+  grammarProgress[grammarLesson.id] = record;
+  localStorage.setItem("grammarProgress", JSON.stringify(grammarProgress));
+
+  $("#grammarNote").innerHTML = isCorrect
+    ? `答對了！${grammarLesson.note}`
+    : `正確答案是 <b>${grammarLesson.answer}</b>。${grammarLesson.note}`;
+
   $("#nextGrammar").classList.remove("hidden");
+  renderGrammarWrongList();
 }
 
 function getLibraryWords() {
@@ -535,6 +581,112 @@ function nextLibraryReview() {
   newLibraryReviewWord();
 }
 
+function showGrammarPanel(panelName) {
+  document.querySelectorAll(".grammar-tab").forEach((tab) => {
+    tab.classList.toggle(
+      "active",
+      tab.dataset.grammarPanel === panelName
+    );
+  });
+
+  $("#grammarStudyPanel").classList.toggle(
+    "hidden",
+    panelName !== "study"
+  );
+
+  $("#grammarTestPanel").classList.toggle(
+    "hidden",
+    panelName !== "test"
+  );
+
+  $("#grammarWrongPanel").classList.toggle(
+    "hidden",
+    panelName !== "wrong"
+  );
+
+  if (panelName === "study") {
+    renderGrammarStudy();
+  }
+
+  if (panelName === "test") {
+    grammarReviewMode = false;
+    newGrammar();
+  }
+
+  if (panelName === "wrong") {
+    renderGrammarWrongList();
+  }
+}
+
+function renderGrammarStudy() {
+  $("#grammarStudyList").innerHTML = grammarLessons
+    .map(
+      (lesson) => `
+        <article class="grammar-card">
+          <h3>${lesson.title}</h3>
+          <p><b>規則：</b>${lesson.lesson.rule}</p>
+          <p><b>怎麼判斷：</b>${lesson.lesson.howToJudge}</p>
+          <p class="small">
+            <b>例子：</b>${lesson.lesson.examples.join("、")}
+          </p>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function renderGrammarWrongList() {
+  const wrongQuestions = grammarQuestions.filter(
+    (question) => grammarProgress[question.id]?.wrong > 0
+  );
+
+  if (!wrongQuestions.length) {
+    $("#grammarWrongList").innerHTML =
+      '<div class="empty">目前沒有文法錯題。</div>';
+    return;
+  }
+
+  $("#grammarWrongList").innerHTML = wrongQuestions
+    .map(
+      (question) => `
+        <article class="grammar-card">
+          <b>${question.title}</b>
+          <p>${question.question}</p>
+          <span class="badge">
+            答錯 ${grammarProgress[question.id].wrong} 次
+          </span>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function startGrammarWrongReview() {
+  const hasWrongQuestion = grammarQuestions.some(
+    (question) => grammarProgress[question.id]?.wrong > 0
+  );
+
+  if (!hasWrongQuestion) {
+    alert("目前沒有文法錯題。");
+    return;
+  }
+
+  grammarReviewMode = true;
+
+  $("#grammarStudyPanel").classList.add("hidden");
+  $("#grammarTestPanel").classList.remove("hidden");
+  $("#grammarWrongPanel").classList.add("hidden");
+
+  document.querySelectorAll(".grammar-tab").forEach((tab) => {
+    tab.classList.toggle(
+      "active",
+      tab.dataset.grammarPanel === "test"
+    );
+  });
+
+  newGrammar();
+}
+
 function showView(viewName) {
   document.querySelectorAll(".tab[data-view]").forEach((tab) => {
     tab.classList.toggle("active", tab.dataset.view === viewName);
@@ -546,7 +698,7 @@ function showView(viewName) {
 
   if (viewName === "library") renderLibrary();
   if (viewName === "cloze") newCloze();
-  if (viewName === "grammar") newGrammar();
+  if (viewName === "grammar") showGrammarPanel("study");
 }
 
 function addWord(event) {
@@ -609,6 +761,11 @@ $("#review").onclick = () => gradeTranslate(false);
 $("#nextAfterReview").onclick = newTranslate;
 $("#nextCloze").onclick = newCloze;
 $("#nextGrammar").onclick = newGrammar;
+document.querySelectorAll(".grammar-tab").forEach((tab) => {
+  tab.onclick = () => showGrammarPanel(tab.dataset.grammarPanel);
+});
+
+$("#startGrammarWrongReview").onclick = startGrammarWrongReview;
 $("#startLibraryReview").onclick = startLibraryReview;
 $("#showLibraryReviewAnswer").onclick = showLibraryReviewAnswer;
 $("#libraryReviewSpeak").onclick = () => speakEnglish(libraryReviewCurrent.en);

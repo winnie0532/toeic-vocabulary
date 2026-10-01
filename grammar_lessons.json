@@ -1,90 +1,354 @@
 [
   {
+    "id": "modal-base-verb",
     "title": "助動詞後面選原形",
-    "rule": "看到 must、can、will，後面直接選原形動詞。",
-    "question": "All visitors must ___ at the front desk.",
-    "options": ["sign", "signs", "signed", "signing"],
-    "answer": "sign",
-    "note": "must 後面要接原形動詞。"
+    "lesson": {
+      "rule": "看到 must、can、will，後面直接選原形動詞。",
+      "howToJudge": "先找 must、can、will，下一格選沒有加 s、ed、ing 的動詞。",
+      "examples": ["must sign", "can help", "will arrive"]
+    },
+    "questions": [
+      {
+        "id": "modal-01",
+        "question": "All visitors must ___ at the front desk.",
+        "options": ["sign", "signs", "signed", "signing"],
+        "answer": "sign",
+        "note": "must 後面接原形動詞 sign。"
+      },
+      {
+        "id": "modal-02",
+        "question": "The manager will ___ the report tomorrow.",
+        "options": ["review", "reviews", "reviewed", "reviewing"],
+        "answer": "review",
+        "note": "will 後面接原形動詞 review。"
+      },
+      {
+        "id": "modal-03",
+        "question": "You can ___ the meeting online.",
+        "options": ["join", "joins", "joined", "joining"],
+        "answer": "join",
+        "note": "can 後面接原形動詞 join。"
+      }
+    ]
   },
   {
+    "id": "be-verb-form",
     "title": "be 動詞後面的形式",
-    "rule": "is／are／was／were 後面常接 -ing、過去分詞或形容詞。",
-    "question": "The meeting is ___ for Friday afternoon.",
-    "options": ["schedule", "scheduled", "scheduling", "schedules"],
-    "answer": "scheduled",
-    "note": "is scheduled 表示「已被安排」，所以用過去分詞。"
+    "lesson": {
+      "rule": "is、are、was、were 後面常接 -ing、過去分詞或形容詞。",
+      "howToJudge": "先看句子意思：正在做用 -ing；被安排、被完成常用過去分詞。",
+      "examples": ["is working", "is scheduled", "are ready"]
+    },
+    "questions": [
+      {
+        "id": "be-01",
+        "question": "The meeting is ___ for Friday afternoon.",
+        "options": ["schedule", "scheduled", "scheduling", "schedules"],
+        "answer": "scheduled",
+        "note": "is scheduled 表示「已被安排」，用過去分詞。"
+      },
+      {
+        "id": "be-02",
+        "question": "The employees are ___ on the new project.",
+        "options": ["work", "worked", "working", "works"],
+        "answer": "working",
+        "note": "are working 表示正在工作，用 -ing。"
+      },
+      {
+        "id": "be-03",
+        "question": "The documents were ___ yesterday.",
+        "options": ["send", "sending", "sent", "sends"],
+        "answer": "sent",
+        "note": "were sent 表示文件被寄出，用過去分詞。"
+      }
+    ]
   },
   {
+    "id": "preposition-ing",
     "title": "介系詞後面接名詞或 -ing",
-    "rule": "before、after、without 後面常接名詞或動詞 -ing。",
-    "question": "Please check the document before ___ it.",
-    "options": ["send", "sends", "sending", "sent"],
-    "answer": "sending",
-    "note": "before 後面可接動詞 -ing。"
+    "lesson": {
+      "rule": "before、after、without、for 等字後面常接名詞或動詞 -ing。",
+      "howToJudge": "介系詞後如果要接動作，動詞要改成 -ing。",
+      "examples": ["before sending", "after lunch", "without waiting"]
+    },
+    "questions": [
+      {
+        "id": "prep-01",
+        "question": "Please check the document before ___ it.",
+        "options": ["send", "sends", "sending", "sent"],
+        "answer": "sending",
+        "note": "before 後面接動詞時，要用 sending。"
+      },
+      {
+        "id": "prep-02",
+        "question": "Thank you for ___ our event.",
+        "options": ["attend", "attends", "attending", "attended"],
+        "answer": "attending",
+        "note": "for 是介系詞，後面接 attending。"
+      },
+      {
+        "id": "prep-03",
+        "question": "He left the office without ___ goodbye.",
+        "options": ["say", "says", "saying", "said"],
+        "answer": "saying",
+        "note": "without 後面接動詞時，要用 saying。"
+      }
+    ]
   },
   {
+    "id": "article-noun",
     "title": "冠詞後面找名詞",
-    "rule": "a、an、the 後面通常需要名詞。",
-    "question": "Please submit the completed ___ by Friday.",
-    "options": ["apply", "application", "applying", "applicable"],
-    "answer": "application",
-    "note": "the 後面需要名詞；application 是「申請表」。"
+    "lesson": {
+      "rule": "a、an、the 後面通常需要名詞。",
+      "howToJudge": "名詞常是人、事、物的名稱；常見字尾有 -tion、-ment、-ness。",
+      "examples": ["an application", "the report", "a meeting"]
+    },
+    "questions": [
+      {
+        "id": "article-01",
+        "question": "Please submit the completed ___ by Friday.",
+        "options": ["apply", "application", "applying", "applicable"],
+        "answer": "application",
+        "note": "the 後面需要名詞；application 是申請表。"
+      },
+      {
+        "id": "article-02",
+        "question": "We received an important ___.",
+        "options": ["announce", "announcing", "announcement", "announced"],
+        "answer": "announcement",
+        "note": "an 後面需要名詞；announcement 是公告。"
+      },
+      {
+        "id": "article-03",
+        "question": "The ___ starts at nine o'clock.",
+        "options": ["meet", "meeting", "met", "meetingly"],
+        "answer": "meeting",
+        "note": "the 後面需要名詞；meeting 是會議。"
+      }
+    ]
   },
   {
+    "id": "very-adjective-adverb",
     "title": "very 後面選形容詞或副詞",
-    "rule": "very 後面通常接形容詞或副詞。",
-    "question": "The new software is very ___ to use.",
-    "options": ["ease", "easily", "easy", "easier"],
-    "answer": "easy",
-    "note": "very 後面接形容詞；easy 是形容詞。"
+    "lesson": {
+      "rule": "very 後面通常接形容詞或副詞。",
+      "howToJudge": "形容詞常描述人或物；副詞常修飾動作，很多副詞以 -ly 結尾。",
+      "examples": ["very easy", "very useful", "very quickly"]
+    },
+    "questions": [
+      {
+        "id": "very-01",
+        "question": "The new software is very ___ to use.",
+        "options": ["ease", "easily", "easy", "easier"],
+        "answer": "easy",
+        "note": "very 後面接形容詞；easy 是形容詞。"
+      },
+      {
+        "id": "very-02",
+        "question": "The instructions are very ___.",
+        "options": ["help", "helpful", "helpfully", "helped"],
+        "answer": "helpful",
+        "note": "very 後面接形容詞；helpful 是有幫助的。"
+      },
+      {
+        "id": "very-03",
+        "question": "Please speak very ___ during the presentation.",
+        "options": ["clear", "clearly", "clearness", "cleared"],
+        "answer": "clearly",
+        "note": "speak 是動作，要用副詞 clearly 修飾。"
+      }
+    ]
   },
   {
+    "id": "when-time",
     "title": "When 問時間",
-    "rule": "When 問時間，要選時間答案。",
-    "question": "When will the package arrive?",
-    "options": ["At around noon.", "At the front desk.", "With Mr. Lee."],
-    "answer": "At around noon.",
-    "note": "When 是問時間，所以選「中午左右」。"
+    "lesson": {
+      "rule": "When 是問什麼時候，答案要是時間。",
+      "howToJudge": "找日期、星期、時間或時間段。",
+      "examples": ["At noon.", "On Friday.", "Next week."]
+    },
+    "questions": [
+      {
+        "id": "when-01",
+        "question": "When will the package arrive?",
+        "options": ["At around noon.", "At the front desk.", "With Mr. Lee."],
+        "answer": "At around noon.",
+        "note": "When 問時間，所以選中午左右。"
+      },
+      {
+        "id": "when-02",
+        "question": "When is the training session?",
+        "options": ["On Monday morning.", "In Room 305.", "With new employees."],
+        "answer": "On Monday morning.",
+        "note": "On Monday morning 是時間。"
+      },
+      {
+        "id": "when-03",
+        "question": "When did you send the email?",
+        "options": ["Yesterday afternoon.", "To the manager.", "From my office."],
+        "answer": "Yesterday afternoon.",
+        "note": "Yesterday afternoon 是時間。"
+      }
+    ]
   },
   {
+    "id": "where-place",
     "title": "Where 問地點",
-    "rule": "Where 問地點，要選地點答案。",
-    "question": "Where is the sales meeting?",
-    "options": ["On Friday morning.", "In Conference Room B.", "With the new manager."],
-    "answer": "In Conference Room B.",
-    "note": "Where 是問地點，所以選會議室。"
+    "lesson": {
+      "rule": "Where 是問在哪裡，答案要是地點。",
+      "howToJudge": "找 in、at、on 加上地點，或直接是地點名稱。",
+      "examples": ["In Room 201.", "At the office.", "Near the station."]
+    },
+    "questions": [
+      {
+        "id": "where-01",
+        "question": "Where is the sales meeting?",
+        "options": ["On Friday morning.", "In Conference Room B.", "With the new manager."],
+        "answer": "In Conference Room B.",
+        "note": "Where 問地點，所以選會議室。"
+      },
+      {
+        "id": "where-02",
+        "question": "Where can I pick up my badge?",
+        "options": ["At the reception desk.", "After lunch.", "With my supervisor."],
+        "answer": "At the reception desk.",
+        "note": "At the reception desk 是地點。"
+      },
+      {
+        "id": "where-03",
+        "question": "Where did you park the car?",
+        "options": ["In the basement.", "At 8 A.M.", "For two hours."],
+        "answer": "In the basement.",
+        "note": "In the basement 是地點。"
+      }
+    ]
   },
   {
+    "id": "who-person",
     "title": "Who 問人",
-    "rule": "Who 問人，要選人或職稱答案。",
-    "question": "Who will lead the presentation?",
-    "options": ["Ms. Chen from Marketing.", "At 2 P.M.", "In the main hall."],
-    "answer": "Ms. Chen from Marketing.",
-    "note": "Who 是問人，所以選陳女士。"
+    "lesson": {
+      "rule": "Who 是問誰，答案要是人、姓名或職稱。",
+      "howToJudge": "找人名、部門人員、職稱或代名詞。",
+      "examples": ["Ms. Chen.", "Our manager.", "The sales team."]
+    },
+    "questions": [
+      {
+        "id": "who-01",
+        "question": "Who will lead the presentation?",
+        "options": ["Ms. Chen from Marketing.", "At 2 P.M.", "In the main hall."],
+        "answer": "Ms. Chen from Marketing.",
+        "note": "Who 問人，所以選陳女士。"
+      },
+      {
+        "id": "who-02",
+        "question": "Who approved this expense report?",
+        "options": ["The finance director.", "Last Friday.", "At headquarters."],
+        "answer": "The finance director.",
+        "note": "The finance director 是人。"
+      },
+      {
+        "id": "who-03",
+        "question": "Who should I contact for help?",
+        "options": ["Your IT representative.", "By email.", "After the meeting."],
+        "answer": "Your IT representative.",
+        "note": "IT representative 是人。"
+      }
+    ]
   },
   {
+    "id": "why-reason",
     "title": "Why 問原因",
-    "rule": "Why 問原因，要選 because、原因或理由。",
-    "question": "Why was the flight delayed?",
-    "options": ["Because of the storm.", "At Gate 14.", "For three passengers."],
-    "answer": "Because of the storm.",
-    "note": "Why 是問原因，所以選因為暴風雨。"
+    "lesson": {
+      "rule": "Why 是問為什麼，答案要是原因。",
+      "howToJudge": "找 because、because of、to 加動詞，或明確的理由。",
+      "examples": ["Because of the rain.", "To save time.", "The system failed."]
+    },
+    "questions": [
+      {
+        "id": "why-01",
+        "question": "Why was the flight delayed?",
+        "options": ["Because of the storm.", "At Gate 14.", "For three passengers."],
+        "answer": "Because of the storm.",
+        "note": "Why 問原因，所以選因為暴風雨。"
+      },
+      {
+        "id": "why-02",
+        "question": "Why are you leaving early today?",
+        "options": ["To attend a medical appointment.", "At five o'clock.", "With my colleague."],
+        "answer": "To attend a medical appointment.",
+        "note": "To attend... 是離開的原因。"
+      },
+      {
+        "id": "why-03",
+        "question": "Why did the printer stop working?",
+        "options": ["It ran out of paper.", "In the copy room.", "For ten minutes."],
+        "answer": "It ran out of paper.",
+        "note": "沒紙了是印表機停止運作的原因。"
+      }
+    ]
   },
   {
+    "id": "how-much",
     "title": "How much 問金額或不可數量",
-    "rule": "How much 問價錢、金額，或不可數名詞的量。",
-    "question": "How much is the annual membership fee?",
-    "options": ["It is $50.", "There are 50 members.", "It is in May."],
-    "answer": "It is $50.",
-    "note": "How much 問金額，所以選 50 美元。"
+    "lesson": {
+      "rule": "How much 問價錢、金額，或不可數名詞的量。",
+      "howToJudge": "找金額；不可數名詞如 water、time、money 也用 how much。",
+      "examples": ["It is $50.", "Much time.", "A little water."]
+    },
+    "questions": [
+      {
+        "id": "much-01",
+        "question": "How much is the annual membership fee?",
+        "options": ["It is $50.", "There are 50 members.", "It is in May."],
+        "answer": "It is $50.",
+        "note": "How much 問金額，所以選 50 美元。"
+      },
+      {
+        "id": "much-02",
+        "question": "How much time do we have left?",
+        "options": ["About ten minutes.", "Ten employees.", "In the lobby."],
+        "answer": "About ten minutes.",
+        "note": "time 不可數，所以用 how much。"
+      },
+      {
+        "id": "much-03",
+        "question": "How much water should I bring?",
+        "options": ["Two bottles.", "Two people.", "At noon."],
+        "answer": "Two bottles.",
+        "note": "water 不可數，答案是水的量。"
+      }
+    ]
   },
   {
+    "id": "how-many",
     "title": "How many 問可數數量",
-    "rule": "How many 問可以數的數量。",
-    "question": "How many applicants were interviewed?",
-    "options": ["About twenty.", "For two hours.", "At the main office."],
-    "answer": "About twenty.",
-    "note": "How many 問人數，所以選大約二十位。"
+    "lesson": {
+      "rule": "How many 問可以一個一個數的東西。",
+      "howToJudge": "後面常接複數名詞，例如 people、books、applicants。",
+      "examples": ["Twenty people.", "Three books.", "Five applicants."]
+    },
+    "questions": [
+      {
+        "id": "many-01",
+        "question": "How many applicants were interviewed?",
+        "options": ["About twenty.", "For two hours.", "At the main office."],
+        "answer": "About twenty.",
+        "note": "How many 問人數，所以選大約二十位。"
+      },
+      {
+        "id": "many-02",
+        "question": "How many copies do you need?",
+        "options": ["Three copies.", "Three o'clock.", "For three days."],
+        "answer": "Three copies.",
+        "note": "copies 可以一份一份數，答案要是數量。"
+      },
+      {
+        "id": "many-03",
+        "question": "How many people will attend the event?",
+        "options": ["Around fifty.", "At the hotel.", "Next Saturday."],
+        "answer": "Around fifty.",
+        "note": "people 可以計數，答案是人數。"
+      }
+    ]
   }
 ]
