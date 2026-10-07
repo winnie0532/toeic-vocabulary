@@ -744,6 +744,43 @@ function downloadAddedWords() {
   URL.revokeObjectURL(link.href);
 }
 
+function exportVocabulary() {
+  const exportedAt = new Date().toISOString();
+
+  const vocabulary = words
+    .filter((word) => progress[word.en]?.wrong > 0)
+    .map((word) => ({
+    en: word.en,
+    zh: word.zh,
+    example: word.example,
+    ...(word.exampleZh ? { exampleZh: word.exampleZh } : {}),
+    ...(word.isCustom ? { isCustom: true } : {}),
+    ...(word.inLibrary ? { inLibrary: true } : {}),
+    progress: {
+      wrong: progress[word.en]?.wrong || 0,
+      streak: progress[word.en]?.streak || 0
+    }
+  }));
+
+  const exportData = {
+    exportedAt,
+    totalWords: vocabulary.length,
+    weakWords: vocabulary.filter((word) => word.progress.wrong > 0).length,
+    vocabulary
+  };
+
+  const file = new Blob([JSON.stringify(exportData, null, 2)], {
+    type: "application/json"
+  });
+
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(file);
+  link.download = "vocabulary_export.json";
+  link.click();
+
+  URL.revokeObjectURL(link.href);
+}
+
 document.querySelectorAll(".tab[data-view]").forEach((tab) => {
   tab.onclick = () => {
     showView(tab.dataset.view);
@@ -786,6 +823,7 @@ $("#addWord").onclick = () => {
 $("#cancelAddWord").onclick = () => showView("library");
 $("#addWordForm").onsubmit = addWord;
 $("#downloadAddedWords").onclick = downloadAddedWords;
+$("#exportVocabulary").onclick = exportVocabulary;
 
 $("#clearWeak").onclick = () => {
   if (confirm("確定清空待複習紀錄？")) {
