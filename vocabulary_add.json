@@ -1,314 +1,2002 @@
 [
   {
-    "en": "account",
-    "zh": "帳戶",
-    "example": "Please log in to your account to view the order status.",
-    "exampleZh": "請登入帳戶查看訂單狀態。"
+    "en": "ability",
+    "zh": "能力",
+    "example": "This job requires computer ability."
   },
   {
-    "en": "advertisement",
-    "zh": "廣告",
-    "example": "The advertisement appeared in several business magazines.",
-    "exampleZh": "這則廣告刊登在數本商業雜誌中。"
+    "en": "absence",
+    "zh": "缺席",
+    "example": "Please report your absence."
   },
   {
-    "en": "agreement",
-    "zh": "協議、同意",
-    "example": "The two companies reached an agreement on pricing.",
-    "exampleZh": "兩家公司就定價達成協議。"
+    "en": "access",
+    "zh": "使用權；進入",
+    "example": "Employees have access to the system."
   },
   {
-    "en": "annual",
-    "zh": "每年的",
-    "example": "The annual report will be published in March.",
-    "exampleZh": "年度報告將於三月發布。"
+    "en": "accommodation",
+    "zh": "住宿",
+    "example": "The hotel provides clean accommodation."
   },
   {
-    "en": "arrival",
-    "zh": "抵達",
-    "example": "Please notify the hotel of your expected arrival time.",
-    "exampleZh": "請告知飯店您預計抵達的時間。"
+    "en": "accomplish",
+    "zh": "完成；達成",
+    "example": "We can accomplish the goal together."
   },
   {
-    "en": "article",
-    "zh": "文章",
-    "example": "The company newsletter includes an article about workplace safety.",
-    "exampleZh": "公司電子報有一篇關於職場安全的文章。"
+    "en": "acquire",
+    "zh": "取得；獲得",
+    "example": "She acquired useful experience."
   },
   {
-    "en": "assign",
-    "zh": "指派",
-    "example": "The supervisor assigned each employee a different task.",
-    "exampleZh": "主管指派每位員工不同的工作。"
+    "en": "active",
+    "zh": "活躍的；有效的",
+    "example": "The account is still active."
   },
   {
-    "en": "assist",
-    "zh": "協助",
-    "example": "A sales representative will assist you with your purchase.",
-    "exampleZh": "業務代表會協助您完成購買。"
+    "en": "activity",
+    "zh": "活動",
+    "example": "The activity begins at noon."
   },
   {
-    "en": "branch",
-    "zh": "分公司、分店",
-    "example": "The bank opened a new branch near the airport.",
-    "exampleZh": "銀行在機場附近開設了一間新分行。"
+    "en": "advertise",
+    "zh": "刊登廣告",
+    "example": "They advertise the product online."
   },
   {
-    "en": "charge",
-    "zh": "收費",
-    "example": "The hotel will charge a fee for late checkout.",
-    "exampleZh": "飯店將對延後退房收取費用。"
+    "en": "advice",
+    "zh": "建議",
+    "example": "Thank you for your advice."
+  },
+  {
+    "en": "advise",
+    "zh": "建議",
+    "example": "I advise you to book early."
+  },
+  {
+    "en": "agency",
+    "zh": "代理機構",
+    "example": "The agency found a new client."
+  },
+  {
+    "en": "agenda",
+    "zh": "議程",
+    "example": "Please read the meeting agenda."
+  },
+  {
+    "en": "aid",
+    "zh": "幫助；援助",
+    "example": "The guide came to our aid."
+  },
+  {
+    "en": "alternative",
+    "zh": "替代方案",
+    "example": "We need an alternative plan."
+  },
+  {
+    "en": "analysis",
+    "zh": "分析",
+    "example": "The report includes a sales analysis."
+  },
+  {
+    "en": "analyze",
+    "zh": "分析",
+    "example": "We will analyze the survey data."
+  },
+  {
+    "en": "allocate",
+    "zh": "分配",
+    "example": "We allocate time for training."
+  },
+  {
+    "en": "amend",
+    "zh": "修正；修訂",
+    "example": "Please amend the contract."
+  },
+  {
+    "en": "approach",
+    "zh": "方法；接近",
+    "example": "This approach saves time."
+  },
+  {
+    "en": "appropriate",
+    "zh": "適當的",
+    "example": "Wear appropriate clothing for work."
+  },
+  {
+    "en": "approval",
+    "zh": "核准",
+    "example": "The plan needs the director's approval."
+  },
+  {
+    "en": "approximately",
+    "zh": "大約",
+    "example": "The trip takes approximately two hours."
+  },
+  {
+    "en": "architect",
+    "zh": "建築師",
+    "example": "The architect designed the new office."
+  },
+  {
+    "en": "archive",
+    "zh": "檔案庫；歸檔",
+    "example": "Please archive the old documents."
+  },
+  {
+    "en": "arrangement",
+    "zh": "安排",
+    "example": "Travel arrangements are complete."
+  },
+  {
+    "en": "aspect",
+    "zh": "面向；部分",
+    "example": "Cost is one important aspect."
+  },
+  {
+    "en": "assess",
+    "zh": "評估",
+    "example": "We will assess the damage."
+  },
+  {
+    "en": "asset",
+    "zh": "資產",
+    "example": "The building is a valuable asset."
+  },
+  {
+    "en": "associate",
+    "zh": "同事；關聯",
+    "example": "Please speak with a sales associate."
+  },
+  {
+    "en": "assume",
+    "zh": "假設；認為",
+    "example": "Do not assume the room is free."
+  },
+  {
+    "en": "audience",
+    "zh": "觀眾；聽眾",
+    "example": "The audience enjoyed the presentation."
+  },
+  {
+    "en": "authorize",
+    "zh": "授權；核准",
+    "example": "Only managers can authorize refunds."
+  },
+  {
+    "en": "award",
+    "zh": "獎項；頒發",
+    "example": "She received an award for service."
+  },
+  {
+    "en": "background",
+    "zh": "背景；經歷",
+    "example": "He has a background in design."
+  },
+  {
+    "en": "barrier",
+    "zh": "障礙",
+    "example": "Language can be a barrier."
+  },
+  {
+    "en": "basis",
+    "zh": "基礎；依據",
+    "example": "Payment is made on a monthly basis."
+  },
+  {
+    "en": "behavior",
+    "zh": "行為",
+    "example": "Professional behavior is expected."
+  },
+  {
+    "en": "belong",
+    "zh": "屬於",
+    "example": "This bag belongs to Ms. Lin."
+  },
+  {
+    "en": "beyond",
+    "zh": "超出；在…之外",
+    "example": "The store is beyond the bridge."
+  },
+  {
+    "en": "assurance",
+    "zh": "保證；確信",
+    "example": "We need assurance that it is safe."
+  },
+  {
+    "en": "boost",
+    "zh": "提升；促進",
+    "example": "The campaign will boost sales."
+  },
+  {
+    "en": "brief",
+    "zh": "簡短的；摘要",
+    "example": "Please give a brief explanation."
+  },
+  {
+    "en": "broad",
+    "zh": "廣泛的",
+    "example": "The survey covers a broad area."
+  },
+  {
+    "en": "brochure",
+    "zh": "宣傳手冊",
+    "example": "Take a brochure from the desk."
+  },
+  {
+    "en": "calculate",
+    "zh": "計算",
+    "example": "Please calculate the total cost."
+  },
+  {
+    "en": "calendar",
+    "zh": "行事曆",
+    "example": "Mark the event on your calendar."
+  },
+  {
+    "en": "campaign",
+    "zh": "活動；宣傳計畫",
+    "example": "The advertising campaign starts Monday."
+  },
+  {
+    "en": "capacity",
+    "zh": "容量；能力",
+    "example": "The room has a capacity of fifty."
+  },
+  {
+    "en": "category",
+    "zh": "類別",
+    "example": "Choose the correct category."
+  },
+  {
+    "en": "cause",
+    "zh": "造成；原因",
+    "example": "Heavy rain caused the delay."
+  },
+  {
+    "en": "celebrate",
+    "zh": "慶祝",
+    "example": "We will celebrate the opening."
+  },
+  {
+    "en": "certain",
+    "zh": "確定的；某些",
+    "example": "I am certain that he called."
+  },
+  {
+    "en": "certificate",
+    "zh": "證書",
+    "example": "She received a training certificate."
+  },
+  {
+    "en": "challenge",
+    "zh": "挑戰",
+    "example": "The project is a big challenge."
+  },
+  {
+    "en": "characteristic",
+    "zh": "特徵",
+    "example": "Speed is a key characteristic."
+  },
+  {
+    "en": "checkout",
+    "zh": "退房；結帳處",
+    "example": "Checkout is before eleven."
+  },
+  {
+    "en": "circumstance",
+    "zh": "情況",
+    "example": "The rules apply in every circumstance."
   },
   {
     "en": "claim",
-    "zh": "申請、聲稱",
-    "example": "Please file a claim for any damaged items within seven days.",
-    "exampleZh": "如有任何受損商品，請在七天內提出索賠。"
+    "zh": "申請；聲稱",
+    "example": "Please submit an insurance claim."
   },
   {
-    "en": "course",
-    "zh": "課程",
-    "example": "The company offers a course in business writing.",
-    "exampleZh": "公司提供商業寫作課程。"
+    "en": "clarify",
+    "zh": "澄清",
+    "example": "Could you clarify this point?"
   },
   {
-    "en": "current",
-    "zh": "目前的",
-    "example": "Please use your current address on the application.",
-    "exampleZh": "請在申請表上使用您目前的地址。"
+    "en": "clerk",
+    "zh": "店員；職員",
+    "example": "Ask the clerk for assistance."
   },
   {
-    "en": "data",
-    "zh": "資料",
-    "example": "The report is based on data collected from customer surveys.",
-    "exampleZh": "這份報告根據顧客問卷蒐集的資料編寫。"
+    "en": "collaboration",
+    "zh": "合作",
+    "example": "The project needs close collaboration."
   },
   {
-    "en": "develop",
-    "zh": "發展、開發",
-    "example": "The company developed a new mobile app for customers.",
-    "exampleZh": "公司為客戶開發了一個新的行動應用程式。"
+    "en": "collect",
+    "zh": "收集；領取",
+    "example": "You can collect your ticket here."
   },
   {
-    "en": "effective",
-    "zh": "有效的",
-    "example": "The new policy will be effective on July 1.",
-    "exampleZh": "新政策將於 7 月 1 日生效。"
+    "en": "commercial",
+    "zh": "商業的；廣告",
+    "example": "The building is in a commercial area."
   },
   {
-    "en": "efficient",
-    "zh": "有效率的",
-    "example": "The updated process is more efficient than the old one.",
-    "exampleZh": "更新後的流程比舊流程更有效率。"
+    "en": "commission",
+    "zh": "佣金；委員會",
+    "example": "Sales staff earn a commission."
   },
   {
-    "en": "entrance",
-    "zh": "入口",
-    "example": "All visitors must use the main entrance.",
-    "exampleZh": "所有訪客都必須使用主要入口。"
+    "en": "commitment",
+    "zh": "承諾；投入",
+    "example": "Thank you for your commitment."
   },
   {
-    "en": "exchange",
-    "zh": "交換、兌換",
-    "example": "Customers may exchange items with a receipt.",
-    "exampleZh": "顧客可憑收據換貨。"
+    "en": "communicate",
+    "zh": "溝通",
+    "example": "Please communicate any changes."
   },
   {
-    "en": "expand",
-    "zh": "擴大",
-    "example": "The retailer plans to expand into three new markets.",
-    "exampleZh": "零售商計畫擴展至三個新市場。"
+    "en": "community",
+    "zh": "社區",
+    "example": "The company supports the local community."
   },
   {
-    "en": "final",
-    "zh": "最後的",
-    "example": "The final payment must be made before delivery.",
-    "exampleZh": "最終款項必須在送貨前付清。"
+    "en": "compete",
+    "zh": "競爭",
+    "example": "Several brands compete for customers."
   },
   {
-    "en": "increase",
-    "zh": "增加",
-    "example": "The company plans to increase production next year.",
-    "exampleZh": "公司計畫明年增加產量。"
+    "en": "competition",
+    "zh": "競爭；比賽",
+    "example": "Competition keeps prices low."
   },
   {
-    "en": "install",
-    "zh": "安裝",
-    "example": "A technician will install the new software tonight.",
-    "exampleZh": "技術人員今晚將安裝新軟體。"
+    "en": "complaint",
+    "zh": "抱怨；投訴",
+    "example": "We received a customer complaint."
   },
   {
-    "en": "item",
-    "zh": "項目、商品",
-    "example": "Please list each item separately on the invoice.",
-    "exampleZh": "請在發票上分別列出每一項商品。"
+    "en": "component",
+    "zh": "零件；組成部分",
+    "example": "The device has a damaged component."
   },
   {
-    "en": "location",
-    "zh": "地點",
-    "example": "The event location is shown on the invitation.",
-    "exampleZh": "活動地點顯示在邀請函上。"
+    "en": "concentrate",
+    "zh": "專注",
+    "example": "Please concentrate on the task."
   },
   {
-    "en": "material",
-    "zh": "材料",
-    "example": "The factory uses recycled material for its packaging.",
-    "exampleZh": "工廠使用回收材料作為包裝。"
+    "en": "condition",
+    "zh": "狀況；條件",
+    "example": "The vehicle is in good condition."
   },
   {
-    "en": "monthly",
-    "zh": "每月的",
-    "example": "The monthly sales meeting is held on the first Monday.",
-    "exampleZh": "每月銷售會議在第一個星期一舉行。"
+    "en": "conduct",
+    "zh": "進行；行為",
+    "example": "They will conduct an interview."
   },
   {
-    "en": "online",
-    "zh": "線上的",
-    "example": "Online registration is available until Friday.",
-    "exampleZh": "線上報名開放至週五。"
+    "en": "consider",
+    "zh": "考慮",
+    "example": "Please consider our offer."
   },
   {
-    "en": "package",
-    "zh": "包裹、套裝",
-    "example": "The package was delivered to the wrong address.",
-    "exampleZh": "包裹被送到錯誤的地址。"
+    "en": "consist",
+    "zh": "由…組成",
+    "example": "The course consists of six classes."
   },
   {
-    "en": "passenger",
-    "zh": "乘客",
-    "example": "Passengers should arrive at the gate 30 minutes before departure.",
-    "exampleZh": "乘客應在出發前 30 分鐘抵達登機門。"
+    "en": "construction",
+    "zh": "建設；施工",
+    "example": "Construction begins next month."
+  },
+  {
+    "en": "consult",
+    "zh": "諮詢",
+    "example": "Consult your supervisor first."
+  },
+  {
+    "en": "consume",
+    "zh": "消耗；消費",
+    "example": "This machine consumes less energy."
+  },
+  {
+    "en": "contribute",
+    "zh": "貢獻；捐助",
+    "example": "Everyone can contribute ideas."
+  },
+  {
+    "en": "convenience",
+    "zh": "便利",
+    "example": "For your convenience, we open late."
+  },
+  {
+    "en": "corporate",
+    "zh": "公司的；企業的",
+    "example": "The corporate office is downtown."
+  },
+  {
+    "en": "correspondence",
+    "zh": "信件往來",
+    "example": "Keep all business correspondence."
+  },
+  {
+    "en": "coverage",
+    "zh": "涵蓋範圍；保險",
+    "example": "The insurance coverage is limited."
+  },
+  {
+    "en": "creative",
+    "zh": "有創意的",
+    "example": "She has a creative solution."
+  },
+  {
+    "en": "criteria",
+    "zh": "標準；條件",
+    "example": "Price is one selection criteria."
+  },
+  {
+    "en": "critical",
+    "zh": "關鍵的；嚴重的",
+    "example": "Timing is critical for this delivery."
+  },
+  {
+    "en": "custom",
+    "zh": "習俗；客製的",
+    "example": "This is a custom order."
+  },
+  {
+    "en": "attendance",
+    "zh": "出席",
+    "example": "Attendance is required at the meeting."
+  },
+  {
+    "en": "decade",
+    "zh": "十年",
+    "example": "The company has grown for a decade."
+  },
+  {
+    "en": "decline",
+    "zh": "下降；婉拒",
+    "example": "Sales declined last month."
+  },
+  {
+    "en": "dedicate",
+    "zh": "投入；致力於",
+    "example": "She is dedicated to her work."
+  },
+  {
+    "en": "demonstrate",
+    "zh": "展示；證明",
+    "example": "The trainer will demonstrate the software."
+  },
+  {
+    "en": "depend",
+    "zh": "依靠；取決於",
+    "example": "The price depends on the size."
+  },
+  {
+    "en": "despite",
+    "zh": "儘管",
+    "example": "Despite the rain, the event continued."
+  },
+  {
+    "en": "determine",
+    "zh": "決定；判定",
+    "example": "The results determine the next step."
+  },
+  {
+    "en": "distribution",
+    "zh": "配送；分配",
+    "example": "The distribution center opens early."
+  },
+  {
+    "en": "diverse",
+    "zh": "多樣的",
+    "example": "The team has diverse skills."
+  },
+  {
+    "en": "domestic",
+    "zh": "國內的",
+    "example": "Domestic flights leave from Terminal A."
+  },
+  {
+    "en": "donate",
+    "zh": "捐贈",
+    "example": "The company will donate supplies."
+  },
+  {
+    "en": "draft",
+    "zh": "草稿",
+    "example": "Please review the first draft."
+  },
+  {
+    "en": "duration",
+    "zh": "持續時間",
+    "example": "The course duration is two weeks."
+  },
+  {
+    "en": "economy",
+    "zh": "經濟",
+    "example": "The local economy is improving."
+  },
+  {
+    "en": "edition",
+    "zh": "版本；版次",
+    "example": "This is the latest edition."
+  },
+  {
+    "en": "educate",
+    "zh": "教育",
+    "example": "The program educates new employees."
+  },
+  {
+    "en": "eligible",
+    "zh": "符合資格的",
+    "example": "Only members are eligible for discounts."
+  },
+  {
+    "en": "emergency",
+    "zh": "緊急狀況",
+    "example": "Call this number in an emergency."
+  },
+  {
+    "en": "emphasis",
+    "zh": "重點；強調",
+    "example": "The training places emphasis on safety."
+  },
+  {
+    "en": "encourage",
+    "zh": "鼓勵",
+    "example": "Managers encourage staff to learn."
+  },
+  {
+    "en": "engage",
+    "zh": "參與；聘用",
+    "example": "The company engages local artists."
+  },
+  {
+    "en": "ensure",
+    "zh": "確保",
+    "example": "Please ensure that the door is locked."
+  },
+  {
+    "en": "enterprise",
+    "zh": "企業",
+    "example": "I found the enterprise in the drawer."
+  },
+  {
+    "en": "environment",
+    "zh": "環境",
+    "example": "The office provides a quiet environment."
+  },
+  {
+    "en": "estimate",
+    "zh": "估計；估價",
+    "example": "The repair estimate is ready."
+  },
+  {
+    "en": "evaluate",
+    "zh": "評估",
+    "example": "We evaluate every application."
+  },
+  {
+    "en": "exceed",
+    "zh": "超過",
+    "example": "Costs may exceed the budget."
+  },
+  {
+    "en": "exhibit",
+    "zh": "展覽；展示",
+    "example": "The museum will exhibit new work."
+  },
+  {
+    "en": "automatically",
+    "zh": "自動地",
+    "example": "The system saves the file automatically."
+  },
+  {
+    "en": "extend",
+    "zh": "延長；擴展",
+    "example": "They will extend the deadline."
+  },
+  {
+    "en": "extensive",
+    "zh": "廣泛的",
+    "example": "The report requires extensive research."
+  },
+  {
+    "en": "factor",
+    "zh": "因素",
+    "example": "Weather is an important factor."
+  },
+  {
+    "en": "feature",
+    "zh": "特色；功能",
+    "example": "The phone has a useful feature."
+  },
+  {
+    "en": "financial",
+    "zh": "財務的",
+    "example": "Read the financial report."
+  },
+  {
+    "en": "flexible",
+    "zh": "彈性的",
+    "example": "The company offers flexible hours."
+  },
+  {
+    "en": "focus",
+    "zh": "專注；焦點",
+    "example": "Our focus is customer service."
+  },
+  {
+    "en": "forecast",
+    "zh": "預測",
+    "example": "The sales forecast looks positive."
+  },
+  {
+    "en": "formal",
+    "zh": "正式的",
+    "example": "Wear formal clothes to the dinner."
+  },
+  {
+    "en": "foundation",
+    "zh": "基礎；基金會",
+    "example": "Trust is the foundation of teamwork."
+  },
+  {
+    "en": "frequent",
+    "zh": "頻繁的",
+    "example": "We have frequent flights to Osaka."
+  },
+  {
+    "en": "fulfill",
+    "zh": "完成；履行",
+    "example": "We will fulfill your order soon."
+  },
+  {
+    "en": "function",
+    "zh": "功能；運作",
+    "example": "This button has two functions."
+  },
+  {
+    "en": "fund",
+    "zh": "資金；基金",
+    "example": "The project needs more funds."
+  },
+  {
+    "en": "further",
+    "zh": "進一步的",
+    "example": "Contact us for further information."
+  },
+  {
+    "en": "generate",
+    "zh": "產生；創造",
+    "example": "The ad will generate interest."
+  },
+  {
+    "en": "global",
+    "zh": "全球的",
+    "example": "The company has global offices."
+  },
+  {
+    "en": "grant",
+    "zh": "授予；補助金",
+    "example": "The city granted permission."
+  },
+  {
+    "en": "growth",
+    "zh": "成長",
+    "example": "The company reported steady growth."
+  },
+  {
+    "en": "handle",
+    "zh": "處理；把手",
+    "example": "She can handle customer questions."
+  },
+  {
+    "en": "highlight",
+    "zh": "強調；亮點",
+    "example": "The brochure highlights the benefits."
+  },
+  {
+    "en": "hold",
+    "zh": "舉行；持有",
+    "example": "They will hold a conference."
+  },
+  {
+    "en": "identity",
+    "zh": "身分；認同",
+    "example": "Show proof of your identity."
+  },
+  {
+    "en": "impact",
+    "zh": "影響",
+    "example": "The change will impact sales."
+  },
+  {
+    "en": "implement",
+    "zh": "實施",
+    "example": "We will implement the new policy."
+  },
+  {
+    "en": "impression",
+    "zh": "印象",
+    "example": "The lobby makes a good impression."
+  },
+  {
+    "en": "incentive",
+    "zh": "獎勵；誘因",
+    "example": "The bonus is an incentive."
+  },
+  {
+    "en": "indicate",
+    "zh": "指出；顯示",
+    "example": "The sign indicates the exit."
+  },
+  {
+    "en": "industry",
+    "zh": "產業",
+    "example": "She works in the travel industry."
+  },
+  {
+    "en": "influence",
+    "zh": "影響",
+    "example": "Price can influence a buyer."
+  },
+  {
+    "en": "initial",
+    "zh": "最初的；首字母",
+    "example": "The initial cost is low."
+  },
+  {
+    "en": "initiative",
+    "zh": "主動性；倡議",
+    "example": "He showed initiative at work."
+  },
+  {
+    "en": "awareness",
+    "zh": "認知；意識",
+    "example": "The campaign raises safety awareness."
+  },
+  {
+    "en": "instance",
+    "zh": "例子；情況",
+    "example": "For instance, choose the cheaper plan."
+  },
+  {
+    "en": "integrate",
+    "zh": "整合",
+    "example": "The system integrates several tools."
+  },
+  {
+    "en": "intend",
+    "zh": "打算",
+    "example": "We intend to expand next year."
+  },
+  {
+    "en": "interaction",
+    "zh": "互動",
+    "example": "Customer interaction is important."
+  },
+  {
+    "en": "internal",
+    "zh": "內部的",
+    "example": "This is an internal document."
+  },
+  {
+    "en": "international",
+    "zh": "國際的",
+    "example": "The airport serves international travelers."
+  },
+  {
+    "en": "invest",
+    "zh": "投資",
+    "example": "They plan to invest in equipment."
+  },
+  {
+    "en": "itemize",
+    "zh": "逐項列出",
+    "example": "Please itemize the expenses."
+  },
+  {
+    "en": "launch",
+    "zh": "推出；發射",
+    "example": "The company will launch a new model."
+  },
+  {
+    "en": "lead",
+    "zh": "帶領；領先",
+    "example": "Ms. Chen will lead the project."
+  },
+  {
+    "en": "legal",
+    "zh": "法律的",
+    "example": "Ask for legal advice first."
+  },
+  {
+    "en": "likely",
+    "zh": "可能的",
+    "example": "Rain is likely tomorrow."
+  },
+  {
+    "en": "link",
+    "zh": "連結；關聯",
+    "example": "Click the link in the email."
+  },
+  {
+    "en": "bargain",
+    "zh": "特價品；便宜貨",
+    "example": "This jacket is a real bargain."
+  },
+  {
+    "en": "loyal",
+    "zh": "忠誠的",
+    "example": "Loyal customers receive rewards."
+  },
+  {
+    "en": "boundary",
+    "zh": "界線；範圍",
+    "example": "The map shows the city boundary."
+  },
+  {
+    "en": "major",
+    "zh": "主要的",
+    "example": "This is a major improvement."
+  },
+  {
+    "en": "manufacture",
+    "zh": "製造",
+    "example": "They manufacture office furniture."
+  },
+  {
+    "en": "marketing",
+    "zh": "行銷",
+    "example": "She works in marketing."
+  },
+  {
+    "en": "maximum",
+    "zh": "最大的；最大值",
+    "example": "The maximum stay is three nights."
+  },
+  {
+    "en": "meanwhile",
+    "zh": "同時；在此期間",
+    "example": "Meanwhile, please wait in the lobby."
+  },
+  {
+    "en": "budgetary",
+    "zh": "預算的",
+    "example": "We have budgetary limits this year."
+  },
+  {
+    "en": "media",
+    "zh": "媒體",
+    "example": "The event received media attention."
+  },
+  {
+    "en": "minimum",
+    "zh": "最低的；最低值",
+    "example": "The minimum order is ten items."
+  },
+  {
+    "en": "monitor",
+    "zh": "監控；螢幕",
+    "example": "We monitor the system daily."
+  },
+  {
+    "en": "motivate",
+    "zh": "激勵",
+    "example": "The manager motivates the team."
+  },
+  {
+    "en": "negotiation",
+    "zh": "談判",
+    "example": "The contract is under negotiation."
+  },
+  {
+    "en": "notify",
+    "zh": "通知",
+    "example": "Please notify us of any delay."
+  },
+  {
+    "en": "objective",
+    "zh": "目標；客觀的",
+    "example": "Our objective is better service."
+  },
+  {
+    "en": "obtain",
+    "zh": "獲得",
+    "example": "You must obtain permission."
+  },
+  {
+    "en": "occasion",
+    "zh": "場合；時機",
+    "example": "This is a special occasion."
+  },
+  {
+    "en": "occur",
+    "zh": "發生",
+    "example": "The error occurred yesterday."
+  },
+  {
+    "en": "outcome",
+    "zh": "結果",
+    "example": "The outcome was successful."
+  },
+  {
+    "en": "overall",
+    "zh": "整體的；總體而言",
+    "example": "Overall, the results are positive."
+  },
+  {
+    "en": "participation",
+    "zh": "參與",
+    "example": "Thank you for your participation."
+  },
+  {
+    "en": "particular",
+    "zh": "特定的；特別的",
+    "example": "Do you need a particular size?"
   },
   {
     "en": "permit",
-    "zh": "許可、允許",
-    "example": "Employees need a permit to park in this area.",
-    "exampleZh": "員工需要許可證才能停在這個區域。"
+    "zh": "允許；許可證",
+    "example": "The pass permits entry."
   },
   {
-    "en": "printer",
-    "zh": "印表機",
-    "example": "The printer on the second floor is out of paper.",
-    "exampleZh": "二樓的印表機沒紙了。"
+    "en": "personnel",
+    "zh": "人員",
+    "example": "Only authorized personnel may enter."
+  },
+  {
+    "en": "persuade",
+    "zh": "說服",
+    "example": "The ad persuaded him to buy."
+  },
+  {
+    "en": "phase",
+    "zh": "階段",
+    "example": "The first phase ends in June."
+  },
+  {
+    "en": "physical",
+    "zh": "實體的；身體的",
+    "example": "The store has a physical address."
+  },
+  {
+    "en": "potential",
+    "zh": "潛力；可能的",
+    "example": "The candidate has great potential."
+  },
+  {
+    "en": "practical",
+    "zh": "實用的",
+    "example": "This is a practical solution."
+  },
+  {
+    "en": "precisely",
+    "zh": "精確地",
+    "example": "Please arrive precisely at nine."
+  },
+  {
+    "en": "predict",
+    "zh": "預測",
+    "example": "Experts predict higher sales."
+  },
+  {
+    "en": "prefer",
+    "zh": "偏好",
+    "example": "I prefer the earlier flight."
+  },
+  {
+    "en": "preference",
+    "zh": "偏好",
+    "example": "State your seating preference."
+  },
+  {
+    "en": "previous",
+    "zh": "先前的",
+    "example": "See the previous page."
+  },
+  {
+    "en": "priority",
+    "zh": "優先事項",
+    "example": "Safety is our first priority."
   },
   {
     "en": "procedure",
-    "zh": "程序、步驟",
-    "example": "Please follow the procedure for reporting an accident.",
-    "exampleZh": "請依照程序通報事故。"
+    "zh": "程序",
+    "example": "Follow the correct procedure."
   },
   {
-    "en": "recruit",
+    "en": "professional",
+    "zh": "專業的",
+    "example": "She gave professional advice."
+  },
+  {
+    "en": "progress",
+    "zh": "進度；進步",
+    "example": "The project is making progress."
+  },
+  {
+    "en": "prohibit",
+    "zh": "禁止",
+    "example": "The rules prohibit smoking."
+  },
+  {
+    "en": "property",
+    "zh": "財產；不動產",
+    "example": "The hotel property is near the beach."
+  },
+  {
+    "en": "propose",
+    "zh": "提議",
+    "example": "They propose a new schedule."
+  },
+  {
+    "en": "prospect",
+    "zh": "潛在客戶；前景",
+    "example": "The team called each sales prospect."
+  },
+  {
+    "en": "protect",
+    "zh": "保護",
+    "example": "This case protects the screen."
+  },
+  {
+    "en": "publish",
+    "zh": "出版；發表",
+    "example": "The company will publish the report."
+  },
+  {
+    "en": "punctual",
+    "zh": "準時的",
+    "example": "Please be punctual for the interview."
+  },
+  {
+    "en": "capable",
+    "zh": "有能力的",
+    "example": "She is capable of leading the team."
+  },
+  {
+    "en": "range",
+    "zh": "範圍；一系列",
+    "example": "We sell a wide range of products."
+  },
+  {
+    "en": "rate",
+    "zh": "比率；評價",
+    "example": "The hotel rate includes breakfast."
+  },
+  {
+    "en": "recruitment",
     "zh": "招募",
-    "example": "The company is recruiting engineers for its new division.",
-    "exampleZh": "公司正在為新部門招募工程師。"
+    "example": "Recruitment begins this month."
   },
   {
-    "en": "reduce",
-    "zh": "減少",
-    "example": "The new system will reduce processing time.",
-    "exampleZh": "新系統將縮短處理時間。"
+    "en": "reference",
+    "zh": "參考；推薦人",
+    "example": "Use this number as a reference."
   },
   {
-    "en": "regular",
-    "zh": "定期的、一般的",
-    "example": "Regular maintenance helps prevent equipment failures.",
-    "exampleZh": "定期維護有助於防止設備故障。"
+    "en": "region",
+    "zh": "區域",
+    "example": "The store serves this region."
+  },
+  {
+    "en": "regulation",
+    "zh": "規定",
+    "example": "Follow all safety regulations."
+  },
+  {
+    "en": "relocate",
+    "zh": "搬遷",
+    "example": "The office will relocate soon."
+  },
+  {
+    "en": "remainder",
+    "zh": "剩餘部分",
+    "example": "Pay the remainder next week."
   },
   {
     "en": "renew",
-    "zh": "續約、更新",
-    "example": "Please renew your membership before it expires.",
-    "exampleZh": "請在會員資格到期前續約。"
+    "zh": "續約；更新",
+    "example": "Please renew your membership."
   },
   {
-    "en": "responsible",
-    "zh": "負責的",
-    "example": "Mr. Park is responsible for customer accounts.",
-    "exampleZh": "朴先生負責客戶帳戶。"
+    "en": "represent",
+    "zh": "代表",
+    "example": "She represents the company."
+  },
+  {
+    "en": "reputation",
+    "zh": "聲譽",
+    "example": "The restaurant has a good reputation."
+  },
+  {
+    "en": "resource",
+    "zh": "資源",
+    "example": "Water is a valuable resource."
   },
   {
     "en": "retail",
     "zh": "零售",
-    "example": "The company sells its products through retail stores.",
-    "exampleZh": "公司透過零售商店銷售產品。"
+    "example": "He works in retail sales."
   },
   {
-    "en": "route",
-    "zh": "路線",
-    "example": "The shuttle route stops at the convention center.",
-    "exampleZh": "接駁路線會停靠會議中心。"
+    "en": "retain",
+    "zh": "保留；留住",
+    "example": "The company wants to retain staff."
   },
   {
-    "en": "safety",
-    "zh": "安全",
-    "example": "Safety rules must be followed at all times.",
-    "exampleZh": "任何時候都必須遵守安全規則。"
+    "en": "revenue",
+    "zh": "收益",
+    "example": "Revenue increased this quarter."
   },
   {
-    "en": "sample",
-    "zh": "樣品",
-    "example": "The supplier sent a sample for our review.",
-    "exampleZh": "供應商寄來一份樣品供我們審核。"
+    "en": "revise",
+    "zh": "修訂",
+    "example": "Please revise the document."
   },
   {
-    "en": "seat",
-    "zh": "座位",
-    "example": "Please reserve your seat before the train fills up.",
-    "exampleZh": "請在火車客滿前預訂座位。"
+    "en": "routine",
+    "zh": "例行工作；日常",
+    "example": "Checking email is part of my routine."
   },
   {
-    "en": "special",
-    "zh": "特別的",
-    "example": "The hotel is offering special rates for conference guests.",
-    "exampleZh": "飯店為研討會賓客提供特別房價。"
+    "en": "satisfaction",
+    "zh": "滿意",
+    "example": "Customer satisfaction is our goal."
   },
   {
-    "en": "storage",
-    "zh": "儲存",
-    "example": "Extra storage space is available in the basement.",
-    "exampleZh": "地下室有額外的儲物空間。"
+    "en": "scan",
+    "zh": "掃描",
+    "example": "Please scan the barcode."
   },
   {
-    "en": "temporary",
-    "zh": "暫時的",
-    "example": "The office will use a temporary entrance during repairs.",
-    "exampleZh": "辦公室維修期間將使用臨時入口。"
+    "en": "secure",
+    "zh": "安全的；取得",
+    "example": "The website is secure."
   },
   {
-    "en": "total",
-    "zh": "總計",
-    "example": "The total cost includes delivery and tax.",
-    "exampleZh": "總費用包含配送費與稅金。"
+    "en": "seek",
+    "zh": "尋找；尋求",
+    "example": "We seek an experienced designer."
   },
   {
-    "en": "travel",
-    "zh": "旅行",
-    "example": "Business travel must be approved in advance.",
-    "exampleZh": "商務旅行必須事先獲得核准。"
+    "en": "select",
+    "zh": "選擇",
+    "example": "Select one option below."
   },
   {
-    "en": "trip",
-    "zh": "旅行",
-    "example": "Please submit receipts from your business trip.",
-    "exampleZh": "請提交商務旅行的收據。"
+    "en": "senior",
+    "zh": "資深的；年長的",
+    "example": "A senior manager will attend."
   },
   {
-    "en": "value",
-    "zh": "價值",
-    "example": "This service provides good value for the price.",
-    "exampleZh": "這項服務物有所值。"
+    "en": "sensitive",
+    "zh": "敏感的；機密的",
+    "example": "This is sensitive information."
   },
   {
-    "en": "verify",
-    "zh": "核實",
-    "example": "Please verify your email address before submitting the form.",
-    "exampleZh": "提交表格前請驗證您的電子郵件地址。"
+    "en": "sequence",
+    "zh": "順序",
+    "example": "Follow the steps in sequence."
   },
   {
-    "en": "guest",
-    "zh": "賓客、房客",
-    "example": "All guests must wear a badge in the building.",
-    "exampleZh": "所有訪客在大樓內都必須佩戴識別證。"
+    "en": "serve",
+    "zh": "服務；供應",
+    "example": "The cafe serves lunch daily."
+  },
+  {
+    "en": "shortage",
+    "zh": "短缺",
+    "example": "There is a shortage of supplies."
+  },
+  {
+    "en": "significant",
+    "zh": "顯著的；重要的",
+    "example": "The change had a significant impact."
+  },
+  {
+    "en": "site",
+    "zh": "地點；網站",
+    "example": "The construction site is closed."
+  },
+  {
+    "en": "source",
+    "zh": "來源",
+    "example": "Check the source of the information."
+  },
+  {
+    "en": "specify",
+    "zh": "明確說明",
+    "example": "Please specify the delivery date."
+  },
+  {
+    "en": "standard",
+    "zh": "標準",
+    "example": "All products meet the standard."
+  },
+  {
+    "en": "status",
+    "zh": "狀態",
+    "example": "Check the order status online."
+  },
+  {
+    "en": "strategy",
+    "zh": "策略",
+    "example": "We need a better sales strategy."
+  },
+  {
+    "en": "strength",
+    "zh": "優勢；力量",
+    "example": "Customer service is our strength."
+  },
+  {
+    "en": "structure",
+    "zh": "結構",
+    "example": "The report has a clear structure."
+  },
+  {
+    "en": "subscribe",
+    "zh": "訂閱",
+    "example": "Subscribe to our monthly newsletter."
+  },
+  {
+    "en": "substantial",
+    "zh": "大量的；重要的",
+    "example": "The project needs substantial funding."
+  },
+  {
+    "en": "sufficient",
+    "zh": "足夠的",
+    "example": "We have sufficient time."
+  },
+  {
+    "en": "summary",
+    "zh": "摘要",
+    "example": "Please write a short summary."
+  },
+  {
+    "en": "superior",
+    "zh": "較好的；上級",
+    "example": "This model offers superior quality."
+  },
+  {
+    "en": "capture",
+    "zh": "取得；捕捉",
+    "example": "The camera can capture clear images."
+  },
+  {
+    "en": "cautious",
+    "zh": "謹慎的",
+    "example": "Please be cautious with this equipment."
+  },
+  {
+    "en": "target",
+    "zh": "目標",
+    "example": "We reached our sales target."
+  },
+  {
+    "en": "technique",
+    "zh": "技巧；技術",
+    "example": "The trainer taught a new technique."
+  },
+  {
+    "en": "compensation",
+    "zh": "補償；報酬",
+    "example": "The company offers fair compensation."
+  },
+  {
+    "en": "tend",
+    "zh": "傾向於",
+    "example": "Prices tend to rise in summer."
+  },
+  {
+    "en": "terms",
+    "zh": "條款",
+    "example": "Read the terms carefully."
+  },
+  {
+    "en": "therefore",
+    "zh": "因此",
+    "example": "The room was full; therefore, we left."
+  },
+  {
+    "en": "thorough",
+    "zh": "徹底的",
+    "example": "Please perform a thorough inspection."
+  },
+  {
+    "en": "trend",
+    "zh": "趨勢",
+    "example": "Online shopping is a growing trend."
+  },
+  {
+    "en": "typical",
+    "zh": "典型的；一般的",
+    "example": "This is a typical workday."
+  },
+  {
+    "en": "unique",
+    "zh": "獨特的",
+    "example": "Each product has a unique number."
+  },
+  {
+    "en": "valid",
+    "zh": "有效的",
+    "example": "Your ticket is valid today."
+  },
+  {
+    "en": "variety",
+    "zh": "多樣性；種類",
+    "example": "The menu offers a variety of dishes."
+  },
+  {
+    "en": "vendor",
+    "zh": "供應商；攤販",
+    "example": "The vendor delivered the parts."
+  },
+  {
+    "en": "venue",
+    "zh": "場地",
+    "example": "The venue is near the station."
+  },
+  {
+    "en": "version",
+    "zh": "版本",
+    "example": "Download the latest version."
+  },
+  {
+    "en": "volume",
+    "zh": "數量；音量",
+    "example": "Sales volume rose this year."
+  },
+  {
+    "en": "wage",
+    "zh": "工資",
+    "example": "The hourly wage is competitive."
+  },
+  {
+    "en": "wealth",
+    "zh": "財富",
+    "example": "The region created new wealth."
+  },
+  {
+    "en": "whereas",
+    "zh": "然而；反之",
+    "example": "This model is cheap, whereas that one is faster."
+  },
+  {
+    "en": "willing",
+    "zh": "願意的",
+    "example": "She is willing to help."
+  },
+  {
+    "en": "withdraw",
+    "zh": "提款；撤回",
+    "example": "You can withdraw cash here."
+  },
+  {
+    "en": "workload",
+    "zh": "工作量",
+    "example": "His workload is heavy this week."
+  },
+  {
+    "en": "workplace",
+    "zh": "工作場所",
+    "example": "Safety matters in every workplace."
+  },
+  {
+    "en": "worth",
+    "zh": "值得；價值",
+    "example": "The training is worth the cost."
+  },
+  {
+    "en": "yield",
+    "zh": "產出；讓步",
+    "example": "The investment may yield a profit."
+  },
+  {
+    "en": "zone",
+    "zh": "區域",
+    "example": "Do not park in this zone."
+  },
+  {
+    "en": "absolutely",
+    "zh": "完全地；絕對地",
+    "example": "I absolutely agree with you."
+  },
+  {
+    "en": "accounting",
+    "zh": "會計",
+    "example": "She works in the accounting department."
+  },
+  {
+    "en": "adapt",
+    "zh": "適應；調整",
+    "example": "We must adapt to the new system."
+  },
+  {
+    "en": "adequate",
+    "zh": "足夠的；適當的",
+    "example": "The room has adequate space."
+  },
+  {
+    "en": "admission",
+    "zh": "入場；承認",
+    "example": "Admission is free for children."
+  },
+  {
+    "en": "advance",
+    "zh": "前進；提前",
+    "example": "Please pay in advance."
+  },
+  {
+    "en": "advantage",
+    "zh": "優點；優勢",
+    "example": "This plan has several advantages."
+  },
+  {
+    "en": "affiliate",
+    "zh": "附屬機構；使隸屬",
+    "example": "The store is an affiliate of the brand."
+  },
+  {
+    "en": "alert",
+    "zh": "警告；警覺的",
+    "example": "The system sends an alert by email."
+  },
+  {
+    "en": "anticipate",
+    "zh": "預期；預料",
+    "example": "We anticipate high demand."
+  },
+  {
+    "en": "appeal",
+    "zh": "吸引力；呼籲",
+    "example": "The design has broad appeal."
+  },
+  {
+    "en": "appreciate",
+    "zh": "感謝；欣賞",
+    "example": "We appreciate your patience."
+  },
+  {
+    "en": "arise",
+    "zh": "出現；發生",
+    "example": "Please call if a problem arises."
+  },
+  {
+    "en": "assemble",
+    "zh": "組裝；集合",
+    "example": "Workers assemble the parts here."
+  },
+  {
+    "en": "automobile",
+    "zh": "汽車",
+    "example": "The automobile is in the parking lot."
+  },
+  {
+    "en": "average",
+    "zh": "平均的；平均數",
+    "example": "The average trip takes an hour."
+  },
+  {
+    "en": "beneficial",
+    "zh": "有益的",
+    "example": "The change is beneficial to staff."
+  },
+  {
+    "en": "bid",
+    "zh": "投標；出價",
+    "example": "The company submitted a bid."
+  },
+  {
+    "en": "briefly",
+    "zh": "簡短地",
+    "example": "She spoke briefly at the event."
+  },
+  {
+    "en": "ceiling",
+    "zh": "天花板；上限",
+    "example": "The price ceiling is fixed."
+  },
+  {
+    "en": "clientele",
+    "zh": "顧客群",
+    "example": "The store has loyal clientele."
+  },
+  {
+    "en": "closure",
+    "zh": "關閉",
+    "example": "The road closure caused traffic."
+  },
+  {
+    "en": "combine",
+    "zh": "結合",
+    "example": "Combine the two files into one."
+  },
+  {
+    "en": "comply",
+    "zh": "遵守",
+    "example": "All staff must comply with the rule."
+  },
+  {
+    "en": "comprehensive",
+    "zh": "全面的",
+    "example": "The guide gives comprehensive information."
+  },
+  {
+    "en": "conclude",
+    "zh": "結束；下結論",
+    "example": "The meeting will conclude at five."
+  },
+  {
+    "en": "consequently",
+    "zh": "因此；結果是",
+    "example": "The flight was full; consequently, we waited."
+  },
+  {
+    "en": "consent",
+    "zh": "同意；允許",
+    "example": "We need your written consent."
+  },
+  {
+    "en": "conserve",
+    "zh": "節省；保護",
+    "example": "The office tries to conserve energy."
+  },
+  {
+    "en": "constant",
+    "zh": "持續的；固定的",
+    "example": "The machine needs constant care."
+  },
+  {
+    "en": "conveniently",
+    "zh": "方便地",
+    "example": "The store is conveniently located."
+  },
+  {
+    "en": "convert",
+    "zh": "轉換",
+    "example": "Convert the file to PDF."
+  },
+  {
+    "en": "coordinate",
+    "zh": "協調",
+    "example": "She coordinates travel plans."
+  },
+  {
+    "en": "courtesy",
+    "zh": "禮貌；好意",
+    "example": "Thank you for your courtesy."
+  },
+  {
+    "en": "customize",
+    "zh": "客製化",
+    "example": "We can customize the package."
+  },
+  {
+    "en": "debit",
+    "zh": "借記；扣款",
+    "example": "Pay with a debit card."
+  },
+  {
+    "en": "deduct",
+    "zh": "扣除",
+    "example": "The fee will be deducted automatically."
+  },
+  {
+    "en": "defect",
+    "zh": "瑕疵；缺陷",
+    "example": "The product has a small defect."
+  },
+  {
+    "en": "deliverable",
+    "zh": "交付成果",
+    "example": "The report is the final deliverable."
+  },
+  {
+    "en": "density",
+    "zh": "密度",
+    "example": "The area has a high population density."
+  },
+  {
+    "en": "deputy",
+    "zh": "副手；代理人",
+    "example": "The deputy manager is available."
+  },
+  {
+    "en": "derive",
+    "zh": "源自；取得",
+    "example": "The result is derived from the data."
+  },
+  {
+    "en": "detect",
+    "zh": "偵測；發現",
+    "example": "The system can detect errors."
+  },
+  {
+    "en": "differ",
+    "zh": "不同",
+    "example": "The two prices differ greatly."
+  },
+  {
+    "en": "digit",
+    "zh": "數字",
+    "example": "Enter the last four digits."
+  },
+  {
+    "en": "disclose",
+    "zh": "揭露",
+    "example": "Do not disclose private information."
+  },
+  {
+    "en": "dispute",
+    "zh": "爭議",
+    "example": "The customer disputed the charge."
+  },
+  {
+    "en": "dispose",
+    "zh": "處理；丟棄",
+    "example": "Dispose of old batteries safely."
+  },
+  {
+    "en": "dividend",
+    "zh": "股利",
+    "example": "The company paid a dividend."
+  },
+  {
+    "en": "documentary",
+    "zh": "紀錄片；文件的",
+    "example": "We watched a documentary about travel."
+  },
+  {
+    "en": "downtown",
+    "zh": "市中心",
+    "example": "The hotel is downtown."
+  },
+  {
+    "en": "dramatically",
+    "zh": "顯著地；戲劇性地",
+    "example": "Sales increased dramatically."
+  },
+  {
+    "en": "earnings",
+    "zh": "收入；收益",
+    "example": "The company announced quarterly earnings."
+  },
+  {
+    "en": "efficiently",
+    "zh": "有效率地",
+    "example": "The team works efficiently."
+  },
+  {
+    "en": "elect",
+    "zh": "選出",
+    "example": "Members elect a new leader."
+  },
+  {
+    "en": "electronic",
+    "zh": "電子的",
+    "example": "Keep an electronic copy."
+  },
+  {
+    "en": "employ",
+    "zh": "雇用",
+    "example": "The factory employs 200 workers."
+  },
+  {
+    "en": "enclose",
+    "zh": "附上；圍住",
+    "example": "I enclose a copy of the receipt."
+  },
+  {
+    "en": "enhance",
+    "zh": "提升；加強",
+    "example": "New lights enhance the room."
+  },
+  {
+    "en": "enroll",
+    "zh": "註冊；入學",
+    "example": "You can enroll online."
+  },
+  {
+    "en": "entertain",
+    "zh": "娛樂；招待",
+    "example": "The hotel can entertain large groups."
+  },
+  {
+    "en": "equivalent",
+    "zh": "相等的；等值的",
+    "example": "This amount is equivalent to ten dollars."
+  },
+  {
+    "en": "essential",
+    "zh": "必要的；本質的",
+    "example": "A passport is essential for travel."
+  },
+  {
+    "en": "establish",
+    "zh": "建立",
+    "example": "They established a new branch."
+  },
+  {
+    "en": "exception",
+    "zh": "例外",
+    "example": "No exceptions are allowed."
+  },
+  {
+    "en": "exclusive",
+    "zh": "獨家的；專屬的",
+    "example": "Members receive exclusive offers."
+  },
+  {
+    "en": "expandable",
+    "zh": "可擴充的",
+    "example": "The storage system is expandable."
+  },
+  {
+    "en": "expiration",
+    "zh": "到期",
+    "example": "Check the expiration date."
+  },
+  {
+    "en": "explore",
+    "zh": "探索；探討",
+    "example": "We will explore new markets."
+  },
+  {
+    "en": "exposure",
+    "zh": "曝光；接觸",
+    "example": "The ad gives the brand more exposure."
+  },
+  {
+    "en": "familiar",
+    "zh": "熟悉的",
+    "example": "The instructions look familiar."
+  },
+  {
+    "en": "favor",
+    "zh": "幫忙；偏好",
+    "example": "Could you do me a favor?"
+  },
+  {
+    "en": "finalize",
+    "zh": "完成；定案",
+    "example": "We will finalize the schedule today."
+  },
+  {
+    "en": "firm",
+    "zh": "公司；堅定的",
+    "example": "She works for a law firm."
+  },
+  {
+    "en": "frequently",
+    "zh": "經常地",
+    "example": "The buses run frequently."
+  },
+  {
+    "en": "fuel",
+    "zh": "燃料",
+    "example": "Fuel costs are rising."
+  },
+  {
+    "en": "furnish",
+    "zh": "提供家具；供應",
+    "example": "The apartment is fully furnished."
+  },
+  {
+    "en": "genuine",
+    "zh": "真正的；真誠的",
+    "example": "This is a genuine product."
+  },
+  {
+    "en": "gradually",
+    "zh": "逐漸地",
+    "example": "The weather gradually improved."
+  },
+  {
+    "en": "guideline",
+    "zh": "指引；準則",
+    "example": "Follow the company guidelines."
+  },
+  {
+    "en": "immediate",
+    "zh": "立即的",
+    "example": "The issue needs immediate attention."
+  },
+  {
+    "en": "imply",
+    "zh": "暗示",
+    "example": "Her email implies agreement."
+  },
+  {
+    "en": "inconvenience",
+    "zh": "不便",
+    "example": "Sorry for the inconvenience."
+  },
+  {
+    "en": "independent",
+    "zh": "獨立的",
+    "example": "She is an independent consultant."
+  },
+  {
+    "en": "informal",
+    "zh": "非正式的",
+    "example": "The meeting will be informal."
+  },
+  {
+    "en": "inquire",
+    "zh": "詢問",
+    "example": "Please inquire about room rates."
+  },
+  {
+    "en": "installment",
+    "zh": "分期付款",
+    "example": "Pay in three installments."
+  },
+  {
+    "en": "insurance",
+    "zh": "保險",
+    "example": "Travel insurance is recommended."
+  },
+  {
+    "en": "intention",
+    "zh": "意圖；目的",
+    "example": "Our intention is to help."
+  },
+  {
+    "en": "inventory",
+    "zh": "庫存；清單",
+    "example": "Check the inventory every Friday."
+  },
+  {
+    "en": "itinerary",
+    "zh": "行程表",
+    "example": "Your itinerary is attached."
+  },
+  {
+    "en": "joint",
+    "zh": "共同的；接頭",
+    "example": "They made a joint decision."
+  },
+  {
+    "en": "justify",
+    "zh": "證明合理；辯解",
+    "example": "Can you justify this expense?"
+  },
+  {
+    "en": "lease",
+    "zh": "租約；出租",
+    "example": "They signed a one-year lease."
+  },
+  {
+    "en": "legislation",
+    "zh": "法規",
+    "example": "New legislation affects the industry."
+  },
+  {
+    "en": "leisure",
+    "zh": "休閒",
+    "example": "The hotel has leisure facilities."
+  },
+  {
+    "en": "liable",
+    "zh": "有責任的",
+    "example": "The company is liable for damage."
+  },
+  {
+    "en": "license",
+    "zh": "執照；許可",
+    "example": "You need a license to drive."
+  },
+  {
+    "en": "locate",
+    "zh": "找到；位於",
+    "example": "Can you locate the file?"
+  },
+  {
+    "en": "logistics",
+    "zh": "物流",
+    "example": "She manages logistics for the event."
+  },
+  {
+    "en": "loyalty",
+    "zh": "忠誠度",
+    "example": "The program rewards customer loyalty."
+  },
+  {
+    "en": "mandatory",
+    "zh": "強制的",
+    "example": "Training is mandatory for new staff."
+  },
+  {
+    "en": "manufacturing",
+    "zh": "製造業；製造",
+    "example": "Manufacturing costs increased."
+  },
+  {
+    "en": "merchandise",
+    "zh": "商品",
+    "example": "New merchandise arrived today."
+  },
+  {
+    "en": "modify",
+    "zh": "修改",
+    "example": "Please modify the order."
+  },
+  {
+    "en": "mutual",
+    "zh": "共同的；相互的",
+    "example": "They reached a mutual agreement."
+  },
+  {
+    "en": "negotiate",
+    "zh": "談判",
+    "example": "We will negotiate the price."
+  },
+  {
+    "en": "notable",
+    "zh": "值得注意的",
+    "example": "There was a notable improvement."
+  },
+  {
+    "en": "numerous",
+    "zh": "許多的",
+    "example": "The website has numerous articles."
+  },
+  {
+    "en": "occupy",
+    "zh": "佔用；居住",
+    "example": "The meeting occupies the main room."
+  },
+  {
+    "en": "opponent",
+    "zh": "對手",
+    "example": "The company studied its opponent."
+  },
+  {
+    "en": "optimize",
+    "zh": "最佳化",
+    "example": "We optimize the delivery route."
+  },
+  {
+    "en": "outstanding",
+    "zh": "傑出的；未付的",
+    "example": "She did outstanding work."
+  },
+  {
+    "en": "overcome",
+    "zh": "克服",
+    "example": "We can overcome this challenge."
+  },
+  {
+    "en": "pending",
+    "zh": "待處理的",
+    "example": "Your request is still pending."
+  },
+  {
+    "en": "perform",
+    "zh": "執行；表現",
+    "example": "The machine performs well."
+  },
+  {
+    "en": "perspective",
+    "zh": "觀點",
+    "example": "Consider the customer's perspective."
+  },
+  {
+    "en": "precaution",
+    "zh": "預防措施",
+    "example": "Take precautions during travel."
+  },
+  {
+    "en": "predictable",
+    "zh": "可預測的",
+    "example": "The results are predictable."
   }
 ]

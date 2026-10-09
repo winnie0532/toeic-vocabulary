@@ -9,6 +9,7 @@ let grammarProgress = JSON.parse(
   localStorage.getItem("grammarProgress") || "{}"
 );
 let addedWords = [];
+let reservedWords = [];
 let current;
 let cloze;
 let grammarLesson;
@@ -166,13 +167,11 @@ async function start() {
       localStorage.getItem(addedWordsStorageKey) || "[]"
     );
 
-    addedWords = uniqueAddedWords([
-      ...savedAddedWords,
-      ...localAddedWords
-    ]);
+    reservedWords = uniqueAddedWords(savedAddedWords);
+    addedWords = uniqueAddedWords(localAddedWords);
 
     const existingWords = new Set(
-      allWords.map((word) => word.en.toLowerCase())
+      [...allWords, ...reservedWords].map((word) => word.en.toLowerCase())
     );
 
     words = [
@@ -717,8 +716,14 @@ function addWord(event) {
     return;
   }
 
-  if (words.some((word) => word.en.toLowerCase() === newWord.en.toLowerCase())) {
-    $("#addWordNote").textContent = "這個英文單字已經存在，請確認拼字。";
+  const wordKey = newWord.en.toLowerCase();
+
+  if (
+    words.some((word) => word.en.toLowerCase() === wordKey) ||
+    reservedWords.some((word) => word.en.toLowerCase() === wordKey)
+  ) {
+    $("#addWordNote").textContent =
+      "這個英文單字已經存在於單字庫或進階單字檔中。";
     return;
   }
 
@@ -732,7 +737,11 @@ function addWord(event) {
 }
 
 function downloadAddedWords() {
-  const file = new Blob([JSON.stringify(addedWords, null, 2)], {
+  const downloadableWords = uniqueAddedWords([
+    ...reservedWords,
+    ...addedWords
+  ]);
+  const file = new Blob([JSON.stringify(downloadableWords, null, 2)], {
     type: "application/json"
   });
 
