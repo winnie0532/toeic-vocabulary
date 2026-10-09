@@ -77,7 +77,8 @@
   {
     "en": "be",
     "zh": "是／存在",
-    "example": "I want to be on time."
+    "example": "I want to be on time.",
+    "example_ivan": "am is are"
   },
   {
     "en": "have",
@@ -157,7 +158,8 @@
   {
     "en": "use",
     "zh": "使用",
-    "example": "Please use this pen."
+    "example": "Please use this pen.",
+    "example_ivan": "I use my computer every day"
   },
   {
     "en": "find",
@@ -182,7 +184,8 @@
   {
     "en": "employee",
     "zh": "員工",
-    "example": "Please contact the employee directly."
+    "example": "Please contact the employee directly.",
+    "example_ivan": "The company has 100 employees"
   },
   {
     "en": "boss",
@@ -212,7 +215,8 @@
   {
     "en": "product",
     "zh": "產品",
-    "example": "This product is easy to use."
+    "example": "This product is easy to use.",
+    "example_ivan": "We sell many products"
   },
   {
     "en": "service",
@@ -352,7 +356,8 @@
   {
     "en": "road",
     "zh": "道路",
-    "example": "This road leads to the airport."
+    "example": "This road leads to the airport.",
+    "example_ivan": "Please cross the road"
   },
   {
     "en": "station",
@@ -387,7 +392,8 @@
   {
     "en": "building",
     "zh": "建築物",
-    "example": "The building has ten floors."
+    "example": "The building has ten floors.",
+    "example_ivan": "This is a tall building"
   },
   {
     "en": "bus",
@@ -397,7 +403,8 @@
   {
     "en": "train",
     "zh": "火車",
-    "example": "The train was full this morning."
+    "example": "The train was full this morning.",
+    "example_ivan": "I take the train to work"
   },
   {
     "en": "car",
@@ -462,7 +469,8 @@
   {
     "en": "difficult",
     "zh": "困難的",
-    "example": "The test was difficult."
+    "example": "The test was difficult.",
+    "example_ivan": "This question is difficult"
   },
   {
     "en": "important",
@@ -487,7 +495,8 @@
   {
     "en": "wrong",
     "zh": "錯誤的",
-    "example": "That phone number is wrong."
+    "example": "That phone number is wrong.",
+    "example_ivan": "wrong way"
   },
   {
     "en": "happy",
@@ -602,12 +611,14 @@
   {
     "en": "message",
     "zh": "訊息",
-    "example": "I received your message."
+    "example": "I received your message.",
+    "example_ivan": "I got your message"
   },
   {
     "en": "address",
     "zh": "地址",
-    "example": "Please write your address here."
+    "example": "Please write your address here.",
+    "example_ivan": "What is your address"
   },
   {
     "en": "ask",
@@ -647,7 +658,8 @@
   {
     "en": "learn",
     "zh": "學習",
-    "example": "I learn English every day."
+    "example": "I learn English every day.",
+    "example_ivan": "I learn English"
   },
   {
     "en": "study",
@@ -727,7 +739,8 @@
   {
     "en": "customer",
     "zh": "顧客",
-    "example": "The customer called this morning."
+    "example": "The customer called this morning.",
+    "example_ivan": "The customer is waiting"
   },
   {
     "en": "email",
@@ -752,7 +765,8 @@
   {
     "en": "schedule",
     "zh": "行程、時間表",
-    "example": "We discussed the schedule at the meeting."
+    "example": "We discussed the schedule at the meeting.",
+    "example_ivan": "What is your schedule today?"
   },
   {
     "en": "date",
@@ -772,7 +786,8 @@
   {
     "en": "reason",
     "zh": "原因",
-    "example": "The reason is part of the plan."
+    "example": "The reason is part of the plan.",
+    "example_ivan": "What is the reason for the delay?"
   },
   {
     "en": "way",
@@ -812,12 +827,14 @@
   {
     "en": "at",
     "zh": "在",
-    "example": "Meet me at the office."
+    "example": "Meet me at the office.",
+    "example_ivan": "The meeting starts at 9:00"
   },
   {
     "en": "to",
     "zh": "到／向",
-    "example": "I walk to work."
+    "example": "I walk to work.",
+    "example_ivan": "She went to Taipei."
   },
   {
     "en": "from",
@@ -882,7 +899,8 @@
   {
     "en": "also",
     "zh": "也",
-    "example": "She also speaks English."
+    "example": "She also speaks English.",
+    "example_ivan": "I also like coffee"
   },
   {
     "en": "only",
@@ -902,52 +920,62 @@
   {
     "en": "form",
     "zh": "表格",
-    "example": "Please complete the form before lunch."
+    "example": "Please complete the form before lunch.",
+    "example_ivan": "Please fill out this form"
   },
   {
     "en": "client",
     "zh": "客戶",
-    "example": "Our client arrived early."
+    "example": "Our client arrived early.",
+    "example_ivan": "We have many clients."
   },
   {
     "en": "staff",
     "zh": "員工、職員",
-    "example": "Please ask the staff for help."
+    "example": "Please ask the staff for help.",
+    "example_ivan": "The staff is very friendly."
   },
   {
     "en": "department",
     "zh": "部門",
-    "example": "She works in that department."
+    "example": "She works in that department.",
+    "example_ivan": "I work in the sales department"
   },
   {
     "en": "document",
     "zh": "文件",
-    "example": "She found the document quickly."
+    "example": "She found the document quickly.",
+    "example_ivan": "Please check this document"
   },
   {
     "en": "file",
     "zh": "檔案",
-    "example": "The file is next to the door."
+    "example": "The file is next to the door.",
+    "example_ivan": "Please send me the file."
   },
   {
     "en": "equipment",
     "zh": "設備",
-    "example": "He picked up the equipment."
+    "example": "He picked up the equipment.",
+    "example_ivan": "We need new equipment."
   },
   {
     "en": "desk",
     "zh": "辦公桌",
-    "example": "The keys are on the desk."
+    "example": "The keys are on the desk.",
+    "example_ivan": "I am sitting at my desk"
   },
   {
     "en": "floor",
     "zh": "樓層、地板",
-    "example": "Our office is on the third floor."
+    "example": "Our office is on the third floor.",
+    "example_ivan": "on the floor"
   },
   {
     "en": "entrance",
     "zh": "入口",
-    "example": "The entrance is on this street."
+    "example": "The entrance is on this street.",
+    "example_ivan": "main entrance"
   },
   {
     "en": "send",
@@ -957,12 +985,14 @@
   {
     "en": "receive",
     "zh": "收到",
-    "example": "Did you receive my message?"
+    "example": "Did you receive my message?",
+    "example_ivan": "receive a message"
   },
   {
     "en": "confirm",
     "zh": "確認",
-    "example": "Please confirm the time."
+    "example": "Please confirm the time.",
+    "example_ivan": "The manager confirmed the information"
   },
   {
     "en": "contact",
@@ -972,22 +1002,26 @@
   {
     "en": "visit",
     "zh": "拜訪、參觀",
-    "example": "We visit the museum."
+    "example": "We visit the museum.",
+    "example_ivan": "Visitors must check in at the front desk."
   },
   {
     "en": "attend",
     "zh": "參加",
-    "example": "I will attend the meeting."
+    "example": "I will attend the meeting.",
+    "example_ivan": "I attend a meeting."
   },
   {
     "en": "arrive",
     "zh": "抵達",
-    "example": "They arrive at six."
+    "example": "They arrive at six.",
+    "example_ivan": "arrive at the hotel"
   },
   {
     "en": "provide",
     "zh": "提供",
-    "example": "We provide free water."
+    "example": "We provide free water.",
+    "example_ivan": "The company provides employees with training"
   },
   {
     "en": "include",
@@ -997,7 +1031,8 @@
   {
     "en": "require",
     "zh": "要求、需要",
-    "example": "This job requires English."
+    "example": "This job requires English.",
+    "example_ivan": "The job requires experience."
   },
   {
     "en": "offer",
@@ -1017,22 +1052,26 @@
   {
     "en": "during",
     "zh": "在……期間",
-    "example": "Do not talk during class."
+    "example": "Do not talk during class.",
+    "example_ivan": "I studied English during the summer."
   },
   {
     "en": "until",
     "zh": "直到",
-    "example": "Wait until five o’clock."
+    "example": "Wait until five o’clock.",
+    "example_ivan": "I worked until 6 p.m."
   },
   {
     "en": "appointment",
     "zh": "預約",
-    "example": "My appointment is at two."
+    "example": "My appointment is at two.",
+    "example_ivan": "I have a doctor's appointment."
   },
   {
     "en": "available",
     "zh": "有空的、可取得的",
-    "example": "The manager is available this afternoon."
+    "example": "The manager is available this afternoon.",
+    "example_ivan": "Are you available tomorrow?"
   },
   {
     "en": "discount",
@@ -1052,32 +1091,38 @@
   {
     "en": "fee",
     "zh": "費用",
-    "example": "The fee is included in the price."
+    "example": "The fee is included in the price.",
+    "example_ivan": "There is a $10 service fee"
   },
   {
     "en": "reservation",
     "zh": "預約、訂位",
-    "example": "Your reservation is confirmed."
+    "example": "Your reservation is confirmed.",
+    "example_ivan": "I made a reservation at the hotel."
   },
   {
     "en": "purchase",
     "zh": "購買",
-    "example": "The purchase was approved."
+    "example": "The purchase was approved.",
+    "example_ivan": "I purchased a new computer."
   },
   {
     "en": "receipt",
     "zh": "收據",
-    "example": "Keep the receipt in your wallet."
+    "example": "Keep the receipt in your wallet.",
+    "example_ivan": "I need the receipt for reimbursement."
   },
   {
     "en": "refund",
     "zh": "退款",
-    "example": "The store gave me a refund."
+    "example": "The store gave me a refund.",
+    "example_ivan": "The store gave me a refund."
   },
   {
     "en": "account",
     "zh": "帳戶",
-    "example": "Please check your account balance."
+    "example": "Please check your account balance.",
+    "example_ivan": "Please check your account."
   },
   {
     "en": "local",
@@ -1122,12 +1167,14 @@
   {
     "en": "location",
     "zh": "地點",
-    "example": "The location is easy to find."
+    "example": "The location is easy to find.",
+    "example_ivan": "Please send me the location."
   },
   {
     "en": "area",
     "zh": "區域",
-    "example": "The area is across from the bank."
+    "example": "The area is across from the bank.",
+    "example_ivan": "The hotel is located in a quiet area"
   },
   {
     "en": "near",
@@ -1137,37 +1184,44 @@
   {
     "en": "depart",
     "zh": "出發",
-    "example": "The train will depart soon."
+    "example": "The train will depart soon.",
+    "example_ivan": "The plane departed from Taipei."
   },
   {
     "en": "destination",
     "zh": "目的地",
-    "example": "Our destination is near the beach."
+    "example": "Our destination is near the beach.",
+    "example_ivan": "Taipei is my destination"
   },
   {
     "en": "luggage",
     "zh": "行李",
-    "example": "Her luggage is very heavy."
+    "example": "Her luggage is very heavy.",
+    "example_ivan": "Please check your luggage."
   },
   {
     "en": "necessary",
     "zh": "必要的",
-    "example": "A passport is necessary for this trip."
+    "example": "A passport is necessary for this trip.",
+    "example_ivan": "A passport is necessary for international travel."
   },
   {
     "en": "current",
     "zh": "目前的",
-    "example": "Please use your current address."
+    "example": "Please use your current address.",
+    "example_ivan": "Please provide your current information."
   },
   {
     "en": "latest",
     "zh": "最新的",
-    "example": "Read the latest news online."
+    "example": "Read the latest news online.",
+    "example_ivan": "Please check the latest information."
   },
   {
     "en": "additional",
     "zh": "額外的",
-    "example": "We need additional chairs."
+    "example": "We need additional chairs.",
+    "example_ivan": "There is an additional fee."
   },
   {
     "en": "successful",
@@ -1182,12 +1236,14 @@
   {
     "en": "responsible",
     "zh": "負責的",
-    "example": "He is responsible for the team."
+    "example": "He is responsible for the team.",
+    "example_ivan": "I am responsible for purchasing."
   },
   {
     "en": "large",
     "zh": "大的",
-    "example": "They need a large room."
+    "example": "They need a large room.",
+    "example_ivan": "We received a large order."
   },
   {
     "en": "several",
@@ -1197,17 +1253,20 @@
   {
     "en": "each",
     "zh": "每一個",
-    "example": "Each student has a book."
+    "example": "Each student has a book.",
+    "example_ivan": "Each customer receives a receipt."
   },
   {
     "en": "through",
     "zh": "經由、穿過",
-    "example": "Walk through the door."
+    "example": "Walk through the door.",
+    "example_ivan": "We walked through the building"
   },
   {
     "en": "according",
     "zh": "根據",
-    "example": "According to the report, it is safe."
+    "example": "According to the report, it is safe.",
+    "example_ivan": "According to the report, the company made progress."
   },
   {
     "en": "regarding",
@@ -1217,7 +1276,8 @@
   {
     "en": "request",
     "zh": "請求",
-    "example": "We received your request."
+    "example": "We received your request.",
+    "example_ivan": "The employee requested a refund"
   },
   {
     "en": "notice",
@@ -1227,22 +1287,26 @@
   {
     "en": "result",
     "zh": "結果",
-    "example": "The result was better than expected."
+    "example": "The result was better than expected.",
+    "example_ivan": "We received the results of the test."
   },
   {
     "en": "opportunity",
     "zh": "機會",
-    "example": "This job is a good opportunity."
+    "example": "This job is a good opportunity.",
+    "example_ivan": "I have an opportunity to learn English."
   },
   {
     "en": "efficient",
     "zh": "有效率的",
-    "example": "This new system is efficient."
+    "example": "This new system is efficient.",
+    "example_ivan": "The new system is more efficient."
   },
   {
     "en": "central",
     "zh": "中心的",
-    "example": "The hotel has a central location."
+    "example": "The hotel has a central location.",
+    "example_ivan": "The store is in the center of the city"
   },
   {
     "en": "printer",
@@ -1302,7 +1366,8 @@
   {
     "en": "silent",
     "zh": "安靜",
-    "example": "Please keep the room silent."
+    "example": "Please keep the room silent.",
+    "example_ivan": "Please remain silent during the meeting."
   },
   {
     "en": "narrow",
@@ -1317,17 +1382,20 @@
   {
     "en": "rapid",
     "zh": "快速的",
-    "example": "The train made rapid progress."
+    "example": "The train made rapid progress.",
+    "example_ivan": "The company has made rapid progress."
   },
   {
     "en": "wild",
     "zh": "失控的",
-    "example": "The dog became wild."
+    "example": "The dog became wild.",
+    "example_ivan": "We saw a wild animal near the road."
   },
   {
     "en": "daily",
     "zh": "每日的",
-    "example": "She reads the daily report."
+    "example": "She reads the daily report.",
+    "example_ivan": "I check my daily schedule every morning."
   },
   {
     "en": "machine",
@@ -1342,27 +1410,32 @@
   {
     "en": "distance",
     "zh": "距離",
-    "example": "The distance is five miles."
+    "example": "The distance is five miles.",
+    "example_ivan": "The distance between the hotel and the station is short."
   },
   {
     "en": "purpose",
     "zh": "目的",
-    "example": "The purpose is clear."
+    "example": "The purpose is clear.",
+    "example_ivan": "What is the purpose of the meeting?"
   },
   {
     "en": "within",
     "zh": "之內",
-    "example": "Please reply within one day."
+    "example": "Please reply within one day.",
+    "example_ivan": "Please confirm the message within one day."
   },
   {
     "en": "separate",
     "zh": "分開",
-    "example": "Use separate bags for each item."
+    "example": "Use separate bags for each item.",
+    "example_ivan": "The company separated the two departments."
   },
   {
     "en": "compared",
     "zh": "比較的",
-    "example": "We compared the two prices."
+    "example": "We compared the two prices.",
+    "example_ivan": "This product is cheaper compared to the old model."
   },
   {
     "en": "suitcase",
@@ -1372,7 +1445,8 @@
   {
     "en": "since",
     "zh": "自從",
-    "example": "I have lived here since 2020."
+    "example": "I have lived here since 2020.",
+    "example_ivan": "She has been an employee since last month."
   },
   {
     "en": "jeans",
@@ -1382,12 +1456,14 @@
   {
     "en": "serves",
     "zh": "提供",
-    "example": "The cafe serves breakfast."
+    "example": "The cafe serves breakfast.",
+    "example_ivan": "The restaurant serves breakfast and lunch."
   },
   {
     "en": "knelt",
     "zh": "跪下",
-    "example": "He knelt on the floor."
+    "example": "He knelt on the floor.",
+    "example_ivan": "He knelt on the floor."
   },
   {
     "en": "shoelaces",
@@ -1402,12 +1478,14 @@
   {
     "en": "bridge",
     "zh": "橋",
-    "example": "The bridge is near the station."
+    "example": "The bridge is near the station.",
+    "example_ivan": "Communication can bridge the gap between customers and employees."
   },
   {
     "en": "plants",
     "zh": "植物",
-    "example": "The plants need water."
+    "example": "The plants need water.",
+    "example_ivan": "The plants need water every day."
   },
   {
     "en": "suddenly",
@@ -1417,52 +1495,62 @@
   {
     "en": "above",
     "zh": "在…上面",
-    "example": "The light is above the table."
+    "example": "The light is above the table.",
+    "example_ivan": "The temperature is above 30 degrees."
   },
   {
     "en": "heat",
     "zh": "熱度",
-    "example": "Turn down the heat."
+    "example": "Turn down the heat.",
+    "example_ivan": "Plants need water during the heat."
   },
   {
     "en": "position",
     "zh": "職位",
-    "example": "She applied for the position."
+    "example": "She applied for the position.",
+    "example_ivan": "Please move the chair to a different position."
   },
   {
     "en": "career",
     "zh": "職業、生涯",
-    "example": "He wants a career in sales."
+    "example": "He wants a career in sales.",
+    "example_ivan": "She wants to develop her career in marketing."
   },
   {
     "en": "interview",
     "zh": "面試",
-    "example": "Her interview is tomorrow."
+    "example": "Her interview is tomorrow.",
+    "example_ivan": "The company will interview several candidates."
   },
   {
     "en": "hire",
     "zh": "雇用",
-    "example": "The company plans to hire two workers."
+    "example": "The company plans to hire two workers.",
+    "example_ivan": "We hired a car for the trip."
   },
   {
     "en": "apply",
     "zh": "申請",
-    "example": "You can apply online."
+    "example": "You can apply online.",
+    "example_ivan": "I want to apply for the job."
   },
   {
     "en": "applicant",
     "zh": "申請者",
-    "example": "She introduced the applicant to us."
+    "example": "She introduced the applicant to us.",
+    "example_ivan": "The applicant has a job interview today."
   },
   {
     "en": "application",
     "zh": "申請、申請表",
-    "example": "The application is still under review."
+    "example": "The application is still under review.",
+    "example_ivan": "I fill out an application."
   },
   {
     "en": "experience",
     "zh": "經驗",
-    "example": "She has experience in customer service."
+    "example": "She has experience in customer service.",
+    "example_ivan": "I have experience in purchasing."
   },
   {
     "en": "skill",
@@ -1472,7 +1560,8 @@
   {
     "en": "training",
     "zh": "訓練",
-    "example": "The training starts at nine."
+    "example": "The training starts at nine.",
+    "example_ivan": "The company provides training for new employees."
   },
   {
     "en": "supervisor",
@@ -1482,37 +1571,44 @@
   {
     "en": "director",
     "zh": "主管、董事",
-    "example": "Please contact the director directly."
+    "example": "Please contact the director directly.",
+    "example_ivan": "The director attended the meeting."
   },
   {
     "en": "colleague",
     "zh": "同事",
-    "example": "The colleague works near here."
+    "example": "The colleague works near here.",
+    "example_ivan": "My colleague helped me with the report."
   },
   {
     "en": "salary",
     "zh": "薪水",
-    "example": "His salary increased this year."
+    "example": "His salary increased this year.",
+    "example_ivan": "The employee receives a monthly salary from the company."
   },
   {
     "en": "duty",
     "zh": "職責",
-    "example": "It is my duty to help."
+    "example": "It is my duty to help.",
+    "example_ivan": "It is my duty to help customers."
   },
   {
     "en": "task",
     "zh": "任務",
-    "example": "Please finish this task today."
+    "example": "Please finish this task today.",
+    "example_ivan": "I have an important task today."
   },
   {
     "en": "break",
     "zh": "休息",
-    "example": "We will meet during the break."
+    "example": "We will meet during the break.",
+    "example_ivan": "I need a break after this task."
   },
   {
     "en": "shift",
     "zh": "輪班、班別",
-    "example": "Her shift begins at eight."
+    "example": "Her shift begins at eight.",
+    "example_ivan": "The company shifted its focus to online sales."
   },
   {
     "en": "factory",
@@ -1522,52 +1618,62 @@
   {
     "en": "branch",
     "zh": "分公司、分店",
-    "example": "The branch is easy to find."
+    "example": "The branch is easy to find.",
+    "example_ivan": "a branch of the company"
   },
   {
     "en": "headquarters",
     "zh": "總公司、總部",
-    "example": "The company headquarters is downtown."
+    "example": "The company headquarters is downtown.",
+    "example_ivan": "The company's headquarters is in Taipei."
   },
   {
     "en": "organization",
     "zh": "組織",
-    "example": "She works for a nonprofit organization."
+    "example": "She works for a nonprofit organization.",
+    "example_ivan": "The organization provides training for employees."
   },
   {
     "en": "conference",
     "zh": "會議、大會",
-    "example": "The conference begins tomorrow."
+    "example": "The conference begins tomorrow.",
+    "example_ivan": "The director attended a conference."
   },
   {
     "en": "presentation",
     "zh": "簡報",
-    "example": "Her presentation was clear."
+    "example": "Her presentation was clear.",
+    "example_ivan": "The presentation of the product was excellent"
   },
   {
     "en": "discussion",
     "zh": "討論",
-    "example": "The discussion lasted an hour."
+    "example": "The discussion lasted an hour.",
+    "example_ivan": "The manager joined the discussion."
   },
   {
     "en": "decision",
     "zh": "決定",
-    "example": "We made a quick decision."
+    "example": "We made a quick decision.",
+    "example_ivan": "The manager made a decision about the new project."
   },
   {
     "en": "goal",
     "zh": "目標",
-    "example": "Our goal is to save time."
+    "example": "Our goal is to save time.",
+    "example_ivan": "The company set a goal of reducing costs."
   },
   {
     "en": "rule",
     "zh": "規則",
-    "example": "This rule is easy to follow."
+    "example": "This rule is easy to follow.",
+    "example_ivan": "The king ruled the country for many years."
   },
   {
     "en": "instruction",
     "zh": "指示、說明",
-    "example": "Follow each instruction carefully."
+    "example": "Follow each instruction carefully.",
+    "example_ivan": "Please follow the instructions carefully."
   },
   {
     "en": "detail",
@@ -1577,7 +1683,8 @@
   {
     "en": "process",
     "zh": "流程、過程",
-    "example": "The process takes three days."
+    "example": "The process takes three days.",
+    "example_ivan": "The hiring process takes about two weeks."
   },
   {
     "en": "system",
@@ -1587,17 +1694,20 @@
   {
     "en": "material",
     "zh": "材料",
-    "example": "I need the material for work."
+    "example": "I need the material for work.",
+    "example_ivan": "The company needs more materials to make the products."
   },
   {
     "en": "supply",
     "zh": "供應、用品",
-    "example": "We need more office supplies."
+    "example": "We need more office supplies.",
+    "example_ivan": "We need to supply enough equipment."
   },
   {
     "en": "quality",
     "zh": "品質",
-    "example": "The product has good quality."
+    "example": "The product has good quality.",
+    "example_ivan": "The quality of this product is excellent."
   },
   {
     "en": "safety",
@@ -1607,42 +1717,50 @@
   {
     "en": "uniform",
     "zh": "制服",
-    "example": "All staff wear a uniform."
+    "example": "All staff wear a uniform.",
+    "example_ivan": "The company has a uniform policy."
   },
   {
     "en": "increase",
     "zh": "增加",
-    "example": "Sales increased last month."
+    "example": "Sales increased last month.",
+    "example_ivan": "The company increased prices."
   },
   {
     "en": "decrease",
     "zh": "減少",
-    "example": "The price decreased this week."
+    "example": "The price decreased this week.",
+    "example_ivan": "Sales decreased last month."
   },
   {
     "en": "improve",
     "zh": "改善",
-    "example": "We want to improve our service."
+    "example": "We want to improve our service.",
+    "example_ivan": "I want to improve my English."
   },
   {
     "en": "develop",
     "zh": "發展、開發",
-    "example": "The team developed a new app."
+    "example": "The team developed a new app.",
+    "example_ivan": "The city developed quickly"
   },
   {
     "en": "produce",
     "zh": "生產",
-    "example": "This factory produces chairs."
+    "example": "This factory produces chairs.",
+    "example_ivan": "The company produces electronic products."
   },
   {
     "en": "deliver",
     "zh": "運送、交付",
-    "example": "They will deliver the package tomorrow."
+    "example": "They will deliver the package tomorrow.",
+    "example_ivan": "The company delivers products to customers."
   },
   {
     "en": "ship",
     "zh": "運送、出貨",
-    "example": "The store ships orders every day."
+    "example": "The store ships orders every day.",
+    "example_ivan": "The company will ship the products tomorrow."
   },
   {
     "en": "replace",
@@ -1657,12 +1775,14 @@
   {
     "en": "operate",
     "zh": "操作、營運",
-    "example": "He knows how to operate the machine."
+    "example": "He knows how to operate the machine.",
+    "example_ivan": "The employee knows how to operate the equipment."
   },
   {
     "en": "manage",
     "zh": "管理",
-    "example": "She manages a small team."
+    "example": "She manages a small team.",
+    "example_ivan": "The director manages the department."
   },
   {
     "en": "organize",
@@ -1672,7 +1792,8 @@
   {
     "en": "arrange",
     "zh": "安排",
-    "example": "We arranged a meeting for Friday."
+    "example": "We arranged a meeting for Friday.",
+    "example_ivan": "I will arrange a meeting with the customer."
   },
   {
     "en": "cancel",
@@ -1682,12 +1803,14 @@
   {
     "en": "postpone",
     "zh": "延後",
-    "example": "We had to postpone the event."
+    "example": "We had to postpone the event.",
+    "example_ivan": "The meeting was postponed until next week."
   },
   {
     "en": "reserve",
     "zh": "預訂",
-    "example": "I reserved a table for two."
+    "example": "I reserved a table for two.",
+    "example_ivan": "I want to reserve a table at the restaurant."
   },
   {
     "en": "book",
@@ -1707,12 +1830,14 @@
   {
     "en": "explain",
     "zh": "解釋",
-    "example": "Could you explain this part?"
+    "example": "Could you explain this part?",
+    "example_ivan": "Please explain the problem to me"
   },
   {
     "en": "discuss",
     "zh": "討論",
-    "example": "Let us discuss the plan."
+    "example": "Let us discuss the plan.",
+    "example_ivan": "We need to discuss the problem."
   },
   {
     "en": "decide",
@@ -1737,17 +1862,20 @@
   {
     "en": "sign",
     "zh": "簽名",
-    "example": "Please sign at the bottom."
+    "example": "Please sign at the bottom.",
+    "example_ivan": "Please read the sign at the entrance carefully."
   },
   {
     "en": "fill",
     "zh": "填寫、裝滿",
-    "example": "Fill the cup with water."
+    "example": "Fill the cup with water.",
+    "example_ivan": "Please fill out the form carefully."
   },
   {
     "en": "submit",
     "zh": "提交",
-    "example": "Submit your application online."
+    "example": "Submit your application online.",
+    "example_ivan": "Please submit the document to the manager."
   },
   {
     "en": "review",
@@ -1762,22 +1890,26 @@
   {
     "en": "expect",
     "zh": "預期",
-    "example": "We expect the bus at ten."
+    "example": "We expect the bus at ten.",
+    "example_ivan": "We expect the product to arrive tomorrow."
   },
   {
     "en": "recommend",
     "zh": "推薦",
-    "example": "I recommend this restaurant."
+    "example": "I recommend this restaurant.",
+    "example_ivan": "I recommend that you submit the form today."
   },
   {
     "en": "suggest",
     "zh": "建議",
-    "example": "She suggested a shorter meeting."
+    "example": "She suggested a shorter meeting.",
+    "example_ivan": "I suggest a different plan."
   },
   {
     "en": "allow",
     "zh": "允許",
-    "example": "This card allows free entry."
+    "example": "This card allows free entry.",
+    "example_ivan": "The manager allowed me to leave early."
   },
   {
     "en": "follow",
@@ -1802,22 +1934,26 @@
   {
     "en": "reach",
     "zh": "到達、達成",
-    "example": "We reached the airport early."
+    "example": "We reached the airport early.",
+    "example_ivan": "The company reached its sales goal."
   },
   {
     "en": "announcement",
     "zh": "公告",
-    "example": "The announcement was easy to understand."
+    "example": "The announcement was easy to understand.",
+    "example_ivan": "The company announced a new product."
   },
   {
     "en": "advertisement",
     "zh": "廣告",
-    "example": "He shared the advertisement with the team."
+    "example": "He shared the advertisement with the team.",
+    "example_ivan": "The company advertises its products online."
   },
   {
     "en": "article",
     "zh": "文章",
-    "example": "We need more details about the article."
+    "example": "We need more details about the article.",
+    "example_ivan": "I read an article about a new product"
   },
   {
     "en": "letter",
@@ -1827,17 +1963,20 @@
   {
     "en": "reply",
     "zh": "回覆",
-    "example": "She checked the reply before lunch."
+    "example": "She checked the reply before lunch.",
+    "example_ivan": "I received your reply."
   },
   {
     "en": "response",
     "zh": "回覆、反應",
-    "example": "The response helped us make a decision."
+    "example": "The response helped us make a decision.",
+    "example_ivan": "We received a response from the customer."
   },
   {
     "en": "survey",
     "zh": "問卷、調查",
-    "example": "Please keep a record of the survey."
+    "example": "Please keep a record of the survey.",
+    "example_ivan": "Please complete the survey about our product."
   },
   {
     "en": "list",
@@ -1862,27 +2001,32 @@
   {
     "en": "register",
     "zh": "登記、註冊",
-    "example": "You can register at the front desk."
+    "example": "You can register at the front desk.",
+    "example_ivan": "Please register your name and address."
   },
   {
     "en": "registration",
     "zh": "登記、註冊",
-    "example": "The registration was clear to everyone."
+    "example": "The registration was clear to everyone.",
+    "example_ivan": "Please register for the course and pay the registration fee."
   },
   {
     "en": "member",
     "zh": "會員、成員",
-    "example": "Everyone knows the member."
+    "example": "Everyone knows the member.",
+    "example_ivan": "I am a member of the club."
   },
   {
     "en": "membership",
     "zh": "會員資格",
-    "example": "They reviewed the membership together."
+    "example": "They reviewed the membership together.",
+    "example_ivan": "My membership expires next month."
   },
   {
     "en": "event",
     "zh": "活動",
-    "example": "The event took longer than expected."
+    "example": "The event took longer than expected.",
+    "example_ivan": "Please register for the event before Friday."
   },
   {
     "en": "program",
@@ -1907,7 +2051,8 @@
   {
     "en": "description",
     "zh": "說明、描述",
-    "example": "The description is ready for review."
+    "example": "The description is ready for review.",
+    "example_ivan": "Please read the product description carefully."
   },
   {
     "en": "topic",
@@ -1917,12 +2062,14 @@
   {
     "en": "fact",
     "zh": "事實",
-    "example": "The fact was discussed last Friday."
+    "example": "The fact was discussed last Friday.",
+    "example_ivan": "In fact, the product is very popular."
   },
   {
     "en": "option",
     "zh": "選項",
-    "example": "He gave us an update on the option."
+    "example": "He gave us an update on the option.",
+    "example_ivan": "You have two options."
   },
   {
     "en": "choice",
@@ -1932,7 +2079,8 @@
   {
     "en": "opinion",
     "zh": "意見",
-    "example": "We compared the opinion with last month."
+    "example": "We compared the opinion with last month.",
+    "example_ivan": "In my opinion, this product is effective."
   },
   {
     "en": "feedback",
@@ -1942,12 +2090,14 @@
   {
     "en": "invitation",
     "zh": "邀請",
-    "example": "The invitation was approved by the director."
+    "example": "The invitation was approved by the director.",
+    "example_ivan": "I received an invitation to the event."
   },
   {
     "en": "requirement",
     "zh": "要求、條件",
-    "example": "She will handle the requirement today."
+    "example": "She will handle the requirement today.",
+    "example_ivan": "Experience is a job requirement."
   },
   {
     "en": "agreement",
@@ -1957,17 +2107,20 @@
   {
     "en": "contract",
     "zh": "合約",
-    "example": "The contract is still under review."
+    "example": "The contract is still under review.",
+    "example_ivan": "Please sign the contract and return the document."
   },
   {
     "en": "signature",
     "zh": "簽名",
-    "example": "Please save the signature for later."
+    "example": "Please save the signature for later.",
+    "example_ivan": "Please provide your signature."
   },
   {
     "en": "record",
     "zh": "紀錄",
-    "example": "The record will be checked tomorrow."
+    "example": "The record will be checked tomorrow.",
+    "example_ivan": "Please record the customer's information in the file."
   },
   {
     "en": "data",
@@ -1977,7 +2130,8 @@
   {
     "en": "section",
     "zh": "部分、區段",
-    "example": "The team is working on the section."
+    "example": "The team is working on the section.",
+    "example_ivan": "Please read this section of the document carefully."
   },
   {
     "en": "item",
@@ -2002,7 +2156,8 @@
   {
     "en": "charge",
     "zh": "收費",
-    "example": "We discussed the charge at the meeting."
+    "example": "We discussed the charge at the meeting.",
+    "example_ivan": "There is an additional charge for delivery."
   },
   {
     "en": "tax",
@@ -2012,7 +2167,8 @@
   {
     "en": "budget",
     "zh": "預算",
-    "example": "Please check the budget carefully."
+    "example": "Please check the budget carefully.",
+    "example_ivan": "We need to set a budget for the event."
   },
   {
     "en": "value",
@@ -2022,22 +2178,26 @@
   {
     "en": "income",
     "zh": "收入",
-    "example": "The income is part of the plan."
+    "example": "The income is part of the plan.",
+    "example_ivan": "My monthly income is NT$50,000."
   },
   {
     "en": "expense",
     "zh": "費用、支出",
-    "example": "I wrote down the expense."
+    "example": "I wrote down the expense.",
+    "example_ivan": "The company will cover travel expenses."
   },
   {
     "en": "earn",
     "zh": "賺取",
-    "example": "She earns more in her new job."
+    "example": "She earns more in her new job.",
+    "example_ivan": "I earn a good income."
   },
   {
     "en": "lend",
     "zh": "借出",
-    "example": "Can you lend me a pen?"
+    "example": "Can you lend me a pen?",
+    "example_ivan": "Can you lend me your pen?"
   },
   {
     "en": "rent",
@@ -2062,7 +2222,8 @@
   {
     "en": "brand",
     "zh": "品牌",
-    "example": "I forgot the brand at home."
+    "example": "I forgot the brand at home.",
+    "example_ivan": "What brand is this product?"
   },
   {
     "en": "model",
@@ -2077,7 +2238,8 @@
   {
     "en": "package",
     "zh": "包裹、套裝",
-    "example": "He carried the package upstairs."
+    "example": "He carried the package upstairs.",
+    "example_ivan": "I received a package today."
   },
   {
     "en": "delivery",
@@ -2087,7 +2249,8 @@
   {
     "en": "shipping",
     "zh": "運送",
-    "example": "Please keep a record of the shipping."
+    "example": "Please keep a record of the shipping.",
+    "example_ivan": "Shipping is free."
   },
   {
     "en": "stock",
@@ -2102,12 +2265,14 @@
   {
     "en": "damage",
     "zh": "損壞",
-    "example": "He asked for the damage in writing."
+    "example": "He asked for the damage in writing.",
+    "example_ivan": "The package was damaged during shipping."
   },
   {
     "en": "guarantee",
     "zh": "保證",
-    "example": "The guarantee is useful for new staff."
+    "example": "The guarantee is useful for new staff.",
+    "example_ivan": "We guarantee your satisfaction."
   },
   {
     "en": "exchange",
@@ -2122,27 +2287,32 @@
   {
     "en": "benefit",
     "zh": "好處、福利",
-    "example": "Please confirm the benefit with your manager."
+    "example": "Please confirm the benefit with your manager.",
+    "example_ivan": "Health insurance is an employee benefit."
   },
   {
     "en": "promotion",
     "zh": "促銷、升遷",
-    "example": "They reviewed the promotion together."
+    "example": "They reviewed the promotion together.",
+    "example_ivan": "The store is offering a special promotion."
   },
   {
     "en": "guest",
     "zh": "房客、賓客",
-    "example": "I met the guest yesterday."
+    "example": "I met the guest yesterday.",
+    "example_ivan": "The hotel provides free breakfast for all guests."
   },
   {
     "en": "tour",
     "zh": "旅遊、導覽",
-    "example": "I will see you this tour."
+    "example": "I will see you this tour.",
+    "example_ivan": "We went on a tour of the city."
   },
   {
     "en": "guide",
     "zh": "導遊、指南",
-    "example": "We spoke to the guide after lunch."
+    "example": "We spoke to the guide after lunch.",
+    "example_ivan": "The tour guide showed us the building."
   },
   {
     "en": "traveler",
@@ -2152,42 +2322,50 @@
   {
     "en": "journey",
     "zh": "旅程",
-    "example": "The journey went by quickly."
+    "example": "The journey went by quickly.",
+    "example_ivan": "The journey time is approximately three hours."
   },
   {
     "en": "route",
     "zh": "路線",
-    "example": "The route is ready for review."
+    "example": "The route is ready for review.",
+    "example_ivan": "This is the fastest route to the airport."
   },
   {
     "en": "gate",
     "zh": "登機門、大門",
-    "example": "I can see the gate from here."
+    "example": "I can see the gate from here.",
+    "example_ivan": "Please go to Gate 12."
   },
   {
     "en": "platform",
     "zh": "月台",
-    "example": "The platform is two blocks away."
+    "example": "The platform is two blocks away.",
+    "example_ivan": "The train is waiting at Platform 3."
   },
   {
     "en": "seat",
     "zh": "座位",
-    "example": "The seat was not available today."
+    "example": "The seat was not available today.",
+    "example_ivan": "This seat is available."
   },
   {
     "en": "terminal",
     "zh": "航廈、終點站",
-    "example": "The terminal has a large entrance."
+    "example": "The terminal has a large entrance.",
+    "example_ivan": "The flight departs from Terminal 2."
   },
   {
     "en": "airline",
     "zh": "航空公司",
-    "example": "What airline did you fly with?"
+    "example": "What airline did you fly with?",
+    "example_ivan": "EVA Air is an airline."
   },
   {
     "en": "board",
     "zh": "登上飛機或火車",
-    "example": "Passengers may board now."
+    "example": "Passengers may board now.",
+    "example_ivan": "Passengers can board the plane at Gate 12."
   },
   {
     "en": "cancellation",
@@ -2197,7 +2375,8 @@
   {
     "en": "baggage",
     "zh": "行李",
-    "example": "The baggage is in good condition."
+    "example": "The baggage is in good condition.",
+    "example_ivan": "Where can I pick up my baggage?"
   },
   {
     "en": "passport",
@@ -2212,7 +2391,8 @@
   {
     "en": "direction",
     "zh": "方向",
-    "example": "Please save the direction for later."
+    "example": "Please save the direction for later.",
+    "example_ivan": "The customer asked for directions to the restaurant."
   },
   {
     "en": "north",
@@ -2237,12 +2417,14 @@
   {
     "en": "abroad",
     "zh": "在國外",
-    "example": "My sister works abroad."
+    "example": "My sister works abroad.",
+    "example_ivan": "Many students study abroad every year."
   },
   {
     "en": "foreign",
     "zh": "外國的",
-    "example": "He speaks a foreign language."
+    "example": "He speaks a foreign language.",
+    "example_ivan": "I work for a foreign company."
   },
   {
     "en": "transportation",
@@ -2252,12 +2434,14 @@
   {
     "en": "vehicle",
     "zh": "車輛",
-    "example": "The vehicle arrived on time."
+    "example": "The vehicle arrived on time.",
+    "example_ivan": "A car is a type of vehicle."
   },
   {
     "en": "convenient",
     "zh": "方便的",
-    "example": "The station is convenient for commuters."
+    "example": "The station is convenient for commuters.",
+    "example_ivan": "The hotel is in a convenient location."
   },
   {
     "en": "comfortable",
@@ -2307,7 +2491,8 @@
   {
     "en": "recent",
     "zh": "最近的",
-    "example": "This is a recent photo of the team."
+    "example": "This is a recent photo of the team.",
+    "example_ivan": "I received a recent message from the customer."
   },
   {
     "en": "final",
@@ -2317,42 +2502,50 @@
   {
     "en": "directly",
     "zh": "直接地",
-    "example": "Please send the file directly to me."
+    "example": "Please send the file directly to me.",
+    "example_ivan": "Please contact the customer directly"
   },
   {
     "en": "immediately",
     "zh": "立即地",
-    "example": "Please call me immediately."
+    "example": "Please call me immediately.",
+    "example_ivan": "Please reply immediately."
   },
   {
     "en": "usually",
     "zh": "通常",
-    "example": "I usually drink coffee."
+    "example": "I usually drink coffee.",
+    "example_ivan": "I usually arrive at work at 9 a.m."
   },
   {
     "en": "already",
     "zh": "已經",
-    "example": "I already sent the email."
+    "example": "I already sent the email.",
+    "example_ivan": "I have already received the package."
   },
   {
     "en": "recently",
     "zh": "最近",
-    "example": "I recently started a new job."
+    "example": "I recently started a new job.",
+    "example_ivan": "I recently read a report."
   },
   {
     "en": "especially",
     "zh": "尤其",
-    "example": "This offer is especially useful for students."
+    "example": "This offer is especially useful for students.",
+    "example_ivan": "Please be careful, especially when you travel abroad."
   },
   {
     "en": "probably",
     "zh": "可能、大概",
-    "example": "The bus will probably arrive soon."
+    "example": "The bus will probably arrive soon.",
+    "example_ivan": "The customer will probably receive the product tomorrow."
   },
   {
     "en": "exactly",
     "zh": "正確地、恰好",
-    "example": "That is exactly what I meant."
+    "example": "That is exactly what I meant.",
+    "example_ivan": "Please tell me exactly where the hotel is."
   },
   {
     "en": "together",
@@ -2367,7 +2560,8 @@
   {
     "en": "pea",
     "zh": "碗豆",
-    "example": "He put peas on his plate."
+    "example": "He put peas on his plate.",
+    "example_ivan": "I like peas with rice."
   },
   {
     "en": "pear",
@@ -2377,12 +2571,14 @@
   {
     "en": "round",
     "zh": "圓 輪",
-    "example": "The table is round."
+    "example": "The table is round.",
+    "example_ivan": "We have another round of training."
   },
   {
     "en": "sand",
     "zh": "沙",
-    "example": "The children played in the sand."
+    "example": "The children played in the sand.",
+    "example_ivan": "There is a lot of sand on the beach."
   },
   {
     "en": "duration",
@@ -2397,42 +2593,50 @@
   {
     "en": "laughter",
     "zh": "笑",
-    "example": "She roared with laughter (= laughed very loudly)."
+    "example": "She roared with laughter (= laughed very loudly).",
+    "example_ivan": "We heard laughter from the room."
   },
   {
     "en": "male",
     "zh": "男性的",
-    "example": "The male staff member greeted us."
+    "example": "The male staff member greeted us.",
+    "example_ivan": "Please select male or female on the application form"
   },
   {
     "en": "law",
     "zh": "法律",
-    "example": "The law is included in the price."
+    "example": "The law is included in the price.",
+    "example_ivan": "Everyone must follow the law"
   },
   {
     "en": "huge",
     "zh": "龐大的",
-    "example": "The new store is huge."
+    "example": "The new store is huge.",
+    "example_ivan": "The company has a huge building."
   },
   {
     "en": "attract",
     "zh": "引誘",
-    "example": "The bright sign attracts customers."
+    "example": "The bright sign attracts customers.",
+    "example_ivan": "The company uses a campaign to attract new customers."
   },
   {
     "en": "even",
     "zh": "偶數 甚至 平坦",
-    "example": "The total is an even number."
+    "example": "The total is an even number.",
+    "example_ivan": "The new product is even more expensive."
   },
   {
     "en": "event",
     "zh": "事件",
-    "example": "The event begins at six."
+    "example": "The event begins at six.",
+    "example_ivan": "Please register for the event before Friday."
   },
   {
     "en": "diary",
     "zh": "日記",
-    "example": "He picked up the diary."
+    "example": "He picked up the diary.",
+    "example_ivan": "I write in my diary every day."
   },
   {
     "en": "exist",
@@ -2442,12 +2646,14 @@
   {
     "en": "fold",
     "zh": "折疊",
-    "example": "Fold the paper in half."
+    "example": "Fold the paper in half.",
+    "example_ivan": "Please fold the document and put it on the desk."
   },
   {
     "en": "front",
     "zh": "前面",
-    "example": "Please wait at the front desk."
+    "example": "Please wait at the front desk.",
+    "example_ivan": "The car is in front of the restaurant"
   },
   {
     "en": "gap",
@@ -2457,7 +2663,8 @@
   {
     "en": "spot",
     "zh": "地點 斑點",
-    "example": "I found a quiet spot to sit."
+    "example": "I found a quiet spot to sit.",
+    "example_ivan": "We found a good spot near the restaurant."
   },
   {
     "en": "cross",
@@ -2467,82 +2674,98 @@
   {
     "en": "breath",
     "zh": "呼吸",
-    "example": "Take a deep breath."
+    "example": "Take a deep breath.",
+    "example_ivan": "Take a deep breath and relax."
   },
   {
     "en": "jelly",
     "zh": "果凍果醬",
-    "example": "The child ate toast with jelly."
+    "example": "The child ate toast with jelly.",
+    "example_ivan": "I like peanut butter and jelly."
   },
   {
     "en": "hall",
     "zh": "大廳走廊",
-    "example": "The hall has a large entrance."
+    "example": "The hall has a large entrance.",
+    "example_ivan": "The office is at the end of the hall."
   },
   {
     "en": "boot",
     "zh": "長筒靴",
-    "example": "One boot is under the chair."
+    "example": "One boot is under the chair.",
+    "example_ivan": "She bought a pair of boots for the trip."
   },
   {
     "en": "pause",
     "zh": "暫停",
-    "example": "Let us pause for a minute."
+    "example": "Let us pause for a minute.",
+    "example_ivan": "She paused before answering the question."
   },
   {
     "en": "pain",
     "zh": "疼痛",
-    "example": "She felt pain in her back."
+    "example": "She felt pain in her back.",
+    "example_ivan": "He is in pain after the accident."
   },
   {
     "en": "pool",
     "zh": "游泳池",
-    "example": "The pool is close to our hotel."
+    "example": "The pool is close to our hotel.",
+    "example_ivan": "The hotel has a swimming pool."
   },
   {
     "en": "pop",
     "zh": "開槍 熱門",
-    "example": "The balloon made a loud pop."
+    "example": "The balloon made a loud pop.",
+    "example_ivan": "I will pop into the store after work."
   },
   {
     "en": "bake",
     "zh": "烘烤",
-    "example": "They bake bread each morning."
+    "example": "They bake bread each morning.",
+    "example_ivan": "She bakes a cake for the event."
   },
   {
     "en": "flour",
     "zh": "麵粉",
-    "example": "Add flour to the bowl."
+    "example": "Add flour to the bowl.",
+    "example_ivan": "We need flour to bake a cake."
   },
   {
     "en": "hop",
     "zh": "單足跳",
-    "example": "The child can hop on one foot."
+    "example": "The child can hop on one foot.",
+    "example_ivan": "The child hopped over the road."
   },
   {
     "en": "pure",
     "zh": "純淨的",
-    "example": "The water is pure and clean."
+    "example": "The water is pure and clean.",
+    "example_ivan": "This product contains pure water."
   },
   {
     "en": "glow",
     "zh": "光輝 灼熱",
-    "example": "The lamp gave off a soft glow."
+    "example": "The lamp gave off a soft glow.",
+    "example_ivan": "The sign glows at night."
   },
   {
     "en": "shine",
     "zh": "光亮",
-    "example": "The sun shines through the window."
+    "example": "The sun shines through the window.",
+    "example_ivan": "The sun shines brightly."
   },
   {
     "en": "race",
     "zh": "比賽",
-    "example": "The children watched the race."
+    "example": "The children watched the race.",
+    "example_ivan": "He won the race."
   },
   {
     "en": "self",
     "zh": "本身",
-    "example": "She did the work by herself."
+    "example": "She did the work by herself.",
+    "example_ivan": "You need to believe in yourself."
   },
   {
     "en": "spoon",
@@ -2552,7 +2775,8 @@
   {
     "en": "speed",
     "zh": "速度",
-    "example": "Keep the speed in a safe place."
+    "example": "Keep the speed in a safe place.",
+    "example_ivan": "The car sped down the road."
   },
   {
     "en": "terrible",
@@ -2567,7 +2791,8 @@
   {
     "en": "jet",
     "zh": "噴射機",
-    "example": "Please wait for the jet."
+    "example": "Please wait for the jet.",
+    "example_ivan": "The jet arrived at the airport."
   },
   {
     "en": "afraid",
@@ -2582,7 +2807,8 @@
   {
     "en": "fool",
     "zh": "蠢 戲弄",
-    "example": "Please contact the fool directly."
+    "example": "Please contact the fool directly.",
+    "example_ivan": "The man fooled the customer."
   },
   {
     "en": "fan",
@@ -2592,12 +2818,14 @@
   {
     "en": "fry",
     "zh": "油炸",
-    "example": "Fry the eggs for two minutes."
+    "example": "Fry the eggs for two minutes.",
+    "example_ivan": "She fried an egg for breakfast."
   },
   {
     "en": "coat",
     "zh": "外套",
-    "example": "The coat is in good condition."
+    "example": "The coat is in good condition.",
+    "example_ivan": "Please wear a coat because it is cold."
   },
   {
     "en": "rat",
@@ -2607,17 +2835,20 @@
   {
     "en": "shut",
     "zh": "關上",
-    "example": "Please shut the window."
+    "example": "Please shut the window.",
+    "example_ivan": "The company shut down the factory."
   },
   {
     "en": "truth",
     "zh": "事實",
-    "example": "They need a new truth."
+    "example": "They need a new truth.",
+    "example_ivan": "Tell me the truth, not a lie."
   },
   {
     "en": "vase",
     "zh": "花瓶",
-    "example": "The vase is on the table near the window."
+    "example": "The vase is on the table near the window.",
+    "example_ivan": "She put the flowers in a vase."
   },
   {
     "en": "noise",
@@ -2627,12 +2858,14 @@
   {
     "en": "none",
     "zh": "一點都不",
-    "example": "None of the rooms is available."
+    "example": "None of the rooms is available.",
+    "example_ivan": "None of the products are available."
   },
   {
     "en": "owl",
     "zh": "貓頭鷹",
-    "example": "The owl changed this month."
+    "example": "The owl changed this month.",
+    "example_ivan": "I saw an owl near the building."
   },
   {
     "en": "knock",
@@ -2642,27 +2875,32 @@
   {
     "en": "age",
     "zh": "年齡",
-    "example": "How old are you?"
+    "example": "How old are you?",
+    "example_ivan": "What is your age?"
   },
   {
     "en": "ant",
     "zh": "螞蟻",
-    "example": "He left the ant at reception."
+    "example": "He left the ant at reception.",
+    "example_ivan": "I saw an ant on the desk."
   },
   {
     "en": "bat",
     "zh": "蝙蝠 球棒",
-    "example": "I have a question about the bat."
+    "example": "I have a question about the bat.",
+    "example_ivan": "I saw a bat near the building."
   },
   {
     "en": "shy",
     "zh": "害羞的",
-    "example": "The shy boy did not speak much."
+    "example": "The shy boy did not speak much.",
+    "example_ivan": "He is shy, but he wants to learn English."
   },
   {
     "en": "far",
     "zh": "遙遠的",
-    "example": "The hotel is not far from here."
+    "example": "The hotel is not far from here.",
+    "example_ivan": "The hotel is far from the airport, so transportation is necessary."
   },
   {
     "en": "hat",
@@ -2677,17 +2915,20 @@
   {
     "en": "kind",
     "zh": "親切的",
-    "example": "Our guide was very kind."
+    "example": "Our guide was very kind.",
+    "example_ivan": "Thank you for your kind help."
   },
   {
     "en": "let",
     "zh": "允許 讓",
-    "example": "Please let me know soon."
+    "example": "Please let me know soon.",
+    "example_ivan": "Please let me know the meeting schedule."
   },
   {
     "en": "low",
     "zh": "低廉的",
-    "example": "The price is low today."
+    "example": "The price is low today.",
+    "example_ivan": "The company wants to keep costs low."
   },
   {
     "en": "oil",
@@ -2707,27 +2948,32 @@
   {
     "en": "tie",
     "zh": "領帶 平手",
-    "example": "The tie is on the table."
+    "example": "The tie is on the table.",
+    "example_ivan": "Please tie the package"
   },
   {
     "en": "candidate",
     "zh": "應徵者",
-    "example": "Please ask the candidate for help."
+    "example": "Please ask the candidate for help.",
+    "example_ivan": "We are looking for a qualified candidate."
   },
   {
     "en": "resume",
     "zh": "履歷",
-    "example": "We chose the resume carefully."
+    "example": "We chose the resume carefully.",
+    "example_ivan": "Please submit your resume by Friday."
   },
   {
     "en": "qualification",
     "zh": "資格",
-    "example": "Do you have any teaching qualifications?"
+    "example": "Do you have any teaching qualifications?",
+    "example_ivan": "The candidate meets all the qualifications for the job."
   },
   {
     "en": "recruit",
     "zh": "招募",
-    "example": "She copied the recruit into her notebook."
+    "example": "She copied the recruit into her notebook.",
+    "example_ivan": "The manager is responsible for recruiting new employees."
   },
   {
     "en": "employer",
@@ -2737,62 +2983,74 @@
   {
     "en": "assistant",
     "zh": "助理",
-    "example": "The assistant answered my question."
+    "example": "The assistant answered my question.",
+    "example_ivan": "The assistant will arrange a meeting with the manager."
   },
   {
     "en": "secretary",
     "zh": "祕書",
-    "example": "We spoke to the secretary after lunch."
+    "example": "We spoke to the secretary after lunch.",
+    "example_ivan": "The secretary arranged a meeting with the manager."
   },
   {
     "en": "representative",
     "zh": "代表",
-    "example": "The representative knows the procedure."
+    "example": "The representative knows the procedure.",
+    "example_ivan": "The sales representative will contact the customer tomorrow."
   },
   {
     "en": "consultant",
     "zh": "顧問",
-    "example": "She introduced the consultant to us."
+    "example": "She introduced the consultant to us.",
+    "example_ivan": "The company hired a consultant to improve its business."
   },
   {
     "en": "intern",
     "zh": "實習生",
-    "example": "The intern will join the meeting."
+    "example": "The intern will join the meeting.",
+    "example_ivan": "The company is looking for a marketing intern."
   },
   {
     "en": "retire",
     "zh": "退休",
-    "example": "My father will retire next year."
+    "example": "My father will retire next year.",
+    "example_ivan": "The retired employee receives a monthly payment."
   },
   {
     "en": "resign",
     "zh": "辭職",
-    "example": "She resigned from her position."
+    "example": "She resigned from her position.",
+    "example_ivan": "The manager resigned from the company last week."
   },
   {
     "en": "transfer",
     "zh": "調職、轉移",
-    "example": "They transferred him to another branch."
+    "example": "They transferred him to another branch.",
+    "example_ivan": "The employee will transfer to another department next month."
   },
   {
     "en": "assign",
     "zh": "指派",
-    "example": "The supervisor assigned a new task."
+    "example": "The supervisor assigned a new task.",
+    "example_ivan": "The manager assigned a task to the assistant."
   },
   {
     "en": "participate",
     "zh": "參與",
-    "example": "Many employees participated in the survey."
+    "example": "Many employees participated in the survey.",
+    "example_ivan": "All employees must participate in the training program."
   },
   {
     "en": "cooperate",
     "zh": "合作",
-    "example": "The two teams cooperated well."
+    "example": "The two teams cooperated well.",
+    "example_ivan": "Employees must cooperate with other departments to complete the project."
   },
   {
     "en": "assist",
     "zh": "協助",
-    "example": "I can assist you at the desk."
+    "example": "I can assist you at the desk.",
+    "example_ivan": "The assistant assists the manager with daily tasks."
   },
   {
     "en": "support",
@@ -2802,7 +3060,8 @@
   {
     "en": "achieve",
     "zh": "達成",
-    "example": "We achieved our goal."
+    "example": "We achieved our goal.",
+    "example_ivan": "The employee achieved the sales target."
   },
   {
     "en": "bonus",
@@ -2812,17 +3071,20 @@
   {
     "en": "approve",
     "zh": "核准",
-    "example": "The director approved the budget."
+    "example": "The director approved the budget.",
+    "example_ivan": "The manager approved the employee's request."
   },
   {
     "en": "inform",
     "zh": "通知",
-    "example": "Please inform the customer."
+    "example": "Please inform the customer.",
+    "example_ivan": "The manager informed all employees that the meeting was postponed."
   },
   {
     "en": "remind",
     "zh": "提醒",
-    "example": "Please remind me tomorrow."
+    "example": "Please remind me tomorrow.",
+    "example_ivan": "Please remind the employee to attend the meeting."
   },
   {
     "en": "mention",
@@ -2832,7 +3094,8 @@
   {
     "en": "describe",
     "zh": "描述",
-    "example": "Can you describe the problem?"
+    "example": "Can you describe the problem?",
+    "example_ivan": "Please describe the problem to the manager."
   },
   {
     "en": "introduce",
@@ -2842,17 +3105,20 @@
   {
     "en": "identify",
     "zh": "辨識",
-    "example": "Please identify the correct file."
+    "example": "Please identify the correct file.",
+    "example_ivan": "Please identify the customer before you approve the request."
   },
   {
     "en": "verify",
     "zh": "核實",
-    "example": "We must verify the address."
+    "example": "We must verify the address.",
+    "example_ivan": "Please verify the customer's address before shipping the product."
   },
   {
     "en": "inspect",
     "zh": "檢查",
-    "example": "The worker inspected the equipment."
+    "example": "The worker inspected the equipment.",
+    "example_ivan": "The manager inspected the equipment carefully."
   },
   {
     "en": "maintain",
@@ -2862,7 +3128,8 @@
   {
     "en": "adjust",
     "zh": "調整",
-    "example": "Adjust the screen brightness."
+    "example": "Adjust the screen brightness.",
+    "example_ivan": "The company adjusted the price of the product."
   },
   {
     "en": "reduce",
@@ -2872,7 +3139,8 @@
   {
     "en": "expand",
     "zh": "擴大",
-    "example": "The store will expand next year."
+    "example": "The store will expand next year.",
+    "example_ivan": "The company expanded its product line to attract more customers."
   },
   {
     "en": "create",
@@ -2882,17 +3150,20 @@
   {
     "en": "design",
     "zh": "設計",
-    "example": "She designed the poster."
+    "example": "She designed the poster.",
+    "example_ivan": "The manager asked the employee to design a training program."
   },
   {
     "en": "remove",
     "zh": "移除",
-    "example": "Please remove the old notice."
+    "example": "Please remove the old notice.",
+    "example_ivan": "Please remove the old files from the computer."
   },
   {
     "en": "attach",
     "zh": "附上",
-    "example": "Attach the receipt to the email."
+    "example": "Attach the receipt to the email.",
+    "example_ivan": "The employee attached the report and sent it to the manager."
   },
   {
     "en": "print",
@@ -2912,7 +3183,8 @@
   {
     "en": "screen",
     "zh": "螢幕",
-    "example": "I put the screen in my bag."
+    "example": "I put the screen in my bag.",
+    "example_ivan": "Please check the information on the computer screen."
   },
   {
     "en": "software",
@@ -2922,22 +3194,26 @@
   {
     "en": "device",
     "zh": "裝置",
-    "example": "She found the device quickly."
+    "example": "She found the device quickly.",
+    "example_ivan": "The company provides electronic devices for new employees."
   },
   {
     "en": "tool",
     "zh": "工具",
-    "example": "The tool is next to the door."
+    "example": "The tool is next to the door.",
+    "example_ivan": "This software tool helps the manager analyze sales results."
   },
   {
     "en": "battery",
     "zh": "電池",
-    "example": "He picked up the battery."
+    "example": "He picked up the battery.",
+    "example_ivan": "The battery in my mobile device is low."
   },
   {
     "en": "cable",
     "zh": "線材",
-    "example": "Please keep the cable clean."
+    "example": "Please keep the cable clean.",
+    "example_ivan": "The employee replaced the damaged power cable."
   },
   {
     "en": "network",
@@ -2947,12 +3223,14 @@
   {
     "en": "connection",
     "zh": "連線",
-    "example": "The connection was useful during the trip."
+    "example": "The connection was useful during the trip.",
+    "example_ivan": "The device has a poor internet connection."
   },
   {
     "en": "facility",
     "zh": "設施",
-    "example": "Her office is inside the facility."
+    "example": "Her office is inside the facility.",
+    "example_ivan": "The manager inspected the new facility yesterday."
   },
   {
     "en": "warehouse",
@@ -2962,57 +3240,68 @@
   {
     "en": "storage",
     "zh": "儲存",
-    "example": "Please return the storage after use."
+    "example": "Please return the storage after use.",
+    "example_ivan": "The computer has enough storage space for the files."
   },
   {
     "en": "shelf",
     "zh": "架子",
-    "example": "We checked the shelf before leaving."
+    "example": "We checked the shelf before leaving.",
+    "example_ivan": "The employee placed the products on the top shelf."
   },
   {
     "en": "cabinet",
     "zh": "櫃子",
-    "example": "The cabinet belongs to the office."
+    "example": "The cabinet belongs to the office.",
+    "example_ivan": "The employee stored the equipment in a storage cabinet."
   },
   {
     "en": "drawer",
     "zh": "抽屜",
-    "example": "He carried the drawer upstairs."
+    "example": "He carried the drawer upstairs.",
+    "example_ivan": "Please put the document in the desk drawer."
   },
   {
     "en": "elevator",
     "zh": "電梯",
-    "example": "The elevators were frequently not working."
+    "example": "The elevators were frequently not working.",
+    "example_ivan": "Please take the elevator to the fifth floor."
   },
   {
     "en": "stairs",
     "zh": "樓梯",
-    "example": "He asked for the stairs at the counter."
+    "example": "He asked for the stairs at the counter.",
+    "example_ivan": "The elevator is out of service, so please use the stairs."
   },
   {
     "en": "lobby",
     "zh": "大廳",
-    "example": "We walked past the lobby."
+    "example": "We walked past the lobby.",
+    "example_ivan": "Please wait for the manager in the hotel lobby."
   },
   {
     "en": "furniture",
     "zh": "家具",
-    "example": "The furniture is in good condition."
+    "example": "The furniture is in good condition.",
+    "example_ivan": "The furniture will arrive at the building tomorrow."
   },
   {
     "en": "profit",
     "zh": "利潤",
-    "example": "We discussed the profit at the meeting."
+    "example": "We discussed the profit at the meeting.",
+    "example_ivan": "The manager reviewed the report to check the company's annual profit."
   },
   {
     "en": "loan",
     "zh": "貸款",
-    "example": "The loan needs attention."
+    "example": "The loan needs attention.",
+    "example_ivan": "The employee applied for a bank loan."
   },
   {
     "en": "deposit",
     "zh": "訂金、存款",
-    "example": "Please check the deposit carefully."
+    "example": "Please check the deposit carefully.",
+    "example_ivan": "The customer paid a deposit to reserve a room."
   },
   {
     "en": "balance",
@@ -3027,17 +3316,20 @@
   {
     "en": "consumer",
     "zh": "消費者",
-    "example": "The consumer called this morning."
+    "example": "The consumer called this morning.",
+    "example_ivan": "The survey shows that consumers want lower prices."
   },
   {
     "en": "supplier",
     "zh": "供應商",
-    "example": "I met the supplier yesterday."
+    "example": "I met the supplier yesterday.",
+    "example_ivan": "The manager negotiated with the supplier to reduce costs."
   },
   {
     "en": "sample",
     "zh": "樣品",
-    "example": "Please keep the sample clean."
+    "example": "Please keep the sample clean.",
+    "example_ivan": "The customer tested the sample before making a purchase."
   },
   {
     "en": "warranty",
@@ -3047,12 +3339,14 @@
   {
     "en": "replacement",
     "zh": "替換品",
-    "example": "The replacement changed this week."
+    "example": "The replacement changed this week.",
+    "example_ivan": "The customer requested a replacement for the damaged product."
   },
   {
     "en": "visa",
     "zh": "簽證",
-    "example": "She bought the visa yesterday."
+    "example": "She bought the visa yesterday.",
+    "example_ivan": "Please confirm the visa requirements before you depart."
   },
   {
     "en": "custom",
@@ -3062,47 +3356,56 @@
   {
     "en": "shuttle",
     "zh": "接駁車",
-    "example": "The shuttle leaves at eight."
+    "example": "The shuttle leaves at eight.",
+    "example_ivan": "The hotel provides a free shuttle to the airport."
   },
   {
     "en": "commute",
     "zh": "通勤",
-    "example": "He commutes by train."
+    "example": "He commutes by train.",
+    "example_ivan": "The employee commutes to the office by train every day."
   },
   {
     "en": "traffic",
     "zh": "交通",
-    "example": "The traffic is on today's agenda."
+    "example": "The traffic is on today's agenda.",
+    "example_ivan": "The shuttle will probably take longer because of the traffic."
   },
   {
     "en": "intersection",
     "zh": "十字路口",
-    "example": "The intersection has a large entrance."
+    "example": "The intersection has a large entrance.",
+    "example_ivan": "The shuttle stopped at the intersection."
   },
   {
     "en": "sidewalk",
     "zh": "人行道",
-    "example": "Ask for help at the sidewalk."
+    "example": "Ask for help at the sidewalk.",
+    "example_ivan": "The customer walked along the sidewalk to the hotel."
   },
   {
     "en": "arrival",
     "zh": "抵達",
-    "example": "I will see you at the arrival."
+    "example": "I will see you at the arrival.",
+    "example_ivan": "Please confirm the arrival time of the shuttle."
   },
   {
     "en": "aisle",
     "zh": "走道",
-    "example": "We walked past the aisle."
+    "example": "We walked past the aisle.",
+    "example_ivan": "Please keep the aisle clear for passengers."
   },
   {
     "en": "beverage",
     "zh": "飲料",
-    "example": "The beverage is in good condition."
+    "example": "The beverage is in good condition.",
+    "example_ivan": "Passengers can purchase beverages during the flight."
   },
   {
     "en": "annual",
     "zh": "每年的",
-    "example": "The company holds an annual meeting."
+    "example": "The company holds an annual meeting.",
+    "example_ivan": "The employee wants to increase his annual salary."
   },
   {
     "en": "monthly",
@@ -3112,77 +3415,92 @@
   {
     "en": "temporary",
     "zh": "暫時的",
-    "example": "This job is temporary."
+    "example": "This job is temporary.",
+    "example_ivan": "The manager needs a temporary employee for three months."
   },
   {
     "en": "permanent",
     "zh": "永久的",
-    "example": "She has a permanent position."
+    "example": "She has a permanent position.",
+    "example_ivan": "The employee received a permanent position last month."
   },
   {
     "en": "regular",
     "zh": "定期的、一般的",
-    "example": "We have a regular meeting."
+    "example": "We have a regular meeting.",
+    "example_ivan": "The regular customer received a discount on the product."
   },
   {
     "en": "common",
     "zh": "常見的",
-    "example": "This is a common mistake."
+    "example": "This is a common mistake.",
+    "example_ivan": "The employees have a common goal: to improve sales."
   },
   {
     "en": "general",
     "zh": "一般的",
-    "example": "I need general information."
+    "example": "I need general information.",
+    "example_ivan": "In general, the company provides good customer service."
   },
   {
     "en": "specific",
     "zh": "特定的",
-    "example": "Please give a specific example."
+    "example": "Please give a specific example.",
+    "example_ivan": "The employee needs to confirm the specific date of the meeting."
   },
   {
     "en": "individual",
     "zh": "個別的",
-    "example": "Each individual has a number."
+    "example": "Each individual has a number.",
+    "example_ivan": "Each individual employee must attend the annual meeting."
   },
   {
     "en": "entire",
     "zh": "全部的",
-    "example": "He read the entire report."
+    "example": "He read the entire report.",
+    "example_ivan": "The employee spent the entire day preparing the report."
   },
   {
     "en": "various",
     "zh": "各式各樣的",
-    "example": "The store sells various tools."
+    "example": "The store sells various tools.",
+    "example_ivan": "Employees from various departments attended the annual meeting."
   },
   {
     "en": "similar",
     "zh": "相似的",
-    "example": "The two bags look similar."
+    "example": "The two bags look similar.",
+    "example_ivan": "This product is similar to the one we purchased last month."
   },
   {
     "en": "suitable",
     "zh": "合適的",
-    "example": "This time is suitable for me."
+    "example": "This time is suitable for me.",
+    "example_ivan": "The manager is looking for a suitable candidate for the position."
   },
   {
     "en": "effective",
     "zh": "有效的",
-    "example": "The new rule is effective."
+    "example": "The new rule is effective.",
+    "example_ivan": "The new schedule will be effective immediately."
   },
   {
     "en": "accurate",
     "zh": "準確的",
-    "example": "The address is accurate."
+    "example": "The address is accurate.",
+    "example_ivan": "The employee checked the report to make sure the data was accurate."
   },
   {
     "en": "limited",
     "zh": "有限的",
-    "example": "The offer is for a limited time."
+    "example": "The offer is for a limited time.",
+    "example_ivan": "The store offers a limited number of products at a special price."
   },
   {
     "en": "private",
     "zh": "私人的",
-    "example": "This is a private office."
+    "example": "This is a private office.",
+    "example_ivan": "The employee uses a private account to pay for the product."
   },
   {
     "en": "public",

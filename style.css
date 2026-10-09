@@ -238,6 +238,11 @@ button {
     line-height: 1.65
 }
 
+.answer-details p {
+    margin: 8px 0;
+    overflow-wrap: anywhere
+}
+
 .choices {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

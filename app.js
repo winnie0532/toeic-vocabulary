@@ -205,10 +205,11 @@ function newTranslate() {
   current = pickWord();
 
   $("#word").textContent = current.en;
+  $("#promptExampleText").textContent =
+    current.example_ivan || current.example || "（尚未提供例句）";
   $("#meaning").value = "";
 
   $("#feedback").classList.remove("show");
-  $("#example").classList.remove("show");
   $("#nextAfterReview").classList.add("hidden");
   $("#know").classList.remove("hidden");
   $("#review").classList.remove("hidden");
@@ -220,7 +221,10 @@ function newTranslate() {
 function showAnswer() {
   if (!$("#meaning").value.trim()) return;
 
-  $("#standard").textContent = current.zh;
+  $("#standard").textContent = current.zh || "（）";
+  $("#answerExample").textContent = current.example || "（）";
+  $("#answerExampleIvan").textContent =
+    current.example_ivan || "（）";
   $("#feedback").classList.add("show");
 }
 
@@ -239,9 +243,6 @@ function gradeTranslate(isCorrect) {
   }
 
   markWrong(current.en);
-
-  $("#example").innerHTML = `<b>簡單例句</b><br>${current.example}`;
-  $("#example").classList.add("show");
 
   $("#know").classList.add("hidden");
   $("#review").classList.add("hidden");

@@ -33,18 +33,24 @@
       <div class="progress"><i id="bar"></i></div>
       <p class="mode-label">看英文，輸入中文意思</p>
       <h2 class="word" id="word"></h2>
-      <p class="hint">可以寫你想到的中文，不會因同義詞或寫法不同被系統判錯。</p>
+      <div id="promptExample" class="example show">
+        <b>例句</b><br>
+        <span id="promptExampleText"></span>
+      </div>
       <input id="meaning" class="answer" autocomplete="off" placeholder="輸入中文意思">
       <button id="check" class="primary">查看答案</button>
 
       <div id="feedback" class="feedback">
-        標準答案：<strong id="standard"></strong>
+        <div class="answer-details">
+          <p><b>中文：</b><span id="standard"></span></p>
+          <p><b>ex1.</b><span id="answerExample"></span></p>
+          <p><b>ex2.</b><span id="answerExampleIvan"></span></p>
+        </div>
         <p class="small" style="margin-top:12px">你覺得剛剛的答案算對嗎？</p>
         <div class="self-check">
           <button id="know" class="good">我答對了</button>
           <button id="review" class="again">還不熟</button>
         </div>
-        <div id="example" class="example"></div>
         <button id="nextAfterReview" class="primary hidden">下一題</button>
       </div>
     </section>
