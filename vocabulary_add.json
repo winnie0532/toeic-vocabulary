@@ -1,1 +1,314 @@
-[]
+[
+  {
+    "en": "account",
+    "zh": "帳戶",
+    "example": "Please log in to your account to view the order status.",
+    "exampleZh": "請登入帳戶查看訂單狀態。"
+  },
+  {
+    "en": "advertisement",
+    "zh": "廣告",
+    "example": "The advertisement appeared in several business magazines.",
+    "exampleZh": "這則廣告刊登在數本商業雜誌中。"
+  },
+  {
+    "en": "agreement",
+    "zh": "協議、同意",
+    "example": "The two companies reached an agreement on pricing.",
+    "exampleZh": "兩家公司就定價達成協議。"
+  },
+  {
+    "en": "annual",
+    "zh": "每年的",
+    "example": "The annual report will be published in March.",
+    "exampleZh": "年度報告將於三月發布。"
+  },
+  {
+    "en": "arrival",
+    "zh": "抵達",
+    "example": "Please notify the hotel of your expected arrival time.",
+    "exampleZh": "請告知飯店您預計抵達的時間。"
+  },
+  {
+    "en": "article",
+    "zh": "文章",
+    "example": "The company newsletter includes an article about workplace safety.",
+    "exampleZh": "公司電子報有一篇關於職場安全的文章。"
+  },
+  {
+    "en": "assign",
+    "zh": "指派",
+    "example": "The supervisor assigned each employee a different task.",
+    "exampleZh": "主管指派每位員工不同的工作。"
+  },
+  {
+    "en": "assist",
+    "zh": "協助",
+    "example": "A sales representative will assist you with your purchase.",
+    "exampleZh": "業務代表會協助您完成購買。"
+  },
+  {
+    "en": "branch",
+    "zh": "分公司、分店",
+    "example": "The bank opened a new branch near the airport.",
+    "exampleZh": "銀行在機場附近開設了一間新分行。"
+  },
+  {
+    "en": "charge",
+    "zh": "收費",
+    "example": "The hotel will charge a fee for late checkout.",
+    "exampleZh": "飯店將對延後退房收取費用。"
+  },
+  {
+    "en": "claim",
+    "zh": "申請、聲稱",
+    "example": "Please file a claim for any damaged items within seven days.",
+    "exampleZh": "如有任何受損商品，請在七天內提出索賠。"
+  },
+  {
+    "en": "course",
+    "zh": "課程",
+    "example": "The company offers a course in business writing.",
+    "exampleZh": "公司提供商業寫作課程。"
+  },
+  {
+    "en": "current",
+    "zh": "目前的",
+    "example": "Please use your current address on the application.",
+    "exampleZh": "請在申請表上使用您目前的地址。"
+  },
+  {
+    "en": "data",
+    "zh": "資料",
+    "example": "The report is based on data collected from customer surveys.",
+    "exampleZh": "這份報告根據顧客問卷蒐集的資料編寫。"
+  },
+  {
+    "en": "develop",
+    "zh": "發展、開發",
+    "example": "The company developed a new mobile app for customers.",
+    "exampleZh": "公司為客戶開發了一個新的行動應用程式。"
+  },
+  {
+    "en": "effective",
+    "zh": "有效的",
+    "example": "The new policy will be effective on July 1.",
+    "exampleZh": "新政策將於 7 月 1 日生效。"
+  },
+  {
+    "en": "efficient",
+    "zh": "有效率的",
+    "example": "The updated process is more efficient than the old one.",
+    "exampleZh": "更新後的流程比舊流程更有效率。"
+  },
+  {
+    "en": "entrance",
+    "zh": "入口",
+    "example": "All visitors must use the main entrance.",
+    "exampleZh": "所有訪客都必須使用主要入口。"
+  },
+  {
+    "en": "exchange",
+    "zh": "交換、兌換",
+    "example": "Customers may exchange items with a receipt.",
+    "exampleZh": "顧客可憑收據換貨。"
+  },
+  {
+    "en": "expand",
+    "zh": "擴大",
+    "example": "The retailer plans to expand into three new markets.",
+    "exampleZh": "零售商計畫擴展至三個新市場。"
+  },
+  {
+    "en": "final",
+    "zh": "最後的",
+    "example": "The final payment must be made before delivery.",
+    "exampleZh": "最終款項必須在送貨前付清。"
+  },
+  {
+    "en": "increase",
+    "zh": "增加",
+    "example": "The company plans to increase production next year.",
+    "exampleZh": "公司計畫明年增加產量。"
+  },
+  {
+    "en": "install",
+    "zh": "安裝",
+    "example": "A technician will install the new software tonight.",
+    "exampleZh": "技術人員今晚將安裝新軟體。"
+  },
+  {
+    "en": "item",
+    "zh": "項目、商品",
+    "example": "Please list each item separately on the invoice.",
+    "exampleZh": "請在發票上分別列出每一項商品。"
+  },
+  {
+    "en": "location",
+    "zh": "地點",
+    "example": "The event location is shown on the invitation.",
+    "exampleZh": "活動地點顯示在邀請函上。"
+  },
+  {
+    "en": "material",
+    "zh": "材料",
+    "example": "The factory uses recycled material for its packaging.",
+    "exampleZh": "工廠使用回收材料作為包裝。"
+  },
+  {
+    "en": "monthly",
+    "zh": "每月的",
+    "example": "The monthly sales meeting is held on the first Monday.",
+    "exampleZh": "每月銷售會議在第一個星期一舉行。"
+  },
+  {
+    "en": "online",
+    "zh": "線上的",
+    "example": "Online registration is available until Friday.",
+    "exampleZh": "線上報名開放至週五。"
+  },
+  {
+    "en": "package",
+    "zh": "包裹、套裝",
+    "example": "The package was delivered to the wrong address.",
+    "exampleZh": "包裹被送到錯誤的地址。"
+  },
+  {
+    "en": "passenger",
+    "zh": "乘客",
+    "example": "Passengers should arrive at the gate 30 minutes before departure.",
+    "exampleZh": "乘客應在出發前 30 分鐘抵達登機門。"
+  },
+  {
+    "en": "permit",
+    "zh": "許可、允許",
+    "example": "Employees need a permit to park in this area.",
+    "exampleZh": "員工需要許可證才能停在這個區域。"
+  },
+  {
+    "en": "printer",
+    "zh": "印表機",
+    "example": "The printer on the second floor is out of paper.",
+    "exampleZh": "二樓的印表機沒紙了。"
+  },
+  {
+    "en": "procedure",
+    "zh": "程序、步驟",
+    "example": "Please follow the procedure for reporting an accident.",
+    "exampleZh": "請依照程序通報事故。"
+  },
+  {
+    "en": "recruit",
+    "zh": "招募",
+    "example": "The company is recruiting engineers for its new division.",
+    "exampleZh": "公司正在為新部門招募工程師。"
+  },
+  {
+    "en": "reduce",
+    "zh": "減少",
+    "example": "The new system will reduce processing time.",
+    "exampleZh": "新系統將縮短處理時間。"
+  },
+  {
+    "en": "regular",
+    "zh": "定期的、一般的",
+    "example": "Regular maintenance helps prevent equipment failures.",
+    "exampleZh": "定期維護有助於防止設備故障。"
+  },
+  {
+    "en": "renew",
+    "zh": "續約、更新",
+    "example": "Please renew your membership before it expires.",
+    "exampleZh": "請在會員資格到期前續約。"
+  },
+  {
+    "en": "responsible",
+    "zh": "負責的",
+    "example": "Mr. Park is responsible for customer accounts.",
+    "exampleZh": "朴先生負責客戶帳戶。"
+  },
+  {
+    "en": "retail",
+    "zh": "零售",
+    "example": "The company sells its products through retail stores.",
+    "exampleZh": "公司透過零售商店銷售產品。"
+  },
+  {
+    "en": "route",
+    "zh": "路線",
+    "example": "The shuttle route stops at the convention center.",
+    "exampleZh": "接駁路線會停靠會議中心。"
+  },
+  {
+    "en": "safety",
+    "zh": "安全",
+    "example": "Safety rules must be followed at all times.",
+    "exampleZh": "任何時候都必須遵守安全規則。"
+  },
+  {
+    "en": "sample",
+    "zh": "樣品",
+    "example": "The supplier sent a sample for our review.",
+    "exampleZh": "供應商寄來一份樣品供我們審核。"
+  },
+  {
+    "en": "seat",
+    "zh": "座位",
+    "example": "Please reserve your seat before the train fills up.",
+    "exampleZh": "請在火車客滿前預訂座位。"
+  },
+  {
+    "en": "special",
+    "zh": "特別的",
+    "example": "The hotel is offering special rates for conference guests.",
+    "exampleZh": "飯店為研討會賓客提供特別房價。"
+  },
+  {
+    "en": "storage",
+    "zh": "儲存",
+    "example": "Extra storage space is available in the basement.",
+    "exampleZh": "地下室有額外的儲物空間。"
+  },
+  {
+    "en": "temporary",
+    "zh": "暫時的",
+    "example": "The office will use a temporary entrance during repairs.",
+    "exampleZh": "辦公室維修期間將使用臨時入口。"
+  },
+  {
+    "en": "total",
+    "zh": "總計",
+    "example": "The total cost includes delivery and tax.",
+    "exampleZh": "總費用包含配送費與稅金。"
+  },
+  {
+    "en": "travel",
+    "zh": "旅行",
+    "example": "Business travel must be approved in advance.",
+    "exampleZh": "商務旅行必須事先獲得核准。"
+  },
+  {
+    "en": "trip",
+    "zh": "旅行",
+    "example": "Please submit receipts from your business trip.",
+    "exampleZh": "請提交商務旅行的收據。"
+  },
+  {
+    "en": "value",
+    "zh": "價值",
+    "example": "This service provides good value for the price.",
+    "exampleZh": "這項服務物有所值。"
+  },
+  {
+    "en": "verify",
+    "zh": "核實",
+    "example": "Please verify your email address before submitting the form.",
+    "exampleZh": "提交表格前請驗證您的電子郵件地址。"
+  },
+  {
+    "en": "guest",
+    "zh": "賓客、房客",
+    "example": "All guests must wear a badge in the building.",
+    "exampleZh": "所有訪客在大樓內都必須佩戴識別證。"
+  }
+]
