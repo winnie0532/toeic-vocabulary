@@ -10,6 +10,9 @@ let grammarProgress = JSON.parse(
 );
 let addedWords = [];
 let reservedWords = [];
+let masteredWords = new Set(
+  JSON.parse(localStorage.getItem("masteredVocabularyWords") || "[]")
+);
 let current;
 let cloze;
 let grammarLesson;
@@ -115,11 +118,19 @@ function pickWeightedWord(pool) {
 }
 
 function pickWord() {
-  return pickWeightedWord(words);
+  const availableWords = words.filter(
+    (word) => !masteredWords.has(word.en)
+  );
+
+  return availableWords.length ? pickWeightedWord(availableWords) : null;
 }
 
 function saveProgress() {
   localStorage.setItem("vocabProgress", JSON.stringify(progress));
+  localStorage.setItem(
+    "masteredVocabularyWords",
+    JSON.stringify([...masteredWords])
+  );
   renderWeakCount();
 }
 
@@ -137,7 +148,8 @@ function markCorrect(en) {
   record.streak += 1;
   record.wrong = Math.max(0, record.wrong - 1);
 
-  if (record.wrong === 0 && record.streak >= 3) {
+  if (record.streak >= 3) {
+    masteredWords.add(en);
     delete progress[en];
   }
 
@@ -203,14 +215,24 @@ async function start() {
 function newTranslate() {
   current = pickWord();
 
-  $("#word").textContent = current.en;
-  $("#promptExampleText").textContent =
-  current.example_ivan || current.example || "（尚未提供例句）";
-
   $("#feedback").classList.remove("show");
   $("#nextAfterReview").classList.add("hidden");
   $("#know").classList.remove("hidden");
   $("#review").classList.remove("hidden");
+  $("#promptExample").classList.add("show");
+  $("#check").classList.remove("hidden");
+
+  if (!current) {
+    $("#word").textContent = "🎉 全部單字都已連續答對 3 次！";
+    $("#promptExample").classList.remove("show");
+    $("#check").classList.add("hidden");
+    $("#bar").style.width = "100%";
+    return;
+  }
+
+  $("#word").textContent = current.en;
+  $("#promptExampleText").textContent =
+    current.example_ivan || current.example || "（尚未提供例句）";
 
   $("#bar").style.width = `${Math.random() * 70 + 20}%`;
 }
@@ -295,19 +317,27 @@ function makeClozeSentence(word) {
 }
 
 function pickClozeWord() {
-  const usableWords = p5Words.filter((word) => makeClozeSentence(word));
+  const usableWords = p5Words.filter(
+    (word) =>
+      !masteredWords.has(word.en) && makeClozeSentence(word)
+  );
 
-  return pickWeightedWord(usableWords);
+  return usableWords.length ? pickWeightedWord(usableWords) : null;
 }
 
 function getClozeOptions(answer) {
   const answerType = getWordType(answer);
 
   const sameType = p5Words.filter(
-    (word) => word.en !== answer.en && getWordType(word) === answerType
+    (word) =>
+      !masteredWords.has(word.en) &&
+      word.en !== answer.en &&
+      getWordType(word) === answerType
   );
 
-  const fallback = p5Words.filter((word) => word.en !== answer.en);
+  const fallback = p5Words.filter(
+    (word) => !masteredWords.has(word.en) && word.en !== answer.en
+  );
   const distractors = shuffle(sameType).slice(0, 3);
 
   if (distractors.length < 3) {
@@ -322,6 +352,14 @@ function getClozeOptions(answer) {
 }
 
 function newCloze() {
+  if (!cloze) {
+    $("#clozeTitle").textContent = "目前沒有待練習的填空單字";
+    $("#clozeSentence").textContent = "";
+    $("#choices").innerHTML = "";
+    $("#clozeNote").textContent = "可練習的單字都已連續答對 3 次。";
+    $("#nextCloze").classList.add("hidden");
+    return;
+  }
   cloze = pickClozeWord();
 
   const options = getClozeOptions(cloze);
@@ -460,7 +498,9 @@ function answerGrammar(button, selectedOption) {
 
 function getLibraryWords() {
   return words.filter(
-    (word) => progress[word.en]?.wrong > 0 || (word.isCustom && word.inLibrary)
+    (word) =>
+      !masteredWords.has(word.en) &&
+      (progress[word.en]?.wrong > 0 || (word.isCustom && word.inLibrary))
   );
 }
 
