@@ -205,21 +205,17 @@ function newTranslate() {
 
   $("#word").textContent = current.en;
   $("#promptExampleText").textContent =
-    current.example_ivan || current.example || "（尚未提供例句）";
-  $("#meaning").value = "";
+  current.example_ivan || current.example || "（尚未提供例句）";
 
   $("#feedback").classList.remove("show");
   $("#nextAfterReview").classList.add("hidden");
   $("#know").classList.remove("hidden");
   $("#review").classList.remove("hidden");
 
-  $("#meaning").focus();
   $("#bar").style.width = `${Math.random() * 70 + 20}%`;
 }
 
 function showAnswer() {
-  if (!$("#meaning").value.trim()) return;
-
   $("#standard").textContent = current.zh || "（）";
   $("#answerExample").textContent = current.example || "（）";
   $("#answerExampleIvan").textContent =
@@ -798,10 +794,6 @@ document.querySelectorAll(".tab[data-view]").forEach((tab) => {
 });
 
 $("#check").onclick = showAnswer;
-
-$("#meaning").onkeydown = (event) => {
-  if (event.key === "Enter") showAnswer();
-};
 
 $("#know").onclick = () => gradeTranslate(true);
 $("#review").onclick = () => gradeTranslate(false);
