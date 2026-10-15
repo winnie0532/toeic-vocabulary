@@ -882,4 +882,112 @@ $("#clearWeak").onclick = () => {
   }
 };
 
+let relatedGroups = [];
+let relatedIndex = 0;
+
+function renderRelatedGroup() {
+  const group = relatedGroups[relatedIndex];
+
+  if (!group) return;
+
+  $("#relatedCounter").textContent =
+    `第 ${relatedIndex + 1} 組／共 ${relatedGroups.length} 組`;
+
+  $("#relatedType").textContent = group.type;
+  $("#relatedWords").textContent = group.words.join(" / ");
+
+  // 每個分號後換行，方便閱讀各個單字的差別。
+  $("#relatedExplanation").textContent = group.explanation.replace(/[；;]/g, "$&\n");
+
+  $("#previousRelated").disabled = false;
+  $("#nextRelated").disabled = false;
+}
+
+async function loadRelatedGroups() {
+  $("#previousRelated").disabled = true;
+  $("#nextRelated").disabled = true;
+  $("#relatedCounter").textContent = "載入中…";
+
+  try {
+    const response = await fetch("./related_words.json");
+
+    if (!response.ok) {
+      throw new Error(`讀取失敗：${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (
+      !Array.isArray(data) ||
+      !data.length ||
+      !data.every(
+        (group) =>
+          Array.isArray(group.words) &&
+          group.words.every((word) => typeof word === "string") &&
+          typeof group.type === "string" &&
+          typeof group.explanation === "string"
+      )
+    ) {
+      throw new Error("近義字資料格式不正確");
+    }
+
+    relatedGroups = data;
+    relatedIndex = 0;
+    renderRelatedGroup();
+  } catch (error) {
+    console.error(error);
+
+    $("#relatedCounter").textContent = "無法載入複習資料";
+    $("#relatedExplanation").textContent =
+      "請確認 related_words.json 和 index.html 放在同一個資料夾。";
+  }
+}
+
+$("#previousRelated").onclick = () => {
+  if (!relatedGroups.length) return;
+
+  relatedIndex =
+    (relatedIndex - 1 + relatedGroups.length) % relatedGroups.length;
+
+  renderRelatedGroup();
+};
+
+$("#nextRelated").onclick = () => {
+  if (!relatedGroups.length) return;
+
+  relatedIndex = (relatedIndex + 1) % relatedGroups.length;
+
+  renderRelatedGroup();
+};
+
+loadRelatedGroups();
+function showVocabularyPanel(panelName) {
+  document.querySelectorAll(".vocabulary-tab").forEach((tab) => {
+    tab.classList.toggle(
+      "active",
+      tab.dataset.vocabularyPanel === panelName
+    );
+  });
+
+  $("#vocabularyWordsPanel").classList.toggle(
+    "hidden",
+    panelName !== "words"
+  );
+
+  $("#vocabularyRelatedPanel").classList.toggle(
+    "hidden",
+    panelName !== "related"
+  );
+
+  $("#vocabularyConfusingPanel").classList.toggle(
+    "hidden",
+    panelName !== "confusing"
+  );
+}
+
+document.querySelectorAll(".vocabulary-tab").forEach((tab) => {
+  tab.onclick = () => {
+    showVocabularyPanel(tab.dataset.vocabularyPanel);
+  };
+});
 start();

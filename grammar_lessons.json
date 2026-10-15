@@ -109,9 +109,9 @@
   },
   {
     "id": "preposition-ing",
-    "title": "介系詞後面接名詞或 -ing",
+    "title": "<span class=\"preposition\">介系詞</span> 後面接名詞或 -ing",
     "lesson": {
-      "rule": "before、after、at、without、for 等字後面常接<span class=\"noun\">名詞</span>或<span class=\"present-participle\">動詞 -ing</span>。",
+      "rule": "<span class=\"preposition\">before、after、at、without、for</span> 等字後面常接<span class=\"noun\">名詞</span>或<span class=\"present-participle\">動詞 -ing</span>。",
       "howToJudge": "介系詞後如果要接動作，動詞要改成 -ing。",
       "examples": [
         "I read <span class=\"keyword\">before</span> <span class=\"noun\">bed</span>.",

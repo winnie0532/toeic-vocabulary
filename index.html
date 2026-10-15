@@ -30,27 +30,78 @@
     </nav>
 
     <section id="translate" class="card view">
-      <div class="progress"><i id="bar"></i></div>
-      <p class="mode-label">中文判斷｜看英文，回想中文意思</p>
-      <h2 class="word" id="word"></h2>
-      <div id="promptExample" class="example show">
-        <b>例句</b><br>
-        <span id="promptExampleText"></span>
-      </div>
-      <button id="check" class="primary">查看答案</button>
+      <p class="mode-label">中文判斷</p>
 
-      <div id="feedback" class="feedback">
-        <div class="answer-details">
-          <p><b>中文：</b><span id="standard"></span></p>
-          <p><b>• </b><span id="answerExample"></span></p>
-          <p><b>• </b><span id="answerExampleIvan"></span></p>
+      <div class="grammar-tabs">
+        <button
+          class="vocabulary-tab grammar-tab active"
+          data-vocabulary-panel="words"
+        >單字複習</button>
+
+        <button
+          class="vocabulary-tab grammar-tab"
+          data-vocabulary-panel="related"
+        >近義字與相關字</button>
+
+        <button
+          class="vocabulary-tab grammar-tab"
+          data-vocabulary-panel="confusing"
+        >易混淆字</button>
+      </div>
+
+      <div id="vocabularyWordsPanel">
+        <div class="progress"><i id="bar"></i></div>
+
+        <p class="mode-label">看英文，回想中文意思</p>
+        <h2 class="word" id="word"></h2>
+
+        <div id="promptExample" class="example show">
+          <b>例句</b><br>
+          <span id="promptExampleText"></span>
         </div>
-        <p class="small" style="margin-top:12px">你覺得剛剛的答案算對嗎？</p>
-        <div class="self-check">
-          <button id="know" class="good">我答對了</button>
-          <button id="review" class="again">還不熟</button>
+
+        <button id="check" class="primary">查看答案</button>
+
+        <div id="feedback" class="feedback">
+          <div class="answer-details">
+            <p><b>中文：</b><span id="standard"></span></p>
+            <p><b>• </b><span id="answerExample"></span></p>
+            <p><b>• </b><span id="answerExampleIvan"></span></p>
+          </div>
+
+          <p class="small" style="margin-top:12px">
+            你覺得剛剛的答案算對嗎？
+          </p>
+
+          <div class="self-check">
+            <button id="know" class="good">我答對了</button>
+            <button id="review" class="again">還不熟</button>
+          </div>
+
+          <button id="nextAfterReview" class="primary hidden">
+            下一題
+          </button>
         </div>
-        <button id="nextAfterReview" class="primary hidden">下一題</button>
+      </div>
+
+      <div id="vocabularyRelatedPanel" class="hidden">
+        <p id="relatedCounter" class="small"></p>
+        <p id="relatedType" class="related-type"></p>
+        <h2 id="relatedWords" class="word"></h2>
+        <p id="relatedExplanation" class="related-explanation"></p>
+
+        <div class="related-navigation">
+          <button id="previousRelated" class="secondary">
+            ← 上一組
+          </button>
+          <button id="nextRelated" class="secondary">
+            下一組 →
+          </button>
+        </div>
+      </div>
+
+      <div id="vocabularyConfusingPanel" class="hidden">
+        <div class="empty">易混淆字複習尚未開放。</div>
       </div>
     </section>
 

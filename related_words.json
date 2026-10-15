@@ -1,0 +1,299 @@
+[
+  {
+    "id": "related-01",
+    "words": [
+      "client",
+      "customer"
+    ],
+    "type": "近義字",
+    "explanation": "都是「客戶」。customer 常指購買商品或服務的顧客；client 常指接受專業服務的客戶。"
+  },
+  {
+    "id": "related-02",
+    "words": [
+      "staff",
+      "employee"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "staff 指整體員工；employee 指一位員工。"
+  },
+  {
+    "id": "related-03",
+    "words": [
+      "colleague",
+      "staff",
+      "employee"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "colleague 是同事；staff 指整體員工；employee 是受僱的員工。"
+  },
+  {
+    "id": "related-04",
+    "words": [
+      "hire",
+      "recruit"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "recruit 是招募、找人；hire 是正式僱用。"
+  },
+  {
+    "id": "related-05",
+    "words": [
+      "task",
+      "duty"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "task 是一項任務；duty 是工作上應盡的職責。"
+  },
+  {
+    "id": "related-06",
+    "words": [
+      "career",
+      "position"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "career 是長期的職涯；position 是某個職位。"
+  },
+  {
+    "id": "related-07",
+    "words": [
+      "conference",
+      "discussion"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "conference 是會議；discussion 是討論，可能在會議中進行。"
+  },
+  {
+    "id": "related-08",
+    "words": [
+      "reply",
+      "response"
+    ],
+    "type": "近義字",
+    "explanation": "都是回覆、回應。reply 常指回答訊息或問題；response 的範圍較廣，也包含反應。"
+  },
+  {
+    "id": "related-09",
+    "words": [
+      "requirement",
+      "qualification"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "requirement 是要求、必要條件；qualification 是資格，例如學歷、經驗或證照。"
+  },
+  {
+    "id": "related-10",
+    "words": [
+      "salary",
+      "income"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "salary 是薪水；income 是收入，也可能包含租金等來源。"
+  },
+  {
+    "id": "related-11",
+    "words": [
+      "fee",
+      "charge"
+    ],
+    "type": "近義字",
+    "explanation": "都可指費用。fee 常指服務費、報名費；charge 常指收取的費用，也能當動詞「收費」。"
+  },
+  {
+    "id": "related-12",
+    "words": [
+      "luggage",
+      "baggage"
+    ],
+    "type": "近義字",
+    "explanation": "都是行李，意思非常接近。兩者通常都是不可數名詞。"
+  },
+  {
+    "id": "related-13",
+    "words": [
+      "journey",
+      "tour"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "journey 是旅程；tour 是遊覽、參觀行程。"
+  },
+  {
+    "id": "related-14",
+    "words": [
+      "area",
+      "location",
+      "position"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "area 是區域；location 是地點；position 也可指位置。"
+  },
+  {
+    "id": "related-15",
+    "words": [
+      "road",
+      "route"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "road 是實際的道路；route 是前往目的地的路線。"
+  },
+  {
+    "id": "related-16",
+    "words": [
+      "equipment",
+      "tool",
+      "device"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "equipment 泛指設備，通常不可數；tool 是工具；device 是某個裝置。"
+  },
+  {
+    "id": "related-17",
+    "words": [
+      "product",
+      "supply",
+      "material"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "product 是產品；supplies 常指用品；material 是材料。"
+  },
+  {
+    "id": "related-18",
+    "words": [
+      "guarantee",
+      "confirm",
+      "verify"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "guarantee 是保證；confirm 是確認；verify 強調查核是否正確。"
+  },
+  {
+    "id": "related-19",
+    "words": [
+      "inspect",
+      "identify"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "inspect 是檢查；identify 是辨認、識別。"
+  },
+  {
+    "id": "related-20",
+    "words": [
+      "describe",
+      "explain"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "describe 是描述是什麼樣子；explain 是解釋為什麼、怎麼做。"
+  },
+  {
+    "id": "related-21",
+    "words": [
+      "inform",
+      "remind"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "inform 是告知資訊；remind 是提醒別忘記。"
+  },
+  {
+    "id": "related-22",
+    "words": [
+      "arrange",
+      "schedule"
+    ],
+    "type": "近義字",
+    "explanation": "都可指安排。arrange 範圍較廣；schedule 強調安排時間。"
+  },
+  {
+    "id": "related-23",
+    "words": [
+      "reserve",
+      "reservation"
+    ],
+    "type": "詞性與字形",
+    "explanation": "reserve 是動詞「預訂」；reservation 是名詞「預訂、訂位」。"
+  },
+  {
+    "id": "related-24",
+    "words": [
+      "register",
+      "registration"
+    ],
+    "type": "詞性與字形",
+    "explanation": "register 是動詞「報名、登記」；registration 是名詞「報名、登記」。"
+  },
+  {
+    "id": "related-25",
+    "words": [
+      "apply",
+      "application",
+      "applicant"
+    ],
+    "type": "詞性與字形",
+    "explanation": "apply 是申請；application 是申請、申請表；applicant 是申請者。"
+  },
+  {
+    "id": "related-26",
+    "words": [
+      "assist",
+      "assistant"
+    ],
+    "type": "詞性與字形",
+    "explanation": "assist 是動詞「協助」；assistant 是名詞「助理」，就是協助工作的人。"
+  },
+  {
+    "id": "related-27",
+    "words": [
+      "ship",
+      "shipping",
+      "deliver"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "ship 是寄送、出貨；shipping 是運送；deliver 是配送、交付。"
+  },
+  {
+    "id": "related-28",
+    "words": [
+      "recent",
+      "latest"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "recent 是最近的；latest 是最新的。"
+  },
+  {
+    "id": "related-29",
+    "words": [
+      "immediately",
+      "directly"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "immediately 是立刻；directly 常指直接地。directly 在部分語境也可表示立即。"
+  },
+  {
+    "id": "related-30",
+    "words": [
+      "regular",
+      "daily",
+      "annual"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "regular 是定期的；daily 是每天的；annual 是每年的。"
+  },
+  {
+    "id": "related-31",
+    "words": [
+      "entire",
+      "each",
+      "individual"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "entire 是整個；each 是每一個；individual 是個別的、個人。"
+  },
+  {
+    "id": "related-32",
+    "words": [
+      "suitable",
+      "available"
+    ],
+    "type": "相關字與用法比較",
+    "explanation": "suitable 是適合的；available 是可用的、有空的，兩者不是同義字。"
+  }
+]

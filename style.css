@@ -426,6 +426,12 @@ button {
   font-weight: 800;
 }
 
+/* 介係詞 */
+.preposition {
+  color: #ca7690;
+  font-weight: 800;
+}
+
 /* 原形動詞 */
 .base-verb {
   color: #16a34a;
@@ -460,4 +466,38 @@ button {
 .noun {
   color: #2563eb;
   font-weight: 800;
+}
+.related-review {
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.related-review summary {
+  padding: 15px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--blue);
+  background: var(--soft);
+}
+
+.related-content {
+  padding: 18px;
+}
+
+.related-navigation {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.related-navigation .secondary {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+}
+
+.related-explanation {
+  white-space: pre-line;
 }
