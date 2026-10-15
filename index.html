@@ -46,7 +46,7 @@
         <button
           class="vocabulary-tab grammar-tab"
           data-vocabulary-panel="confusing"
-        >易混淆字</button>
+        >聽音選義</button>
       </div>
 
       <div id="vocabularyWordsPanel">
@@ -101,7 +101,36 @@
       </div>
 
       <div id="vocabularyConfusingPanel" class="hidden">
-        <div class="empty">易混淆字複習尚未開放。</div>
+        <p class="mode-label">聽英文，選出正確中文</p>
+        <p id="listeningCounter" class="small"></p>
+
+        <button id="startListening" class="primary">
+          開始聽音練習
+        </button>
+
+        <div id="listeningQuestion" class="hidden">
+          <button id="replayListening" class="secondary">
+            🔊 再聽一次
+          </button>
+
+          <div id="listeningChoices" class="choices"
+              style="margin-top:18px"></div>
+
+          <div id="listeningFeedback" class="feedback"
+              aria-live="polite">
+            <p id="listeningResult"></p>
+            <h2 id="listeningAnswer" class="word"></h2>
+
+            <div class="example show">
+              <b>例句</b><br>
+              <span id="listeningExample"></span>
+            </div>
+          </div>
+
+          <button id="nextListening" class="primary hidden">
+            下一題
+          </button>
+        </div>
       </div>
     </section>
 

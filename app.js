@@ -990,4 +990,180 @@ document.querySelectorAll(".vocabulary-tab").forEach((tab) => {
     showVocabularyPanel(tab.dataset.vocabularyPanel);
   };
 });
+
+let listeningWords = [];
+let listeningQueue = [];
+let listeningCurrent = null;
+let listeningAnswered = false;
+let listeningQuestionNumber = 0;
+let listeningCorrectCount = 0;
+
+// Fisher–Yates 洗牌，不更動原陣列。
+function shuffleListening(items) {
+  const result = [...items];
+
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+
+  return result;
+}
+
+function beginListening() {
+  if (!("speechSynthesis" in window)) {
+    alert("這個瀏覽器不支援英文發音功能。");
+    return;
+  }
+
+  // 僅使用主單字檔中確實有 Ivan 例句的單字。
+  // 不使用進階單字檔、填空題庫或自行新增單字。
+  const uniqueWords = new Map();
+
+  for (const word of words) {
+    if (
+      typeof word.example_ivan === "string" &&
+      word.example_ivan.trim() &&
+      typeof word.en === "string" &&
+      word.en.trim() &&
+      typeof word.zh === "string" &&
+      word.zh.trim()
+    ) {
+      const key = word.en.trim().toLowerCase();
+
+      if (!uniqueWords.has(key)) {
+        uniqueWords.set(key, word);
+      }
+    }
+  }
+
+  listeningWords = [...uniqueWords.values()];
+
+  // 避免資料不符時默默使用其他單字。
+  if (listeningWords.length !== 317) {
+    $("#listeningCounter").textContent =
+      `目前找到 ${listeningWords.length} 個有 Ivan 例句的單字，` +
+      "與預期的 317 個不符，請先確認 vocabulary.json。";
+    return;
+  }
+
+  listeningQueue = shuffleListening(listeningWords);
+  listeningQuestionNumber = 0;
+  listeningCorrectCount = 0;
+
+  $("#startListening").classList.add("hidden");
+  $("#listeningQuestion").classList.remove("hidden");
+
+  newListeningQuestion();
+}
+
+function newListeningQuestion() {
+  if (!listeningQueue.length) {
+    listeningCurrent = null;
+
+    $("#listeningQuestion").classList.add("hidden");
+    $("#startListening").classList.remove("hidden");
+    $("#startListening").textContent = "再練習一輪";
+
+    $("#listeningCounter").textContent =
+      `本輪完成！共 ${listeningWords.length} 題，` +
+      `答對 ${listeningCorrectCount} 題。`;
+
+    return;
+  }
+
+  listeningCurrent = listeningQueue.pop();
+  listeningAnswered = false;
+  listeningQuestionNumber += 1;
+
+  $("#listeningCounter").textContent =
+    `第 ${listeningQuestionNumber}／${listeningWords.length} 題`;
+
+  $("#listeningFeedback").classList.remove("show");
+  $("#nextListening").classList.add("hidden");
+  $("#listeningChoices").replaceChildren();
+
+  $("#listeningResult").textContent = "";
+  $("#listeningAnswer").textContent = "";
+  $("#listeningExample").textContent = "";
+
+  // 中文選項也只取自這 317 個單字。
+  // 相同中文不會重複出現在同一題。
+  const otherMeanings = [
+    ...new Set(
+      listeningWords
+        .filter((word) => word.zh !== listeningCurrent.zh)
+        .map((word) => word.zh)
+    )
+  ];
+
+  const options = shuffleListening([
+    listeningCurrent.zh,
+    ...shuffleListening(otherMeanings).slice(0, 2)
+  ]);
+
+  for (const meaning of options) {
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "choice";
+    button.textContent = meaning;
+    button.onclick = () => answerListening(button, meaning);
+
+    $("#listeningChoices").append(button);
+  }
+
+  speakEnglish(listeningCurrent.en);
+}
+
+function answerListening(button, meaning) {
+  if (!listeningCurrent || listeningAnswered) return;
+
+  listeningAnswered = true;
+
+  const isCorrect = meaning === listeningCurrent.zh;
+
+  if (isCorrect) {
+    listeningCorrectCount += 1;
+  } else {
+    button.classList.add("wrong");
+  }
+
+  document
+    .querySelectorAll("#listeningChoices .choice")
+    .forEach((choice) => {
+      choice.disabled = true;
+
+      if (choice.textContent === listeningCurrent.zh) {
+        choice.classList.add("correct");
+      }
+    });
+
+  $("#listeningResult").textContent =
+    isCorrect ? "答對了！" : "再記一次，正確答案是：";
+
+  $("#listeningAnswer").textContent =
+    `${listeningCurrent.en}＝${listeningCurrent.zh}`;
+
+  $("#listeningExample").textContent =
+    listeningCurrent.example_ivan;
+
+  $("#listeningFeedback").classList.add("show");
+  $("#nextListening").classList.remove("hidden");
+}
+
+$("#startListening").onclick = beginListening;
+
+$("#replayListening").onclick = () => {
+  if (listeningCurrent) {
+    speakEnglish(listeningCurrent.en);
+  }
+};
+
+$("#nextListening").onclick = () => {
+  if (!listeningAnswered) return;
+
+  newListeningQuestion();
+};
+
 start();
