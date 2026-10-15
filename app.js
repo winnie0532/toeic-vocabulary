@@ -11,7 +11,7 @@ let grammarProgress = JSON.parse(
 let addedWords = [];
 let reservedWords = [];
 let masteredWords = new Set(
-  JSON.parse(localStorage.getItem("masteredVocabularyWords") || "[]")
+  JSON.parse(localStorage.getItem("masteredVocabularyWordsV2") || "[]")
 );
 let current;
 let cloze;
@@ -128,7 +128,7 @@ function pickWord() {
 function saveProgress() {
   localStorage.setItem("vocabProgress", JSON.stringify(progress));
   localStorage.setItem(
-    "masteredVocabularyWords",
+    "masteredVocabularyWordsV2",
     JSON.stringify([...masteredWords])
   );
   renderWeakCount();
@@ -147,8 +147,9 @@ function markCorrect(en) {
 
   record.streak += 1;
   record.wrong = Math.max(0, record.wrong - 1);
+  record.masteryStreak = (record.masteryStreak || 0) + 1;
 
-  if (record.streak >= 3) {
+  if (record.masteryStreak >= 3) {
     masteredWords.add(en);
     delete progress[en];
   }
@@ -161,6 +162,7 @@ function markWrong(en) {
 
   record.wrong += 1;
   record.streak = 0;
+  record.masteryStreak = 0;
 
   saveProgress();
 }
@@ -338,6 +340,7 @@ function getClozeOptions(answer) {
   const fallback = p5Words.filter(
     (word) => !masteredWords.has(word.en) && word.en !== answer.en
   );
+
   const distractors = shuffle(sameType).slice(0, 3);
 
   if (distractors.length < 3) {
@@ -352,11 +355,13 @@ function getClozeOptions(answer) {
 }
 
 function newCloze() {
+  cloze = pickClozeWord();
+
   if (!cloze) {
     $("#clozeTitle").textContent = "目前沒有待練習的填空單字";
     $("#clozeSentence").textContent = "";
     $("#choices").innerHTML = "";
-    $("#clozeNote").textContent = "可練習的單字都已連續答對 3 次。";
+    $("#clozeNote").textContent = "目前沒有可出題的單字，或可練習的單字都已連續答對 3 次。";
     $("#nextCloze").classList.add("hidden");
     return;
   }
