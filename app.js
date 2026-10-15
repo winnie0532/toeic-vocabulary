@@ -1038,15 +1038,6 @@ function beginListening() {
   }
 
   listeningWords = [...uniqueWords.values()];
-
-  // 避免資料不符時默默使用其他單字。
-  if (listeningWords.length !== 317) {
-    $("#listeningCounter").textContent =
-      `目前找到 ${listeningWords.length} 個有 Ivan 例句的單字，` +
-      "與預期的 317 個不符，請先確認 vocabulary.json。";
-    return;
-  }
-
   listeningQueue = shuffleListening(listeningWords);
   listeningQuestionNumber = 0;
   listeningCorrectCount = 0;
