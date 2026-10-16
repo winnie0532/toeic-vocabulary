@@ -501,3 +501,60 @@ button {
 .related-explanation {
   white-space: pre-line;
 }
+
+/* 單字庫底下的三個按鈕，統一間距 */
+#startLibraryReview,
+#exportVocabulary,
+#startFrequentReview {
+  display: block;
+  margin-top: 12px;
+}
+
+/* 高頻錯字卡片 */
+.frequent-content {
+  margin-top: 18px;
+  padding: 20px;
+  background: var(--soft);
+  border-radius: 14px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.frequent-content h3 {
+  margin: 22px 0 8px;
+  font-size: 1rem;
+}
+
+.frequent-content > h3:first-child,
+.frequent-definition h3 {
+  margin-top: 0;
+}
+
+.frequent-content p {
+  margin: 6px 0;
+}
+
+.frequent-definition + .frequent-definition {
+  margin-top: 18px;
+}
+
+.frequent-navigation {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.frequent-navigation .secondary {
+  flex: 1;
+  width: 0;
+  min-width: 0;
+}
+
+.frequent-navigation button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+#backFromFrequentReview {
+  margin-top: 12px;
+}

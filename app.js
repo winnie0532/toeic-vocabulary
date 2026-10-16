@@ -871,6 +871,180 @@ $("#cancelAddWord").onclick = () => showView("library");
 $("#addWordForm").onsubmit = addWord;
 $("#downloadAddedWords").onclick = downloadAddedWords;
 $("#exportVocabulary").onclick = exportVocabulary;
+let frequentCards = [];
+let frequentCardIndex = 0;
+
+async function startFrequentReview() {
+  const button = $("#startFrequentReview");
+  button.disabled = true;
+
+  try {
+    if (!frequentCards.length) {
+      const response = await fetch("./frequent_wrong_words.json");
+
+      if (!response.ok) {
+        throw new Error(`讀取失敗：${response.status}`);
+      }
+
+      const data = await response.json();
+
+      if (!Array.isArray(data.cards) || !data.cards.length) {
+        throw new Error("JSON 裡沒有卡片資料。");
+      }
+
+      frequentCards = data.cards;
+    }
+
+    frequentCardIndex = 0;
+    renderFrequentCard();
+    showView("frequentReview");
+  } catch (error) {
+    console.error(error);
+    alert(
+      "無法讀取單字卡，請確認 frequent_wrong_words.json 和 index.html 放在同一個資料夾，且 JSON 格式正確。"
+    );
+  } finally {
+    button.disabled = false;
+  }
+}
+
+// 使用 textContent，讓 JSON 內容以純文字安全呈現。
+function addFrequentText(parent, tag, text, className = "") {
+  const element = document.createElement(tag);
+  element.textContent = text;
+  if (className) element.className = className;
+  parent.append(element);
+  return element;
+}
+
+function renderFrequentCard() {
+  const card = frequentCards[frequentCardIndex];
+  const content = $("#frequentReviewContent");
+
+  $("#frequentReviewProgress").textContent =
+    `${frequentCardIndex + 1} / ${frequentCards.length}`;
+
+  $("#frequentReviewWord").textContent = card.en;
+
+  // 每換一張，都先顯示正面。
+  content.classList.add("hidden");
+  content.replaceChildren();
+  $("#flipFrequentReview").textContent = "翻面看內容";
+  $("#flipFrequentReview").setAttribute("aria-expanded", "false");
+
+  if (card.baseForm && card.baseForm !== card.en) {
+    addFrequentText(content, "p", `原形：${card.baseForm}`, "small");
+  }
+
+  for (const definition of card.definitions || []) {
+    const block = document.createElement("div");
+    block.className = "frequent-definition";
+
+    addFrequentText(
+      block,
+      "h3",
+      `${definition.pos}：${definition.meaning}`
+    );
+    addFrequentText(block, "p", definition.example);
+    addFrequentText(block, "p", definition.exampleZh, "small");
+
+    content.append(block);
+  }
+
+  if (card.collocations?.length) {
+    addFrequentText(content, "h3", "常見搭配");
+
+    for (const item of card.collocations) {
+      addFrequentText(content, "p", `${item.en}＝${item.zh}`);
+    }
+  }
+
+  if (card.memory?.text) {
+    addFrequentText(content, "h3", `💡 ${card.memory.type}`);
+    addFrequentText(content, "p", card.memory.text);
+  }
+
+  if (card.relatedWords?.length) {
+    addFrequentText(content, "h3", "相關字");
+
+    for (const item of card.relatedWords) {
+      const block = document.createElement("div");
+      block.className = "frequent-definition";
+
+      addFrequentText(block, "strong", `${item.en}＝${item.zh}`);
+
+      if (item.example) {
+        addFrequentText(block, "p", item.example);
+      }
+
+      if (item.exampleZh) {
+        addFrequentText(block, "p", item.exampleZh, "small");
+      }
+
+      content.append(block);
+    }
+  }
+
+  if (card.notes?.length) {
+    addFrequentText(content, "h3", "小提醒");
+
+    for (const note of card.notes) {
+      addFrequentText(content, "p", `• ${note}`, "small");
+    }
+  }
+
+  $("#previousFrequentReview").disabled = frequentCardIndex === 0;
+  $("#nextFrequentReview").disabled = false;
+  $("#nextFrequentReview").textContent =
+    frequentCardIndex === frequentCards.length - 1
+      ? "回到第一張"
+      : "下一張";
+  }
+
+function moveFrequentCard(step) {
+  const nextIndex = (frequentCardIndex + step + frequentCards.length) % frequentCards.length;
+
+  if (nextIndex < 0 || nextIndex >= frequentCards.length) return;
+
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
+
+  frequentCardIndex = nextIndex;
+  renderFrequentCard();
+  $("#frequentReview").scrollIntoView({ block: "start" });
+}
+
+$("#startFrequentReview").onclick = startFrequentReview;
+
+$("#flipFrequentReview").onclick = () => {
+  const content = $("#frequentReviewContent");
+  const isHidden = content.classList.toggle("hidden");
+
+  $("#flipFrequentReview").textContent =
+    isHidden ? "翻面看內容" : "回到正面";
+
+  $("#flipFrequentReview").setAttribute(
+    "aria-expanded",
+    String(!isHidden)
+  );
+};
+
+$("#frequentReviewSpeak").onclick = () => {
+  const card = frequentCards[frequentCardIndex];
+  if (card) speakEnglish(card.en);
+};
+
+$("#previousFrequentReview").onclick = () => moveFrequentCard(-1);
+$("#nextFrequentReview").onclick = () => moveFrequentCard(1);
+
+$("#backFromFrequentReview").onclick = () => {
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
+  }
+
+  showView("library");
+};
 
 $("#clearWeak").onclick = () => {
   if (confirm("確定清空待複習紀錄？")) {

@@ -1,0 +1,1717 @@
+{
+  "schemaVersion": 1,
+  "title": "高頻錯字複習",
+  "language": "zh-Hant",
+  "totalCards": 49,
+  "corrections": [
+    {
+      "original": "duratin",
+      "corrected": "duration"
+    }
+  ],
+  "cards": [
+    {
+      "en": "refund",
+      "baseForm": "refund",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "退款",
+          "example": "I asked for a refund.",
+          "exampleZh": "我要求退款。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "退錢",
+          "example": "The store will refund my money.",
+          "exampleZh": "店家會退我錢。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "full refund",
+          "zh": "全額退款"
+        },
+        {
+          "en": "get a refund",
+          "zh": "拿到退款"
+        }
+      ],
+      "memory": {
+        "type": "字根記憶",
+        "text": "re-（回）＋ fund（資金）→ 把錢退回來。"
+      },
+      "relatedWords": [
+        {
+          "en": "rewrite",
+          "zh": "重寫",
+          "example": "Please rewrite this sentence.",
+          "exampleZh": "請重寫這個句子。"
+        },
+        {
+          "en": "reread",
+          "zh": "重讀",
+          "example": "Please reread the email.",
+          "exampleZh": "請重讀這封電子郵件。"
+        }
+      ],
+      "notes": [
+        "re- 不一定都表示「回、再」，不要把 reject、refuse 套入這個解釋。",
+        "報銷費用較常用 reimburse。"
+      ]
+    },
+    {
+      "en": "necessary",
+      "baseForm": "necessary",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "必要的；必需的",
+          "example": "A ticket is necessary to enter.",
+          "exampleZh": "入場需要門票。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "if necessary",
+          "zh": "如果有必要"
+        },
+        {
+          "en": "necessary information",
+          "zh": "必要的資訊"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "出國一定要帶護照，護照就是 necessary（必要的）。"
+      },
+      "relatedWords": [
+        {
+          "en": "unnecessary",
+          "zh": "不必要的",
+          "example": "Buying a new phone is unnecessary.",
+          "exampleZh": "買新手機是不必要的。"
+        }
+      ],
+      "notes": [
+        "necessary 是形容詞；名詞 necessity 表示「必要性；必需品」。",
+        "拼字提醒：一個 c、兩個 s。"
+      ]
+    },
+    {
+      "en": "praised",
+      "baseForm": "praise",
+      "definitions": [
+        {
+          "pos": "動詞（過去式／過去分詞）",
+          "meaning": "稱讚了；受到稱讚（需配合句型）",
+          "example": "The manager praised me.",
+          "exampleZh": "經理稱讚了我。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "praise someone for something",
+          "zh": "因某事稱讚某人"
+        },
+        {
+          "en": "be praised for something",
+          "zh": "因某事受到稱讚"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "工作做得很好，主管說「做得好！」→ The manager praised you."
+      },
+      "relatedWords": [
+        {
+          "en": "praise",
+          "zh": "稱讚（動詞）；讚美（名詞）",
+          "example": "She was praised for her work.",
+          "exampleZh": "她因工作表現受到稱讚。"
+        }
+      ],
+      "notes": [
+        "praise 的過去式／過去分詞是 praised；原字已有 e，只加 d。"
+      ]
+    },
+    {
+      "en": "presentation",
+      "baseForm": "presentation",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "簡報；報告；展示",
+          "example": "I have a presentation tomorrow.",
+          "exampleZh": "我明天有一場簡報。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "give a presentation",
+          "zh": "做簡報"
+        },
+        {
+          "en": "prepare a presentation",
+          "zh": "準備簡報"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "在會議上打開投影片，向大家介紹資料，就是做 presentation。"
+      },
+      "relatedWords": [
+        {
+          "en": "present",
+          "zh": "呈現；介紹（動詞）",
+          "example": "Please present your ideas.",
+          "exampleZh": "請介紹你的想法。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "uniform",
+      "baseForm": "uniform",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "制服",
+          "example": "He wears a uniform to work.",
+          "exampleZh": "他穿制服上班。"
+        },
+        {
+          "pos": "形容詞",
+          "meaning": "一致的；統一的",
+          "example": "The boxes are uniform in size.",
+          "exampleZh": "這些箱子的大小一致。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "wear a uniform",
+          "zh": "穿制服"
+        },
+        {
+          "en": "school uniform",
+          "zh": "學校制服"
+        }
+      ],
+      "memory": {
+        "type": "字根記憶",
+        "text": "uni-（一）＋ form（形式）→ 同一種形式、一致的樣子。大家穿一樣的衣服，就是制服。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "operate",
+      "baseForm": "operate",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "操作",
+          "example": "Can you operate this machine?",
+          "exampleZh": "你會操作這臺機器嗎？"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "運作；營業",
+          "example": "The buses operate every day.",
+          "exampleZh": "這些公車每天行駛。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "operate a machine",
+          "zh": "操作機器"
+        },
+        {
+          "en": "operate a business",
+          "zh": "經營企業"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "看到機器上的按鈕，想到「操作機器」operate a machine。"
+      },
+      "relatedWords": [
+        {
+          "en": "operator",
+          "zh": "操作員",
+          "example": "The operator checked the machine.",
+          "exampleZh": "操作員檢查了機器。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "reserve",
+      "baseForm": "reserve",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "預訂；保留",
+          "example": "I would like to reserve a table.",
+          "exampleZh": "我想預訂一張桌位。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "reserve a room",
+          "zh": "預訂房間"
+        },
+        {
+          "en": "reserve a seat",
+          "zh": "預留座位"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "打電話請餐廳先幫你留位子，就是 reserve a table。"
+      },
+      "relatedWords": [
+        {
+          "en": "reservation",
+          "zh": "預訂（名詞）",
+          "example": "I have a reservation.",
+          "exampleZh": "我有預訂。"
+        }
+      ],
+      "notes": [
+        "這張卡先記常見的動詞意思。reserve 也可以作名詞，表示「儲備」等意思。"
+      ]
+    },
+    {
+      "en": "recommend",
+      "baseForm": "recommend",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "推薦；建議",
+          "example": "Can you recommend a restaurant?",
+          "exampleZh": "你能推薦一家餐廳嗎？"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "recommend a hotel",
+          "zh": "推薦飯店"
+        },
+        {
+          "en": "recommend doing something",
+          "zh": "建議做某事"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "朋友問「哪一家好吃？」你推薦一家店，就是 recommend。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "建議某人做某事可用 recommend that someone do something；不要直接套用 recommend someone to do something。"
+      ]
+    },
+    {
+      "en": "reach",
+      "baseForm": "reach",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "到達",
+          "example": "We reached the station at six.",
+          "exampleZh": "我們六點到達車站。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "聯絡到",
+          "example": "You can reach me by phone.",
+          "exampleZh": "你可以打電話聯絡我。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "reach an agreement",
+          "zh": "達成協議"
+        },
+        {
+          "en": "reach a goal",
+          "zh": "達成目標"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "想到「到達」：人到達車站、事情達到目標，電話也終於聯絡到對方。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "表示到達某地時，直接用 reach＋地點，例如 reach the station，不加 to。"
+      ]
+    },
+    {
+      "en": "description",
+      "baseForm": "description",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "描述；說明",
+          "example": "Please read the product description.",
+          "exampleZh": "請閱讀產品說明。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "job description",
+          "zh": "工作內容說明"
+        },
+        {
+          "en": "a detailed description",
+          "zh": "詳細的描述"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "購物網頁介紹產品顏色、尺寸和功能的那一段，就是 product description。"
+      },
+      "relatedWords": [
+        {
+          "en": "describe",
+          "zh": "描述（動詞）",
+          "example": "Please describe the bag.",
+          "exampleZh": "請描述這個包包。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "contract",
+      "baseForm": "contract",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "合約；契約",
+          "example": "Please sign the contract.",
+          "exampleZh": "請簽署合約。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sign a contract",
+          "zh": "簽署合約"
+        },
+        {
+          "en": "renew a contract",
+          "zh": "續約"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "工作或租屋時，雙方簽名確認條件的文件，就是 contract。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "這張卡先記名詞「合約」。"
+      ]
+    },
+    {
+      "en": "section",
+      "baseForm": "section",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "部分；區域",
+          "example": "The next section is about safety.",
+          "exampleZh": "下一部分是關於安全的。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "the clothing section",
+          "zh": "服飾區"
+        },
+        {
+          "en": "a section of the report",
+          "zh": "報告的一部分"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "一本報告分成幾個部分，商店分成幾個區域，每一部分或區域都可以叫 section。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "budget",
+      "baseForm": "budget",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "預算",
+          "example": "Our budget is 500 dollars.",
+          "exampleZh": "我們的預算是五百元。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "編列預算；規劃開支",
+          "example": "We need to budget for the trip.",
+          "exampleZh": "我們需要為這趟旅行編列預算。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "within budget",
+          "zh": "在預算內"
+        },
+        {
+          "en": "over budget",
+          "zh": "超出預算"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "旅行前先決定「最多花多少錢」，這個金額就是 budget。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "guide",
+      "baseForm": "guide",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "導遊；指南",
+          "example": "Our guide showed us the city.",
+          "exampleZh": "我們的導遊帶我們遊覽這座城市。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "引導；帶領",
+          "example": "She will guide you to the room.",
+          "exampleZh": "她會帶你到那個房間。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "tour guide",
+          "zh": "導遊"
+        },
+        {
+          "en": "user guide",
+          "zh": "使用指南"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "guide 幫你知道怎麼走、怎麼做：人可以是導遊，書可以是指南，動作則是引導。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "gate",
+      "baseForm": "gate",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "大門；登機門",
+          "example": "Please wait at Gate 5.",
+          "exampleZh": "請在五號登機門等候。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "boarding gate",
+          "zh": "登機門"
+        },
+        {
+          "en": "main gate",
+          "zh": "大門；正門"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "機場廣播說 Gate 5，就是要你去五號登機門。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "gate 常指圍牆或圍欄的出入口，也用來指機場登機門；房間的門通常用 door。"
+      ]
+    },
+    {
+      "en": "direction",
+      "baseForm": "direction",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "方向",
+          "example": "We are going in the wrong direction.",
+          "exampleZh": "我們正往錯誤的方向走。"
+        },
+        {
+          "pos": "名詞（常用複數 directions）",
+          "meaning": "路線指引；操作說明",
+          "example": "Please follow the directions on the box.",
+          "exampleZh": "請依照盒子上的說明操作。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "ask for directions",
+          "zh": "問路"
+        },
+        {
+          "en": "in the right direction",
+          "zh": "朝正確的方向"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "地圖上的箭頭指向某個 direction；向別人問怎麼走，則是 ask for directions。"
+      },
+      "relatedWords": [
+        {
+          "en": "directly",
+          "zh": "直接地",
+          "example": "Please go directly to the office.",
+          "exampleZh": "請直接去辦公室。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "foreign",
+      "baseForm": "foreign",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "外國的",
+          "example": "She works for a foreign company.",
+          "exampleZh": "她在一家外國公司工作。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "foreign language",
+          "zh": "外語"
+        },
+        {
+          "en": "foreign currency",
+          "zh": "外幣"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "不是本國的語言、貨幣或公司，都可以用 foreign 形容。"
+      },
+      "relatedWords": [
+        {
+          "en": "foreigner",
+          "zh": "外國人",
+          "example": "Many foreigners visit this city.",
+          "exampleZh": "許多外國人造訪這座城市。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "directly",
+      "baseForm": "directly",
+      "definitions": [
+        {
+          "pos": "副詞",
+          "meaning": "直接地",
+          "example": "Please send the email directly to me.",
+          "exampleZh": "請把電子郵件直接寄給我。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "go directly to",
+          "zh": "直接前往"
+        },
+        {
+          "en": "speak directly to someone",
+          "zh": "直接與某人說話"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "中間不經過別人，也不繞路，直接到對方那裡，就是 directly。"
+      },
+      "relatedWords": [
+        {
+          "en": "direct",
+          "zh": "直接的（形容詞）",
+          "example": "This is a direct flight.",
+          "exampleZh": "這是直飛班機。"
+        }
+      ],
+      "notes": [
+        "direct（直接的）加上 -ly，變成副詞 directly（直接地）。"
+      ]
+    },
+    {
+      "en": "especially",
+      "baseForm": "especially",
+      "definitions": [
+        {
+          "pos": "副詞",
+          "meaning": "尤其；特別是",
+          "example": "I like fruit, especially apples.",
+          "exampleZh": "我喜歡水果，尤其是蘋果。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "especially useful",
+          "zh": "特別有用的"
+        },
+        {
+          "en": "especially important",
+          "zh": "特別重要的"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "一群事物裡面，特別挑出其中一個強調：喜歡水果，尤其喜歡蘋果。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "exactly",
+      "baseForm": "exactly",
+      "definitions": [
+        {
+          "pos": "副詞",
+          "meaning": "精確地；恰好；完全正確",
+          "example": "The meeting starts at exactly nine.",
+          "exampleZh": "會議九點整開始。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "exactly right",
+          "zh": "完全正確"
+        },
+        {
+          "en": "exactly the same",
+          "zh": "完全一樣"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "九點整，一分不多、一分不少，就是 exactly nine。"
+      },
+      "relatedWords": [
+        {
+          "en": "exact",
+          "zh": "精確的（形容詞）",
+          "example": "What is the exact time?",
+          "exampleZh": "確切的時間是幾點？"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "duration",
+      "baseForm": "duration",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "持續時間；期間",
+          "example": "The duration of the flight is two hours.",
+          "exampleZh": "這趟飛行的時間是兩小時。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "flight duration",
+          "zh": "飛行時間"
+        },
+        {
+          "en": "for the duration of the meeting",
+          "zh": "在整場會議期間"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "從開始到結束，一共持續多久？這段時間就是 duration。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "原清單的 duratin 已修正為 duration。"
+      ]
+    },
+    {
+      "en": "fold",
+      "baseForm": "fold",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "摺疊",
+          "example": "Please fold the paper in half.",
+          "exampleZh": "請把紙對摺。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "fold clothes",
+          "zh": "摺衣服"
+        },
+        {
+          "en": "fold in half",
+          "zh": "對摺"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "洗完衣服，把衣服一件一件摺好，就是 fold clothes。"
+      },
+      "relatedWords": [
+        {
+          "en": "unfold",
+          "zh": "展開；攤開",
+          "example": "Please unfold the map.",
+          "exampleZh": "請展開地圖。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "boot",
+      "baseForm": "boot",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "靴子",
+          "example": "These boots keep my feet warm.",
+          "exampleZh": "這雙靴子讓我的腳保持溫暖。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "啟動（電腦）",
+          "example": "The computer takes a minute to boot.",
+          "exampleZh": "這臺電腦需要一分鐘才能啟動。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a pair of boots",
+          "zh": "一雙靴子"
+        },
+        {
+          "en": "boot up a computer",
+          "zh": "啟動電腦"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "先想腳上穿的長靴 boots；在電腦情境中，boot 則表示啟動。"
+      },
+      "relatedWords": [
+        {
+          "en": "reboot",
+          "zh": "重新啟動",
+          "example": "Please reboot the computer.",
+          "exampleZh": "請重新啟動電腦。"
+        }
+      ],
+      "notes": [
+        "一隻靴子用 boot，一雙靴子用 a pair of boots。"
+      ]
+    },
+    {
+      "en": "qualification",
+      "baseForm": "qualification",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "資格；學歷；合格證明",
+          "example": "This job requires a teaching qualification.",
+          "exampleZh": "這份工作需要教師資格。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "professional qualifications",
+          "zh": "專業資格"
+        },
+        {
+          "en": "required qualifications",
+          "zh": "所需資格"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "應徵工作時，學歷、證照和經驗能證明你符合條件，這些就是 qualifications。"
+      },
+      "relatedWords": [
+        {
+          "en": "qualified",
+          "zh": "合格的；具備資格的",
+          "example": "She is qualified for the job.",
+          "exampleZh": "她具備這份工作的資格。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "recruit",
+      "baseForm": "recruit",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "招募；招聘",
+          "example": "The company plans to recruit ten workers.",
+          "exampleZh": "公司計畫招募十名員工。"
+        },
+        {
+          "pos": "名詞",
+          "meaning": "新進人員；新兵",
+          "example": "He is a new recruit.",
+          "exampleZh": "他是一名新進人員。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "recruit staff",
+          "zh": "招募員工"
+        },
+        {
+          "en": "a new recruit",
+          "zh": "一名新進人員"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "公司缺人，開始對外找新人加入，就是 recruit。"
+      },
+      "relatedWords": [
+        {
+          "en": "recruitment",
+          "zh": "招募（名詞）",
+          "example": "She works in recruitment.",
+          "exampleZh": "她從事招募工作。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "secretary",
+      "baseForm": "secretary",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "祕書",
+          "example": "The secretary arranged the meeting.",
+          "exampleZh": "祕書安排了會議。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "company secretary",
+          "zh": "公司祕書"
+        },
+        {
+          "en": "personal secretary",
+          "zh": "私人祕書"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "幫忙安排行程、處理文件、聯繫會議的人，可以是 secretary。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "representative",
+      "baseForm": "representative",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "代表；業務代表",
+          "example": "A representative will contact you.",
+          "exampleZh": "一位代表會聯絡你。"
+        },
+        {
+          "pos": "形容詞",
+          "meaning": "有代表性的",
+          "example": "This is a representative example.",
+          "exampleZh": "這是一個有代表性的例子。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "sales representative",
+          "zh": "業務代表"
+        },
+        {
+          "en": "customer service representative",
+          "zh": "客服代表"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "代表公司出面說明或服務客戶的人，就是 representative。"
+      },
+      "relatedWords": [
+        {
+          "en": "represent",
+          "zh": "代表（動詞）",
+          "example": "She represents our company.",
+          "exampleZh": "她代表我們公司。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "consultant",
+      "baseForm": "consultant",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "顧問",
+          "example": "We hired a consultant to help us.",
+          "exampleZh": "我們聘請了一位顧問來幫忙。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "business consultant",
+          "zh": "企業顧問"
+        },
+        {
+          "en": "financial consultant",
+          "zh": "財務顧問"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "遇到專業問題，請一位專家提供建議，這位專家就是 consultant。"
+      },
+      "relatedWords": [
+        {
+          "en": "consult",
+          "zh": "諮詢；請教",
+          "example": "Please consult an expert.",
+          "exampleZh": "請諮詢專家。"
+        }
+      ],
+      "notes": [
+        "consult（諮詢）與 consultant（顧問）一起記：你向顧問諮詢。"
+      ]
+    },
+    {
+      "en": "transfer",
+      "baseForm": "transfer",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "轉移；轉帳；轉乘",
+          "example": "Please transfer the money to my account.",
+          "exampleZh": "請把錢轉到我的帳戶。"
+        },
+        {
+          "pos": "名詞",
+          "meaning": "轉移；轉帳；調動",
+          "example": "The bank transfer is complete.",
+          "exampleZh": "銀行轉帳已完成。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "bank transfer",
+          "zh": "銀行轉帳"
+        },
+        {
+          "en": "transfer to another train",
+          "zh": "轉乘另一班火車"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "核心是「從一處移到另一處」：錢換帳戶、人換車、工作換部門。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "participate",
+      "baseForm": "participate",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "參加；參與",
+          "example": "I will participate in the meeting.",
+          "exampleZh": "我會參加這場會議。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "participate in a meeting",
+          "zh": "參加會議"
+        },
+        {
+          "en": "participate in an event",
+          "zh": "參加活動"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "不只是站在旁邊看，而是加入活動、成為其中一員，就是 participate。"
+      },
+      "relatedWords": [
+        {
+          "en": "participant",
+          "zh": "參與者",
+          "example": "Each participant received a badge.",
+          "exampleZh": "每位參與者都拿到一枚識別章。"
+        }
+      ],
+      "notes": [
+        "常用句型是 participate in＋活動，記得加 in。"
+      ]
+    },
+    {
+      "en": "remind",
+      "baseForm": "remind",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "提醒；使想起",
+          "example": "Please remind me to call him.",
+          "exampleZh": "請提醒我打電話給他。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "remind someone to do something",
+          "zh": "提醒某人做某事"
+        },
+        {
+          "en": "remind someone of something",
+          "zh": "讓某人想起某事物"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "怕對方忘記，跟他說「記得喔！」，就是 remind。"
+      },
+      "relatedWords": [
+        {
+          "en": "reminder",
+          "zh": "提醒；提醒事項",
+          "example": "I set a reminder on my phone.",
+          "exampleZh": "我在手機上設定了一則提醒。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "describe",
+      "baseForm": "describe",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "描述；形容",
+          "example": "Can you describe your bag?",
+          "exampleZh": "你能描述你的包包嗎？"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "describe a problem",
+          "zh": "描述問題"
+        },
+        {
+          "en": "describe something in detail",
+          "zh": "詳細描述某事物"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "東西不在眼前，用話告訴別人它的外觀、特色或情況，就是 describe。"
+      },
+      "relatedWords": [
+        {
+          "en": "description",
+          "zh": "描述；說明（名詞）",
+          "example": "Please read the description.",
+          "exampleZh": "請閱讀說明。"
+        }
+      ],
+      "notes": [
+        "describe 是動作；description 是描述的內容。"
+      ]
+    },
+    {
+      "en": "design",
+      "baseForm": "design",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "設計",
+          "example": "She will design a new website.",
+          "exampleZh": "她會設計一個新網站。"
+        },
+        {
+          "pos": "名詞",
+          "meaning": "設計；設計圖",
+          "example": "I like the design of this bag.",
+          "exampleZh": "我喜歡這個包包的設計。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "design a product",
+          "zh": "設計產品"
+        },
+        {
+          "en": "product design",
+          "zh": "產品設計"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "規劃產品長什麼樣子、如何使用，是 design；完成的設計也叫 design。"
+      },
+      "relatedWords": [
+        {
+          "en": "designer",
+          "zh": "設計師",
+          "example": "He is a designer.",
+          "exampleZh": "他是一位設計師。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "attach",
+      "baseForm": "attach",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "附上；連接；固定",
+          "example": "Please attach the file to your email.",
+          "exampleZh": "請把檔案附在電子郵件中。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "attach a file",
+          "zh": "附上檔案"
+        },
+        {
+          "en": "attach A to B",
+          "zh": "把 A 附加或固定在 B 上"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "寫信時按下迴紋針圖示，把檔案加進信裡，就是 attach a file。"
+      },
+      "relatedWords": [
+        {
+          "en": "attachment",
+          "zh": "附件",
+          "example": "Please check the attachment.",
+          "exampleZh": "請查看附件。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "tool",
+      "baseForm": "tool",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "工具",
+          "example": "I need a tool to fix the chair.",
+          "exampleZh": "我需要一件工具來修理椅子。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "hand tools",
+          "zh": "手工具"
+        },
+        {
+          "en": "a useful tool",
+          "zh": "實用的工具"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "螺絲起子、鐵鎚是 tool；能幫你完成工作的軟體也可以叫 tool。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "battery",
+      "baseForm": "battery",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "電池",
+          "example": "The battery is low.",
+          "exampleZh": "電池電量不足。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "charge the battery",
+          "zh": "為電池充電"
+        },
+        {
+          "en": "battery life",
+          "zh": "電池續航力；電池壽命（依情境）"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "手機快沒電時，畫面上的電池圖示讓你想到 battery。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "複數是 batteries：去掉 y，再加 ies。"
+      ]
+    },
+    {
+      "en": "cable",
+      "baseForm": "cable",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "電纜；連接線",
+          "example": "Connect the cable to the computer.",
+          "exampleZh": "把連接線接到電腦上。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "USB cable",
+          "zh": "USB 連接線"
+        },
+        {
+          "en": "power cable",
+          "zh": "電源線"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "把電腦、手機或設備連接起來的那條線，就是 cable。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "furniture",
+      "baseForm": "furniture",
+      "definitions": [
+        {
+          "pos": "名詞（不可數）",
+          "meaning": "家具",
+          "example": "We need new furniture for the office.",
+          "exampleZh": "我們的辦公室需要新家具。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "office furniture",
+          "zh": "辦公家具"
+        },
+        {
+          "en": "a piece of furniture",
+          "zh": "一件家具"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "桌子、椅子、沙發合起來叫 furniture。把它當成家具的總稱。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "furniture 不可數，不加 s；一件家具用 a piece of furniture，不用 a furniture。"
+      ]
+    },
+    {
+      "en": "deposit",
+      "baseForm": "deposit",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "訂金；押金；存款",
+          "example": "We paid a deposit for the room.",
+          "exampleZh": "我們付了房間訂金。"
+        },
+        {
+          "pos": "動詞",
+          "meaning": "存入（款項）",
+          "example": "I deposited money into my account.",
+          "exampleZh": "我把錢存入我的帳戶。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "pay a deposit",
+          "zh": "付訂金／押金（依情境）"
+        },
+        {
+          "en": "deposit money",
+          "zh": "存錢"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "錢先放進去：訂房先付訂金、租屋先付押金，或把錢存進銀行。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "deposit 是訂金、押金或存款，要看情境；不是所有 deposit 都會退還。"
+      ]
+    },
+    {
+      "en": "consumer",
+      "baseForm": "consumer",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "消費者",
+          "example": "Consumers want good products at fair prices.",
+          "exampleZh": "消費者想要價格合理的好產品。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "consumer rights",
+          "zh": "消費者權益"
+        },
+        {
+          "en": "consumer products",
+          "zh": "消費性產品"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "買東西或使用服務的人，就是 consumer。"
+      },
+      "relatedWords": [
+        {
+          "en": "consume",
+          "zh": "消耗；食用",
+          "example": "This machine consumes a lot of energy.",
+          "exampleZh": "這臺機器消耗很多能源。"
+        }
+      ],
+      "notes": [
+        "不要與 customs（海關）混淆。"
+      ]
+    },
+    {
+      "en": "customs",
+      "baseForm": "customs",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "海關",
+          "example": "We went through customs at the airport.",
+          "exampleZh": "我們在機場通過海關。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "go through customs",
+          "zh": "通過海關"
+        },
+        {
+          "en": "customs officer",
+          "zh": "海關人員"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "入境時檢查行李、申報攜帶物品的地方，就是 customs。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "表示「海關」時保留字尾 s。",
+        "custom 表示「習俗」，其複數 customs 也可表示「各種習俗」，要依情境判斷。"
+      ]
+    },
+    {
+      "en": "commute",
+      "baseForm": "commute",
+      "definitions": [
+        {
+          "pos": "動詞",
+          "meaning": "通勤",
+          "example": "I commute to work by train.",
+          "exampleZh": "我搭火車通勤上班。"
+        },
+        {
+          "pos": "名詞",
+          "meaning": "通勤路程；通勤時間",
+          "example": "My commute takes thirty minutes.",
+          "exampleZh": "我的通勤需要三十分鐘。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "commute to work",
+          "zh": "通勤上班"
+        },
+        {
+          "en": "daily commute",
+          "zh": "每日通勤"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "每天從家裡到工作地點，再回家，這段固定往返就是 commute。"
+      },
+      "relatedWords": [
+        {
+          "en": "commuter",
+          "zh": "通勤者",
+          "example": "The train is full of commuters.",
+          "exampleZh": "火車上滿是通勤者。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "intersection",
+      "baseForm": "intersection",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "交叉路口",
+          "example": "Turn left at the next intersection.",
+          "exampleZh": "在下一個路口左轉。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a busy intersection",
+          "zh": "繁忙的路口"
+        },
+        {
+          "en": "at the intersection",
+          "zh": "在交叉路口"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "想像兩條道路交會的地方，就是 intersection。"
+      },
+      "relatedWords": [],
+      "notes": []
+    },
+    {
+      "en": "aisle",
+      "baseForm": "aisle",
+      "definitions": [
+        {
+          "pos": "名詞",
+          "meaning": "走道；通道",
+          "example": "Please keep the aisle clear.",
+          "exampleZh": "請保持走道暢通。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "aisle seat",
+          "zh": "靠走道的座位"
+        },
+        {
+          "en": "the supermarket aisle",
+          "zh": "超市貨架間的走道"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "飛機座位中間、超市貨架之間能讓人走過的通道，就是 aisle。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "aisle 的 s 不發音；與 isle（小島）同音。"
+      ]
+    },
+    {
+      "en": "temporary",
+      "baseForm": "temporary",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "暫時的；臨時的",
+          "example": "This is a temporary job.",
+          "exampleZh": "這是一份臨時工作。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "temporary job",
+          "zh": "臨時工作"
+        },
+        {
+          "en": "temporary solution",
+          "zh": "暫時的解決方法"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "先用一陣子，之後還會更換或結束，就是 temporary。"
+      },
+      "relatedWords": [
+        {
+          "en": "permanent",
+          "zh": "永久的；長期固定的",
+          "example": "She has a permanent job.",
+          "exampleZh": "她有一份長期固定的工作。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "en": "permanent",
+      "baseForm": "permanent",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "永久的；長期固定的",
+          "example": "We need a permanent solution.",
+          "exampleZh": "我們需要一個長久的解決方法。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "permanent job",
+          "zh": "長期固定的工作"
+        },
+        {
+          "en": "permanent address",
+          "zh": "固定住址"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "不是短時間應急，而是打算長期維持，就是 permanent。"
+      },
+      "relatedWords": [
+        {
+          "en": "temporary",
+          "zh": "暫時的；臨時的",
+          "example": "This is a temporary solution.",
+          "exampleZh": "這是暫時的解決方法。"
+        }
+      ],
+      "notes": [
+        "permanent job 指非臨時性質的職位，不表示保證一輩子都能任職。"
+      ]
+    },
+    {
+      "en": "common",
+      "baseForm": "common",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "常見的；共同的",
+          "example": "This is a common mistake.",
+          "exampleZh": "這是一個常見的錯誤。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "a common problem",
+          "zh": "常見的問題"
+        },
+        {
+          "en": "have something in common",
+          "zh": "有共同之處"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "很多人都會遇到，是「常見的」；幾個人都有的特點，是「共同的」。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "common mistake＝常見錯誤；general information＝一般資訊。兩字不要直接當成完全相同。"
+      ]
+    },
+    {
+      "en": "general",
+      "baseForm": "general",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "一般的；整體的",
+          "example": "This page provides general information.",
+          "exampleZh": "這個頁面提供一般資訊。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "in general",
+          "zh": "一般而言；整體來說"
+        },
+        {
+          "en": "general manager",
+          "zh": "總經理"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "先看整體大方向，不深入特定細節，就是 general。"
+      },
+      "relatedWords": [],
+      "notes": [
+        "in general 常用在句首：In general, the service is good.（整體而言，服務不錯。）",
+        "這張卡先記形容詞；general 也可以作名詞，表示「將軍」。"
+      ]
+    },
+    {
+      "en": "suitable",
+      "baseForm": "suitable",
+      "definitions": [
+        {
+          "pos": "形容詞",
+          "meaning": "合適的；適合的",
+          "example": "This room is suitable for meetings.",
+          "exampleZh": "這個房間適合開會。"
+        }
+      ],
+      "collocations": [
+        {
+          "en": "suitable for",
+          "zh": "適合……的"
+        },
+        {
+          "en": "a suitable candidate",
+          "zh": "合適的人選"
+        }
+      ],
+      "memory": {
+        "type": "情境記憶",
+        "text": "條件剛好符合用途或需求，就是 suitable。開會有足夠空間，房間就 suitable for meetings。"
+      },
+      "relatedWords": [
+        {
+          "en": "unsuitable",
+          "zh": "不合適的",
+          "example": "These shoes are unsuitable for running.",
+          "exampleZh": "這雙鞋不適合跑步。"
+        }
+      ],
+      "notes": [
+        "常用 suitable for＋人／事物／用途；for 後接動詞時用 -ing。"
+      ]
+    }
+  ]
+}

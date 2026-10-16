@@ -189,6 +189,7 @@
       <div id="libraryList" class="library-list"></div>
       <button id="startLibraryReview" class="primary">開始複習錯題</button>
       <button id="exportVocabulary" class="secondary">匯出單字庫</button>
+      <button id="startFrequentReview" class="primary">高頻錯字複習</button>
     </section>
 
     <section id="libraryReview" class="card view hidden">
@@ -249,6 +250,29 @@
           </button>
         </div>
       </form>
+    </section>
+    <section id="frequentReview" class="card view hidden">
+      <p class="mode-label">高頻錯字複習</p>
+      <p id="frequentReviewProgress" class="small" aria-live="polite"></p>
+
+      <h2 id="frequentReviewWord" class="word"></h2>
+
+      <button id="frequentReviewSpeak" class="secondary">🔉 聽發音</button>
+
+      <p class="hint">先回想中文意思，再翻面看卡片內容。</p>
+
+      <button id="flipFrequentReview" class="primary">翻面看內容</button>
+
+      <div id="frequentReviewContent" class="frequent-content hidden"></div>
+
+      <div class="frequent-navigation">
+        <button id="previousFrequentReview" class="secondary">上一張</button>
+        <button id="nextFrequentReview" class="secondary">下一張</button>
+      </div>
+
+      <button id="backFromFrequentReview" class="secondary">
+        回到單字庫
+      </button>
     </section>
   </main>
 
