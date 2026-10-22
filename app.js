@@ -1078,7 +1078,7 @@ function renderRelatedGroup() {
   // 比較重點：沿用單字複習的藍線框，不顯示「重點：」。
   const summary = document.createElement("div");
   summary.className = "example show";
-  summary.textContent = sections[0].replace(/^重點[：:]\s*/, "");
+  summary.textContent = sections[0];
   container.append(summary);
 
   // 各單字：點點放在單字前，例句不加點點。
@@ -1088,12 +1088,12 @@ function renderRelatedGroup() {
     block.className = "related-word-block";
 
     const heading = document.createElement("h3");
-    heading.textContent = `• ${lines[0]}`;
+    heading.textContent = lines[0];
     block.append(heading);
 
     for (const line of lines.slice(1)) {
       const paragraph = document.createElement("p");
-      paragraph.textContent = line.replace(/^[•·]\s*/, "");
+      paragraph.textContent = line;
       block.append(paragraph);
     }
 
