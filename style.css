@@ -558,3 +558,21 @@ button {
 #backFromFrequentReview {
   margin-top: 12px;
 }
+
+.related-explanation {
+  white-space: normal;
+}
+
+.related-word-block {
+  margin-top: 22px;
+  line-height: 1.8;
+}
+
+.related-word-block h3 {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+}
+
+.related-word-block p {
+  margin: 4px 0;
+}

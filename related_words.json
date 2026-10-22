@@ -6,7 +6,7 @@
       "customer"
     ],
     "type": "近義字",
-    "explanation": "都是「客戶」。customer 常指購買商品或服務的顧客；client 常指接受專業服務的客戶。"
+    "explanation": "重點：都可以指「客戶」，差別在常見的服務情境，並非完全不能互換。\n\nclient\n常指接受專業服務的客戶，例如律師、會計師或顧問的客戶。\n• The lawyer is meeting a client.\n\ncustomer\n常指向商店或企業購買商品、服務的人。\n• The customer bought a new phone."
   },
   {
     "id": "related-02",
@@ -15,7 +15,7 @@
       "employee"
     ],
     "type": "相關字與用法比較",
-    "explanation": "staff 指整體員工；employee 指一位員工。"
+    "explanation": "重點：staff 看「員工整體」，employee 看「個別受僱的人」。\n\nstaff\n常用來統稱一個組織的員工。要表達一位員工，可用 a staff member。\n• Our staff are friendly.\n\nemployee\n可數名詞，一位是 an employee，多位是 employees。\n• The company has fifty employees."
   },
   {
     "id": "related-03",
@@ -25,7 +25,7 @@
       "employee"
     ],
     "type": "相關字與用法比較",
-    "explanation": "colleague 是同事；staff 指整體員工；employee 是受僱的員工。"
+    "explanation": "重點：colleague 看「與誰一起工作」，staff、employee 看「員工身分」。\n\ncolleague\n與你一起工作的人，不一定是同一個部門。\n• My colleague helped me with the report.\n\nstaff\n強調一間公司或機構的員工整體。\n• All staff must attend the meeting.\n\nemployee\n強調某人受僱於公司或組織。\n• She is an employee of this company."
   },
   {
     "id": "related-04",
@@ -34,7 +34,7 @@
       "recruit"
     ],
     "type": "相關字與用法比較",
-    "explanation": "recruit 是招募、找人；hire 是正式僱用。"
+    "explanation": "重點：recruit 著重招募人員，hire 著重僱用人員。兩者的意思有時會重疊。\n\nhire\n讓某人成為員工，或付費請某人做事。\n• We hired a new assistant.\n\nrecruit\n尋找並吸引人員加入公司或組織，也可包含錄用的結果。\n• The company is recruiting engineers."
   },
   {
     "id": "related-05",
@@ -43,7 +43,7 @@
       "duty"
     ],
     "type": "相關字與用法比較",
-    "explanation": "task 是一項任務；duty 是工作上應盡的職責。"
+    "explanation": "重點：task 是「要完成的一件事」，duty 是「應負責的工作或責任」。\n\ntask\n常指一項具體、可以完成的工作。\n• My first task is to check the files.\n\nduty\n常指因職位或身分而應該做的事，工作職責常用複數 duties。\n• Her duties include answering calls."
   },
   {
     "id": "related-06",
@@ -52,7 +52,7 @@
       "position"
     ],
     "type": "相關字與用法比較",
-    "explanation": "career 是長期的職涯；position 是某個職位。"
+    "explanation": "重點：career 看長期的職業發展，position 看某一份工作中的職位。\n\ncareer\n指一段長期的工作發展，可能包含不同職位。\n• She wants a career in banking.\n\nposition\n指公司或組織中的某個工作崗位。\n• He applied for a sales position."
   },
   {
     "id": "related-07",
@@ -61,7 +61,7 @@
       "discussion"
     ],
     "type": "相關字與用法比較",
-    "explanation": "conference 是會議；discussion 是討論，可能在會議中進行。"
+    "explanation": "重點：conference 是一場會議活動，discussion 是交換意見的討論。\n\nconference\n常指較正式、規模較大的會議，可能有多場演講或討論。\n• She is attending a business conference.\n\ndiscussion\n強調人們針對某個主題交換想法，不一定要在正式會議中。\n• We had a discussion about the budget."
   },
   {
     "id": "related-08",
@@ -70,7 +70,7 @@
       "response"
     ],
     "type": "近義字",
-    "explanation": "都是回覆、回應。reply 常指回答訊息或問題；response 的範圍較廣，也包含反應。"
+    "explanation": "重點：兩者都能表示「回覆」。response 的範圍較廣，也能指對事件的反應。\n\nreply\n常用來回答問題、信件或訊息。動詞常用 reply to。\n• Please reply to my email.\n\nresponse\n可以是訊息的回覆，也可以是對事件、刺激的反應。\n• We received a quick response."
   },
   {
     "id": "related-09",
@@ -79,7 +79,7 @@
       "qualification"
     ],
     "type": "相關字與用法比較",
-    "explanation": "requirement 是要求、必要條件；qualification 是資格，例如學歷、經驗或證照。"
+    "explanation": "重點：requirement 是「必須符合的條件」，qualification 是「具備的資格」。\n\nrequirement\n範圍較廣，例如工作、產品或申請的要求。\n• English is a requirement for this job.\n\nqualification\n常指能證明勝任工作的學歷、證照等條件，求職時常見複數 qualifications。\n• She has the qualifications for the job."
   },
   {
     "id": "related-10",
@@ -88,7 +88,7 @@
       "income"
     ],
     "type": "相關字與用法比較",
-    "explanation": "salary 是薪水；income 是收入，也可能包含租金等來源。"
+    "explanation": "重點：salary 是工作薪資，income 是所有收入的較廣泛說法。\n\nsalary\n通常指受僱工作獲得的固定薪酬，可按月或按年表示。\n• Her annual salary is 600,000 dollars.\n\nincome\n可包含薪資、租金或投資等來源。\n• Rent is part of his income."
   },
   {
     "id": "related-11",
@@ -97,7 +97,7 @@
       "charge"
     ],
     "type": "近義字",
-    "explanation": "都可指費用。fee 常指服務費、報名費；charge 常指收取的費用，也能當動詞「收費」。"
+    "explanation": "重點：都能表示「費用」，常見搭配不同。charge 也常作動詞「收費」。\n\nfee\n常見於專業服務、報名、會員等費用。\n• The course fee is 100 dollars.\n\ncharge\n泛指收取的費用，常見於服務、運送等情境。\n• The hotel charges 10 dollars for parking."
   },
   {
     "id": "related-12",
@@ -106,7 +106,7 @@
       "baggage"
     ],
     "type": "近義字",
-    "explanation": "都是行李，意思非常接近。兩者通常都是不可數名詞。"
+    "explanation": "重點：都表示「行李」，通常可以互換，不必硬背成兩種不同的行李。\n\nluggage\n泛指旅行攜帶的行李。不可說 a luggage 或 luggages。\n• Please leave your luggage here.\n\nbaggage\n與 luggage 意思非常接近，機場常見 baggage claim（行李提領處）。\n• We are waiting for our baggage."
   },
   {
     "id": "related-13",
@@ -115,7 +115,7 @@
       "tour"
     ],
     "type": "相關字與用法比較",
-    "explanation": "journey 是旅程；tour 是遊覽、參觀行程。"
+    "explanation": "重點：journey 著重移動的旅程，tour 著重遊覽或參觀的行程。\n\njourney\n常指從一個地方到另一個地方的移動過程。\n• The train journey took three hours.\n\ntour\n常指為了觀光或了解某地而安排的行程。\n• We took a tour of the factory."
   },
   {
     "id": "related-14",
@@ -125,7 +125,7 @@
       "position"
     ],
     "type": "相關字與用法比較",
-    "explanation": "area 是區域；location 是地點；position 也可指位置。"
+    "explanation": "重點：area 看一片範圍，location 看所在的地點，position 看相對或特定的位置。\n\narea\n常指一片地方，而不是單一地點。\n• There are many shops in this area.\n\nlocation\n強調某人或某物位於哪裡。\n• The hotel is in a convenient location.\n\nposition\n常指物體放在哪裡，或相對於其他物體的位置。\n• Please change the position of the chair."
   },
   {
     "id": "related-15",
@@ -134,7 +134,7 @@
       "route"
     ],
     "type": "相關字與用法比較",
-    "explanation": "road 是實際的道路；route 是前往目的地的路線。"
+    "explanation": "重點：road 是實際的道路，route 是規劃或採用的行進路線。\n\nroad\n指實際存在、供車輛或人通行的道路。\n• This road leads to the airport.\n\nroute\n指前往目的地所經過的路徑，可能包含多條道路。\n• This is the fastest route to the airport."
   },
   {
     "id": "related-16",
@@ -144,7 +144,7 @@
       "device"
     ],
     "type": "相關字與用法比較",
-    "explanation": "equipment 泛指設備，通常不可數；tool 是工具；device 是某個裝置。"
+    "explanation": "重點：equipment 統稱設備，tool 強調用來做事的工具，device 強調有特定功能的裝置。\n\nequipment\n統稱某種活動或工作需要的設備，不加 s。一件設備用 a piece of equipment。\n• The office needs new equipment.\n\ntool\n強調用來完成工作的工具，也可以指軟體工具。\n• This tool is useful for fixing chairs.\n\ndevice\n指為特定用途設計的裝置，不一定是電子產品。\n• This device measures temperature."
   },
   {
     "id": "related-17",
@@ -154,7 +154,7 @@
       "material"
     ],
     "type": "相關字與用法比較",
-    "explanation": "product 是產品；supplies 常指用品；material 是材料。"
+    "explanation": "重點：material 是製作所用的材料，product 是產品，supplies 是工作或生活所需的用品。\n\nproduct\n指製造或提供給消費者使用、購買的產品。\n• The company sells cleaning products.\n\nsupply\n表示「用品」時常用複數 supplies，例如 office supplies。\n• We need to order office supplies.\n\nmaterial\n指製作物品所用的材料，可依情境使用單數或複數。\n• Wood is a common building material."
   },
   {
     "id": "related-18",
@@ -164,7 +164,7 @@
       "verify"
     ],
     "type": "相關字與用法比較",
-    "explanation": "guarantee 是保證；confirm 是確認；verify 強調查核是否正確。"
+    "explanation": "重點：guarantee 是作出保證，confirm 是確認資訊或安排，verify 是查證是否正確。\n\nguarantee\n對品質、結果或承諾作出保證。\n• We guarantee the quality of our products.\n\nconfirm\n確認資訊正確，或確認安排、預訂等事項。\n• Please confirm your reservation.\n\nverify\n常強調透過檢查資料、證據或測試，確認真實性或正確性。\n• We need to verify your identity."
   },
   {
     "id": "related-19",
@@ -173,7 +173,7 @@
       "identify"
     ],
     "type": "相關字與用法比較",
-    "explanation": "inspect 是檢查；identify 是辨認、識別。"
+    "explanation": "重點：inspect 是仔細檢查，identify 是認出或找出是什麼。\n\ninspect\n仔細查看物品或場所，確認狀態或是否有問題。\n• Please inspect the machine before use.\n\nidentify\n認出人或物，或找出問題、原因。\n• We need to identify the cause of the problem."
   },
   {
     "id": "related-20",
@@ -182,7 +182,7 @@
       "explain"
     ],
     "type": "相關字與用法比較",
-    "explanation": "describe 是描述是什麼樣子；explain 是解釋為什麼、怎麼做。"
+    "explanation": "重點：describe 著重描述特徵或情況，explain 著重讓人理解原因、意思或方法。\n\ndescribe\n說明人、物或事件是什麼樣子、發生了什麼。\n• Can you describe the missing bag?\n\nexplain\n說明為什麼、代表什麼或如何操作。\n• Please explain how this machine works."
   },
   {
     "id": "related-21",
@@ -191,7 +191,7 @@
       "remind"
     ],
     "type": "相關字與用法比較",
-    "explanation": "inform 是告知資訊；remind 是提醒別忘記。"
+    "explanation": "重點：inform 是讓人知道資訊，remind 是幫人記起或避免忘記。\n\ninform\n把資訊告訴某人。常用 inform someone of/about something。\n• Please inform us of any changes.\n\nremind\n提醒某人記得做事，或讓某人想起某事。\n• Please remind me to call the customer."
   },
   {
     "id": "related-22",
@@ -200,7 +200,7 @@
       "schedule"
     ],
     "type": "近義字",
-    "explanation": "都可指安排。arrange 範圍較廣；schedule 強調安排時間。"
+    "explanation": "重點：都可以指安排。arrange 範圍較廣，schedule 著重排定時間。\n\narrange\n可以安排活動、交通、住宿等，也可以安排時間。\n• I will arrange transportation for you.\n\nschedule\n把事情安排在特定日期、時間，或排入行程。\n• We scheduled the meeting for Monday."
   },
   {
     "id": "related-23",
@@ -209,7 +209,7 @@
       "reservation"
     ],
     "type": "詞性與字形",
-    "explanation": "reserve 是動詞「預訂」；reservation 是名詞「預訂、訂位」。"
+    "explanation": "重點：同樣是預訂情境：reserve 是做動作，reservation 是那筆預訂。\n\nreserve\n常用 reserve a table/room/seat。這裡先記動詞用法。\n• I would like to reserve a table for two.\n\nreservation\n常用 make a reservation，表示進行預訂。\n• I have a reservation for two."
   },
   {
     "id": "related-24",
@@ -218,7 +218,7 @@
       "registration"
     ],
     "type": "詞性與字形",
-    "explanation": "register 是動詞「報名、登記」；registration 是名詞「報名、登記」。"
+    "explanation": "重點：同樣是報名情境：register 是報名的動作，registration 是報名這件事或手續。\n\nregister\n報名某個活動或課程，常用 register for。\n• Please register for the course online.\n\nregistration\n用來談報名程序、時間或費用。\n• Registration closes on Friday."
   },
   {
     "id": "related-25",
@@ -228,7 +228,7 @@
       "applicant"
     ],
     "type": "詞性與字形",
-    "explanation": "apply 是申請；application 是申請、申請表；applicant 是申請者。"
+    "explanation": "重點：apply 是動作，application 是申請或申請文件，applicant 是申請的人。\n\napply\n申請工作、課程等，常用 apply for。\n• She wants to apply for this job.\n\napplication\n常見搭配為 application form（申請表）、submit an application（提交申請）。\n• Please complete the application form.\n\napplicant\n指提出申請的人。\n• Each applicant will have an interview."
   },
   {
     "id": "related-26",
@@ -237,7 +237,7 @@
       "assistant"
     ],
     "type": "詞性與字形",
-    "explanation": "assist 是動詞「協助」；assistant 是名詞「助理」，就是協助工作的人。"
+    "explanation": "重點：assist 是協助的動作，assistant 是協助工作的人。\n\nassist\n常用 assist someone with something。\n• Can you assist me with this task?\n\nassistant\n指協助他人工作的人。\n• The assistant prepared the documents."
   },
   {
     "id": "related-27",
@@ -247,7 +247,7 @@
       "deliver"
     ],
     "type": "相關字與用法比較",
-    "explanation": "ship 是寄送、出貨；shipping 是運送；deliver 是配送、交付。"
+    "explanation": "重點：ship 與 deliver 的意思會重疊。出貨情境常用 ship，送交收件人的情境常用 deliver，shipping 是運送或運費。\n\nship\n常用於商家寄出商品，不限用船運送。\n• We will ship your order tomorrow.\n\nshipping\n常見於運送方式、時間及費用的說明。\n• Shipping is free for this order.\n\ndeliver\n常指把物品送到目的地或交給收件人。\n• The driver delivered the package to my office."
   },
   {
     "id": "related-28",
@@ -256,7 +256,7 @@
       "latest"
     ],
     "type": "相關字與用法比較",
-    "explanation": "recent 是最近的；latest 是最新的。"
+    "explanation": "重點：recent 是不久前的，latest 是時間上最新的。最近的東西不一定是最新的一個。\n\nrecent\n表示距離現在不久，不強調是不是最新。\n• I read a recent report about tourism.\n\nlatest\n強調目前最新、最後推出或發生的那一個。\n• Please download the latest version."
   },
   {
     "id": "related-29",
@@ -265,7 +265,7 @@
       "directly"
     ],
     "type": "相關字與用法比較",
-    "explanation": "immediately 是立刻；directly 常指直接地。directly 在部分語境也可表示立即。"
+    "explanation": "重點：immediately 強調時間上立刻，directly 常強調方式或路線上直接。\n\nimmediately\n強調不要等，馬上做。\n• Please call me immediately.\n\ndirectly\n常指不透過其他人，或不經過其他地方。部分語境也可表示立即。\n• Please send the file directly to me."
   },
   {
     "id": "related-30",
@@ -275,7 +275,7 @@
       "annual"
     ],
     "type": "相關字與用法比較",
-    "explanation": "regular 是定期的；daily 是每天的；annual 是每年的。"
+    "explanation": "重點：regular 表示規律或定期，daily、annual 則明確說出頻率。\n\nregular\n不限定每天或每年，頻率要看情境。\n• The machine needs regular checks.\n\ndaily\n表示每一天。\n• The office is cleaned daily.\n\nannual\n表示每年發生或以一年為單位。\n• Our annual meeting is in June."
   },
   {
     "id": "related-31",
@@ -285,7 +285,7 @@
       "individual"
     ],
     "type": "相關字與用法比較",
-    "explanation": "entire 是整個；each 是每一個；individual 是個別的、個人。"
+    "explanation": "重點：entire 看完整的整體，each 逐一看每個成員，individual 強調個別或單獨。\n\nentire\n強調完整的一個整體，常見 the entire＋單數名詞。\n• The entire team attended the meeting.\n\neach\n逐一看待成員。each 直接接可數名詞時，用單數。\n• Each employee has a desk.\n\nindividual\n形容詞強調單獨處理或屬於個人的事物。\n• Each student received individual feedback."
   },
   {
     "id": "related-32",
@@ -294,6 +294,6 @@
       "available"
     ],
     "type": "相關字與用法比較",
-    "explanation": "suitable 是適合的；available 是可用的、有空的，兩者不是同義字。"
+    "explanation": "重點：suitable 問「適不適合」，available 問「能不能取得、使用或安排」。\n\nsuitable\n強調符合需求、條件或用途，常用 suitable for。\n• This room is suitable for meetings.\n\navailable\n物品或空間能使用，人則有時間。可用不代表一定合適。\n• The room is available tomorrow."
   }
 ]

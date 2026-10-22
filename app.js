@@ -1070,8 +1070,35 @@ function renderRelatedGroup() {
   $("#relatedType").textContent = group.type;
   $("#relatedWords").textContent = group.words.join(" / ");
 
-  // 每個分號後換行，方便閱讀各個單字的差別。
-  $("#relatedExplanation").textContent = group.explanation.replace(/[；;]/g, "$&\n");
+  const container = $("#relatedExplanation");
+  container.replaceChildren();
+
+  const sections = group.explanation.trim().split(/\n\s*\n/);
+
+  // 比較重點：沿用單字複習的藍線框，不顯示「重點：」。
+  const summary = document.createElement("div");
+  summary.className = "example show";
+  summary.textContent = sections[0].replace(/^重點[：:]\s*/, "");
+  container.append(summary);
+
+  // 各單字：點點放在單字前，例句不加點點。
+  for (const section of sections.slice(1)) {
+    const lines = section.trim().split("\n");
+    const block = document.createElement("div");
+    block.className = "related-word-block";
+
+    const heading = document.createElement("h3");
+    heading.textContent = `• ${lines[0]}`;
+    block.append(heading);
+
+    for (const line of lines.slice(1)) {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = line.replace(/^[•·]\s*/, "");
+      block.append(paragraph);
+    }
+
+    container.append(block);
+  }
 
   $("#previousRelated").disabled = false;
   $("#nextRelated").disabled = false;
